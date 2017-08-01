@@ -1,0 +1,52 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="virtual-agent" audience="service" href="/docs/services/virtual-agent/index.html"}
+Virtual Agent
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    index.md
+    how-it-works.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    agent-create.md
+    configure.md
+    publish.md
+    dashboard.md
+    upgrade.md
+    minimal_steps.md
+    impl_intents.md
+
+    {: .topicgroup}
+    Personalizing
+        personalize.md
+        link_workspace.md
+        add-custom-dialog.md
+        add-custom-capabilities.md
+
+    tutorial.md
+
+    {: .topicgroup}
+    Publishing an agent for production use
+        integrate.md
+        integrate_add-chat.md
+        integrate_custom-chat.md
+        integrate_backend.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API reference](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    release-notes.md
+    forums.md
+
+    {: .topicgroup}
+    Developer community
+        [StackOverflow](http://stackoverflow.com/questions/tagged/watson-virtual-agent)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/watson-virtual-agent/)
+        [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
+    {: .navgroup-end}

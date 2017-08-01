@@ -1,0 +1,29 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="virtual-agent" audience="service" href="/docs/services/virtual-agent/index.html"}
+Virtual Agent
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    index.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    configure.md
+    dashboard.md
+    upgrade.md
+    tutorial.md
+    minimal_steps.md
+    integrate.md
+    impl_intents.md
+    link-workspace.md
+    personalize.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    [API reference](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent)
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    forums.md
