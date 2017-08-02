@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   width="1083"
+   height="1257"
+   sodipodi:docname="findNearestStore.png">
+  <metadata
+     id="metadata2991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2989" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1377"
+     inkscape:window-height="874"
+     id="namedview2987"
+     showgrid="false"
+     inkscape:zoom="0.92601432"
+     inkscape:cx="541.5"
+     inkscape:cy="441.26434"
+     inkscape:window-x="27"
+     inkscape:window-y="99"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer15" />
+  <image
+     width="1083"
+     height="1257"
+     xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABDsAAATpCAIAAABRJ49RAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4
+nOzdf2zX92Hn8bdTY3CArBqtSBVOTHCEC6riE38sXqrBqhOeFKL8MVBPSLNPO/WWNbkTaZGju9O4
+XJdJlWLRBG3ZlFOkaDAJrYNW6oVIcaR2ycRidBo6Rxmo8YHKyRx4m7kEA18wYN8f3xZxjB+G2t/P
+6+vv4/EHsszX0kuJP5/v9/n5+GvapqenCwAAQKQHqh4AAABwW4oFAADIpVgAAIBcigUAAMilWAAA
+gFyKBQAAyKVYAACAXIoFAADIpVgAAIBcigUAAMilWAAAgFyKBQAAyKVYAACAXIoFAADIpVgAAIBc
+igUAAMilWAAAgFyKBQAAyKVYAACAXIoFAADIpVgAAIBcigUAAMilWAAAgFyKBQAAyKVYAACAXIoF
+AADIpVgAAIBcigUAAMilWAAAgFyKBQAAyKVYAACAXIoFAADIpVgAAIBcigUAAMilWAAAgFyKBQAA
+yKVYAACAXIoFAADIpVgAAIBcigUAAMilWAAAgFyKBQAAyKVYAACAXIoFAADIpVgAAIBcigUAAMil
+WAAAgFyKBQAAyKVYAACAXIoFAADIpVgAAIBcigUAAMilWAAAgFyKBQAAyKVYAACAXIoFAADIpVgA
+AIBcigUAAMilWAAAgFyKBQAAyKVYAACAXIoFAADIpVgAAIBcigUAAMilWAAAgFyKBQAAyKVYAACA
+XIoFAADIpVgAAIBcigUAAMilWAAAgFyKBQAAyKVYAACAXIoFAADIpVgAAIBcigUAAMilWAAAgFyK
+BQAAyNVe9QAAms/4mamDe2qTl6erHgJzq2Nh2+a+zmUPu8ILVXIEAnDPTv7kqlyhFUxenj75k6tV
+r4BW5x4LAPdp/YaO9Rs7ql4Bc+XI+5NHPpisegXgHgsAABBMsQAAALkUCwAAkEuxAAAAuRQLAACQ
+S7EAAAC5FAsAAJBLsQAAALkUCwAAkEuxAAAAuRQLAACQS7EAAAC5FAsAAJBLsQAAALkUCwAAkEux
+AAAAuRQLAACQS7EAAAC5FAsAAJBLsQAAALkUCwAAkEuxAAAAuRQLAACQS7EAAAC5FAsAAJBLsQAA
+ALkUCwAAkEuxAAAAuRQLAACQS7EAAAC5FAsAAJBLsQAAALkUCwAAkEuxAAAAuRQLAACQS7EAAAC5
+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
+7xw/OtqAVdCCZniIzfyYBWbiwkTtpWe/+9Kz371rtPz47Q+fe+b33wpbnPUAAA7xSURBVN73o8YM
+gztTLLSQdw8MXZioDR4YuvMLoIH+vYMHhi5M1N49MNSwbdA6xkbHDw0OX5io7dj22h2i5fjR0R3b
+XrswUTs0OOxOC8yKv/vbT346MvrTkdE7R8uP3/7w9W/vKaX81X//sIHr4LYUCy3kuZ1be7Z0l1IG
+Dwzt2X3wlo/Zs/vg4IGhUkrPlu7ndm5t6D5oDctXLNu174XFSzvr0XL+3C1eNp0/V6vnyuKlnbv2
+vbB8xbLG74T551d/o+v5l/pKKXeIlp9+MvrWrr8spTy4pPPbb3yr0RPhVhQLreUbO7eueuyRUsre
+3e8M7r/5Fsrg/qG9u98ppax67JFvyBWYM6vXrahfEbgwUdux7dWbouX8udqOba/WX0s9t3Pr6nUr
+qlkJ89FXn/61r/27zaWUn46MvvXd7930tz/9ZPS/PPvdi+drDy7p/IM3vrV4aWcVG+FmioXWsuSh
+zl37vlmPloEX994YLYP7hwZe3FtKWfXYI7v2fXPJQ07TMId6tnb3v9JbSjlx7NSN0VLPlRPHTpVS
++l/p7dnaXeVKmI++9rtP/8bT3aWUv3p76I+//WfXP39TrvzKoy4WkKJtenq66g0V2LTq+VLKeyde
+r3oI1bjxJdGTmx7/m/c+qv9Z5Ao01o1XCuqH5PUP5ArMqT/+9p/91dtDpZR/+Wvr/ueHR/9F1+r/
+ffz/yBUyKRZa1Plztd/+9Z0XJmoLOtqvTF6t/7l4aeef//XLcgUaac/ug/WfxrxR7/an+rZvrmQP
+tI7r0VJKWfTgwksXL5dSnn+p76tP/1qlu+BmfiqMFrXkoc76e3+vTF4tpdRzZde+F+QKNFjf9s31
+X4lxXc+WbrkCDfDvX/o3v7LmZ/dS5ArJFAuta/W6FfVoKaXUc8UbfKES/QO916OlZ0t3/0BvtXug
+dXz7jW9djxa5Qiw/FRZn/MzU5OVW/J9SlZP/a3T377+5/Q+/vvKfy5XG6VjYtuzh0CsmHx++MnnJ
+MViB7725r5Tyta9vq3pIS+hY1PblJxZUvYII9X9W8ld/o+trv/t01Vvg1hRLlpM/ufre9y5VvQIa
+YdPXFq1c2171ipt9fPjK0ODlqldAI3T3LIyNlvd/eGlk+GrVK2DOrelq3/jMoqpXNIG4lwstbvzM
+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
+JbC/xcsAAAAASUVORK5CYII=
+"
+     id="image2993"
+     x="0"
+     y="0" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="title">
+    <text
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="77.631966"
+       y="110.07549"
+       id="text2996"><tspan
+         sodipodi:role="line"
+         id="tspan2998"
+         x="77.631966"
+         y="110.07549">Localizar a loja mais próxima</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="watsond">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="112.56753"
+       y="165.45299"
+       id="text3001"><tspan
+         sodipodi:role="line"
+         id="tspan3003"
+         x="112.56753"
+         y="165.45299">Diálogo do Watson</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="userd">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="113.64745"
+       y="196.76999"
+       id="text3001-1"><tspan
+         sodipodi:role="line"
+         id="tspan3003-7"
+         x="113.64745"
+         y="196.76999">Diálogo do usuário</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="box1">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="564.0155"
+       y="109.40821"
+       id="text3028"><tspan
+         sodipodi:role="line"
+         id="tspan3030"
+         x="564.0155"
+         y="109.40821">Onde é a loja</tspan><tspan
+         sodipodi:role="line"
+         x="564.0155"
+         y="131.9082"
+         id="tspan3213">mais próxima?</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="561.11353"
+       y="187.30856"
+       id="text3028-4"><tspan
+         sodipodi:role="line"
+         x="561.11353"
+         y="187.30856"
+         id="tspan3213-9">Qual é o endereço residencial </tspan><tspan
+         sodipodi:role="line"
+         x="561.11353"
+         y="187.30856"
+         id="tspan3241">da loja?</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="box2">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="555.71405"
+       y="323.37555"
+       id="text3028-48"><tspan
+         sodipodi:role="line"
+         x="555.71405"
+         y="323.37555"
+         id="tspan3213-2">Antes de descobrir uma loja, </tspan><tspan
+         sodipodi:role="line"
+         x="555.71405"
+         y="345.87555"
+         id="tspan3257">escolha como</tspan><tspan
+         sodipodi:role="line"
+         x="555.71405"
+         y="368.37555"
+         id="tspan3259">você gostaria de fornecer o seu</tspan><tspan
+         sodipodi:role="line"
+         x="555.71405"
+         y="390.87555"
+         id="tspan3261">local.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer6"
+     inkscape:label="box3a">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="310.94553"
+       y="524.59479"
+       id="text3042"><tspan
+         sodipodi:role="line"
+         id="tspan3044"
+         x="310.94553"
+         y="524.59479">O usuário escolhe</tspan><tspan
+         sodipodi:role="line"
+         x="310.94553"
+         y="547.09479"
+         id="tspan3046">o local atual</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="box3b">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="767.0697"
+       y="522.66315"
+       id="text3049"><tspan
+         sodipodi:role="line"
+         id="tspan3051"
+         x="767.0697"
+         y="522.66315">O usuário escolhe</tspan><tspan
+         sodipodi:role="line"
+         x="767.0697"
+         y="545.16315"
+         id="tspan3053">o CEP</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="box4a">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="304.40335"
+       y="673.01898"
+       id="text3064"><tspan
+         sodipodi:role="line"
+         id="tspan3066"
+         x="304.40335"
+         y="673.01898">Impressionante, vamos localizar as</tspan><tspan
+         sodipodi:role="line"
+         x="304.40335"
+         y="695.51898"
+         id="tspan3068">suas lojas mais próximas. O site está</tspan><tspan
+         sodipodi:role="line"
+         x="304.40335"
+         y="718.01898"
+         id="tspan3070">solicitando acesso ao </tspan><tspan
+         sodipodi:role="line"
+         x="304.40335"
+         y="740.51898"
+         id="tspan3072">seu local. Permita</tspan><tspan
+         sodipodi:role="line"
+         x="304.40335"
+         y="763.01898"
+         id="tspan3078">ou bloqueie essa ação</tspan><tspan
+         sodipodi:role="line"
+         x="304.40335"
+         y="785.51898"
+         id="tspan3080">para que possamos continuar. </tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="box4b">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="754.01685"
+       y="667.96069"
+       id="text3083"><tspan
+         sodipodi:role="line"
+         id="tspan3085"
+         x="754.01685"
+         y="667.96069">Impressionante, vamos localizar as</tspan><tspan
+         sodipodi:role="line"
+         x="754.01685"
+         y="690.46069"
+         id="tspan3087">suas lojas mais próximas. Insira</tspan><tspan
+         sodipodi:role="line"
+         x="754.01685"
+         y="712.96069"
+         id="tspan3089">o seu CEP para que</tspan><tspan
+         sodipodi:role="line"
+         x="754.01685"
+         y="735.46069"
+         id="tspan3091">possamos continuar.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer10"
+     inkscape:label="box5a">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="210.77388"
+       y="933.96393"
+       id="text3094"><tspan
+         sodipodi:role="line"
+         id="tspan3096"
+         x="210.77388"
+         y="933.96393">Blocos do usuário</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer11"
+     inkscape:label="box5b">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="509.78928"
+       y="932.21765"
+       id="text3099"><tspan
+         sodipodi:role="line"
+         id="tspan3101"
+         x="509.78928"
+         y="932.21765">O usuário permite</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer12"
+     inkscape:label="box5c">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="773.75842"
+       y="932.39514"
+       id="text3104"><tspan
+         sodipodi:role="line"
+         id="tspan3106"
+         x="773.75842"
+         y="932.39514">O usuário insere o CEP</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer13"
+     inkscape:label="box6a">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="167.08646"
+       y="1099.8214"
+       id="text3110"><tspan
+         sodipodi:role="line"
+         id="tspan3112"
+         x="167.08646"
+         y="1099.8214">Você não compartilhou o seu</tspan><tspan
+         sodipodi:role="line"
+         x="167.08646"
+         y="1122.3214"
+         id="tspan3114">local nesse website.</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer14"
+     inkscape:label="box6b">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="463.19495"
+       y="1066.5525"
+       id="text3116"><tspan
+         sodipodi:role="line"
+         id="tspan3118"
+         x="463.19495"
+         y="1066.5525">Aqui estão os detalhes para</tspan><tspan
+         sodipodi:role="line"
+         x="463.19495"
+         y="1089.0525"
+         id="tspan3120">esse local:</tspan><tspan
+         sodipodi:role="line"
+         x="463.19495"
+         y="1111.5525"
+         id="tspan3122">&lt;informações do site&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="463.19495"
+         y="1134.0525"
+         id="tspan3124">Há mais alguma coisa com a qual eu</tspan><tspan
+         sodipodi:role="line"
+         x="463.19495"
+         y="1156.5525"
+         id="tspan3126">possa ajudá-lo?</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer15"
+     inkscape:label="box6c">
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#595859;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="763.40631"
+       y="1066.5525"
+       id="text3116-3"><tspan
+         sodipodi:role="line"
+         id="tspan3118-5"
+         x="763.40631"
+         y="1066.5525">Aqui estão os detalhes para</tspan><tspan
+         sodipodi:role="line"
+         x="763.40631"
+         y="1089.0525"
+         id="tspan3120-8">esse local:</tspan><tspan
+         sodipodi:role="line"
+         x="763.40631"
+         y="1111.5525"
+         id="tspan3122-3">&lt;informações do site&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="763.40631"
+         y="1134.0525"
+         id="tspan3124-3">Há mais alguma coisa com a qual eu</tspan><tspan
+         sodipodi:role="line"
+         x="763.40631"
+         y="1156.5525"
+         id="tspan3126-3">possa ajudá-lo?</tspan></text>
+  </g>
+</svg>
