@@ -161,80 +161,80 @@ Pour implémenter intégralement les transactions commerciales déclenchées à 
 ### Make a payment (Effectuer un paiement)
 {: #makeapayment}
 
-    Effectuez les étapes ci-après pour implémenter un code qui prend en charge cette transaction.
-    1. Votre application doit extraire le solde actuel de l'utilisateur et la date d'échéance du système dorsal. Utilisez la méthode `action:getUserProfileVariables` et définissez les variables `bill_amount` et `payment_due_date` dans le magasin de profils.
-    1. Votre application doit écouter l'événement `payBill` et définir la logique à effectuer lorsque l'événement est déclenché. 
-    1. Votre application doit également écouter l'événement `sendPaymentReceipt` et définir la logique à effectuer lorsque l'événement est déclenché. 
+Effectuez les étapes ci-après pour implémenter un code qui prend en charge cette transaction.
+1. Votre application doit extraire le solde actuel de l'utilisateur et la date d'échéance du système dorsal. Utilisez la méthode `action:getUserProfileVariables` et définissez les variables `bill_amount` et `payment_due_date` dans le magasin de profils.
+1. Votre application doit écouter l'événement `payBill` et définir la logique à effectuer lorsque l'événement est déclenché. 
+1. Votre application doit également écouter l'événement `sendPaymentReceipt` et définir la logique à effectuer lorsque l'événement est déclenché. 
 
 ### Update address (Mettre à jour l'adresse)
 {: #updateaddress}
 
-    1. Le widget de discussion utilise une présentation de formulaire pour demander la nouvelle adresse de l'utilisateur et la stocke automatiquement dans le profil. Il stocke les variables de profil suivantes : 
+1. Le widget de discussion utilise une présentation de formulaire pour demander la nouvelle adresse de l'utilisateur et la stocke automatiquement dans le profil. Il stocke les variables de profil suivantes : 
 
-        ```
-        user_street_address1
-        user_street_address2
-        user_locality
-        user_state_or_province
-        user_zipcode
-        ```
-        {: screen}
+    ```
+    user_street_address1
+    user_street_address2
+    user_locality
+    user_state_or_province
+    user_zipcode
+    ```
+    {: screen}
 
-    1. Votre application doit écouter l'événement `updateAddress`.
+1. Votre application doit écouter l'événement `updateAddress`.
 
-        ```
-        IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
-        ```
-        {: screen}
+    ```
+    IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
+    ```
+    {: screen}
 
-        Définissez une fonction qui extrait et envoie la nouvelle adresse et le type d'adresse (`address_type`) au système dorsal lorsque l'action `updateAddress` est déclenchée.
+    Définissez une fonction qui extrait et envoie la nouvelle adresse et le type d'adresse (`address_type`) au système dorsal lorsque l'action `updateAddress` est déclenchée.
 
-        Pour collecter des données comportant de nombreuses valeurs, telles que l'adresse postale, vous pouvez utiliser la présentation de formulaire intégrée au widget de discussion. Les utilisateurs entrent des valeurs dans plusieurs zones, puis soumettent le formulaire complet. Par exemple, pour envoyer la nouvelle adresse à votre site via un appel REST POST, vous pouvez utiliser une logique telle que la suivante : 
+    Pour collecter des données comportant de nombreuses valeurs, telles que l'adresse postale, vous pouvez utiliser la présentation de formulaire intégrée au widget de discussion. Les utilisateurs entrent des valeurs dans plusieurs zones, puis soumettent le formulaire complet. Par exemple, pour envoyer la nouvelle adresse à votre site via un appel REST POST, vous pouvez utiliser une logique telle que la suivante : 
 
-        ```
-        /* Lorsqu'un utilisateur saisit des informations dans un formulaire, elles sont automatiquement ajoutées
-        au profil de l'utilisateur. Donc un flux type peut par exemple inclure une présentation de formulaire dans la fenêtre de discussion, puis appeler cette action une fois que le formulaire a été soumis */
-        IBMChat.subscribe('action:updateAddress', function(data) {
-          var record = {
-            "first_name": IBMChat.profile.get('first_name'),
-            "last_name": IBMChat.profile.get('last_name'),
-            "user_street_address1": IBMChat.profile.get('user_street_address1'),
-            "user_street_address2": IBMChat.profile.get('user_street_address2'),
-            "user_locality": IBMChat.profile.get('user_locality'),
-            "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
-            "user_zipcode": IBMChat.profile.get('user_zipcode')
-          };
-          httpPostAsync('/updateRecord/', record, function(err, response) {
-            if (err) IBMChat.receive('There was an error updating the address.');
-          });
-        });
-        ```
-        {: screen}
+    ```
+    /* Lorsqu'un utilisateur saisit des informations dans un formulaire, elles sont automatiquement ajoutées
+    au profil de l'utilisateur. Donc un flux type peut par exemple inclure une présentation de formulaire dans la fenêtre de discussion, puis appeler cette action une fois que le formulaire a été soumis */
+    IBMChat.subscribe('action:updateAddress', function(data) {
+      var record = {
+        "first_name": IBMChat.profile.get('first_name'),
+        "last_name": IBMChat.profile.get('last_name'),
+        "user_street_address1": IBMChat.profile.get('user_street_address1'),
+        "user_street_address2": IBMChat.profile.get('user_street_address2'),
+        "user_locality": IBMChat.profile.get('user_locality'),
+        "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
+        "user_zipcode": IBMChat.profile.get('user_zipcode')
+      };
+      httpPostAsync('/updateRecord/', record, function(err, response) {
+        if (err) IBMChat.receive('There was an error updating the address.');
+      });
+    });
+    ```
+    {: screen}
 
-        Pour plus d'informations sur les présentations intégrées, voir [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
+    Pour plus d'informations sur les présentations intégrées, voir [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
 
 ### Update contact phone number (Mettre à jour le numéro de téléphone du contact)
 {: #updatephone}
 
-    1. Le widget de discussion utilise une présentation de formulaire pour demander le nouveau numéro de téléphone de l'utilisateur et le stocke automatiquement dans le profil. Il stocke les variables de profil suivantes : 
+1. Le widget de discussion utilise une présentation de formulaire pour demander le nouveau numéro de téléphone de l'utilisateur et le stocke automatiquement dans le profil. Il stocke les variables de profil suivantes : 
 
-        ```
-        user_phone_number
-        phone_number_type
-        ```
-        {: screen}
+    ```
+    user_phone_number
+    phone_number_type
+    ```
+    {: screen}
 
-    1. Votre application doit écouter l'événement `updatePhoneNumber` et définir la logique permettant de recevoir et d'envoyer le nouveau numéro de téléphone et son type au système dorsal lorsque l'événement est déclenché.
+1. Votre application doit écouter l'événement `updatePhoneNumber` et définir la logique permettant de recevoir et d'envoyer le nouveau numéro de téléphone et son type au système dorsal lorsque l'événement est déclenché.
 
 ### Update email (Mettre à jour l'adresse électronique)
 {: #updateemail}
 
-    1. Le widget de discussion utilise une présentation de formulaire pour demander la nouvelle adresse électronique de l'utilisateur et la stocke automatiquement dans le profil. Il stocke les variables de profil suivantes : 
+1. Le widget de discussion utilise une présentation de formulaire pour demander la nouvelle adresse électronique de l'utilisateur et la stocke automatiquement dans le profil. Il stocke les variables de profil suivantes : 
 
-        ```
-        user_email_address
-        email_type
-        ```
-        {: screen}
+    ```
+    user_email_address
+    email_type
+    ```
+    {: screen}
 
-    1. Votre application doit écouter l'événement `updateEmail` et définir la logique permettant de recevoir et d'envoyer la nouvelle adresse électronique au système dorsal lorsque l'événement est déclenché. Elle envoie également des informations sur les types de notification pour lesquels la nouvelle adresse doit être utilisée (`email_type`).
+1. Votre application doit écouter l'événement `updateEmail` et définir la logique permettant de recevoir et d'envoyer la nouvelle adresse électronique au système dorsal lorsque l'événement est déclenché. Elle envoie également des informations sur les types de notification pour lesquels la nouvelle adresse doit être utilisée (`email_type`).

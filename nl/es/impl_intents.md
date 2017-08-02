@@ -139,82 +139,82 @@ Para implementar completamente transacciones empresariales desencadenadas desde 
 ### Realizar un pago
 {: #makeapayment}
 
-    Realice los pasos siguientes para implementar código que dé soporte a esta transacción.
-    1. La aplicación debe obtener el saldo actual del usuario y la fecha de vencimiento del sistema backend. Utilice el método `action:getUserProfileVariables` para obtener y establecer las variables `bill_amount` y `payment_due_date` en el almacén del perfil.
-    1. La aplicación debe estar a la escucha del suceso `payBill` y definir la lógica que se realizará cuando se desencadene el suceso.
-    1. La aplicación también debe estar a la escucha del suceso `sendPaymentReceipt` y definir la lógica que se realizará cuando se desencadene el suceso.
+Realice los pasos siguientes para implementar código que dé soporte a esta transacción.
+1. La aplicación debe obtener el saldo actual del usuario y la fecha de vencimiento del sistema backend. Utilice el método `action:getUserProfileVariables` para obtener y establecer las variables `bill_amount` y `payment_due_date` en el almacén del perfil.
+1. La aplicación debe estar a la escucha del suceso `payBill` y definir la lógica que se realizará cuando se desencadene el suceso.
+1. La aplicación también debe estar a la escucha del suceso `sendPaymentReceipt` y definir la lógica que se realizará cuando se desencadene el suceso.
 
 ### Actualizar dirección
 {: #updateaddress}
 
-    1. El widget de conversación utiliza un diseño de formulario para solicitar la información de nueva dirección del usuario y la almacena en el perfil automáticamente. Almacena estas variables de perfil:
+1. El widget de conversación utiliza un diseño de formulario para solicitar la información de nueva dirección del usuario y la almacena en el perfil automáticamente. Almacena estas variables de perfil:
 
-        ```
-        user_street_address1
-        user_street_address2
-        user_locality
-        user_state_or_province
-        user_zipcode
-        ```
-        {: screen}
+    ```
+    user_street_address1
+    user_street_address2
+    user_locality
+    user_state_or_province
+    user_zipcode
+    ```
+    {: screen}
 
-    1. La aplicación debe estar a la escucha del suceso `updateAddress`.
+1. La aplicación debe estar a la escucha del suceso `updateAddress`.
 
-        ```
-        IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
-        ```
-        {: screen}
+    ```
+    IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
+    ```
+    {: screen}
 
-        Defina una función que obtenga y envíe la nueva dirección y el tipo de dirección (`address_type`) al sistema backend cuando se desencadene la acción `updateAddress`.
+    Defina una función que obtenga y envíe la nueva dirección y el tipo de dirección (`address_type`) al sistema backend cuando se desencadene la acción `updateAddress`.
 
-        Para recopilar datos con muchos valores, por ejemplo, una dirección de calle, puede utilizar el diseño de formulario incorporado en el widget de conversación. Los usuarios especifican valores en varios campos y a continuación envían todo el formulario. Por ejemplo, para enviar la nueva dirección a su sitio mediante una llamada REST POST, puede utilizar lógica como la siguiente.
+    Para recopilar datos con muchos valores, por ejemplo, una dirección de calle, puede utilizar el diseño de formulario incorporado en el widget de conversación. Los usuarios especifican valores en varios campos y a continuación envían todo el formulario. Por ejemplo, para enviar la nueva dirección a su sitio mediante una llamada REST POST, puede utilizar lógica como la siguiente.
 
-        ```
-        /* Cuando un usuario especifica información en un formulario, este se añade automáticamente
-        al perfil del usuario. Por lo tanto un flujo típico sería incluir un diseño de formulario
-        en la ventana de conversación y a continuación llamar a esta acción después del envío del
-        formulario */
-        IBMChat.subscribe('action:updateAddress', function(data) {
-          var record = {
-            "first_name": IBMChat.profile.get('first_name'),
-            "last_name": IBMChat.profile.get('last_name'),
-            "user_street_address1": IBMChat.profile.get('user_street_address1'),
-            "user_street_address2": IBMChat.profile.get('user_street_address2'),
-            "user_locality": IBMChat.profile.get('user_locality'),
-            "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
-            "user_zipcode": IBMChat.profile.get('user_zipcode')
-          };
-          httpPostAsync('/updateRecord/', record, function(err, response) {
-           if (err) IBMChat.receive('Se ha producido un error al actualizar la dirección.');
-          });
-        });
-        ```
-        {: screen}
+    ```
+    /* Cuando un usuario especifica información en un formulario, este se añade automáticamente
+    al perfil del usuario. Por lo tanto un flujo típico sería incluir un diseño de formulario
+    en la ventana de conversación y a continuación llamar a esta acción después del envío del
+    formulario */
+    IBMChat.subscribe('action:updateAddress', function(data) {
+      var record = {
+        "first_name": IBMChat.profile.get('first_name'),
+        "last_name": IBMChat.profile.get('last_name'),
+        "user_street_address1": IBMChat.profile.get('user_street_address1'),
+        "user_street_address2": IBMChat.profile.get('user_street_address2'),
+        "user_locality": IBMChat.profile.get('user_locality'),
+        "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
+        "user_zipcode": IBMChat.profile.get('user_zipcode')
+      };
+      httpPostAsync('/updateRecord/', record, function(err, response) {
+       if (err) IBMChat.receive('Se ha producido un error al actualizar la dirección.');
+      });
+    });
+    ```
+    {: screen}
 
-        Para obtener más información sobre los diseños incorporados, consulte [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
+    Para obtener más información sobre los diseños incorporados, consulte [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
 
 ### Actualizar número de teléfono de contacto
 {: #updatephone}
 
-    1. El widget de conversación utiliza un diseño de formulario para solicitar el nuevo número de teléfono del usuario y lo almacena en el perfil automáticamente. Almacena estas variables de perfil:
+1. El widget de conversación utiliza un diseño de formulario para solicitar el nuevo número de teléfono del usuario y lo almacena en el perfil automáticamente. Almacena estas variables de perfil:
 
-        ```
-        user_phone_number
-        phone_number_type
-        ```
-        {: screen}
+    ```
+    user_phone_number
+    phone_number_type
+    ```
+    {: screen}
 
-    1. La aplicación debe estar a la escucha del suceso `updatePhoneNumber` y definir la lógica para obtener y enviar el nuevo número de teléfono y tipo al sistema backend cuando se desencadene el suceso.
+1. La aplicación debe estar a la escucha del suceso `updatePhoneNumber` y definir la lógica para obtener y enviar el nuevo número de teléfono y tipo al sistema backend cuando se desencadene el suceso.
 
 ### Actualizar correo electrónico
 {: #updateemail}
 
-    1. El widget de conversación utiliza un diseño de formulario para solicitar la nueva dirección de correo electrónico del usuario y la almacena en el perfil automáticamente. Almacena estas variables de perfil:
+1. El widget de conversación utiliza un diseño de formulario para solicitar la nueva dirección de correo electrónico del usuario y la almacena en el perfil automáticamente. Almacena estas variables de perfil:
 
-        ```
-        user_email_address
-        email_type
-        ```
-        {: screen}
+    ```
+    user_email_address
+    email_type
+    ```
+    {: screen}
 
-    1. La aplicación debe estar a la escucha del suceso `updateEmail` y definir la lógica para obtener y enviar la nueva dirección de correo electrónico al sistema backend cuando se desencadene el suceso. También envía información sobre qué tipos de notificación utilizan la nueva dirección para (`email_type`).
+1. La aplicación debe estar a la escucha del suceso `updateEmail` y definir la lógica para obtener y enviar la nueva dirección de correo electrónico al sistema backend cuando se desencadene el suceso. También envía información sobre qué tipos de notificación utilizan la nueva dirección para (`email_type`).

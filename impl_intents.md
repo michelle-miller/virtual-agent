@@ -142,84 +142,84 @@ To fully implement business transactions triggered from capabilities with built-
 ### Make a payment
 {: #makeapayment}
 
-    Perform the following steps to implement code that supports this transaction.
-    1.  Your application must retrieve the user's current balance and due date from the backend system. Use the `action:getUserProfileVariables` method to get and set the `bill_amount` and `payment_due_date` variables in the profile store.
-    1. Your application must listen for the `payBill` event and define the logic to perform when the event is triggered.
-    1. Your application must also listen for the `sendPaymentReceipt` event and define the logic to perform when the event is triggered.
+Perform the following steps to implement code that supports this transaction.
+1.  Your application must retrieve the user's current balance and due date from the backend system. Use the `action:getUserProfileVariables` method to get and set the `bill_amount` and `payment_due_date` variables in the profile store.
+1. Your application must listen for the `payBill` event and define the logic to perform when the event is triggered.
+1. Your application must also listen for the `sendPaymentReceipt` event and define the logic to perform when the event is triggered.
 
 ### Update address
 {: #updateaddress}
 
-     1. The chat widget uses a form layout to ask for the user's new address information and stores it to the profile automatically. It stores these profile variables:
+1. The chat widget uses a form layout to ask for the user's new address information and stores it to the profile automatically. It stores these profile variables:
 
-        ```
-        user_street_address1
-        user_street_address2
-        user_locality
-        user_state_or_province
-        user_zipcode
-        ```
-        {: screen}
+    ```
+    user_street_address1
+    user_street_address2
+    user_locality
+    user_state_or_province
+    user_zipcode
+    ```
+    {: screen}
 
-    1.  Your application must listen for the `updateAddress` event.
+1.  Your application must listen for the `updateAddress` event.
 
-        ```
-        IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
-        ```
-        {: screen}
+    ```
+    IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
+    ```
+    {: screen}
 
-        Define a function that gets and sends the new address and the address type (`address_type`) to the backend system when the `updateAddress` action is triggered.
+    Define a function that gets and sends the new address and the address type (`address_type`) to the backend system when the `updateAddress` action is triggered.
 
-        To collect data with many values, such as a street address, you can use the form layout that is built into the chat widget. Users enter values into multiple fields, and then submit the entire form. For example, to send the new address to your site through a REST POST call, you can use logic like this.
+    To collect data with many values, such as a street address, you can use the form layout that is built into the chat widget. Users enter values into multiple fields, and then submit the entire form. For example, to send the new address to your site through a REST POST call, you can use logic like this.
 
-        ```
-        /* When a user enters information into a form, it is automatically added
-        to the user profile. So a typical flow would be to include a form layout in the
-        chat window, and then call this action after the form is submitted */
-        IBMChat.subscribe('action:updateAddress', function(data) {
-          var record = {
-            "first_name": IBMChat.profile.get('first_name'),
-            "last_name": IBMChat.profile.get('last_name'),
-            "user_street_address1": IBMChat.profile.get('user_street_address1'),
-            "user_street_address2": IBMChat.profile.get('user_street_address2'),
-            "user_locality": IBMChat.profile.get('user_locality'),
-            "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
-            "user_zipcode": IBMChat.profile.get('user_zipcode')
-          };
-          httpPostAsync('/updateRecord/', record, function(err, response) {
-            if (err) IBMChat.receive('There was an error updating the address.');
-          });
-        });
-        ```
-        {: screen}
+    ```
+    /* When a user enters information into a form, it is automatically added
+    to the user profile. So a typical flow would be to include a form layout in the
+    chat window, and then call this action after the form is submitted */
+    IBMChat.subscribe('action:updateAddress', function(data) {
+      var record = {
+        "first_name": IBMChat.profile.get('first_name'),
+        "last_name": IBMChat.profile.get('last_name'),
+        "user_street_address1": IBMChat.profile.get('user_street_address1'),
+        "user_street_address2": IBMChat.profile.get('user_street_address2'),
+        "user_locality": IBMChat.profile.get('user_locality'),
+        "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
+        "user_zipcode": IBMChat.profile.get('user_zipcode')
+      };
+      httpPostAsync('/updateRecord/', record, function(err, response) {
+        if (err) IBMChat.receive('There was an error updating the address.');
+      });
+    });
+    ```
+    {: screen}
 
-        For more information about built-in layouts, see [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
+For more information about built-in layouts, see [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
 
 ### Update contact phone number
 {: #updatephone}
 
-    1. The chat widget uses a form layout to ask for the user's new phone number and stores it to the profile automatically. It stores these profile variables:
+1. The chat widget uses a form layout to ask for the user's new phone number and stores it to the profile automatically. It stores these profile variables:
 
-        ```
-        user_phone_number
-        phone_number_type
-        ```
-        {: screen}
+    ```
+    user_phone_number
+    phone_number_type
+    ```
+    {: screen}
 
-    1. Your application must listen for the `updatePhoneNumber` event and define the logic to get and send the new phone number and type to the backend system when the event is triggered.
+1. Your application must listen for the `updatePhoneNumber` event and define the logic to get and send the new phone number and type to the backend system when the event is triggered.
 
 ### Update email
 {: #updateemail}
 
-    1. The chat widget uses a form layout to ask for the user's new email address and stores it to the profile automatically. It stores these profile variables:
+1. The chat widget uses a form layout to ask for the user's new email address and stores it to the profile automatically. It stores these profile variables:
 
-        ```
-        user_email_address
-        email_type
-        ```
-        {: screen}
+    ```
+    user_email_address
+    email_type
+    ```
+    {: screen}
 
-    1. Your application must listen for the `updateEmail` event and define the logic to get and send the new email address to the backend system when the event is triggered. It also send information about which notification types to use the new address for (`email_type`).
+1. Your application must listen for the `updateEmail` event and define the logic to get and send the new email address to the backend system when the event is triggered. It also send information about which notification types to use the new address for (`email_type`).
 
 ## How none of the above is used
 {: #none-of-the-above}

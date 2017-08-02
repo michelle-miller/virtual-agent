@@ -140,81 +140,80 @@ Führen Sie die folgenden Schritte aus, um Geschäftstransaktionen vollständig 
 ### Zahlung leisten
 {: #makeapayment}
 
-    Führen Sie die folgenden Schritte aus, um Code zu implementieren, der diese Transaktion unterstützt.
-    1. Ihre Anwendung muss den aktuellen Saldo und das Fälligkeitsdatum des Benutzers vom Back-End-System abrufen. Verwenden Sie die Methode `action:getUserProfileVariables`, um die Variablen `bill_amount` und `payment_due_date` im Profilspeicher abzurufen und festzulegen.
-    1. Ihre Anwendung muss für das Ereignis `payBill` empfangsbereit sein und die beim Auslösen des Ereignisses durchzuführende Logik definieren.
-    1. Zudem muss Ihre Anwendung für das Ereignis `sendPaymentReceipt` empfangsbereit sein und die beim Auslösen des Ereignisses durchzuführende Logik definieren.
+Führen Sie die folgenden Schritte aus, um Code zu implementieren, der diese Transaktion unterstützt.
+1. Ihre Anwendung muss den aktuellen Saldo und das Fälligkeitsdatum des Benutzers vom Back-End-System abrufen. Verwenden Sie die Methode `action:getUserProfileVariables`, um die Variablen `bill_amount` und `payment_due_date` im Profilspeicher abzurufen und festzulegen.
+1. Ihre Anwendung muss für das Ereignis `payBill` empfangsbereit sein und die beim Auslösen des Ereignisses durchzuführende Logik definieren.
+1. Zudem muss Ihre Anwendung für das Ereignis `sendPaymentReceipt` empfangsbereit sein und die beim Auslösen des Ereignisses durchzuführende Logik definieren.
 
 ### Adresse aktualisieren
 {: #updateaddress}
 
-    1. Im Chat-Widget wird ein Formularlayout verwendet, in dem nach den neuen Adressinformationen des Benutzers gefragt wird, die automatisch im Profil gespeichert werden. Folgende Profilvariablen werden darin gespeichert:
+1. Im Chat-Widget wird ein Formularlayout verwendet, in dem nach den neuen Adressinformationen des Benutzers gefragt wird, die automatisch im Profil gespeichert werden. Folgende Profilvariablen werden darin gespeichert:
 
-        ```
-        user_street_address1
-        user_street_address2
-        user_locality
-        user_state_or_province
-        user_zipcode
-        ```
-        {: screen}
+    ```
+    user_street_address1
+    user_street_address2
+    user_locality
+    user_state_or_province
+    user_zipcode
+    ```
+    {: screen}
 
-    1. Ihre Anwendung muss für das Ereignis `updateAddress` empfangsbereit sein.
+1. Ihre Anwendung muss für das Ereignis `updateAddress` empfangsbereit sein.
 
-        ```
-        IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
-        ```
-        {: screen}
+    ```
+    IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
+    ```
+    {: screen}
 
-        Definieren Sie eine Funktion, über die die neue Adresse und der Adresstyp (`address_type`) abgerufen und an das Back-End-System gesendet werden, wenn die Aktion `updateAddress` ausgelöst wird.
+    Definieren Sie eine Funktion, über die die neue Adresse und der Adresstyp (`address_type`) abgerufen und an das Back-End-System gesendet werden, wenn die Aktion `updateAddress` ausgelöst wird.
 
-        Sie können das in das Chat-Widget integrierte Formularlayout verwenden, um Daten mit vielen Werten zu sammeln, z. B. eine Straßenadresse. Benutzer geben Werte in mehrere Felder ein und übergeben anschließend das gesamte Formular. Sie können beispielsweise eine Logik wie die folgende verwenden, um die neue Adresse über einen REST-POST-Aufruf an Ihre Site zu senden.
+    Sie können das in das Chat-Widget integrierte Formularlayout verwenden, um Daten mit vielen Werten zu sammeln, z. B. eine Straßenadresse. Benutzer geben Werte in mehrere Felder ein und übergeben anschließend das gesamte Formular. Sie können beispielsweise eine Logik wie die folgende verwenden, um die neue Adresse über einen REST-POST-Aufruf an Ihre Site zu senden.
 
-        ```
-        /* Wenn ein Benutzer Informationen in ein Formular eingibt, werden diese automatisch zum
-        Benutzerprofil hinzugefügt. In einem typischen Fluss würde demnach ein Formularlayout in das
-        Chatfenster eingeschlossen und nach der Übergabe des Formulars würde diese Aktion aufgerufen */
-        IBMChat.subscribe('action:updateAddress', function(data) {
-          var record = {
-            "first_name": IBMChat.profile.get('first_name'),
-            "last_name": IBMChat.profile.get('last_name'),
-            "user_street_address1": IBMChat.profile.get('user_street_address1'),
-            "user_street_address2": IBMChat.profile.get('user_street_address2'),
-            "user_locality": IBMChat.profile.get('user_locality'),
-            "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
-            "user_zipcode": IBMChat.profile.get('user_zipcode')
-          };
-          httpPostAsync('/updateRecord/', record, function(err, response) {
-            if (err) IBMChat.receive('There was an error updating the address.');
-          });
-        });
-        ```
-        {: screen}
+    ```
+    /* Wenn ein Benutzer Informationen in ein Formular eingibt, werden diese automatisch zum
+    Benutzerprofil hinzugefügt. In einem typischen Fluss würde demnach ein Formularlayout in das
+    Chatfenster eingeschlossen und nach der Übergabe des Formulars würde diese Aktion aufgerufen */
+    IBMChat.subscribe('action:updateAddress', function(data) {
+      var record = {
+        "first_name": IBMChat.profile.get('first_name'),
+        "last_name": IBMChat.profile.get('last_name'),
+        "user_street_address1": IBMChat.profile.get('user_street_address1'),
+        "user_street_address2": IBMChat.profile.get('user_street_address2'),
+        "user_locality": IBMChat.profile.get('user_locality'),
+        "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
+        "user_zipcode": IBMChat.profile.get('user_zipcode')
+      };
+      httpPostAsync('/updateRecord/', record, function(err, response) {
+        if (err) IBMChat.receive('There was an error updating the address.');
+      });
+    });
+    ```
+    {: screen}
 
-        Weitere Informationen zu integrierten Layouts finden Sie unter [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
+    Weitere Informationen zu integrierten Layouts finden Sie unter [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
 
 ### Aktualisieren der Telefonnummer des Kontakts
 {: #updatephone}
 
-    1. Im Chat-Widget wird ein Formularlayout verwendet, in dem nach der neuen Telefonnummer des Benutzers gefragt wird, die automatisch im Profil gespeichert werden. Folgende Profilvariablen werden darin gespeichert:
+1. Im Chat-Widget wird ein Formularlayout verwendet, in dem nach der neuen Telefonnummer des Benutzers gefragt wird, die automatisch im Profil gespeichert werden. Folgende Profilvariablen werden darin gespeichert:
 
-        ```
-        user_phone_number
-        phone_number_type
-        ```
-        {: screen}
+    ```
+    user_phone_number
+    phone_number_type
+    ```
+    {: screen}
 
-    1. Ihre Anwendung muss für das Ereignis `updatePhoneNumber` empfangsbereit sein und die beim Auslösen des Ereignisses durchzuführende Logik definieren, mit der die neue Telefonnummer und der -typ abgerufen und an das Back-End-System gesendet werden.
+1. Ihre Anwendung muss für das Ereignis `updatePhoneNumber` empfangsbereit sein und die beim Auslösen des Ereignisses durchzuführende Logik definieren, mit der die neue Telefonnummer und der -typ abgerufen und an das Back-End-System gesendet werden.
 
 ### Aktualisieren der E-Mail-Adresse
 {: #updateemail}
 
-    1. Im Chat-Widget wird ein Formularlayout verwendet, in dem nach der neuen E-Mail-Adresse des Benutzers gefragt wird, die automatisch im Profil gespeichert werden. Folgende Profilvariablen werden darin gespeichert:
+1. Im Chat-Widget wird ein Formularlayout verwendet, in dem nach der neuen E-Mail-Adresse des Benutzers gefragt wird, die automatisch im Profil gespeichert werden. Folgende Profilvariablen werden darin gespeichert:
 
-        ```
-        user_email_address
-        email_type
-        ```
-        {: screen}
-
-    1. Ihre Anwendung muss für das Ereignis `updateEmail` empfangsbereit sein und die beim Auslösen des Ereignisses durchzuführende Logik definieren, mit der die neue E-Mail-Adresse abgerufen und an das Back-End-System gesendet wird. Zudem sendet sie Informationen darüber, für welche Benachrichtigungstypen die neue Adresse verwendet werden soll (`email_type`).
+    ```
+    user_email_address
+    email_type
+    ```
+    {: screen}
+1. Ihre Anwendung muss für das Ereignis `updateEmail` empfangsbereit sein und die beim Auslösen des Ereignisses durchzuführende Logik definieren, mit der die neue E-Mail-Adresse abgerufen und an das Back-End-System gesendet wird. Zudem sendet sie Informationen darüber, für welche Benachrichtigungstypen die neue Adresse verwendet werden soll (`email_type`).
