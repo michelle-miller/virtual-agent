@@ -25,7 +25,6 @@ Virtual Agent
         link_workspace.md
         add-custom-dialog.md
         add-custom-capabilities.md
-
     tutorial.md
 
     {: .topicgroup}

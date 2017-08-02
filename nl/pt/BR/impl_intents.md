@@ -166,82 +166,81 @@ informações serem mudadas. Por exemplo, mostrar aos usuários um saldo da cont
 ### Fazer um pagamento
 {: #makeapayment}
 
-    Execute as etapas a seguir para implementar o código que suporta esta transação.
-    1. O seu aplicativo deve recuperar o saldo atual do usuário e a data de vencimento do sistema backend. Use o método `action:getUserProfileVariables` para obter e configurar as variáveis `bill_amount` e `payment_due_date`
-    na loja de perfil.
-    1. O seu aplicativo deve atender ao evento `payBill` e definir a lógica para executar quando o evento é acionado.
-    1. O seu aplicativo também deve atender ao evento `sendPaymentReceipt` e definir a lógica para executar quando o evento é acionado.
+Execute as etapas a seguir para implementar o código que suporta esta transação.
+1. O seu aplicativo deve recuperar o saldo atual do usuário e a data de vencimento do sistema backend. Use o método `action:getUserProfileVariables` para obter e configurar as variáveis `bill_amount` e `payment_due_date` na loja de perfil.
+1. O seu aplicativo deve atender ao evento `payBill` e definir a lógica para executar quando o evento é acionado.
+1. O seu aplicativo também deve atender ao evento `sendPaymentReceipt` e definir a lógica para executar quando o evento é acionado.
 
 ### Atualizar endereço
 {: #updateaddress}
 
-    1. O widget de bate-papo usa um layout de formulário para perguntar pelas informações de novo endereço do usuário e armazená-las no perfil automaticamente. Ele armazena estas variáveis de perfil:
+1. O widget de bate-papo usa um layout de formulário para perguntar pelas informações de novo endereço do usuário e armazená-las no perfil automaticamente. Ele armazena estas variáveis de perfil:
 
-        ```
-        user_street_address1
-        user_street_address2
-        user_locality
-        user_state_or_province
-        user_zipcode
-        ```
-        {: screen}
+    ```
+    user_street_address1
+    user_street_address2
+    user_locality
+    user_state_or_province
+    user_zipcode
+    ```
+    {: screen}
 
-    1. O seu aplicativo deve atender ao evento `updateAddress`.
+1. O seu aplicativo deve atender ao evento `updateAddress`.
 
-        ```
-        IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
-        ```
-        {: screen}
+    ```
+    IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
+    ```
+    {: screen}
 
-        Defina uma função que obtém e envia o novo endereço e o tipo de endereço (`address_type`) para o sistema backend quando a ação `updateAddress` é acionada.
+    Defina uma função que obtém e envia o novo endereço e o tipo de endereço (`address_type`) para o sistema backend quando a ação `updateAddress` é acionada.
 
-        Para coletar dados com muitos valores, como um endereço residencial, é possível usar o layout de formulário que é construído no widget de bate-papo. Os usuários inserem valores em múltiplos campos e, em seguida, enviam o formulário inteiro. Por exemplo, para enviar o novo endereço para o seu site por meio de uma chamada REST POST, é possível usar a lógica como esta.
+    Para coletar dados com muitos valores, como um endereço residencial, é possível usar o layout de formulário que é construído no widget de bate-papo. Os usuários inserem valores em múltiplos campos e, em seguida, enviam o formulário inteiro. Por exemplo, para enviar o novo endereço para o seu site por meio de uma chamada REST POST, é possível usar a lógica como esta.
 
-        ```
-        /* When a user enters information into a form, it is automatically added 
-        to the user profile. So a typical flow would be to include a form layout in the 
-        chat window, and then call this action after the form is submitted */
-        IBMChat.subscribe('action:updateAddress', function(data) {
-          var record = {
-            "first_name": IBMChat.profile.get('first_name'),
-            "last_name": IBMChat.profile.get('last_name'),
-            "user_street_address1": IBMChat.profile.get('user_street_address1'),
-            "user_street_address2": IBMChat.profile.get('user_street_address2'),
-            "user_locality": IBMChat.profile.get('user_locality'),
-            "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
-            "user_zipcode": IBMChat.profile.get('user_zipcode')
-          };
-          httpPostAsync('/updateRecord/', record, function(err, response) {
-            if (err) IBMChat.receive('There was an error updating the address.');
-          });
-        });
-        ```
-        {: screen}
+    ```
+    /* When a user enters information into a form, it is automatically added 
+    to the user profile. So a typical flow would be to include a form layout in the 
+    chat window, and then call this action after the form is submitted */
+    IBMChat.subscribe('action:updateAddress', function(data) {
+      var record = {
+        "first_name": IBMChat.profile.get('first_name'),
+        "last_name": IBMChat.profile.get('last_name'),
+        "user_street_address1": IBMChat.profile.get('user_street_address1'),
+        "user_street_address2": IBMChat.profile.get('user_street_address2'),
+        "user_locality": IBMChat.profile.get('user_locality'),
+        "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
+        "user_zipcode": IBMChat.profile.get('user_zipcode')
+      };
+      httpPostAsync('/updateRecord/', record, function(err, response) {
+        if (err) IBMChat.receive('There was an error updating the address.');
+      });
+    });
+    ```
+    {: screen}
 
-        Para obter mais informações sobre layouts integrados, veja [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
+    Para obter mais informações sobre layouts integrados, veja [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout){: new_window}.
 
 ### Atualizar o número do telefone de contato
 {: #updatephone}
 
-    1. O widget de bate-papo usa um layout de formulário para perguntar o novo número do telefone do usuário e o armazena no perfil automaticamente. Ele armazena estas variáveis de perfil:
+1. O widget de bate-papo usa um layout de formulário para perguntar o novo número do telefone do usuário e o armazena no perfil automaticamente. Ele armazena estas variáveis de perfil:
 
-        ```
-        user_phone_number
-        phone_number_type
-        ```
-        {: screen}
+    ```
+    user_phone_number
+    phone_number_type
+    ```
+    {: screen}
 
-    1. O seu aplicativo deve atender ao evento `updatePhoneNumber` e definir a lógica para obter e enviar o novo número do telefone e tipo para o sistema backend quando o evento é acionado.
+1. O seu aplicativo deve atender ao evento `updatePhoneNumber` e definir a lógica para obter e enviar o novo número do telefone e tipo para o sistema backend quando o evento é acionado.
 
 ### Atualizar e-mail
 {: #updateemail}
 
-    1. O widget de bate-papo usa um layout de formulário para perguntar o novo endereço de e-mail do usuário e o armazena no perfil automaticamente. Ele armazena estas variáveis de perfil:
+1. O widget de bate-papo usa um layout de formulário para perguntar o novo endereço de e-mail do usuário e o armazena no perfil automaticamente. Ele armazena estas variáveis de perfil:
 
-        ```
-        user_email_address
-        email_type
-        ```
-        {: screen}
+    ```
+    user_email_address
+    email_type
+    ```
+    {: screen}
 
-    1. O seu aplicativo deve atender ao evento `updateEmail` e definir a lógica para obter e enviar o novo endereço de e-mail para o sistema backend quando o evento é acionado. Ele também envia informações sobre para quais tipos de notificação usar o novo endereço (`email_type`).
+1. O seu aplicativo deve atender ao evento `updateEmail` e definir a lógica para obter e enviar o novo endereço de e-mail para o sistema backend quando o evento é acionado. Ele também envia informações sobre para quais tipos de notificação usar o novo endereço (`email_type`).
