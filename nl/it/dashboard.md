@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,20 +17,19 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Analisi dell'attività degli utenti
+# Analisi dell'attività degli utenti 
 {: #dashboard}
 
-La pagina Engagement Metrics contiene un dashboard con le visualizzazioni che consentono di accede agli approfondimenti dai data raccolti dall'agent virtuale.
+La pagina Metrics (Metriche) contiene un dashboard con le visualizzazioni che consentono di
+accedere agli approfondimenti dai data raccolti dall'agent virtuale.
 {: shortdesc}
-
-## Prima di iniziare
 
 L'istanza di {{site.data.keyword.IBM_notm}}
 {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} deve essere
 distribuita e gli utenti devono partecipare a conversazioni con l'agent virtuale per almeno 30
 minuti prima che il dashboard disponga di dati da condividere.
 
-## Informazioni su questa attività
+## Informazioni sulle metriche
 
 Le metriche sulla pagina sono aggiornate ogni 30 minuti con i dati dalle conversazioni
 avvenute tra l'agent virtuale e gli utenti. Forniscono approfondimenti su:
@@ -46,7 +45,7 @@ migliorare significativamente le prestazioni dell'agent virtuale:
 - Confrontare gli argomenti comuni con gli intenti e le entità che il servizio è addestrato a riconoscere. Eventuali
 divergenze consentono di rilevare nuovi intenti o una terminologia su cui istruire l'agent virtuale.
 - Riesaminare gli intenti identificati come più frequenti prima che gli utenti chiedano
-di parlare con un agent umano. Indagando sulle cause delle escalation è possibile    stabilire
+di parlare con un agent umano. Indagando sulle cause delle escalation è possibile	stabilire
 l'ordine di priorità per gli intenti su cui concentrare gli sforzi di addestramento futuri. È
 possibile determinare se le richieste dell'utente sono state fraintese, se al servizio manca
 completamente un
@@ -74,9 +73,9 @@ capacità utilizza un classificatore di linguaggio naturale che può valutare le
 verbali dell'utente e individuare un intento predefinito, se presente. Nell'interfaccia utente, il nome di
 un intento ha sempre come prefisso il carattere `#`.
 
-## Procedura
+### Procedura
 
-1. Aprire la pagina **Engagement Metrics**.
+1.  Aprire la pagina **Metrics (Metriche)** per l'agent corrente.
 
     Nella parte superiore della pagina è presente un riepilogo dei punti di dati chiave e
 sono illustrate le motivazioni delle azione dell'agent virtuale. Per ogni punto di dati, la
@@ -86,54 +85,54 @@ visualizzato (N/A) per *non disponibile* fino a quando il periodo di tempo non
 
     I numeri mostrati nel riepilogo a volte possono essere diversi da quelli mostrati
 in altre pagine. Ad esempio, il numero totale di interazioni visualizzate qui potrebbe essere
-diverso dal totale mostrato nelle scheda **Interactions**. La differenza può
+diverso dal totale mostrato nelle scheda **Interactions (Interazioni)**. La differenza può
 esistere perché le informazioni di riepilogo sono aggregate e aggiornate ad intervalli di 30
-minuti, mentre la scheda **Interactions** è aggiornata in tempo reale.
+minuti, mentre la scheda **Interactions (Interazioni)** è aggiornata in tempo reale.
 
     Per ulteriori informazioni eseguire il drill-down nei dati su ogni scheda.
-    - **<b>Overview**</b>
+    - **Agent Metrics (Metriche agent)**
 
         Scoprire cosa gli utenti vogliono fare o cosa vogliono sapere quando entrano in
 contatto con l'agent virtuale e quali obiettivi dell'utente l'agent virtuale non è riuscito a
 soddisfare.
-        - Il diagramma interattivo **Intents &amp; Entities**
+        - Il diagramma interattivo **Intents &amp; Entities (Intenti e entità)**
 fornisce un approfondimento sulle modalità con cui il servizio {{site.data.keyword.conversationshort}}
 interpreta l'input dell'utente. Il diagramma mostra quali entità sono state utilizzate dal
 servizio per consentire di identificare l'intento dell'utente.
 
             La seguente sintassi è utilizzata per facilitare una più rapida interpretazione
 delle informazioni nel diagramma:
-            - `#<nome-intento>`
-            - `@<nome-entità>`
+            - `#<intent-name>`
+            - `@<entity-name>`
 
             Fare clic su un intento per visualizzare quali entità hanno consentito al
 servizio di comprendere l'input dell'utente. Oppure fare clic su un'entità per visualizzare di quali
 intenti ha consentito l'identificazione da parte del servizio.
 
-        - Il grafico **Topics** cattura le parole o frasi pronunciate più
+        - Il grafico **Topics (Argomenti)** cattura le parole o frasi pronunciate più
 spesso dagli utenti nella conversazione. Esaminare il grafico per comprendere su cosa gli
 utenti sono più interessati a parlare. Le parole in questo grafico sono distinte dalle entità
-catturate nel diagramma Intents &amp; Entities. Le entità sono parole che il servizio
+catturate nel diagramma Intents &amp; Entities (Intenti e entità). Le entità sono parole che il servizio
 {{site.data.keyword.conversationshort}} è stato addestrato a comprendere e ad associare a
-particolari intenti. Le parole che sono catturate nel grafico Topics sono semplicemente parole che
+particolari intenti. Le parole che sono catturate nel grafico Topics (Argomenti) sono semplicemente parole che
 sono presenti più spesso nelle conversazioni. Potrebbe esserci una sovrapposizione dei due, ma
-anche non esserci. Tenere sotto controllo le parole nel grafico Topics per essere sincronizzati con
+anche non esserci. Tenere sotto controllo le parole nel grafico Topics (Argomenti) per essere sincronizzati con
 i propri utenti, e rilevare nuovi argomenti di cui gli utenti vogliono parlare e nuove cose da fare. Gli
 argomenti popolari, e che rimangono popolari, potrebbero essere buoni candidati per nuove entità che
 possono consentire a {{site.data.keyword.watson}} di riconoscere gli intenti
 esistenti o potrebbero suggerire nuovi intenti per i quali addestrare {{site.data.keyword.watson}}.
 
-    - **<b>Users**</b>
+    - **User Metrics (Metriche utente)**
 
         Ottenere informazioni su dove si trovano gli utenti e sul volume di conversazioni.
 
-    - **<b>Interactions**</b>
+    - **Interactions (Interazioni)**
 
         Esaminare le trascrizioni di singole conversazioni.
 
         Le trascrizioni non contengono informazioni personali. Anche il nome dell'utente
-che hanno partecipato a una conversazione viene mantenuto privato; al suo posto viene
-utilizzato *Not Provided*. Altre informazioni personali che gli utenti
+che ha partecipato a una conversazione viene mantenuto privato. Al suo posto viene utilizzato
+un ID utente, ad esempio 509JAJT8PX. Altre informazioni personali che gli utenti
 forniscono durante la conversazione, ad esempio numeri di telefono o codici postali, sono
 sostituite da variabili che indicano i tipi di dati forniti, non i dati stessi.
 
@@ -149,6 +148,6 @@ virtuale resta disponibile nel caso in cui l'utente voglia fare o chiedere altro
 l'utente chiede qualcosa, e dopo 20 minuti chiede qualcos'altro (e lo fa nella stessa sessione
 della finestra di chat), entrambi gli scambi sono trattati come una singola
 interazione con una durata di circa 25 minuti.
-1. Se si rilevano dati significativi che si desidera condividere con altri, è possibile
-esportarli in formato CSV.
 
+1.  Se si rilevano dati significativi che si desidera condividere con altri, è possibile
+esportarli in formato CSV.

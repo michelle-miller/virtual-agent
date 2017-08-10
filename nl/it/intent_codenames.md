@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -18,10 +18,13 @@ lastupdated: "2017-08-01"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Nomi intento
+{: #intent_codenames}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](personalize.html#use_custom)
+Andare a [Aggiunta di dialoghi personalizzati per le capacità base](add-custom-dialog.html).
 {: shortdesc}
 
-| Generale | Telco   |
-|----------|---------|
-| [dettagli](/docs/services/virtual-agent/intent_codenames_general.html) | [dettagli](/docs/services/virtual-agent/intent_codenames_telco.html) |
+Le capacità sono diverse in base al pacchetto.
+
+| Customer Service (General) | Energy  | Retail Banking | Telco   |
+|----------------------------|---------|----------------|---------|
+| [dettagli](intent_codenames_general.html) | x | x | [dettagli](intent_codenames_telco.html) |

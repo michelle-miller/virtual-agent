@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -18,10 +18,13 @@ lastupdated: "2017-08-01"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Noms d'intention
+{: #intent_codenames}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](personalize.html#use_custom)
+Accédez à [Ajout de dialogues personnalisés pour les capacités de base](add-custom-dialog.html).
 {: shortdesc}
 
-| Général | Telco   |
-|---------|---------|
-| [détails](/docs/services/virtual-agent/intent_codenames_general.html) | [détails](/docs/services/virtual-agent/intent_codenames_telco.html) |
+Les capacités diffèrent selon le pack.
+
+| Service clients (Général) | Energie| Banque de détail| Télécommunications|
+|----------------------------|---------|----------------|---------|
+| [détails](intent_codenames_general.html) | x | x | [détails](intent_codenames_telco.html) |

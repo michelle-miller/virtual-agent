@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -25,7 +25,7 @@ capacità base, è necessario stabilire una connessione tra l'agent virtuale e l
 {{site.data.keyword.conversationshort}} che contiene le risorse da utilizzare.
 {: shortdesc}
 
-## Informazioni su questa attività
+## Informazioni sugli spazi di lavoro
 
 Uno spazio di lavoro è un contenitore del servizio {{site.data.keyword.watson}}
 {{site.data.keyword.conversationshort}} che contiene gli intenti, le entità e un dialogo,
@@ -35,24 +35,26 @@ interagisce con i clienti per personalizzare e estendere l'ambito degli argoment
 
 È possibile collegare gli spazi di lavoro per raggiungere i seguenti obiettivi:
 
- - Definire le proprie capacità: lo spazio di lavoro deve includere gli intenti, le
+- Definire le proprie capacità: lo spazio di lavoro deve includere gli intenti, le
 espressioni verbali di esempio e un dialogo con condizioni di nodo corrispondenti a ognuno degli
-intenti definiti. 
- - Definire un dialogo personalizzato per una capacità base: lo spazio di lavoro deve
+intenti definiti.
+- Definire un dialogo personalizzato per una capacità base: lo spazio di lavoro deve
 includere un dialogo con una condizione di nodo che corrisponde al nome dell'intento per una
 capacità base.
 
-Non è possibile utilizzare lo stesso spazio di lavoro per aggiungere capacità personalizzate così come si aggiunge un dialogo per una capacità base. È necessario creare
-un singolo spazio di lavoro dedicato che definisce tutte le capacità personalizzate che si
-desidera utilizzare. Creare uno o più spazi di lavoro separati per definire i dialoghi da
-utilizzare come risposta alle capacità base.
+È *possibile* utilizzare lo stesso spazio di lavoro per aggiungere capacità e dialoghi personalizzati per le capacità base. Tuttavia, la gestione è più semplice se si crea un singolo spazio di lavoro dedicato per
+definire le capacità personalizzate da utilizzare e
+uno o più spazi di lavoro separati per definire i dialoghi da utilizzare come risposta alle
+capacità base. Se si sceglie di utilizzare lo stesso
+spazio di lavoro per entrambe le definizioni, assicurarsi di aggiungere i nodi che contengono i
+dialoghi personalizzati per specifiche capacità base all'inizio della struttura di dialogo per
+impedire che le espressioni verbali siano indirizzate erroneamente alle capacità
+personalizzate.
 
-## Procedura
+### Procedura
 
-1. Dal menu di {{site.data.keyword.watson}}
-{{site.data.keyword.virtualagentshort}}, selezionare **Linked
-Workspaces**.
-1. Fare clic su **Link Workspace**.
+1.  Aprire la pagina **Linked Workspaces (Spazi di lavoro collegati)** per l'agent corrente.
+1.  Fare clic su **Link Workspace (Collega spazio di lavoro)**.
 
     Fornire le credenziali dell'account {{site.data.keyword.IBM_notm}}
 {{site.data.keyword.Bluemix_notm}} per fornire a {{site.data.keyword.watson}}
@@ -60,16 +62,16 @@ Workspaces**.
 del servizio {{site.data.keyword.conversationshort}} e richiamare le informazioni
 sullo spazio di lavoro.
 
-1. Selezionare l'istanza del servizio {{site.data.keyword.conversationshort}} che
+1.  Selezionare l'istanza del servizio {{site.data.keyword.conversationshort}} che
 contiene gli spazi di lavoro da utilizzare.
-1. Selezionare uno o più spazi di lavoro da collegare all'agent.
-1. Fare clic su **Link workspaces**.
+1.  Selezionare uno o più spazi di lavoro da collegare all'agent.
+1.  Fare clic su **Link workspaces (Collega spazi di lavoro)**.
 
-[Creazione di un dialogo personalizzato](/docs/services/virtual-agent/personalize.html#custom_dialog)
+[Creazione di un dialogo personalizzato](add-custom-dialog.html)
 
-[Aggiunta delle proprie capacità](/docs/services/virtual-agent/personalize.html#add_custom_capabilities)
+[Aggiunta delle proprie capacità](add-custom-capabilities.html)
 
-## Scollegamento degli spazi di lavoro
+## Scollegamento degli spazi di lavoro 
 {: #unlink_workspace}
 
 Se si decide che non si desidera mantenere una connessione tra l'agent virtuale e uno
@@ -88,19 +90,17 @@ sia una capacità personalizzata che una capacità base.
 Quando si scollega uno spazio di lavoro da una capacità, la capacità viene
 automaticamente disattivata. Disabilitando la capacità si è certi che gli utenti attivi non
 saranno esposti a comportamenti non previsti durante il periodo in cui sono eseguite le modifiche. Questo
-approccio è valido per tutto tranne la capacità **None of the above**, che non può essere disabilitata.  È
-necessario modificare il tipo di risposta da **Use your own conversation** in
+approccio è valido per tutto tranne la capacità **None of the above (Nessuna delle precedenti)**, che non può essere disabilitata. È
+necessario modificare il tipo di risposta da **Use your own conversation (Utilizzare una propria conversazione)** in
 una delle altre opzioni di tipo di risposta per la capacità prima di poter scollegare
 uno spazio di lavoro associato.
 
 ### Procedura
 
-1. Dal menu di {{site.data.keyword.watson}}
-{{site.data.keyword.virtualagentshort}}, selezionare **Linked
-Workspaces**.
-1. Fare clic per aprire lo spazio di lavoro per cui si desidera eliminare l'associazione
+1.  Aprire la pagina **Linked Workspaces (Spazi di lavoro collegati)** per l'agent corrente.
+1.  Fare clic per aprire lo spazio di lavoro per cui si desidera eliminare l'associazione
 all'agent.
-1. Fare clic su **Unlink Workspace**.
+1.  Fare clic su **Unlink this Workspace (Scollega questo spazio di
+lavoro)** ![Icona cestino che rappresenta l'eliminazione della relazione di collegamento](images/trash.png).
 
-[Collegamento degli spazi di lavoro](/docs/services/virtual-agent/link_workspace.html)
-
+[Collegamento degli spazi di lavoro](link_workspace.html)

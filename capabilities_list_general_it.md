@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-07-31"
 
 ---
 
@@ -23,9 +23,9 @@ lastupdated: "2017-08-01"
 
 ## Dettagli
 
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/intent_list.html?locale=it)
+[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=it)
 
-Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en).
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
 {: shortdesc}
 
 ### Accesso all'account online
@@ -350,5 +350,5 @@ Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capabili
 
     L'utente ha un problema con un dispositivo o un servizio.
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_it.html#top)
+[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_it.html#top)
 

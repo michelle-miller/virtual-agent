@@ -1,8 +1,8 @@
 ---
 
-copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-01"
+Copyright:
+Jahre: 2015, 2017
+lastupdated: "2017-08-10"
 
 ---
 
@@ -18,10 +18,13 @@ lastupdated: "2017-08-01"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Absichtsnamen
+{: #intent_codenames}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](personalize.html#use_custom)
+Rufen Sie [Hinzufügen benutzerdefinierter Dialoge für zentrale Funktionen](add-custom-dialog.html) auf.
 {: shortdesc}
 
-| General | Telco   |
-|---------|---------|
-| [details](/docs/services/virtual-agent/intent_codenames_general.html) | [details](/docs/services/virtual-agent/intent_codenames_telco.html) |
+Die Funktionen sind von Pack zu Pack unterschiedlich.
+
+| Kundendienst (Allgemein) | Energy  | Retail Banking | Telekommunikationsunternehmen   |
+|--------------------------|---------|----------------|---------------------------------|
+| [Details](intent_codenames_general.html) | x | x | [Details](intent_codenames_telco.html) |

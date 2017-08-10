@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-07-20"
 
 ---
 
@@ -20,9 +20,9 @@ lastupdated: "2017-08-01"
 
 # Zentrale Funktionen (Telco)
 {: #capabilities_list_telco_de}
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/intent_list.html?locale=de)
+[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=de)
 
-Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en).
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
 {: shortdesc}
 
 ## Zentrale Funktionen
@@ -479,5 +479,4 @@ Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capabili
 
     Der Benutzer möchte eine Bestätigung über den Eingang einer Zahlung
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_de.html#top)
-
+[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_de.html#top)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-07-31"
 
 ---
 
@@ -20,9 +20,9 @@ lastupdated: "2017-08-01"
 # Prestaciones general
 {: #capabilities_list_general_es}
 
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/intent_list.html?locale=es)
+[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=es)
 
-Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en).
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
 {: #top}
 {: shortdesc}
 
@@ -350,5 +350,4 @@ Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capabili
 
     Solicitudes o preguntas que no son relevantes al servicio
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_es.html#top)
-
+[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_es.html#top)

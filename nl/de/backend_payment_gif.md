@@ -1,8 +1,8 @@
 ---
 
-copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-01"
+Copyright:
+Jahre: 2015, 2017
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Ablauf einer Konversation zum Leisten einer Zahlung
+# Ablauf einer Konversation zum Leisten einer Zahlung 
 {: #backend_payment_gif}
 
 Hier erfahren Sie, wie in der für die Absicht \"Zahlung leisten\" bereitgestellten integrierten Konversation Informationen zwischen dem Benutzer und dem virtuellen Agenten ausgetauscht werden.
@@ -27,7 +27,6 @@ Die folgende Grafik veranschaulicht den Konversationsfluss für einen möglichen
 
 ![Zeigt den Benutzer, der eine Rechnung zahlen möchte, und alle darauf folgenden Wortwechsel zur Durchführung der Transaktion.](images/payment-flow.gif)
 
-**Zugehörige Aufgaben**:<br/>
+**Zugehörige Aufgaben**:
 
-[Integrierte Dialoge](/docs/services/virtual-agent/configure.html#make-a-payment)
-
+[Integrierte Dialoge](configure.html#make-a-payment)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-07-31"
 
 ---
 
@@ -23,9 +23,9 @@ lastupdated: "2017-08-01"
 
 ## Détails
 
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/intent_list.html?locale=fr)
+[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=fr)
 
-Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en).
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
 {: shortdesc}
 
 ### Accès au compte en ligne
@@ -480,5 +480,4 @@ Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capabili
 
     Questions ou demandes concernant le retour des appareils non souhaités
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_fr.html#top)
-
+[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_fr.html#top)

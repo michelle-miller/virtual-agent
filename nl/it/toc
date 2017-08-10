@@ -7,18 +7,32 @@ Virtual Agent
     {: .navgroup id="learn"}
     getting-started.md
     index.md
+    how-it-works.md
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
+    agent-create.md
     configure.md
+    publish.md
     dashboard.md
     upgrade.md
-    tutorial.md
     minimal_steps.md
-    integrate.md
     impl_intents.md
-    link-workspace.md
-    personalize.md
+
+    {: .topicgroup}
+    Personalizing
+        personalize.md
+        link_workspace.md
+        add-custom-dialog.md
+        add-custom-capabilities.md
+    tutorial.md
+
+    {: .topicgroup}
+    Publishing an agent for production use
+        integrate.md
+        integrate_add-chat.md
+        integrate_custom-chat.md
+        integrate_backend.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
@@ -26,5 +40,12 @@ Virtual Agent
     {: .navgroup-end}
 
     {: .navgroup id="help"}
+    release-notes.md
     forums.md
+
+    {: .topicgroup}
+    Developer community
+        [StackOverflow](http://stackoverflow.com/questions/tagged/watson-virtual-agent)
+        [developerWorks Answers](https://developer.ibm.com/answers/topics/watson-virtual-agent/)
+        [WDC Slack channel](http://wdc-slack-inviter.mybluemix.net/)
     {: .navgroup-end}

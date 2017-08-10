@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,8 +17,8 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Visão geral
-{: #index}
+# Sobre
+{: #about}
 
 O {{site.data.keyword.virtualagentfull}} é um conjunto de componentes pré-configurados cognitivos baseado no serviço do
 {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. Configurando o agente virtual com
@@ -40,39 +40,15 @@ do {{site.data.keyword.conversationshort}} e vincula ao agente.
 - Um widget de bate-papo que é possível integrar em sua página da web e um SDK que é possível usar para desenvolver um widget de bate-papo customizado.
 - Um conjunto de APIs que é possível usar para integrar o seu aplicativo com o agente virtual.
 
-## Visão geral arquitetural
-{: #arch_overview}
+## Idiomas Suportados
+{: #langs}
 
-O diagrama a seguir ilustra a arquitetura de uma implementação típica do {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}:
+É possível trabalhar com o {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} em vários idiomas.
 
-![Visão Geral Arquitetural ](images/arch-overview.png)
-
-A implementação inclui os componentes principais a seguir:
-
-- Serviço do **{{site.data.keyword.conversationshort}}**
-
-    Uma instância do serviço do {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. O serviço do
-{{site.data.keyword.conversationshort}} fornece os artefatos para recursos: as intenções, as entidades e o fluxo de diálogo, juntamente com o processamento
-cognitivo subjacente que alimenta os recursos do robô de bate-papo. Você interage diretamente com a área de trabalho do {{site.data.keyword.conversationshort}}
-quando deseja implementar apenas um diálogo customizado ou recurso customizado.
-
-    Para obter mais informações sobre as intenções e diálogos, consulte a documentação de serviço do
-[{{site.data.keyword.conversationshort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/doc/conversation/configure-workspace.html){: new_window}.
-
-- **Robô**
-
-    Um robô construído no serviço do {{site.data.keyword.conversationshort}}, incluindo um conjunto de recursos. O robô é treinado para reconhecer
-consultas de usuário relacionadas à participação do cliente, como solicitações para informações básicas da empresa e pagamento de conta. A ferramenta de configuração
-de robô permite configurar informações específicas da empresa que podem ser fornecidas em resposta para consultas de usuário e para configurar a resposta para cada
-recurso.
-
-- **O website de sua empresa**
-
-    O seu aplicativo de negócios voltado para o cliente, que manipula a comunicação com o robô do {{site.data.keyword.watson}}
-{{site.data.keyword.virtualagentshort}} e com os seus sistemas de registro (como bancos de dados de clientes ou sistemas de faturamento).
-
-- **Janela Bate-papo**
-
-    A interface de bate-papo do agente virtual, que os clientes usam para se comunicarem com o robô. É possível usar o widget de bate-papo fornecido, com ou
-sem customização ou é possível usar o SDK do cliente para implementar o seu próprio widget de bate-papo.
-
+|Idiomas suportados |
+|-------------------|
+|Francês |
+|Alemanha|
+|Italiano|
+|Português (do Brasil)|
+|Espanha|

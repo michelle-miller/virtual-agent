@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,8 +17,8 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Panoramica
-{: #index}
+# Informazioni
+{: #about}
 
 {{site.data.keyword.virtualagentfull}} è un insieme di componenti cognitivi
 pre-configurati basati sul servizio {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. Configurando
@@ -47,48 +47,15 @@ essere utilizzato per sviluppare un widget di chat personalizzato.
 - Una serie di API che possono essere utilizzate per integrare la propria applicazione con
 l'agent virtuale.
 
-## Panoramica dell'architettura
-{: #arch_overview}
+## Lingue supportate
+{: #langs}
 
-Il diagramma seguente illustra l'architettura di una implementazione
-di {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} tipica:
+È possibile utilizzare {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} in più lingue.
 
-![Panoramica dell'architettura](images/arch-overview.png)
-
-L'implementazione include i seguenti componenti principali:
-
-- Servizio **{{site.data.keyword.conversationshort}}**
-
-    Un'istanza del servizio {{site.data.keyword.watson}}
-{{site.data.keyword.conversationshort}}. Il servizio
-{{site.data.keyword.conversationshort}} fornisce le risorse per le capacità: intenti,
-entità e flusso di dialogo, insieme all'elaborazione cognitiva sottostante che potenzia le capacità
-del bot di chat. L'utente interagisce direttamente con lo spazio di lavoro {{site.data.keyword.conversationshort}}
-solo quando desidera implementare un dialogo personalizzato o una capacità personalizzata.
-
-    Per ulteriori informazioni su intenti e dialoghi, fare riferimento alla
-[documentazione
-del servizio {{site.data.keyword.conversationshort}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](http://www.ibm.com/watson/developercloud/doc/conversation/configure-workspace.html){: new_window}.
-
-- **Bot**
-
-    Un bot basato sul servizio {{site.data.keyword.conversationshort}}, che include
-una serie di capacità. Il bot è addestrato a riconoscere le richieste degli utenti relative al
-coinvolgimento dei clienti, ad esempio richieste di informazioni generali sull'azienda o
-pagamento di una fattura. Lo strumento di configurazione del bot fornito consente di
-configurare informazioni specifiche dell'azienda, che possono essere fornite in risposta a domande
-dell'utente, e di configurare le risposte per ogni capacità.
-
-- **Sito web aziendale**
-
-    L'applicazione aziendale che si interfaccia con i clienti, che gestisce le
-comunicazioni con il bot {{site.data.keyword.watson}}
-{{site.data.keyword.virtualagentshort}} e con il proprio sistema di registrazione (ad
-esempio database dei clienti o sistemi di fatturazione).
-
-- **Finestra di chat**
-
-    L'interfaccia di chat dell'agent virtuale, che i clienti utilizzano per conversare con il
-bot. È possibile utilizzare il widget di chat fornito, con o senza personalizzazione, oppure è
-possibile utilizzare il SDK client per implementare un proprio widget di chat.
-
+|Lingua supportata |
+|-------------------|
+|Francese |
+|Tedesco|
+|Italiano|
+|Portoghese (brasiliano)|
+|Spagnolo|

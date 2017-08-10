@@ -1,8 +1,8 @@
 ---
 
-copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-01"
+Copyright:
+Jahre: 2015, 2017
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,19 +17,22 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Entwicklung der nächsten Schritte
+# Entwicklung der nächsten Schritte 
 {: #minimal_steps}
 
-Verstehen Sie, welche Entwicklungsaufgaben für die vollständige Implementierung des Agenten erforderlich sind.
+Verstehen Sie die Entwicklungsschritte, die für eine vollständige Implementierung des Agenten ausgeführt werden müssen.
 {: shortdesc}
 
-Sie müssen die folgenden Aufgaben ausführen:
+**Erforderlich**:
 
-- Integrieren Sie den virtuellen Agenten in Ihre Anwendung.
+- Integrieren Sie den virtuellen Agenten in einer Anwendung oder einem anderen Kanal
 
-    Sie können auf der Seite **Veröffentlichen** der Anwendung {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} den Bot ohne großen Aufwand ausschneiden und auf einer Webseite einfügen, um ihn für eine erste Einschätzung zu testen und gemeinsam mit anderen Personen in Ihrer Organisation zu nutzen. Wenn es an der Zeit ist, den Agenten für die Nutzung durch Kunden zu hosten, müssen Sie weitere Schritte ausführen, um eine sichere und reibungslose Implementierung gewährleisten zu können. Weitere Einzelheiten finden Sie unter [Integrieren des Agenten in Ihre Anwendungsbenutzerschnittstelle](/docs/services/virtual-agent/integrate.html).
+  Sie können die von IBM bereitgestellte Chatschnittstelle zu Ihrer Website für Kunden hinzufügen, die bereitgestellte Chatschnittstelle erweitern oder Ihre eigene Chatschnittstelle erstellen. Zudem können Sie den Agenten über einen vorhandenen Supportkanal verfügbar machen. Weitere Einzelheiten finden Sie unter [Integrieren des Agenten](integrate.html).
 
-- Erstellen Sie eine Anwendungslogik, die Informationsanforderungen oder Geschäftstransaktionen unterstützt, die in Konversationen von Benutzern auftreten können. Arbeiten Sie mit den Administratoren zusammen, die die Funktionen konfiguriert haben, die von Ihrer Organisation unterstützt werden. Sie können Ihnen dabei helfen, das erwartete Verhalten des virtuellen Agenten bei den einzelnen Funktionen zu verstehen. Weitere Einzelheiten finden Sie unter [Implementieren zentraler Funktionen](/docs/services/virtual-agent/impl_intents.html).
+- Erstellen Sie eine Anwendungslogik, die Informationsanforderungen oder Geschäftstransaktionen unterstützt, die in Konversationen von Benutzern auftreten können
 
-Sie können optional einen benutzerdefinierten Dialog für eine zentrale Funktion angeben oder die zentralen Funktionen durch eigene Funktionen erweitern. Weitere Einzelheiten finden Sie unter [Personalisieren des Agenten](/docs/services/virtual-agent/personalize.html).
+  Arbeiten Sie mit den Administratoren zusammen, die die Funktionen konfiguriert haben, die von Ihrer Organisation unterstützt werden. Sie können Ihnen dabei helfen, das erwartete Verhalten des virtuellen Agenten bei den einzelnen Funktionen zu verstehen. Weitere Einzelheiten finden Sie unter [Implementieren zentraler Funktionen](impl_intents.html).
 
+**Optional**:
+
+- Geben Sie einen benutzerdefinierten Dialog für eine zentrale Funktion an oder erweitern Sie die zentralen Funktionen durch eigene Funktionen. Weitere Einzelheiten finden Sie unter [Personalisieren des Agenten](personalize.html).
