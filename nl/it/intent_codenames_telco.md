@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -22,9 +22,14 @@ lastupdated: "2017-08-01"
 {: #top}
 
 [![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+
+La seguente tabella elenca i nomi intento per ogni capacità supportata. Se si sceglie di
+fornire i propri dialoghi del servizio {{site.data.keyword.conversationshort}} per una
+capacità, sarà necessario conoscere il nome intento appropriato da specificare nel dialogo. È
+possibile trovarli qui.
 {: shortdesc}
 
-| Capacità                        | Nomi intento                                        |
+| Capacità                        | Nome intento associato                              |
 |---------------------------------|-----------------------------------------------------|
 | Accesso all'account online | #Online_Account_Access-Misc |
 | Addebiti ricorrenti | #Billing-Recurring_Charges |
@@ -134,4 +139,4 @@ lastupdated: "2017-08-01"
 | Vendite generali | #Sales-Misc |
 | Verifica pagamenti | #Payment-Verify_Payment |
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_telco.html#top)
+[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_telco.html#top)

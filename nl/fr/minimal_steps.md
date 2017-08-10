@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,24 +17,22 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Etapes suivantes du développement
+# Etapes suivantes du développement 
 {: #minimal_steps}
 
-Comprendre les tâches de développement requises pour implémenter intégralement l'agent.
+Assimilez les étapes de développement à suivre pour implémenter intégralement l'agent.
 {: shortdesc}
 
-Vous devez effectuer les tâches suivantes :
+**Obligatoire** :
 
-- Imbriquer l'agent virtuel dans votre application.
+- Imbriquez l'agent virtuel dans une application ou un autre canal
 
-    A partir de la page **Publish (Publication)** de l'application
-{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}},
-vous pouvez rapidement copier et coller le bot dans une page Web pour le tester et le
-partager avec d'autres utilisateurs de votre organisation pour une évaluation initiale. 
-Au moment d'héberger l'agent afin qu'il puisse être utilisé par le client, vous devez effectuer des étapes supplémentaires pour l'implémenter
-de manière sécurisée et sans faille. Pour plus de détails, voir [Intégration de l'agent à votre interface utilisateur d'application](/docs/services/virtual-agent/integrate.html). 
+  Vous pouvez ajouter l'interface de discussion fournie par IBM au site Web présenté à vos clients, étendre l'interface de discussion fournie ou développer votre propre interface de discussion. Vous pouvez également rendre l'agent disponible à partir d'un canal de support existant. Pour plus de détails, voir [Intégration de l'agent](integrate.html). 
 
-- Créez une logique d'application qui prenne en charge les demandes d'informations ou les transactions métier qui peuvent se produire lors des conversations utilisateur. Travaillez avec les administrateurs qui ont configuré les capacités que votre organisation prendra en charge. Ils peuvent vous aider à comprendre le comportement attendu de l'agent virtuel en fonction de la capacité. Pour plus de détails, voir [Implémentation de capacités de base](/docs/services/virtual-agent/impl_intents.html).
+- Créez une logique d'application qui prenne en charge les demandes d'informations ou les transactions métier qui peuvent se produire lors des conversations utilisateur
 
-Vous pouvez éventuellement fournir un dialogue personnalisé pour une capacité de base ou étendre les capacités de base avec vos propres capacités. Pour plus de détails, voir [Personnalisation de l'agent](/docs/services/virtual-agent/personalize.html). 
+  Travaillez avec les administrateurs qui ont configuré les capacités que votre organisation prendra en charge. Ils peuvent vous aider à comprendre le comportement attendu de l'agent virtuel en fonction de la capacité. Pour plus de détails, voir [Implémentation de capacités de base](impl_intents.html).
 
+**Facultatif** :
+
+- Fournissez un dialogue personnalisé pour une capacité de base ou étendez les capacités de base avec vos propres capacités. Pour plus de détails, voir [Personnalisation de l'agent](personalize.html).

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Faça um fluxo de conversa de pagamento
+# Faça um fluxo de conversa de pagamento 
 {: #backend_payment_gif}
 
 Saiba mais sobre como as informações são trocadas entre o usuário e o agente virtual durante a conversa integrada que é fornecida para a intenção Fazer um
@@ -27,10 +27,8 @@ pagamento.
 O gráfico a seguir ilustra o fluxo de conversa para um caminho possível que a conversa integrada fornecida com o aplicativo para a intenção Fazer um
 pagamento pode tomar.
 
-![Mostra a solicitação do usuário para pagar uma conta e todas as trocas que ocorrem posteriormente para realizar a
-transação.](images/payment-flow.gif)
+![Mostra um pedido do usuário para pagar uma conta, e todas as trocas que ocorrem posteriormente para realizar a transação.](images/payment-flow.gif)
 
-**Tarefas relacionadas**:<br/>
+**Tarefas relacionadas**:
 
-[Diálogos integrados](/docs/services/virtual-agent/configure.html#make-a-payment)
-
+[Diálogos integrados](configure.html#make-a-payment)

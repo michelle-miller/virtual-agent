@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -22,9 +22,11 @@ lastupdated: "2017-08-01"
 {: #top}
 
 [![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+
+La tabla siguiente lista los nombres de intenciones de cada prestación soportada. Si opta por proporcionar su propio diálogo de servicio de {{site.data.keyword.conversationshort}} para una prestación, deberá saber el nombre de intención adecuado que se ha de especificar en el diálogo. Puede verlo aquí.
 {: shortdesc}
 
-| Prestaciones                    | Nombre de intención                                    |
+| Prestaciones                    | Nombre de intención asociado a la prestación                                    |
 |---------------------------------|--------------------------------------------------------|
 | Abrir una cuenta | #Account_Management-Open_Account |
 | Acceso a cuenta en línea | #Online_Account_Access-Misc |
@@ -103,4 +105,4 @@ lastupdated: "2017-08-01"
 | Valor de puntos | #Account_Management-Points_Value |
 | Verificación del pago | #Payment-Verify_Payment |
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
+[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)

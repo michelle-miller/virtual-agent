@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -22,9 +22,11 @@ lastupdated: "2017-08-01"
 {: #top}
 
 [![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+
+A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se você optar por fornecer seu próprio diálogo de serviço {{site.data.keyword.conversationshort}} para um recurso, precisará saber o nome da intenção apropriado para especificar no diálogo. Você pode olhar aqui.
 {: shortdesc}
 
-| Recurso                         | Nomes de intenção                                      |
+| Recurso                         | Nome do Recurso Associado intenção                     |
 |---------------------------------|--------------------------------------------------------|
 | Abrir uma conta | #Account_Management-Open_Account |
 | Acesso à conta on-line | #Online_Account_Access-Misc |
@@ -103,4 +105,4 @@ lastupdated: "2017-08-01"
 | Valor dos pontos | #Account_Management-Points_Value |
 | Verificação de pagamento | #Payment-Verify_Payment |
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
+[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)

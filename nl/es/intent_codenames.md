@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,11 +17,15 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Nombres de intención
+# Nombres de intenciones 
+{: #intent_codenames}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](personalize.html#use_custom)
+Vaya a [Adición de diálogos personalizados para las prestaciones básicas](add-custom-dialog.html).
+
+Las prestaciones de cada paquete son diferentes.
 {: shortdesc}
 
-| General | Telco   |
-|---------|---------|
-| [detalles](/docs/services/virtual-agent/intent_codenames_general.html) | [detalles](/docs/services/virtual-agent/intent_codenames_telco.html) |
+| Servicio al cliente (General) | Energía  | Banca a particulares| Telco   |
+|----------------------------|---------|----------------|---------|
+| [detalles](intent_codenames_general.html)   | x | x | [detalles](intent_codenames_telco.html) |
+

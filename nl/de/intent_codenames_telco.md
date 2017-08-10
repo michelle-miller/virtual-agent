@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,12 +17,16 @@ lastupdated: "2017-08-01"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
 # Absichtsnamen (Telco)
 {: #intent_codenames_telco}
 {: #top}
 
-| Zentrale Funktionen             | Absichtsnamen                                          |
+[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+
+In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten Funktionen aufgelistet. Wenn Sie für eine Funktion Ihren eigenen {{site.data.keyword.conversationshort}}-Servicedialog bereitstellen möchten, muss Ihnen der entsprechende Absichtsname bekannt sein, damit Sie diesen im Dialog angeben können. Sie können den Namen hier suchen.
+{: shortdesc}
+
+| Zentrale Funktionen             | Funktion zugeordneter Absichtsname                     |
 |---------------------------------|--------------------------------------------------------|
 | Abfrage des Kontostands | #Billing-Balance_Inquiry |
 | Abrechnung allgemein | #Billing-Misc |
@@ -133,5 +137,4 @@ lastupdated: "2017-08-01"
 | Über uns | #Information-About_Us |
 {: shortdesc}
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_telco.html#top)
-
+[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_telco.html#top)

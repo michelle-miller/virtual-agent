@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-07-31"
 
 ---
 
@@ -21,9 +21,9 @@ lastupdated: "2017-08-01"
 {: #capabilities_list_telco_es}
 {: #top}
 
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/intent_list.html?locale=es)
+[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=es)
 
-Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en).
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
 {: shortdesc}
 
 ## Detalles
@@ -481,4 +481,4 @@ Go to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capabili
 
     Preguntas sobre ventas, incluyendo promociones, tarifas y disponibilidad de productos.
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_es.html#top)
+[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_es.html#top)

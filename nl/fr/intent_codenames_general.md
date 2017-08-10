@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -22,9 +22,11 @@ lastupdated: "2017-08-01"
 {: #top}
 
 [![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+
+Le tableau ci-après répertorie les noms d'intention de chaque capacité prise en charge. Si vous choisissez de fournir votre propre dialogue de service {{site.data.keyword.conversationshort}} pour une capacité, vous devez connaître le nom d'intention approprié à spécifier dans le dialogue. Vous pouvez le rechercher ici.
 {: shortdesc}
 
-| Capacités                       | Nom d'intention                                        |
+| Capacités                       | Nom d'intention associée à la capacité                 |
 |---------------------------------|--------------------------------------------------------|
 | Accès au compte en ligne | #Online_Account_Access-Misc |
 | Adresse du magasin | #Information-Store_Location |
@@ -103,5 +105,5 @@ lastupdated: "2017-08-01"
 | Versements de paiement | #Payment-Installments |
 | Vérification du paiement | #Payment-Verify_Payment |
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
+[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-01"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -22,9 +22,11 @@ lastupdated: "2017-08-01"
 {: #top}
 
 [![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+
+In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten Funktionen aufgelistet. Wenn Sie für eine Funktion Ihren eigenen {{site.data.keyword.conversationshort}}-Servicedialog bereitstellen möchten, muss Ihnen der entsprechende Absichtsname bekannt sein, damit Sie diesen im Dialog angeben können. Sie können den Namen hier suchen.
 {: shortdesc}
 
-| Zentrale Funktionen             | Absichtsnamen                                          |
+| Zentrale Funktionen             | Funktion zugeordneter Absichtsname                     |
 |---------------------------------|--------------------------------------------------------|
 | Abfrage des Kontostands | #Billing-Balance_Inquiry |
 | Abrechnung allgemein | #Billing-Misc |
@@ -103,4 +105,4 @@ lastupdated: "2017-08-01"
 | Öffnungszeiten | #Information-Store_Hours |
 | Über uns | #Information-About_Us |
 
-[![Back to top](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
+[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
