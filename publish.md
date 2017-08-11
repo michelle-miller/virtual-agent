@@ -74,7 +74,7 @@ To publish the agent to a test site, complete the following steps:
 
 When you are ready to put the agent to work helping your customers directly, you must perform some additional steps. See [Integrating the agent](integrate.html) for more details.
 
-# Getting API keys
+## Getting API keys
 {: #api-keys}
 
 To prove that you have permission to use the Watson Virtual Agent API services, the following  keys must be associated with any API calls that are made to the service:

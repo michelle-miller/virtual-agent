@@ -17,11 +17,9 @@ lastupdated: "2017-08-10"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# General customer service capabilities
-{: #capabilities_list_general}
+# Core Telco capabilities
+{: #capabilities_list_telco_en}
 {: #top}
-
-## Details
 
 [Go back](how-it-works.html#capability-packs)
 
@@ -107,6 +105,14 @@ lastupdated: "2017-08-10"
 
     User wants to change the contact email address on the account
 
+- ****Upgrade eligibility status****
+
+    User wants to know whether they are currently eligible for a phone upgrade
+
+- ****Upgrade eligibility timing****
+
+    User wants to know when they will be eligible for a phone upgrade
+
 ### Billing
 
 - ****Balance inquiry****
@@ -128,6 +134,10 @@ lastupdated: "2017-08-10"
 - ****Billing cycle****
 
     Questions or requests about the frequency, or start and end dates of a user's billing cycle
+
+- ****Credit status****
+
+    User wants to know whether their credit status qualifies them for a change in services or equipment
 
 - ****General billing****
 
@@ -162,6 +172,28 @@ lastupdated: "2017-08-10"
 - ****Customer complaint****
 
     User has an issue with a device or service
+
+- ****Network issues****
+
+    Questions about the network, including signal problems, dropped calls, and outages
+
+- ****Troubleshooting****
+
+    User needs help with an issue they are having with a device or service
+
+### Device management
+
+- ****Device activation****
+
+    Questions about activating a device
+
+- ****General device management****
+
+    Questions about a device, its uses, and warranty and repair options
+
+- ****Swap device****
+
+    Questions about changing devices, including transferring services and contacts
 
 ### Help
 
@@ -219,9 +251,25 @@ lastupdated: "2017-08-10"
 
     User wants to schedule an appointment without specifying a location
 
+- ****Make home appointment****
+
+    User wants to schedule an appointment at their home
+
+- ****Make store appointment****
+
+    User wants to schedule a store  appointment
+
 - ****Reschedule appointment****
 
     User wants to reschedule an appointment
+
+- ****Reschedule home appointment****
+
+    User wants to reschedule an appointment at their home
+
+- ****Reschedule store appointment****
+
+    User wants to reschedule a store appointment
 
 - ****Store hours****
 
@@ -339,6 +387,10 @@ lastupdated: "2017-08-10"
 
     User wants confirmation that a payment was received
 
+- ****Recharge prepaid plan****
+
+    User wants to add minutes or value to their prepaid plan or SIM card
+
 - ****Recurring payments (autopay)****
 
     User wants to start making automatic recurring payments
@@ -347,4 +399,80 @@ lastupdated: "2017-08-10"
 
     User wants a refund for a payment
 
-[Back to top](capabilities_list_general.html#top)
+### Sales
+
+- ****General sales****
+
+    Questions about sales, including promotions, pricing, and product availability
+
+- ****Porting inquiry****
+
+    Questions or requests about porting a phone number from one service provider to another
+
+- ****Return device inquiry****
+
+    Questions or requests about returning unwanted devices
+
+### Service management
+
+- ****Activate prepaid plan****
+
+    User wants to activate a prepaid plan
+
+- ****Activate roaming****
+
+    User wants to activate international roaming
+
+- ****Add insurance****
+
+    Questions about adding insurance coverage to an account
+
+- ****Add service features****
+
+    Questions about adding service features that are not already in the account, such as call blocking
+
+- ****Change mobile phone number****
+
+    Questions about changing the mobile phone number of a device
+
+- ****Coverage area inquiry****
+
+    Questions about network coverage
+
+- ****Deactivate prepaid plan****
+
+    User wants to deactivate a prepaid plan
+
+- ****Deactivate roaming****
+
+    User wants to deactivate international roaming
+
+- ****General service management****
+
+    General questions about service, including parental controls, suspension, and reconnection
+
+- ****International rate plan inquiry****
+
+    Questions about international plans, including supported countries and pricing
+
+- ****Network unlock****
+
+    User wants to unlock their device from a specific service network
+
+- ****Price plan change****
+
+    Questions about changing plans, including options for reducing costs
+
+- ****Price plan inquiry****
+
+    Questions about the price plan that the user is subscribed to
+
+- ****Remove service features****
+
+    Questions about removing service features from a plan
+
+- ****Roaming inquiry****
+
+    Questions about using a phone outside of the home country
+
+[Back to top](capabilities_list_telco_en.html#top)
