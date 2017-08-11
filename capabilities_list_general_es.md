@@ -20,7 +20,7 @@ lastupdated: "2017-08-10"
 # Prestaciones general
 {: #capabilities_list_general}
 
-[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html) (English).
 {: #top}
 {: shortdesc}
 
