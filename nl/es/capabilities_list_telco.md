@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-31"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,18 +17,19 @@ lastupdated: "2017-07-31"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Prestaciones general
-{: #capabilities_list_general_es}
+# Prestaciones básicas de Telco
+{: #capabilities_list_telco}
+{: #top}
 
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=es)
+[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=es)
 
 Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
-{: #top}
 {: shortdesc}
 
 ## Detalles
 
 ### Acceso a cuenta en línea
+
 
 - ****Acceso a cuenta en línea****
 
@@ -106,6 +107,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Preguntas de recordatorios de pago, por ejemplo qué son y cómo configurarlos o pararlos.
 
+- ****Situación crediticia****
+
+    El usuario quiere saber si su situación crediticia le califica para un cambio en servicios o equipo.
+
 - ****Solicitud de saldo****
 
     El usuario quiere saber el saldo de la cuenta o tiene preguntas sobre el saldo
@@ -123,6 +128,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Actualizar dirección****
 
     El usuario desea cambiar la dirección de facturación o de correo de la cuenta
+
+- ****Actualizar el estado de elegibilidad****
+
+    El usuario quiere saber si, actualmente, tiene derecho a una actualización telefónica
+
+- ****Actualizar el tiempo de elegibilidad****
+
+    El usuario quiere saber cuándo tendrá derecho a una actualización telefónica
 
 - ****Actualizar número de teléfono de contacto****
 
@@ -214,6 +227,82 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Preguntas acerca de pedidos, incluyendo métodos de realizar un pedido, entregas e historial de pedidos.
 
+### Gestión de Servicio
+
+- ****Activar itinerancia****
+
+    El usuario quiere activar itinerancia internacional
+
+- ****Activar plan prepago****
+
+    El usuario quiere activar un plan prepago
+
+- ****Añadir funciones de servicio****
+
+    Preguntas de añadir funciones de servicio que no están la cuenta, como bloqueo de llamadas.
+
+- ****Añadir un plan de seguro****
+
+    Preguntas sobre añadir cobertura de seguro a una cuenta
+
+- ****Cambiar número telefónico de móvil****
+
+    Preguntas sobre cómo cambiar el número telefónico de un dispositivo móvil.
+
+- ****Cambiar un plan tarifario****
+
+    Preguntas sobre cambio de planes, incluyendo opciones para reducir costos
+
+- ****Consulta de itinerancia****
+
+    Preguntas del uso de un teléfono fuera del país nativo
+
+- ****Consulta de plan tarifario internacional****
+
+    Preguntas sobre planes internacionales, incluyendo países permitidos y tarificación
+
+- ****Consulta de área de cobertura****
+
+    Preguntas de cobertura de red
+
+- ****Desactivar itinerancia****
+
+    El usuario quiere desactivar la itinerancia internacional
+
+- ****Desactivar plan prepago****
+
+    El usuario quiere desactivar un plan prepago
+
+- ****Desbloquear red****
+
+    El usuario quiere liberar su aparato de una red de servicio específica
+
+- ****Gestión general del servicio****
+
+    Preguntas generales del servicio, incluyendo control parental, suspensión, y reconexión.
+
+- ****Quitar funciones de servicio****
+
+    Preguntas de eliminar funciones de servicio de un plan
+
+- ****Solicitud de plan tarifario****
+
+    Preguntas sobre el plan tarifario al que el usuario está suscrito
+
+### Gestión del dispositivo
+
+- ****Activación del dispositivo****
+
+    Preguntas acerca de la activación de un dispositivo
+
+- ****Gestión general de dispositivos****
+
+    El usuario necesita ayuda con un problema,  dispositivo o  servicio
+
+- ****Intercambiar dispositivo****
+
+    Preguntas acerca de un dispositivo, sus usos, opciones de garantía y reparación
+
 ### Información
 
 - ****Acerca de nosotros****
@@ -223,6 +312,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Cambiar cita****
 
     El usuario quiere  una cita
+
+- ****Cambiar cita en domicilio****
+
+    El usuario desea cambiar una cita en su domicilio
+
+- ****Cambiar cita en tienda****
+
+    El usuario desea cambiar una cita en tienda
 
 - ****Contacte con nosotros****
 
@@ -252,9 +349,17 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     El usuario quiere saber qué productos están disponibles para su compra.
 
+- ****Programar cita en domicilio****
+
+    El usuario desea programar una cita en su domicilio.
+
 - ****Reservar cita****
 
     El usuario desea programar una cita sin especificar la ubicación.
+
+- ****Reservar cita en tienda****
+
+    El usuario desea programar una cita en tienda.
 
 - ****Servicios de tienda****
 
@@ -326,6 +431,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     El usuario quiere realizar un pago
 
+- ****Recargar plan prepago****
+
+    El usuario quiere añadir minutos o valor a su plan prepago o tarjeta SIM
+
 - ****Reembolso****
 
     El usuario quiere un reembolso por un pago
@@ -340,9 +449,17 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Reclamaciones
 
+- ****Problemas de red****
+
+    Preguntas acerca de la red, incluyendo problemas de señal, llamadas caídas y cortes.
+
 - ****Reclamación de cliente****
 
     El usuario tiene un problema con un dispositivo o servicio.
+
+- ****Resolución de problemas****
+
+    El usuario necesita ayuda con un problema con un aparato o servicio
 
 ### Sin Relación
 
@@ -350,4 +467,18 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Solicitudes o preguntas que no son relevantes al servicio
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_es.html#top)
+### Ventas
+
+- ****Consulta de devolución de aparato****
+
+    Preguntas o solicitudes de devolver aparatos no deseados.
+
+- ****Consulta de portabilidad****
+
+    Preguntas o solicitudes de importar un número telefónico de un proveedor de servicios a otro
+
+- ****Ventas generales****
+
+    Preguntas sobre ventas, incluyendo promociones, tarifas y disponibilidad de productos.
+
+[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco.html#top)

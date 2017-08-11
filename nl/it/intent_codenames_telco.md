@@ -21,7 +21,7 @@ lastupdated: "2017-08-10"
 {: #intent_codenames_telco}
 {: #top}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Indietro](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
 
 La seguente tabella elenca i nomi intento per ogni capacità supportata. Se si sceglie di
 fornire i propri dialoghi del servizio {{site.data.keyword.conversationshort}} per una

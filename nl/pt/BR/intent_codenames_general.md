@@ -21,7 +21,7 @@ lastupdated: "2017-08-10"
 {: #intent_codenames_general}
 {: #top}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Voltar](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
 
 A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se você optar por fornecer seu próprio diálogo de serviço {{site.data.keyword.conversationshort}} para um recurso, precisará saber o nome da intenção apropriado para especificar no diálogo. Você pode olhar aqui.
 {: shortdesc}

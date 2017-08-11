@@ -20,7 +20,7 @@ Virtual Agent
     impl_intents.md
 
     {: .topicgroup}
-    Personalizing
+    Personalización
         personalize.md
         link_workspace.md
         add-custom-dialog.md
@@ -28,7 +28,7 @@ Virtual Agent
     tutorial.md
 
     {: .topicgroup}
-    Publishing an agent for production use
+    Publicar el agente para uso de producción
         integrate.md
         integrate_add-chat.md
         integrate_custom-chat.md
