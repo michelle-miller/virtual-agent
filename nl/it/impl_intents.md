@@ -190,106 +190,110 @@ business, e poi esegue il processo di business.
 conversazione incorporata, vedere
 [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#action
 ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#action "Icona link esterno"){: new_window}.
-    - **Make a payment (Effettua un pagamento)** {: #makeapayment}
 
-        Effettuare le seguenti operazioni per implementare il codice che supporta questa
+#### Make a payment (Effettua un pagamento)
+{: #makeapayment}
+
+Effettuare le seguenti operazioni per implementare il codice che supporta questa
 transazione.
-        1.  L'applicazione deve richiamare il saldo corrente dell'utente e la data di
+1.  L'applicazione deve richiamare il saldo corrente dell'utente e la data di
 scadenza dal sistema di backend. Utilizzare il metodo
 `action:getUserProfileVariables` per acquisire e impostare le variabili
 `bill_amount` e `payment_due_date` nell'archivio dei profili.
-        1. L'applicazione deve restare in attesa dell'evento `payBill` e
+1. L'applicazione deve restare in attesa dell'evento `payBill` e
 definire la logica da eseguire quando l'evento viene attivato.
-        1. L'applicazione deve anche restare in attesa dell'evento
+1. L'applicazione deve anche restare in attesa dell'evento
 `sendPaymentReceipt` e definire la logica da eseguire quando l'evento viene
 attivato.
 
-    - **Update address (Aggiorna indirizzo)** {: #updateaddress}
+#### Update address (Aggiorna indirizzo)
+{: #updateaddress}
 
-        1. Il widget di chat utilizza un layout modulo per chiedere informazioni sul nuovo
+1. Il widget di chat utilizza un layout modulo per chiedere informazioni sul nuovo
 indirizzo dell'utente e le archivia nel profilo automaticamente. Vengono archiviate queste variabili di
 profilo:
 
-            ```
-            user_street_address1
-            user_street_address2
-            user_locality
-            user_state_or_province
-            user_zipcode
-            ```
-            {: screen}
+    ```java
+    user_street_address1
+    user_street_address2
+    user_locality
+    user_state_or_province
+    user_zipcode
+    ```
+    {: screen}
 
-        1.  L'applicazione deve restare in attesa dell'evento
+1.  L'applicazione deve restare in attesa dell'evento
 `updateAddress`.
 
-            ```
-            IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
-            ```
-            {: screen}
+    ```java
+    IBMChat.subscribe('action:updateAddress', function(data) {<your-code>}
+    ```
+    {: screen}
 
-            Definire una funzione che acquisisce ed invia il nuovo indirizzo e tipo di
+    Definire una funzione che acquisisce ed invia il nuovo indirizzo e tipo di
 indirizzo (`address_type`) al sistema di backend quando viene attivata l'azione
 `updateAddress`.
 
-            Per raccogliere dati con molti valori, ad esempio un indirizzo postale, è
+    Per raccogliere dati con molti valori, ad esempio un indirizzo postale, è
 possibile utilizzare il layout modulo che viene generato nel widget di chat. Gli utenti immettono i
 valori in più campi, e quindi inoltrano il modulo completo. Ad esempio, per inviare il nuovo
 indirizzo al sito tramite una chiamata REST POST, è possibile utilizzare una logica simile alla
 seguente.
 
-            ```
-            /* When a user enters information into a form, it is automatically added
-            to the user profile. So a typical flow would be to include a form layout in the
-            chat window, and then call this action after the form is submitted */
-            IBMChat.subscribe('action:updateAddress', function(data) {
-              var record = {
-                "first_name": IBMChat.profile.get('first_name'),
-                "last_name": IBMChat.profile.get('last_name'),
-                "user_street_address1": IBMChat.profile.get('user_street_address1'),
-                "user_street_address2": IBMChat.profile.get('user_street_address2'),
-                "user_locality": IBMChat.profile.get('user_locality'),
-                "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
-                "user_zipcode": IBMChat.profile.get('user_zipcode')
-              };
-              httpPostAsync('/updateRecord/', record, function(err, response) {
-                if (err) IBMChat.receive('There was an error updating the address.');
-              });
-            });
-            ```
-            {: screen}
+    ```java
+    /* When a user enters information into a form, it is automatically added
+    to the user profile. So a typical flow would be to include a form layout in the
+    chat window, and then call this action after the form is submitted */
+    IBMChat.subscribe('action:updateAddress', function(data) {
+      var record = {
+        "first_name": IBMChat.profile.get('first_name'),
+        "last_name": IBMChat.profile.get('last_name'),
+        "user_street_address1": IBMChat.profile.get('user_street_address1'),
+        "user_street_address2": IBMChat.profile.get('user_street_address2'),
+        "user_locality": IBMChat.profile.get('user_locality'),
+        "user_state_or_province": IBMChat.profile.get('user_state_or_province'),
+        "user_zipcode": IBMChat.profile.get('user_zipcode')
+      };
+      httpPostAsync('/updateRecord/', record, function(err, response) {
+        if (err) IBMChat.receive('There was an error updating the address.');
+      });
+    });
+    ```
+    {: screen}
 
-            Per ulteriori informazioni sui layout incorporati, vedere [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout "Icona link esterno"){: new_window}.
+    Per ulteriori informazioni sui layout incorporati, vedere [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout "Icona link esterno"){: new_window}.
 
-    - **Update contact phone number (Aggiorna il numero telefonico del
-contatto)** {: #updatephone}
+#### Update contact phone number (Aggiorna il numero telefonico del contatto)
+{: #updatephone}
 
-        1. Il widget di chat utilizza un layout modulo per chiedere il nuovo numero di
+1. Il widget di chat utilizza un layout modulo per chiedere il nuovo numero di
 telefono dell'utente e lo archivia nel profilo automaticamente. Vengono archiviate queste variabili di
 profilo:
 
-            ```
-            user_phone_number
-            phone_number_type
-            ```
-            {: screen}
+    ```java
+    user_phone_number
+    phone_number_type
+    ```
+    {: screen}
 
-        1. L'applicazione deve restare in attesa dell'evento
+1. L'applicazione deve restare in attesa dell'evento
 `updatePhoneNumber` e definire la logica per acquisire e inviare il nuovo numero
 di telefono e tipo al sistema di backend quando l'evento viene attivato.
 
-    - **Update email (Aggiorna indirizzo email)** {: #updateemail}
+#### Update email (Aggiorna indirizzo email)
+{: #updateemail}
 
-        1. Il widget di chat utilizza un layout modulo per chiedere il nuovo indirizzo email
+1. Il widget di chat utilizza un layout modulo per chiedere il nuovo indirizzo email
 dell'utente e lo archivia nel profilo automaticamente. Vengono archiviate queste variabili di
 profilo:
 
-            ```
-            user_email_address
-            email_type
-            ```
-            {: screen}
+    ```java
+    user_email_address
+    email_type
+    ```
+    {: screen}
 
-        1. L'applicazione deve restare in attesa dell'evento `updateEmail`
+1. L'applicazione deve restare in attesa dell'evento `updateEmail`
 e definire la logica per acquisire e inviare il nuovo indirizzo email al sistema di backend quando
 l'evento viene attivato. Inoltre invia informazioni sui tipi di notifica per i quali utilizzare il
 nuovo indirizzo (`email_type`).

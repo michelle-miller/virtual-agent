@@ -18,7 +18,7 @@ lastupdated: "2017-08-10"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Prestaciones general
-{: #capabilities_list_general}
+{: #capabilities_list_general_es}
 
 Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html) (English).
 {: #top}
@@ -348,4 +348,4 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html) (E
 
     Solicitudes o preguntas que no son relevantes al servicio
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general.html#top)
+[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_es.html#top)

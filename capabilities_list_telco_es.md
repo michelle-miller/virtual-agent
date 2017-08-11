@@ -18,7 +18,7 @@ lastupdated: "2017-08-10"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Prestaciones básicas de Telco
-{: #capabilities_list_telco}
+{: #capabilities_list_telco_es}
 {: #top}
 Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
@@ -478,4 +478,4 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Preguntas sobre ventas, incluyendo promociones, tarifas y disponibilidad de productos.
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco.html#top)
+[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_es.html#top)

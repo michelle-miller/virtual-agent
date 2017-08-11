@@ -18,7 +18,7 @@ lastupdated: "2017-08-10"
 {:swift: .ph data-hd-programlang='swift'}
 
 # Allgemeine Funktionen des Kundendiensts
-{: #capabilities_list_general}
+{: #capabilities_list_general_de}
 {: #top}
 Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html) (English).
 {: shortdesc}
