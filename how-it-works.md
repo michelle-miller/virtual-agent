@@ -45,7 +45,7 @@ The following table summarizes the packs that are offered. Click the **details**
 |----------|----------------------------|---------|----------------|---------|
 | English  | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=en)   | [details](/docs/services/virtual-agent/capabilities_list_energy.html?locale=en) | [details](/docs/services/virtual-agent/capabilities_list_banking.html?locale=en)        | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=en) |
 | French   | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=fr)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=fr) |
-| German   | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=de) | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=de) |
+| German   | [details](/docs/services/virtual-agent/capabilities_list_general_de.html?locale=de) | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco_de.html?locale=de) |
 | Italian | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=it) | n/a | n/a | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=it) |
 | Portuguese (Brazilian) | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=pt-br)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=pt-br) |
 | Spanish | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=es)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=es) |
