@@ -26,6 +26,7 @@ You choose which user goals you want the bot to handle by selecting the capabili
 {: shortdesc}
 
 ## Capabilities
+{: #capabilities}
 
 A *capability* is the ability of your {{site.data.keyword.virtualagentshort}} chat bot to recognize and satisfy a specific customer goal. For example, the **Find nearest store** capability uses natural language processing techniques to evaluate a customer utterance such as, *Where are you located?* and recognize from it the customer's goal. To satisfy that goal, it engages in a dialog with the customer to discover the customer's current location, and returns address information for the store nearest the customer.
 
@@ -34,6 +35,7 @@ For each capability, machine learning and linguistics experts at IBM have built 
 To make the bot building process easier, IBM offers capability packs that bring together the most commonly requested capabilities for general customer support scenarios, plus specialized packs that address the most common support needs for key industries.
 
 ## Capability packs
+{: #capability-packs}
 
 A *capability pack* groups the most important capabilities for your industry together for you. With tens of thousands of example utterances and counter examples, the IBM team has designed groupings of capabilities that address similar customer goals, but that can seemlessly coexist without competing with one another to respond to user queries.
 
@@ -41,18 +43,19 @@ The following table summarizes the packs that are offered. Click the **details**
 
 | Language | Customer Service (General) | Energy  | Retail Banking | Telco   |
 |----------|----------------------------|---------|----------------|---------|
-| English  | [details](capabilities_list_general.html)   | [details](capabilities_list_energy.html) | [details](capabilities_list_banking.html)        | [details](capabilities_list_telco.html) |
-| French   | [details](capabilities_list_general_fr.html)   | n/a     | n/a            | [details](capabilities_list_telco_fr.html) |
-| German   | [details](capabilities_list_general_de.html) | n/a     | n/a            | [details](capabilities_list_telco_de.html) |
-| Italian | [details](capabilities_list_general_it.html) | n/a | n/a | [details](capabilities_list_telco_it.html) |
-| Portuguese (Brazilian) | [details](capabilities_list_general_pt-br.html)   | n/a     | n/a            | [details](capabilities_list_telco_pt-br.html) |
-| Spanish | [details](capabilities_list_general_es.html)   | n/a     | n/a            | [details](capabilities_list_telco_es.html) |
+| English  | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=en)   | [details](/docs/services/virtual-agent/capabilities_list_energy.html?locale=en) | [details](/docs/services/virtual-agent/capabilities_list_banking.html?locale=en)        | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=en) |
+| French   | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=fr)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=fr) |
+| German   | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=de) | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=de) |
+| Italian | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=it) | n/a | n/a | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=it) |
+| Portuguese (Brazilian) | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=pt-br)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=pt-br) |
+| Spanish | [details](/docs/services/virtual-agent/capabilities_list_general.html?locale=es)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=es) |
 
 *n/a means not available now.
 
 If the core capabilities do not address a common goal that your customers have, then you can add your own capabilities to supplement those provided in a pack. For example, if you own a bakery, your customers might often ask about the cupcake flavors that you offer. You can add a *Cupcake menu* capability to handle such questions. See [Adding your own capabilities](add-custom-capabilities.html) for more information.
 
 ### How {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} differs from {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}
+{: #how-they-differ}
 
 {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} is the service at the heart of the chat bot functionality. It contains the machine learning classifiers that can understand natural language and, given a phrase or sentence, perceive its meaning and categorize it according to classes you have identified as being of interest to you. IBM provides tooling that you can use to build the training data that teaches the machine learning classifier. The tooling also enables you to build the dialog that your bot uses to converse with your customers.
 

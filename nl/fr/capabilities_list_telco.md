@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-31"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,14 +17,15 @@ lastupdated: "2017-07-31"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Capacités (Général)
-{: #capabilities_list_general_fr}
+# Capacités Télécommunications de base
+{: #capabilities_list_telco}
 {: #top}
 
 ## Détails
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=fr)
 
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
+[![Précédent](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html?locale=en) (English).
 {: shortdesc}
 
 ### Accès au compte en ligne
@@ -109,6 +110,24 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Questions sur la version papier des factures d'un compte
 
+- ****Statut du crédit****
+
+    L'utilisateur veut savoir si le statut de son crédit lui permet de bénéficier d'un changement de services ou d'équipement.
+
+### Gestion de l'appareil
+
+- ****Activer l'appareil****
+
+    Questions sur l'activation de l'appareil
+
+- ****Echanger l'appareil****
+
+    Questions sur le changement d'appareils, y compris le transfert des services et des contacts
+
+- ****Gestion générale de l'appareil****
+
+    Questions sur un appareil, ses utilisations, sa garantie et les possibilités de réparation
+
 ### Gestion de la commande
 
 - ****Annuler une commande****
@@ -140,6 +159,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Echanger des points****
 
     L'utilisateur souhaite utiliser ses points pour effectuer un achat ou pour échanger leur valeur.
+
+- ****Echéance d'éligibilité pour une mise à niveau****
+
+    L'utilisateur veut savoir quand il deviendra éligible pour une mise à niveau de son téléphone.
 
 - ****Gestion générale du compte****
 
@@ -193,6 +216,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite résilier ou clôturer un compte.
 
+- ****Statut d'éligibilité pour une mise à niveau****
+
+    L'utilisateur souhaite savoir s'il a actuellement droit à une mise à niveau de son téléphone.
+
 - ****Statut de fidélité****
 
     L'utilisateur souhaite se renseigner sur le statut du programme de fidélité clients et sur son éligibilité.
@@ -212,6 +239,68 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Valeur des points****
 
     L'utlisateur souhaite connaître la valeur de ses points.
+
+### Gestion du service
+
+- ****Activer l'itinérance****
+
+    L'utilisateur souhaite activer l'itinérance internationale.
+
+- ****Activer le forfait prépayé****
+
+    L'utilisateur souhaite activer un forfait prépayé.
+
+- ****Ajouter des options****
+
+    Questions sur l'ajout d'options qui ne figurent pas dans le compte, comme le bloquage des appels
+
+- ****Ajouter une assurance****
+
+    Questions sur l'ajout d'une assurance à un compte
+
+- ****Changement de forfait****
+
+    Questions sur le changement de forfait, notamment les possibiltés de réduction tarifaire
+
+- ****Changer de numéro de portable****
+
+    Questions sur le changement du numéro de portable d'un appareil
+
+- ****Débloquage du réseau****
+
+    L'utilisateur souhaite débloquer son appareil d'un réseau d'opérateur spécifique.
+
+- ****Désactiver l'itinérance****
+
+    L'utilisateur souhaite désactiver l'itinérance internationale.
+
+- ****Désactiver le forfait prépayé****
+
+    L'utilisateur souhaite désactiver un forfait prépayé.
+
+- ****Gestion générale des services****
+
+    Questions générales sur les services, notamment le contrôle parental, les interruptions et le rebranchement
+
+- ****Renseignement sur l'itinérance****
+
+    Questions sur l'utilisation d'un téléphone hors du pays d'origine
+
+- ****Renseignement sur la zone de couverture****
+
+    Questions sur la zone de couverture
+
+- ****Renseignement sur le forfait****
+
+    Questions sur le forfait auquel l'utilisateur s'est abonné
+
+- ****Renseignement sur le forfait international****
+
+    Questions sur les forfaits internationaux, notamment les pays pris en charge et les tarifs
+
+- ****Retirer des options****
+
+    Questions sur le retrait des options d'un forfait
 
 ### Hors sujet
 
@@ -249,6 +338,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite planifier un rendez-vous sans préciser le lieu.
 
+- ****Prendre un rendez-vous dans un magasin****
+
+    L'utilisateur souhaite planifier un rendez-vous dans un magasin.
+
+- ****Prendre un rendez-vous à domicile****
+
+    L'utilisateur souhaite planifier un rendez-vous à son domicile.
+
 - ****Produits disponibles****
 
     L'utilisateur veut connaître les produits disponibles à l'achat.
@@ -260,6 +357,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Replanifier un rendez-vous****
 
     L'utilisateur souhaite replanifier un rendez-vous
+
+- ****Replanifier un rendez-vous à domicile****
+
+    L'utilisateur souhaite replanifier un rendez-vous à domicile
+
+- ****Rééchelonner un rendez-vous dans un magasin****
+
+    L'utilisateur souhaite replanifier un rendez-vous.
 
 - ****Services disponibles dans le magasin****
 
@@ -323,6 +428,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite se renseigner sur les pénalités de retard.
 
+- ****Recharger un forfait prépayé****
+
+    L'utilisateur souhaite ajouter des minutes ou de la valeur à son forfait prépayé ou à sa carte SIM.
+
 - ****Recherche de paiement****
 
     L'utilisateur a des questions générales sur des paiements déjà effectués.
@@ -345,8 +454,30 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Réclamations
 
+- ****Problèmes réseau****
+
+    Questions sur le réseau, notamment les problèmes de connexion, les appels interrompus et les indisponibilités
+
 - ****Réclamation du client****
 
     L'utilisateur rencontre un problème avec un appareil ou un service.
 
-[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_fr.html#top)
+- ****Traitement des incidents****
+
+    L'utilisateur a besoin d'aide pour résoudre un problème qu'il rencontre avec un appareil ou un service.
+
+### Ventes
+
+- ****Généralités sur les ventes****
+
+    Questions concernant les ventes, notamment les promotions, les prix et la disponibilité des produits
+
+- ****Renseignement sur la portabilité****
+
+    Questions ou demandes concernant la portabilité d'un numéro de téléphone d'un fournisseur de service à un autre
+
+- ****Renseignement sur le retour de l'appareil****
+
+    Questions ou demandes concernant le retour des appareils non souhaités
+
+[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco.html#top)

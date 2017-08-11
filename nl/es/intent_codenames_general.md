@@ -21,7 +21,7 @@ lastupdated: "2017-08-10"
 {: #intent_codenames_general}
 {: #top}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Volver](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
 
 La tabla siguiente lista los nombres de intenciones de cada prestación soportada. Si opta por proporcionar su propio diálogo de servicio de {{site.data.keyword.conversationshort}} para una prestación, deberá saber el nombre de intención adecuado que se ha de especificar en el diálogo. Puede verlo aquí.
 {: shortdesc}

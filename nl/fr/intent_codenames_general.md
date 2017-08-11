@@ -21,7 +21,7 @@ lastupdated: "2017-08-10"
 {: #intent_codenames_general}
 {: #top}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Précédent](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
 
 Le tableau ci-après répertorie les noms d'intention de chaque capacité prise en charge. Si vous choisissez de fournir votre propre dialogue de service {{site.data.keyword.conversationshort}} pour une capacité, vous devez connaître le nom d'intention approprié à spécifier dans le dialogue. Vous pouvez le rechercher ici.
 {: shortdesc}

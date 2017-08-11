@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-20"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,12 +17,14 @@ lastupdated: "2017-07-20"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Zentrale Funktionen (General)
-{: #capabilities_list_general}
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=de)
 
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
+# Zentrale Funktionen für Telekommunikationsunternehmen
+{: #capabilities_list_telco_de}
+[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html?locale=en) (English).
 {: shortdesc}
+
 ## Zentrale Funktionen
 {: #top}
 ### Abrechnung
@@ -38,6 +40,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Einzelgebührerklärung****
 
     Der Benutzer möchte eine Erläuterung zu einer bestimmten Gebühr auf einer Rechnung
+
+- ****Kreditstatus****
+
+    Der Benutzer möchte erfahren, ob sein Kreditstatus für eine Änderung von Dienstleistungen oder Geräten berechtigt
 
 - ****Online-Rechnungen****
 
@@ -99,9 +105,31 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Beschwerden
 
+- ****Fehlerbehebung****
+
+    Benutzer braucht Hilfe bei einem Problem, das er mit einem Gerät oder einer Dienstleistung hat
+
 - ****Kundenreklamation****
 
     Benutzer hat ein Problem mit einem Gerät oder Service
+
+- ****Netzprobleme****
+
+    Fragen über das Netz, einschließlich Signalprobleme, abgelehnte Anrufe und Ausfälle
+
+### Gerätverwaltung
+
+- ****Gerätaktivierung****
+
+    Fragen zur Aktivierung eines Geräts
+
+- ****Gerätetausch****
+
+    Die Fragen über die Änderung des Gerätes, wie Übertragung der Dienstleistungen und Kontakte
+
+- ****Geräteverwaltung allgemein****
+
+    Fragen bezüglich der Nutzung und Garantie- und Reparaturoptionen eines Gerätes
 
 ### Hilfe
 
@@ -139,9 +167,25 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte Informationen über die in Filialen verfügbaren Dienstleistungen
 
+- ****Haustermin vereinbaren****
+
+    Der Benutzer möchte einen Termin zu Hause vereinbaren
+
+- ****Haustermin verschieben****
+
+    Der Benutzer möchte einen Termin bei sich zu Hause verschieben
+
 - ****Kontakt****
 
     Der Benutzer möchte die Kontaktdaten des Unternehmens
+
+- ****Ladentermin vereinbaren****
+
+    Der Benutzer möchte einen Termin in einer Filiale vereinbaren
+
+- ****Ladentermin verschieben****
+
+    Der Benutzer möchte einen Termin in einer Filiale verschieben
 
 - ****Nächstgelegene Filiale finden****
 
@@ -188,6 +232,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Anfrage der Rechnungsanschrift****
 
     Der Benutzer möchte die Rechnungsanschrift eines Kontos erfahren.
+
+- ****Anspruchsstatus auf Upgrade****
+
+    Der Benutzer möchte den derzeitigen Anspruch auf ein Handy-Upgrade erfahren
 
 - ****Berechtigte Benutzer****
 
@@ -261,6 +309,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer will die Rufnummer des Kontos ändern, die zur Kontaktaufnahme benutzt wird
 
+- ****Zeitspanne bis Upgrade****
+
+    Der Benutzer möchte erfahren, wann er Anspruch auf ein Handy-Upgrade hat
+
 ### Nicht relevant
 
 - ****Keine der oben genannten****
@@ -272,6 +324,82 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Online-Kontozugriff****
 
     Der Benutzer hat eine Frage oder ein Problem bezüglich dem Onlinezugriff auf ein Konto
+
+### Serviceverwaltung
+
+- ****Anfrage  zur Netzabdeckung****
+
+    Fragen zur Netzabdekung
+
+- ****Anfrage zu Roaming****
+
+    Fragen zur Verwendung eines Telefons außerhalb des Heimatlandes
+
+- ****Anfrage zu internationalem Tarifmodell****
+
+    Fragen zu internationalen Tarifen, einschließlich der unterstützten Länder und der Preisgestaltung
+
+- ****Dienstleistungsmerkmale entfernen****
+
+    Fragen zu dem Entfernen von Dienstleistungsmerkmalen aus einem Tarif
+
+- ****Dienstleistungsmerkmale hinzufügen****
+
+    Fragen über das Hinzufügen von Dienstleistungsmerkmalen, die noch nicht im Konto enthalten sind, wie z. B. Anrufunterdrückung
+
+- ****Handynummer ändern****
+
+    Fragen zur Änderung der Handynummer von einem Gerät
+
+- ****Netzsperre aufheben****
+
+    Der Benutzer möchte die Netzsperre eines bestimmten Dienstleistungsnetzes aufheben
+
+- ****Prepaid-Tarif aktivieren****
+
+    Der Benutzer möchte den Prepaid-Tarif aktivieren
+
+- ****Prepaid-Tarif deaktivieren****
+
+    Der Benutzer möchte den Prepaid-Tarif deaktivieren.
+
+- ****Roaming aktivieren****
+
+    Benutzer möchte das internationale Roaming aktivieren
+
+- ****Roaming deaktivieren****
+
+    Der Benutzer möchte das internationalen Roaming deaktivieren
+
+- ****Serviceverwaltung allgemein****
+
+    Allgemeine Fragen zu Dienstleistungen, einschließlich Kindersicherung, Sperrung und Wiederinbetriebnahme
+
+- ****Tarifanfrage****
+
+    Fragen zu dem Tarif, den der Benutzer abonniert hat
+
+- ****Tarifänderung****
+
+    Fragen zu Tarifänderungen, einschließlich Optionen, um Kosten zu senken
+
+- ****Versicherung hinzufügen****
+
+    Fragen über das Hinzufügen von Versicherungsschutz zu einem Konto
+
+### Vertrieb
+
+- ****Anfrage zur Geräterückgabe****
+
+    Fragen oder Anfragen zur Rückgabe von unerwünschten Geräten
+
+- ****Portierungsanfrage****
+
+    Fragen oder Anfragen zum Portieren einer Telefonnummer von einem Dienstanbieter zu einem anderen
+
+- ****Verkauf allgemein****
+
+    Fragen über den Verkauf, einschließlich Werbeaktionen, Preisgestaltung und Produktverfügbarkeit
 
 ### Zahlung
 
@@ -294,6 +422,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Fehlende oder falsche Zahlungen****
 
     Fragen zu einer Zahlung, die fehlt, fehlgeschlagen ist oder abgelehnt wurde
+
+- ****Prepaid-Tarif aufladen****
+
+    Der Benutzer möchte seinen Prepaid-Tarif oder seine SIM-Karte mit Minuten oder einem Betrag aufladen
 
 - ****Ratenzahlung****
 
@@ -347,5 +479,4 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte eine Bestätigung über den Eingang einer Zahlung
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_de.html#top)
-
+[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_de.html#top)

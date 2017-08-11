@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-07-31"
+lastupdated: "2017-08-10"
 
 ---
 
@@ -17,15 +17,15 @@ lastupdated: "2017-07-31"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Capacità (Generale)
-{: #capabilities_list_general_it}
+# Capacità base di Telco
+{: #capabilities_list_telco}
 {: #top}
 
 ## Dettagli
 
-[![Go back](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=it)
+[![Indietro](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
 
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html?locale=en) (English).
 {: shortdesc}
 
 ### Accesso all'account online
@@ -110,6 +110,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Domande sugli addebiti in una fattura
 
+- ****Stato del credito****
+
+    L'utente desidera sapere se il suo stato del credito lo qualifica per una modifica ai servizi o alle apparecchiature.
+
 ### Fuori tema
 
 - ****Nessuna delle precedenti****
@@ -137,6 +141,82 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Stato dell'ordine****
 
     L'utente vuole conoscere lo stato di un ordine effettuato.
+
+### Gestione dei dispositivi
+
+- ****Attivazione del dispositivo****
+
+    Domande sull'attivazione del dispositivo.
+
+- ****Cambio del dispositivo****
+
+    Domande sul cambio dei dispositivi, compreso il trasferimento di servizi e contatti
+
+- ****Gestione generale del dispositivo****
+
+    Domande relative a un dispositivo, ai suoi utilizzi e alle opzioni per garanzia e riparazioni
+
+### Gestione del servizio
+
+- ****Aggiungere un'assicurazione****
+
+    Domande relative all'aggiunta di una copertura assicurativa a un account
+
+- ****Aggiungi funzioni del servizio****
+
+    Domande sull'aggiunta di funzioni del servizio che non sono già presenti nell'account, ad esempio il blocco delle chiamate
+
+- ****Attiva piano prepagato****
+
+    L'utente desidera attivare un piano prepagato.
+
+- ****Attiva roaming****
+
+    L'utente desidera attivare il roaming internazionale
+
+- ****Cambio del piano tariffario****
+
+    Domande sulla modifica dei piani, comprese le opzioni per ridurre i costi.
+
+- ****Disattiva piano prepagato****
+
+    L'utente desidera disattivare un piano prepagato.
+
+- ****Disattiva roaming****
+
+    L'utente desidera disattivare il roaming internazionale
+
+- ****Domanda sul piano tariffario internazionale****
+
+    Domande relative ai piani internazionali, compresi i prezzi e i paesi inclusi
+
+- ****Domanda sul roaming****
+
+    Domande sull'utilizzo del telefono al di fuori del paese di residenza
+
+- ****Domande sul piano tariffario****
+
+    Domande relative al piano tariffario a cui l'utente è abbonato.
+
+- ****Domande sulla copertura di rete****
+
+    Domande sulla copertura di rete
+
+- ****Gestione dei servizi generali****
+
+    Domande generali sul servizio, tra cui il controllo dei genitori, la sospensione e la riconnessione.
+
+- ****Modifica numero di telefono cellulare****
+
+    Domande sulla modifica del numero telefonico di un dispositivo
+
+- ****Rimuovi funzioni del servizio****
+
+    Domande sulla rimozione di funzioni del servizio da un piano
+
+- ****Sblocco rete****
+
+    L'utente desidera sbloccare il suo dispositivo da una rete di servizio specifica
 
 ### Gestione dell'account
 
@@ -204,6 +284,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente desidera avere informazioni sulla sua idoneità o sullo stato del programma di fedeltà
 
+- ****Stato di idoneità per gli aggiornamenti.****
+
+    L'utente desidera sapere se è idoneo per un aggiornamento.
+
+- ****Tempistiche dell'idoneità per l'aggiornamento****
+
+    L'utente desidera sapere quando sarà ideoneo per un aggiornamento.
+
 - ****Trasferisci i punti****
 
     L'utente desidera trasferire i punti tra diversi account.
@@ -234,6 +322,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente vuole fissare un appuntamento senza aver specificato un'ubicazione.
 
+- ****Fissa un appuntamento a casa****
+
+    L'utente vuole fissare un appuntamento presso la sua abitazione.
+
+- ****Fissa un appuntamento al negozio****
+
+    L'utente vuole fissare un appuntamento presso il negozio
+
 - ****Informazioni generali****
 
     L'utente desidera avere informazioni sull'azienda che non sono gestite da un altro intent
@@ -261,6 +357,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Sposta l'appuntamento****
 
     L'utente desidera spostare un appuntamento
+
+- ****Sposta l'appuntamento domestico****
+
+    L'utente desidera spostare un appuntamento domestico.
+
+- ****Sposta un appuntamento presso il negozio****
+
+    L'utente vuole spostare l'appuntamento presso il negozio
 
 - ****Trova il negozio più vicino****
 
@@ -324,6 +428,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente desidera conoscere le multe per i pagamenti in ritardo.
 
+- ****Ricarica piano prepagato****
+
+    L'utente desidera aggiungere minuti o valore al suo piano prepagato o alla scheda SIM.
+
 - ****Ricerca pagamenti****
 
     L'utente ha domande generali sui pagamenti passati.
@@ -346,9 +454,31 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Reclami
 
+- ****Problemi di rete****
+
+    Domande sulla rete, compresi i problemi di segnale, le chiamate interrotte e le interruzioni del servizio.
+
 - ****Reclamo del cliente****
 
     L'utente ha un problema con un dispositivo o un servizio.
 
-[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_it.html#top)
+- ****Risoluzione dei problemi****
+
+    L'utente necessita di aiuto con un dispositivo o un servizio.
+
+### Vendite
+
+- ****Richiesta di trasferimento del numero****
+
+    Domande o richieste relative al trasferimento di un numero telefonico da un provider di servizi a un altro
+
+- ****Richiesta per la restituzione del dispositivo****
+
+    Domande o richieste per la restituzione di dispositivi indesiderati
+
+- ****Vendite generali****
+
+    Domande sulle vendite, inclusi i prezzi, le promozioni e la disponibilità dei prodotti
+
+[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco.html#top)
 

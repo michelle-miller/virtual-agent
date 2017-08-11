@@ -17,11 +17,11 @@ lastupdated: "2017-08-10"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Absichtsnamen (Telco)
+# Absichtsnamen (Telekommunikationsunternehmen)
 {: #intent_codenames_telco}
 {: #top}
 
-[![Go back](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Zurück](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
 
 In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten Funktionen aufgelistet. Wenn Sie für eine Funktion Ihren eigenen {{site.data.keyword.conversationshort}}-Servicedialog bereitstellen möchten, muss Ihnen der entsprechende Absichtsname bekannt sein, damit Sie diesen im Dialog angeben können. Sie können den Namen hier suchen.
 {: shortdesc}
