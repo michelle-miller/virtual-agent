@@ -41,12 +41,12 @@ Die folgende Tabelle enthält eine Zusammenfassung der angebotenen Packs. Klicke
 
 | Sprache | Kundendienst (Allgemein) | Energie  | Retail Banking | Telekommunikationsunternehmen   |
 |----------|----------------------------|---------|----------------|---------|
-| Englisch  | [Details](/docs/services/virtual-agent/capabilities_list_general.html?locale=en)   | [Details](/docs/services/virtual-agent/capabilities_list_energy.html?locale=en) | [Details](/docs/services/virtual-agent/capabilities_list_banking.html?locale=en)        | [Details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=en) |
+| Englisch  | [Details](/docs/services/virtual-agent/capabilities_list_general_en.html)   | [Details](/docs/services/virtual-agent/capabilities_list_energy.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking.html)        | [Details](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
 | Französisch   | [Details](/docs/services/virtual-agent/capabilities_list_general.html?locale=fr)   | nicht zutreffend     | nicht zutreffend            | [Details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=fr) |
-| Deutsch   | [Details](/docs/services/virtual-agent/capabilities_list_general.html?locale=de) | nicht zutreffend     | nicht zutreffend            | [Details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=de) |
+| Deutsch   | [Details](/docs/services/virtual-agent/capabilities_list_general.html) | nicht zutreffend     | nicht zutreffend            | [Details](/docs/services/virtual-agent/capabilities_list_telco.html) |
 | Italienisch | [Details](/docs/services/virtual-agent/capabilities_list_general.html?locale=it) | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=it) |
 | Portugiesisch (Brasilianisch) | [Details](/docs/services/virtual-agent/capabilities_list_general.html?locale=pt-br)   | nicht zutreffend     | nicht zutreffend            | [Details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=pt-br) |
-| Spanisch | [Details](/docs/services/virtual-agent/capabilities_list_general.html?locale=es)   | nicht zutreffend     | nicht zutreffend            | [Details](/docs/services/virtual-agent/capabilities_list_telco.html?locale=es) |
+| Spanisch | [Details](/docs/services/virtual-agent/capabilities_list_general_es.html)   | nicht zutreffend     | nicht zutreffend            | [Details](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
 
 *nicht zutreffend = derzeit nicht verfügbar.
 

@@ -22,8 +22,6 @@ lastupdated: "2017-08-10"
 {: #top}
 
 [![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=es)
-
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=en) (English).
 {: shortdesc}
 
 ## Detalles
