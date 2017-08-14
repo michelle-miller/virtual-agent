@@ -29,7 +29,7 @@ soient transmises à un canal existant surveillé par le service d'assistance. P
 
 Pour utiliser l'API {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} afin d'intégrer l'agent virtuel dans un canal de support existant, procédez comme suit :
 
-1.  Extrayez les clés d'API nécessaires pour effectuer des appels d'API. Pour plus de détails, voir [Obtention des clés d'API](publish.html#api-keys).
+1.  Extrayez les clés d'API nécessaires pour effectuer des appels d'API. Pour plus de détails, voir [Obtention des clés d'API](api-keys.html). 
 
 1.  Utilisez les API REST {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} pour interagir avec le bot à l'aide d'un programme. Accédez au portail de l'**[explorateur d'API d'{{site.data.keyword.IBM_notm}} developerWorks](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}** pour accéder aux API REST sur {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}.
 
@@ -75,4 +75,4 @@ humain le plus à même de répondre aux demandes de ce type.
 - Lorsque vous transférez une conversation, l'historique de la discussion est inclus de sorte que la personne qui reprend le problème comprenne le contexte de
 la conversation ayant eu lieu jusqu'à présent.
 
-Pour demander l'accès à l'offre, reportez-vous au [site Web de LivePerson![icône Lien externe](../../icons/launch-glyph.svg "icône Lien externe")](https://engage.liveperson.com/usage/watson/?utm_medium=website&utm_source=IBM&utm_campaign=Watson "icône Lien externe"){: new_window}.
+Pour demander l'accès à l'offre, reportez-vous au [site Web de LivePerson ![icône Lien externe](../../icons/launch-glyph.svg "icône Lien externe")](https://engage.liveperson.com/usage/watson/?utm_medium=website&utm_source=IBM&utm_campaign=Watson "icône Lien externe"){: new_window}.
