@@ -27,7 +27,7 @@ autres que l'anglais.
 
 Pour spécifier un agent avec une autre capacité comme agent principal, créez un
 agent avec le pack de capacités de votre choix, après quoi vous pourrez supprimer l'agent
-provisionné pour vous initialement. Veillez à bien changer d'agent avant d'avoir passer trop de temps à configurer l'agent General Customer Service (Service clients général). Pour plus d'informations, voir [Suppression d'un agent](agent-create.html#delete). 
+provisionné pour vous initialement. Veillez à bien changer d'agent avant d'avoir passé trop de temps à configurer l'agent General Customer Service (Service clients général). Pour plus d'informations, voir [Suppression d'un agent](agent-create.html#delete). 
 
 Si vous passez du temps à configurer une instance d'agent pour la peaufiner et que vous souhaitez
 la déployer pour l'utiliser, tout en continuant de la tester ou d'essayer de l'améliorer, vous pouvez cloner l'agent
@@ -37,7 +37,7 @@ afin de créer une copie à des fins de test. Pour plus de détails, voir [Clona
 
 Le nombre d'agents que vous pouvez créer dépend de votre plan de service.
 
-| Plan de service |      Nombre d'agents |
+| Plan de service  |      Nombre d'agents  |
 |------------------|----------------------:|
 | Evaluation       |                     2 |
 | Standard         |                    10 |
@@ -49,7 +49,7 @@ d'agent virtuel allouées à votre abonnement.
 
 ### Procédure
 
-Pour créer un agent, procédez comme suit : 
+Pour créer un agent, procédez comme suit :
 
 1.  A partir du menu principal ![Icône avec trois lignes horizontales](images/hamburger.png), cliquez sur **Create New Agent (Créer un agent)**.
 
@@ -60,7 +60,7 @@ Pour créer un agent, procédez comme suit :
 
 1.  Si applicable, choisissez la langue, puis spécifiez les informations demandées pour l'agent.
    >**Remarque :** le libellé d'agent que vous spécifiez ici n'est affiché que dans les outils d'administration Watson Virtual Agent que vous utilisez pour gérer l'agent. 
-Il ne s'agit pas du nom de l'agent virtuel qui interagit avec vos utilisateurs ; vous
+Il ne s'agit pas du nom de Virtual Agent qui interagit avec vos utilisateurs ; vous
 pouvez définir ou modifier cela à partir de la page **Settings
 (Paramètres)**.
 1.  Cliquez sur **Create (Créer)**.
@@ -74,7 +74,7 @@ et le clone ne sont plus liés l'un à l'autre. Les modifications que vous appor
 l'un ne sont **pas** appliquées à l'autre. 
 
 Vous ne pouvez pas créer un clone d'un agent dans une langue autre que celle de
-l'agent d'origine. 
+l'agent d'origine.
 
 ### Procédure
 
@@ -88,7 +88,7 @@ cloner.
 1.  Fournissez les informations demandées pour l'agent.
    >**Remarque :** le libellé d'agent que vous spécifiez ici n'est
 affiché que dans les outils d'administration Watson Virtual Agent que vous utilisez pour
-gérer l'agent. Il ne s'agit pas du nom de l'agent virtuel qui interagit avec vos
+gérer l'agent. Il ne s'agit pas du nom de Virtual Agent qui interagit avec vos
 utilisateurs ; vous le définissez ailleurs.
 1.  Cliquez sur **Clone (Cloner)**. 
 

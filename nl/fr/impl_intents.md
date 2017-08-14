@@ -32,7 +32,7 @@ Etudiez la manière dont vous souhaitez gérer les capacités suivantes, au mini
 - **La capacité *Connect to agent (Se connecter à l'agent* et toutes les capacités avec le type de réponse *Transfer to human agent (Transférer vers un agent humain)***
 
     Ces capacités transfèrent l'utilisateur à un agent humain. Vous devez ajouter la logique qui transfère la conversation à votre support technique. L'une des approches que vous pouvez adopter consiste à ajouter une logique qui se
-connecte à un service externe déjà utilisé pour gérer les demandes entrantes sur votre site de service clients. Les problèmes que l'argent virtuel ne peut résoudre peuvent être transférés à votre
+connecte à un service externe déjà utilisé pour gérer les demandes entrantes sur votre site de service clients. Les problèmes que l'agent virtuel ne peut résoudre peuvent être transférés à votre
 support technique dans leur file d'attente de demandes d'assistance existante afin
 qu'ils soient classés par priorité et résolus. Pour implémenter la logique de transfert,
 écoutez l'événement `agent` et définissez les fonctions à effectuer lorsque l'événement est
@@ -50,7 +50,7 @@ détails, voir [Implémentation de la logique de prise en charge de la conversat
 
     Pour les capacités complexes qui requièrent un dialogue personnalisé pour gérer l'échange d'informations avec l'utilisateur, vous pouvez écrire un dialogue à l'aide du service {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. Pour plus de détails, voir [Ajout de dialogues personnalisés pour les capacités de base](add-custom-dialog.html).
 
-## Implémentation de la logique de prise en charge de la conversation intégrée 
+## Implémentation de la logique de prise en charge de la conversation intégrée
 {: #backend_transaction}
 
 Découvrez comment échanger des informations et effectuer des processus métier qui
@@ -69,7 +69,7 @@ et les traiter de manière appropriée.
 
 Examinez le [processus du flux de dialogue Make a payment (Effectuer un paiement)](backend_payment_gif.html#backend_payment_gif) pour un exemple de stockage des variables de carte de crédit privées. 
 
-Par exemple, avec la capacité **Update address (Mettre à jour l'adresse)**, un utilisateur peut changer l'adresse de facturation sur son compte. Vous devez écrire le code qui extrait la nouvelle adresse de l'agent virtuel et met à
+Par exemple, avec la capacité **Update address (Mettre à jour l'adresse)**, un utilisateur peut changer l'adresse de facturation sur son compte. Vous devez écrire le code qui extrait la nouvelle adresse de Virtual Agent et met à
 jour le compte de l'utilisateur sur votre système d'enregistrement avec les nouvelles
 informations.
 
@@ -189,9 +189,7 @@ Effectuez les étapes ci-après pour implémenter un code qui prend en charge ce
     Pour collecter des données comportant de nombreuses valeurs, telles que l'adresse postale, vous pouvez utiliser la présentation de formulaire intégrée au widget de discussion. Les utilisateurs entrent des valeurs dans plusieurs zones, puis soumettent le formulaire complet. Par exemple, pour envoyer la nouvelle adresse à votre site via un appel REST POST, vous pouvez utiliser une logique telle que la suivante :
 
     ```java
-    /* Lorsqu'un utilisateur saisit des informations dans un formulaire, elles sont automatiquement ajoutées
-    au profil de l'utilisateur. Donc un flux type peut par exemple inclure une présentation de formulaire dans la fenêtre de discussion,
-    puis appeler cette action une fois que le formulaire a été soumis */
+    /* Lorsqu'un utilisateur saisit des informations dans un formulaire, elles sont automatiquement ajoutées au profil de l'utilisateur. Donc un flux type peut par exemple inclure une présentation de formulaire dans la fenêtre de discussion, puis appeler cette action une fois que le formulaire a été soumis */
     IBMChat.subscribe('action:updateAddress', function(data) {
       var record = {
         "first_name": IBMChat.profile.get('first_name'),
@@ -211,7 +209,7 @@ Effectuez les étapes ci-après pour implémenter un code qui prend en charge ce
 
     Pour plus d'informations sur les présentations intégrées, voir [https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout ![icône Lien externe](../../icons/launch-glyph.svg "icône Lien externe")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md#layout "icône Lien externe"){: new_window}.
 
-#### Update contact phone number (Mettre à jour le numéro de téléphone du contact)
+#### Update contact phone number (Mettre à jour le numéro de téléphone de contact)
 {: #updatephone}
 
 1. Le widget de discussion utilise une présentation de formulaire pour demander le nouveau numéro de téléphone de l'utilisateur et le stocke automatiquement dans le profil. Il stocke les variables de profil suivantes :
@@ -222,9 +220,7 @@ Effectuez les étapes ci-après pour implémenter un code qui prend en charge ce
     ```
     {: screen}
 
-1. Votre application doit écouter l'événement
-`updatePhoneNumber` et définir la logique permettant de recevoir et d'envoyer
-le nouveau numéro de téléphone et son type au système dorsal lorsque l'événement est déclenché.
+1. Votre application doit écouter l'événement `updatePhoneNumber` et définir la logique permettant de recevoir et d'envoyer le nouveau numéro de téléphone et son type au système dorsal lorsque l'événement est déclenché.
 
 #### Update email (Mettre à jour l'adresse électronique)
 {: #updateemail}
@@ -237,10 +233,7 @@ le nouveau numéro de téléphone et son type au système dorsal lorsque l'évé
     ```
     {: screen}
 
-1. Votre application doit écouter l'événement
-`updateEmail` et définir la logique permettant de recevoir et d'envoyer
-la nouvelle adresse électronique au système dorsal lorsque l'événement est déclenché. Elle envoie également des informations sur les types de notification pour lesquels la
-nouvelle adresse doit être utilisée (`email_type`).
+1. Votre application doit écouter l'événement `updateEmail` et définir la logique permettant de recevoir et d'envoyer la nouvelle adresse électronique au système dorsal lorsque l'événement est déclenché. Elle envoie également des informations sur les types de notification pour lesquels la nouvelle adresse doit être utilisée (`email_type`).
 
 ## Utilisation de la capacité None of the above (Aucun des choix ci-dessus)
 {: #none-of-the-above}
