@@ -21,12 +21,10 @@ lastupdated: "2017-08-10"
 {: #capabilities_list_general}
 {: #top}
 
-## Dettagli
-
 [![Indietro](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
-
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html?locale=en) (English).
 {: shortdesc}
+
+## Dettagli
 
 ### Accesso all'account online
 

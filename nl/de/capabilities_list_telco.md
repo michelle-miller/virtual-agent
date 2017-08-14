@@ -21,7 +21,6 @@ lastupdated: "2017-08-10"
 # Zentrale Funktionen für Telekommunikationsunternehmen
 {: #capabilities_list_telco_de}
 [![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
-(Click the back button in your web browser to return to the English **Capability packs** table.)
 {: shortdesc}
 
 ## Zentrale Funktionen

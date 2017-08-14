@@ -23,7 +23,7 @@ lastupdated: "2017-08-10"
 
 ## Details
 
-[Go back](how-it-works.html#capability-packs)
+[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 
 ### Account management
 

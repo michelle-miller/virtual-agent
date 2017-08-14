@@ -23,7 +23,7 @@ lastupdated: "2017-08-10"
 
 ## Détails
 
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html?locale=en) (English).
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
 
 ### Accès au compte en ligne

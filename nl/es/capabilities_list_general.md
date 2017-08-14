@@ -19,9 +19,8 @@ lastupdated: "2017-08-10"
 
 # Prestaciones general
 {: #capabilities_list_general}
-
-[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
 {: #top}
+[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
 {: shortdesc}
 
 ## Detalles
