@@ -21,11 +21,10 @@ lastupdated: "2017-08-10"
 {: #capabilities_list_general}
 {: #top}
 
-## Detalhes
 [![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
-
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html?locale=en) (English).
 {: shortdesc}
+
+## Detalhes
 
 ### Acesso à conta on-line
 

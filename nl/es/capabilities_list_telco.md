@@ -21,7 +21,7 @@ lastupdated: "2017-08-10"
 {: #capabilities_list_telco}
 {: #top}
 
-[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs?locale=es)
+[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
 {: shortdesc}
 
 ## Detalles

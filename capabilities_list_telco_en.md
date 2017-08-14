@@ -21,7 +21,7 @@ lastupdated: "2017-08-10"
 {: #capabilities_list_telco_en}
 {: #top}
 
-[Go back](how-it-works.html#capability-packs)
+[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 
 ### Account management
 

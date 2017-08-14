@@ -20,7 +20,7 @@ lastupdated: "2017-08-10"
 # Allgemeine Funktionen des Kundendiensts
 {: #capabilities_list_general_de}
 {: #top}
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html) (English).
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
 
 ## Zentrale Funktionen
