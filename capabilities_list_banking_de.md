@@ -17,13 +17,14 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Allgemeine Funktionen des Kundendiensts
-{: #capabilities_list_general}
-[![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+# Zentrale Funktionen für Retail Banking
+{: #capabilities_list_banking_de}
+{: #top}
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
 
 ## Zentrale Funktionen
-{: #top}
+
 ### Abrechnung
 
 - ****Abfrage des Kontostands****
@@ -32,11 +33,7 @@ lastupdated: "2017-08-17"
 
 - ****Abrechnung allgemein****
 
-    Fragen zu einer Rechnung, wie zum Beipiel dem Nutzungsumfang oder Gebühren
-
-- ****Einzelgebührerklärung****
-
-    Der Benutzer möchte eine Erläuterung zu einer bestimmten Gebühr auf einer Rechnung
+    Der Benutzer hat Fragen zu einer Rechnung, wie zum Beispiel zum Nutzungsumfang oder zu Gebühren
 
 - ****Online-Rechnungen****
 
@@ -44,11 +41,11 @@ lastupdated: "2017-08-17"
 
 - ****Papierrechnungen****
 
-    Fragen zu gedruckten Rechnungskopien eines Kontos
+    Der Benutzer hat Fragen zu gedruckten Rechnungskopien eines Kontos
 
 - ****Rechnungserklärung****
 
-    Fragen zu Gebühren von Einzelposten einer Rechnung
+    Der Benutzer hat Fragen zu Gebühren von Einzelposten einer Rechnung
 
 - ****Rechnungskopie anfordern****
 
@@ -64,43 +61,35 @@ lastupdated: "2017-08-17"
 
 - ****Rechnungszeitraum****
 
-    Fragen zur Häufigkeit oder dem Beginn und Ende des Abrechnungszeitraums eines Benutzers
-
-- ****Wiederkehrende Gebühren****
-
-    Fragen zu wiederkehrenden Gebühren auf einer Rechnung, wie zum Beispiel unbegrenzte SMS, Visual Voicemail oder Gebühren des Familientarifs
+    Der Benutzer hat Fragen oder Anforderungen zu der Häufigkeit oder dem Beginn und Ende des Abrechnungszeitraums eines Benutzers
 
 - ****Zahlungserinnerungen****
 
-    Fragen zu Zahlungserinnerungen, wie zum Beispiel ihre Einrichtung oder Beendung
+    Der Benutzer hat Fragen zu Zahlungserinnerungen, wie zum Beispiel zu dem Zweck von Zahlungserinnerungen sowie zu ihrer Einrichtung und Beendigung
 
-### Auftragsbearbeitung
+### Benachrichtigungen
 
-- ****Auftragsbearbeitung allgemein****
+- ****Ausgabenschwellenwert****
 
-    Fragen zu Bestellungen, einschließlich Bestellarten, Versand und Bestellungshistorie
+    Der Benutzer möchte Benachrichtigungen über seinen Ausgabenschwellenwert festlegen
 
-- ****Bestellstatus****
+- ****Benachrichtigung über Geschäftsreisen****
 
-    Der Benutzer möchte den Status einer aufgegebenen Bestellung erfahren
+    Der Benutzer möchte seine Bank über eine Geschäftsreise benachrichtigen.
 
-- ****Bestellung stornieren****
+- ****Gebuchte Zahlungen****
 
-    Der Benutzer möchte die Bestellung eines Geräts stornieren
+    Der Benutzer möchte Benachrichtigungen über seine gebuchten Zahlungen verwalten.
 
-- ****Bestellung ändern****
+- ****Zustellungsmethoden bearbeiten (E-Mail-, Apple-Benachrichtigungen)****
 
-    Der Benutzer möchte eine gemachte Bestellung ändern
-
-- ****Produkt bestellen****
-
-    Der Benutzer möchte ein neues Gerät bestellen
+    Der Benutzer möchte die Zustellungsmethode für seine benutzerdefinierten Benachrichtigungen verwalten
 
 ### Beschwerden
 
 - ****Kundenreklamation****
 
-    Benutzer hat ein Problem mit einem Gerät oder Service
+    Der Benutzer hat ein Problem mit einer Dienstleistung
 
 ### Hilfe
 
@@ -114,7 +103,7 @@ lastupdated: "2017-08-17"
 
 - ****Hilfe****
 
-    Fragen bezüglich der Optionen, die bei der Verwendung der virtuellen Agenten verfügbar sind
+    Der Benutzer hat Fragen bezüglich der Optionen, die bei der Verwendung des virtuellen Agenten zur Verfügung stehen
 
 - ****Mit Kundenbetreuer verbinden****
 
@@ -126,13 +115,21 @@ lastupdated: "2017-08-17"
 
 - ****Systeminformationen****
 
-    Fragen zur Technologie des virtuellen Agenten, mit dem der Benutzer interagiert
+    Der Benutzer hat Fragen zur Technologie des virtuellen Agenten, mit der sie interagieren
 
 ### Information
 
 - ****Allgemeine Informationen****
 
     Der Benutzer möchte Informationen über das Unternehmen, die nicht über einen anderen Intent bedient werden
+
+- ****Bürotermin vereinbaren****
+
+    Der Benutzer möchte einen Bürotermin vereinbaren
+
+- ****Bürotermin verschieben****
+
+    Der Benutzer möchte einen Bürotermin verschieben
 
 - ****Dienstleistungen der Filiale****
 
@@ -152,11 +149,11 @@ lastupdated: "2017-08-17"
 
 - ****Standort der Filiale****
 
-    Fragen zu Standorten von Filialen
+    Der Benutzer hat Fragen zu Filialstandorten
 
 - ****Telefonnummer der Filiale****
 
-    Fragen zu Telefonnummern von Filialen
+    Der Benutzer hat Fragen zu Telefonnummern der Filiale
 
 - ****Termin vereinbaren****
 
@@ -166,13 +163,9 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte einen Termin verschieben
 
-- ****Verfügbare Produkte****
-
-    Der Benutzer möchte wissen, welche Produkte für den Kauf verfügbar sind.
-
 - ****Öffnungszeiten****
 
-    Fragen zu den Öffnungszeiten
+    Der Benutzer hat Fragen zu den Öffnungszeiten einer Filiale
 
 - ****Über uns****
 
@@ -214,7 +207,7 @@ lastupdated: "2017-08-17"
 
 - ****Kontoverwaltung allgemein****
 
-    Allgemeine Kontofragen, zum Beispiel, wie man einen Benutzer hinzufügt oder ein Kotno löscht
+    Der Benutzer hat allgemeine Kontofragen, zum Beispiel dazu, wie man Benutzer hinzufügt oder ein Konto löscht
 
 - ****Kundenkontonummer****
 
@@ -222,7 +215,7 @@ lastupdated: "2017-08-17"
 
 - ****Kundenprofil****
 
-    Fragen zu den Kontodaten des Benutzers
+    Der Benutzer hat Fragen zu seinen Kontodetails
 
 - ****Kundentreueprogramm****
 
@@ -260,17 +253,81 @@ lastupdated: "2017-08-17"
 
     Der Benutzer will die Telefonnummer des Kontos ändern, die zur Kontaktaufnahme verwendet wird.
 
+### Kreditkartenkonto-Services
+
+- ****Anfordern der Vereinbarung über die Kartenmitgliedschaft****
+
+    Der Benutzer fordert seine Vereinbarung über die Kartenmitgliedschaft an.
+
+- ****Ausstehende Gebühren anzeigen****
+
+    Der Kunde möchte die ausstehenden Gebühren für sein Kreditkartenkonto anzeigen.
+
+- ****Erhöhung des Kreditrahmens anfordern****
+
+    Der Benutzer fordert eine Erhöhung seines Kreditrahmens an.
+
+- ****Gebührenanfrage****
+
+    Der Benutzer hat eine Anfrage zu den Jahresgebühren für seine Kreditkarte.
+
+- ****Karte aktivieren****
+
+    Der Benutzer möchte seine Karte aktivieren.
+
+- ****Karte ersetzen****
+
+    Der Benutzer möchte seine Kreditkarte ersetzen.
+
+- ****Kreditkarte kündigen****
+
+    Der Benutzer möchte seine Kreditkarte kündigen.
+
+- ****Steuerformulare anfordern****
+
+    Der Benutzer möchte Steuerformulare anfordern.
+
+- ****Verloren gegangenen oder gestohlenen Karte melden****
+
+    Der Benutzer möchte eine verloren gegangene oder gestohlene Karte melden.
+
 ### Off-Topic
 
 - ****Keines der Obigen****
 
-    Anforderungen oder Fragen, die für die Dienstleistung nicht relevant sind
+    Der Benutzer sendet eine Anforderung oder eine Frage, die für die Dienstleistung nicht relevant ist
 
 ### Online-Kontozugriff
 
 - ****Online-Kontozugriff****
 
-    Der Benutzer hat eine Frage oder ein Problem bezüglich dem Onlinezugriff auf ein Konto
+    Der Benutzer hat eine Frage oder ein Problem bezüglich des Online-Zugriffs auf ein Konto
+
+### Spar-/Girokonten
+
+- ****Aktivität anzeigen****
+
+    Der Benutzer möchte seine Kontoaktivität anzeigen.
+
+- ****Bankleitzahl anzeigen****
+
+    Der Benutzer möchte seine Bankleitzahl anzeigen.
+
+- ****Banküberweisungen****
+
+    Der Benutzer möchte Banküberweisungen tätigen.
+
+- ****Direktüberweisungen einrichten****
+
+    Der Benutzer möchte eine Direktüberweisung für sein Spar- oder Girokonto einrichten.
+
+- ****Geldüberweisung****
+
+    Der Benutzer möchte Geld von seinen Konten auf externe Konten überweisen.
+
+- ****Scheckbuch anfordern****
+
+    Der Benutzer fordert ein Scheckbuch an.
 
 ### Zahlung
 
@@ -296,11 +353,11 @@ lastupdated: "2017-08-17"
 
 - ****Fehlende oder falsche Zahlungen****
 
-    Fragen zu einer Zahlung, die fehlt, fehlgeschlagen ist oder abgelehnt wurde
+    Der Benutzer hat Fragen zu einer Zahlung, die fehlt, fehlgeschlagen ist oder abgelehnt wurde
 
 - ****Ratenzahlung****
 
-    Fragen zur Ratenzahlung
+    Der Benutzer hat eine Frage zu Ratenzahlungen
 
 - ****Verspätungszuschlag****
 
@@ -316,7 +373,7 @@ lastupdated: "2017-08-17"
 
 - ****Zahlungen allgemein****
 
-    Fragen zu Zahlungen, einschließlich Zahlungstermin und Bearbeitungsstatus
+    Der Benutzer hat Fragen zu Zahlungen, einschließlich der Zahlungsplanung und des Verarbeitungsstatus
 
 - ****Zahlungsfälligkeitsdatum****
 
@@ -346,5 +403,4 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_de.html#top)
-
+[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_banking_de.html#top)

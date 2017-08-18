@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-17"
 
 ---
 
@@ -72,21 +72,17 @@ lastupdated: "2017-08-10"
 
     Questions ou demandes relatives à la fréquence ou aux dates de début et de fin d'un cycle de facturation
 
-- ****Demande de solde****
-
-    L'utilisateur souhaite connaître le solde ou a des questions à propos du solde.
-
 - ****Demander une copie de la facture****
 
     L'utilisateur souhaite obtenir la copie d'une facture pour la période de facturaction actuelle ou précédente.
 
 - ****Explication de facture****
 
-    Questions sur les prix de ligne article d'une facture.
+    Questions sur les éléments, charges et frais figurant sur une facture
 
-- ****Explication de frais spécifiques****
+- ****Explication de frais particuliers****
 
-    L'utilisateur souhaite obtenir une explication sur des frais spécifiques d'une facture.
+    L'utilisateur souhaite obtenir une explication sur des frais particuliers d'une facture.
 
 - ****Facturation générale****
 
@@ -107,6 +103,10 @@ lastupdated: "2017-08-10"
 - ****Relevés de facture papier****
 
     Questions sur la version papier des factures d'un compte
+
+- ****Renseignements sur le solde****
+
+    L'utilisateur souhaite connaître son solde ou a des questions à son propos.
 
 ### Gestion de la commande
 
@@ -134,7 +134,7 @@ lastupdated: "2017-08-10"
 
 - ****Demande du mot de passe du profil****
 
-    L'utilisateur souhaite retrouver ou modifier le mot de passe associé au compte.
+    L'utilisateur souhaite récupérer ou modifier le mot de passe associé au compte
 
 - ****Echanger des points****
 
@@ -156,7 +156,7 @@ lastupdated: "2017-08-10"
 
     L'utilisateur souhaite modifier le numéro de téléphone du compte qui est utilisé pour le contacter.
 
-- ****Modifier les noms du compte****
+- ****Modifier les noms associés au compte****
 
     L'utilisateur souhaite modifier les noms associés à un compte.
 

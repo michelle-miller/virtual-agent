@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-17"
 
 ---
 
@@ -41,7 +41,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Online-Rechnungen****
 
-    Der Benutzer will den Online-Kontoauszug sehen oder zum Online-Kontoauszug wechseln
+    Der Benutzer will den Online-Kontoauszug sehen oder zum Online-Kontoauszug wechseln.
 
 - ****Papierrechnungen****
 
@@ -107,11 +107,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Beendung****
 
-    Die Abschiedswörter, die zur Beendung des Gesprächs verwendet werden
+    Die Abschiedsworte, die zur Beendung des Gesprächs verwendet werden.
 
 - ****Begrüßung****
 
-    Die Begrüßung, die wir bei der Kommunikation mit dem Benutzer verwenden
+    Die Begrüßung, die wir bei der Kommunikation mit dem Benutzer verwenden.
 
 - ****Hilfe****
 
@@ -125,9 +125,9 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte sicherstellen, dass alle im Chat bereitgestellten Informationen geschützt und sicher sind.
 
-- ****Systeminformation****
+- ****Systeminformationen****
 
-    Fragen über die Virtuell-Agent-Technologie, mit der sie interagieren
+    Fragen zur Technologie des virtuellen Agenten, mit dem der Benutzer interagiert
 
 ### Information
 
@@ -151,21 +151,21 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte Informationen zu Stellenangeboten
 
-- ****Rufnummer der Filiale****
-
-    Fragen zu Rufnummern von Filialen
-
 - ****Standort der Filiale****
 
     Fragen zu Standorten von Filialen
 
+- ****Telefonnummer der Filiale****
+
+    Fragen zu Telefonnummern von Filialen
+
 - ****Termin vereinbaren****
 
-    Der Benutzer möchte einen Termin ohne einen spezifischen Ort zu vereinbaren
+    Der Benutzer möchte einen Termin ohne einen spezifischen Ort vereinbaren
 
 - ****Termin verschieben****
 
-    Der Benutzer möchte einen Termin verschieben.
+    Der Benutzer möchte einen Termin verschieben
 
 - ****Verfügbare Produkte****
 
@@ -187,11 +187,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Anfrage der Rechnungsanschrift****
 
-    Der Benutzer möchte die Rechnungsanschrift eines Kontos erfahren.
+    Der Benutzer möchte die Rechnungsanschrift eines Kontos erfahren
 
 - ****Berechtigte Benutzer****
 
-    Der Benutzer möchte den Zugriff auf ein Konto ändern
+    Der Benutzer möchte die Zugriffsberechtigungen für ein Konto ändern
 
 - ****E-Mail aktualisieren****
 
@@ -243,7 +243,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Profilsicherheitsfragen****
 
-    Der Benutzer möchte die dem Konto zugehörigen Sicherheitsfragen überprüfen oder ändern
+    Der Benutzer möchte die dem Konto zugehörigen Sicherheitsfragen anzeigen oder ändern
 
 - ****Punkte einlösen****
 
@@ -259,13 +259,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Telefonnummer aktualisieren****
 
-    Der Benutzer will die Rufnummer des Kontos ändern, die zur Kontaktaufnahme benutzt wird
+    Der Benutzer will die Telefonnummer des Kontos ändern, die zur Kontaktaufnahme verwendet wird.
 
-### Nicht relevant
+### Off-Topic
 
-- ****Keine der oben genannten****
+- ****Keines der Obigen****
 
-    Anfragen und Fragen, die für die Leistungen nicht relevant sind.
+    Anforderungen oder Fragen, die für die Dienstleistung nicht relevant sind
 
 ### Online-Kontozugriff
 
@@ -275,6 +275,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Zahlung
 
+- ****Aktualisierung der Zahlungsart****
+
+    Der Benutzer möchte die Zahlungsdetails (z. B. die zu belastende Kreditkarte) ändern
+
 - ****Akzeptierte Zahlungsarten****
 
     Der Benutzer möchte Informationen über die Zahlungsarten, die akzeptiert werden
@@ -283,9 +287,9 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte die zu seinem Kreditkonto zugehörigen Bankdaten angeben
 
-- ****Eine Zahlung leisten****
+- ****Eine Zahlung tätigen****
 
-    Der Benutzer möchte eine Zahlung leisten
+    Der Benutzer möchte eine Zahlung tätigen
 
 - ****Erstattung****
 
@@ -311,17 +315,9 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte das Fälligkeitsdatum der Zahlung für eine aktuelle Rechnung aufschieben
 
-- ****Zahlung vor Ort****
-
-    Der Benutzer möchte die Rechnungen im Laden bezahlen
-
 - ****Zahlungen allgemein****
 
     Fragen zu Zahlungen, einschließlich Zahlungstermin und Bearbeitungsstatus
-
-- ****Zahlungsart aktualisieren****
-
-    Der Benutzer möchte die Zahlungsdaten (z. B. die zu belastende Kreditkarte) ändern
 
 - ****Zahlungsfälligkeitsdatum****
 
@@ -331,21 +327,25 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte das Datum ändern, an dem zukünftige Zahlungen fällig sind
 
-- ****Zahlungshistorie****
-
-    Der Benutzer möchte eine Zusammenfassung der letzten Zahlungen sehen
-
 - ****Zahlungsmodalitäten****
 
     Der Benutzer möchte in Raten zahlen
 
 - ****Zahlungsnachforschung****
 
-    Benutzer hat allgemeine Fragen über vorherige Zahlungen
+    Benutzer hat allgemeine Fragen über vergangene Zahlungen
+
+- ****Zahlungsorte****
+
+    Der Benutzer möchte in der Filiale eine Zahlung tätigen
 
 - ****Zahlungsüberprüfung****
 
     Der Benutzer möchte eine Bestätigung über den Eingang einer Zahlung
+
+- ****Zahlungsübersicht****
+
+    Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
 [![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_de.html#top)
 

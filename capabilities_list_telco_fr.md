@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-17"
 
 ---
 
@@ -72,21 +72,17 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Questions ou demandes relatives à la fréquence ou aux dates de début et de fin d'un cycle de facturation
 
-- ****Demande de solde****
-
-    L'utilisateur souhaite connaître le solde ou a des questions à propos du solde.
-
 - ****Demander une copie de la facture****
 
     L'utilisateur souhaite obtenir la copie d'une facture pour la période de facturaction actuelle ou précédente.
 
 - ****Explication de facture****
 
-    Questions sur les prix de ligne article d'une facture.
+    Questions sur les éléments, charges et frais figurant sur une facture
 
-- ****Explication de frais spécifiques****
+- ****Explication de frais particuliers****
 
-    L'utilisateur souhaite obtenir une explication sur des frais spécifiques d'une facture.
+    L'utilisateur souhaite obtenir une explication sur des frais particuliers d'une facture.
 
 - ****Facturation générale****
 
@@ -108,23 +104,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Questions sur la version papier des factures d'un compte
 
+- ****Renseignements sur le solde****
+
+    L'utilisateur souhaite connaître son solde ou a des questions à son propos.
+
 - ****Statut du crédit****
 
     L'utilisateur veut savoir si le statut de son crédit lui permet de bénéficier d'un changement de services ou d'équipement.
-
-### Gestion de l'appareil
-
-- ****Activer l'appareil****
-
-    Questions sur l'activation de l'appareil
-
-- ****Echanger l'appareil****
-
-    Questions sur le changement d'appareils, y compris le transfert des services et des contacts
-
-- ****Gestion générale de l'appareil****
-
-    Questions sur un appareil, ses utilisations, sa garantie et les possibilités de réparation
 
 ### Gestion de la commande
 
@@ -148,97 +134,21 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite connaître le statut d'une commande déjà passée.
 
-### Gestion du compte
+### Gestion des appareils
 
-- ****Demande du mot de passe du profil****
+- ****Activer l'appareil****
 
-    L'utilisateur souhaite retrouver ou modifier le mot de passe associé au compte.
+    Questions sur l'activation de l'appareil
 
-- ****Echanger des points****
+- ****Echanger l'appareil****
 
-    L'utilisateur souhaite utiliser ses points pour effectuer un achat ou pour échanger leur valeur.
+    Questions sur le changement d'appareils, y compris le transfert des services et des contacts
 
-- ****Echéance d'éligibilité pour une mise à niveau****
+- ****Gestion générale de l'appareil****
 
-    L'utilisateur veut savoir quand il deviendra éligible pour une mise à niveau de son téléphone.
+    Questions sur un appareil, ses utilisations, sa garantie et les possibilités de réparation
 
-- ****Gestion générale du compte****
-
-    Questions générales sur la gestion du compte, comme l'ajout d'utilisateurs ou la résiliation d'un compte
-
-- ****Mettre à jour l'adresse****
-
-    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse électronique du compte.
-
-- ****Mettre à jour l'adresse électronique****
-
-    L'utilisateur souhaite modifier l'adresse électronique de contact du compte.
-
-- ****Mettre à jour le numéro de téléphone de contact****
-
-    L'utilisateur souhaite modifier le numéro de téléphone du compte qui est utilisé pour le contacter.
-
-- ****Modifier les noms du compte****
-
-    L'utilisateur souhaite modifier les noms associés à un compte.
-
-- ****Numéro de compte client****
-
-    Questions sur le numéro de compte d'un utilisateur
-
-- ****Ouvrir un compte****
-
-    L'utilisateur souhaite ouvrir un compte.
-
-- ****Privilèges du compte****
-
-    L'utilisateur souhaite connaître les produits ou les services auxquels il a droit grâce à son compte.
-
-- ****Profil du client****
-
-    Questions sur les détails du compte d'un utilisateur
-
-- ****Programme de fidélité clients****
-
-    L'utilisateur souhaite se renseigner sur le programme de fidélité clients.
-
-- ****Questions de sécurité du profil****
-
-    L'utilisateur souhaite examiner ou modifier les questions de sécurité associées au compte.
-
-- ****Renseignement sur l'adresse de facturation****
-
-    L'utilisateur souhaite connaître l'adresse de facturation d'un compte.
-
-- ****Résilier le compte****
-
-    L'utilisateur souhaite résilier ou clôturer un compte.
-
-- ****Statut d'éligibilité pour une mise à niveau****
-
-    L'utilisateur souhaite savoir s'il a actuellement droit à une mise à niveau de son téléphone.
-
-- ****Statut de fidélité****
-
-    L'utilisateur souhaite se renseigner sur le statut du programme de fidélité clients et sur son éligibilité.
-
-- ****Transférer des points****
-
-    L'utilisateur souhaite transférer des points entre des comptes.
-
-- ****Utilisateurs autorisés****
-
-    L'utilisateur souhaite modifier les personnes ayant accès à un compte.
-
-- ****Utilisation frauduleuse****
-
-    L'utilisateur souhaite signaler l'utilisation frauduleuse d'une carte ou d'un compte, ou en savoir plus à ce sujet.
-
-- ****Valeur des points****
-
-    L'utlisateur souhaite connaître la valeur de ses points.
-
-### Gestion du service
+### Gestion des services
 
 - ****Activer l'itinérance****
 
@@ -300,6 +210,96 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Questions sur le retrait des options d'un forfait
 
+### Gestion du compte
+
+- ****Demande du mot de passe du profil****
+
+    L'utilisateur souhaite récupérer ou modifier le mot de passe associé au compte
+
+- ****Echanger des points****
+
+    L'utilisateur souhaite utiliser ses points pour effectuer un achat ou pour échanger leur valeur.
+
+- ****Echéance d'éligibilité pour une mise à niveau****
+
+    L'utilisateur veut savoir quand il deviendra éligible pour une mise à niveau de son téléphone.
+
+- ****Gestion générale du compte****
+
+    Questions générales sur la gestion du compte, comme l'ajout d'utilisateurs ou la résiliation d'un compte
+
+- ****Mettre à jour l'adresse****
+
+    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse électronique du compte.
+
+- ****Mettre à jour l'adresse électronique****
+
+    L'utilisateur souhaite modifier l'adresse électronique de contact du compte.
+
+- ****Mettre à jour le numéro de téléphone de contact****
+
+    L'utilisateur souhaite modifier le numéro de téléphone du compte qui est utilisé pour le contacter.
+
+- ****Modifier les noms associés au compte****
+
+    L'utilisateur souhaite modifier les noms associés à un compte.
+
+- ****Numéro de compte client****
+
+    Questions sur le numéro de compte d'un utilisateur
+
+- ****Ouvrir un compte****
+
+    L'utilisateur souhaite ouvrir un compte.
+
+- ****Privilèges du compte****
+
+    L'utilisateur souhaite connaître les produits ou les services auxquels il a droit grâce à son compte.
+
+- ****Profil du client****
+
+    Questions sur les détails du compte d'un utilisateur
+
+- ****Programme de fidélité clients****
+
+    L'utilisateur souhaite se renseigner sur le programme de fidélité clients.
+
+- ****Questions de sécurité du profil****
+
+    L'utilisateur souhaite examiner ou modifier les questions de sécurité associées au compte.
+
+- ****Renseignement sur l'adresse de facturation****
+
+    L'utilisateur souhaite connaître l'adresse de facturation d'un compte.
+
+- ****Résilier le compte****
+
+    L'utilisateur souhaite résilier ou clôturer un compte.
+
+- ****Statut d'éligibilité pour une mise à niveau****
+
+    L'utilisateur souhaite savoir s'il a actuellement droit à une mise à niveau de son téléphone.
+
+- ****Statut de fidélité****
+
+    L'utilisateur souhaite se renseigner sur le statut du programme de fidélité clients et sur son éligibilité.
+
+- ****Transférer des points****
+
+    L'utilisateur souhaite transférer des points entre des comptes.
+
+- ****Utilisateurs autorisés****
+
+    L'utilisateur souhaite modifier les personnes ayant accès à un compte.
+
+- ****Utilisation frauduleuse****
+
+    L'utilisateur souhaite signaler l'utilisation frauduleuse d'une carte ou d'un compte, ou en savoir plus à ce sujet.
+
+- ****Valeur des points****
+
+    L'utlisateur souhaite connaître la valeur de ses points.
+
 ### Hors sujet
 
 - ****Aucun****
@@ -336,9 +336,9 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite planifier un rendez-vous sans préciser le lieu.
 
-- ****Prendre un rendez-vous dans un magasin****
+- ****Prendre un rendez-vous en magasin****
 
-    L'utilisateur souhaite planifier un rendez-vous dans un magasin.
+    L'utilisateur souhaite prendre un rendez-vous en magasin
 
 - ****Prendre un rendez-vous à domicile****
 
@@ -356,13 +356,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite replanifier un rendez-vous
 
+- ****Replanifier un rendez-vous au magasin****
+
+    L'utilisateur souhaite replanifier un rendez-vous au magasin.
+
 - ****Replanifier un rendez-vous à domicile****
 
     L'utilisateur souhaite replanifier un rendez-vous à domicile
-
-- ****Rééchelonner un rendez-vous dans un magasin****
-
-    L'utilisateur souhaite replanifier un rendez-vous.
 
 - ****Services disponibles dans le magasin****
 

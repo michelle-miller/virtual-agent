@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-17"
 
 ---
 
@@ -25,10 +25,9 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ## Detalles
 
-### Acceso a cuenta en línea
+### Acceso de cuenta en línea
 
-
-- ****Acceso a cuenta en línea****
+- ****Acceso de cuenta en línea****
 
     El usuario tiene una pregunta o problema sobre el acceso a una cuenta en línea
 
@@ -36,131 +35,139 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Ayuda****
 
-    Preguntas de las opciones disponibles cuando se usa el agente virtual
+    Preguntas sobre qué opciones están disponibles al utilizar el agente virtual.
 
-- ****Conectar con un agente****
+- ****Conectar con agente****
 
-    El usuario quiere hablar con un agente humano de atención al cliente
+    El usuario desea hablar con una persona del servicio de atención al cliente
 
-- ****Final****
+- ****Finalización****
 
-    Despedidas usadas a terminar la conversación
+    Palabras de despedida utilizadas para finalizar la conversación.
 
 - ****Garantía de seguridad****
 
-    El usuario quiere asegurarse que cualquier información que comparte en el chat está protegida y segura.
+    El usuario desea garantías de que cualquier información que proporciona en la conversación está protegida y segura.
 
-- ****Información de sistema****
+- ****Información del sistema****
 
-    Preguntas de la tecnología del agente virtual con el que se está interactuando.
+    Preguntas sobre la tecnología del agente virtual con la que interactúan
 
 - ****Saludos****
 
-    Saludos usados al entablar una conversación con el usuario.
+    Saludos utilizados para implicar al usuario en la conversación
 
 ### Facturación
 
-- ****Ajuste de facturación****
+- ****Ajuste de factura****
 
-    El usuario quiere un descuento en una factura debido al mal servicio o a un cargo inválido
+    El usuario desea un descuento en una factura por un servicio deficiente o un cargo no válido
 
 - ****Cargos recurrentes****
 
-    Preguntas de cargos recurrentes en una factura, por ejemplo mensajería de texto ilimitado, correo de voz visual, cargos de planes familiares.
+    Preguntas sobre cargos recurrentes de una factura como, por ejemplo, cargos por mensajes ilimitados, buzón de voz visual o cargos de planes familiares
 
 - ****Ciclo de facturación****
 
-    Preguntas o Solicitudes acerca de la frecuencia, o la fecha de inicio o de fin del ciclo de facturación de un usuario
+    Preguntas o solicitudes sobre la frecuencia, o fechas de inicio o finalización del ciclo de facturación de un usuario
 
-- ****Conflicto de facturación****
+- ****Consulta de saldo****
 
-    El usuario quiere disputar un cargo en una factura.
+    El usuario desea saber el saldo de la cuenta o tiene preguntas sobre el saldo
 
-- ****Estados de cuenta en línea****
+- ****Disputa de una factura****
 
-    El usuario quiere ver un estado de cuenta en línea o cambiarse a estado de cuenta solamente en línea.
+    El usuario desea debatir un cargo de una factura
 
-- ****Estados de cuenta impresos****
+- ****Estado de crédito****
 
-    Preguntas de copias impresas de facturas por una cuenta
+    El usuario desea saber si su estado de crédito lo capacita para un cambio en los servicios o el equipo
 
-- ****Explicación de cargos únicos****
+- ****Explicación de cargo único****
 
-    El usuario quiere una explicación de un cargo específico en una factura
+    El usuario desea una explicación de un cargo específico de una factura
 
-- ****Explicación de factura****
+- ****Explicación de la factura****
 
-    Preguntas acerca de cargos en una factura.
+    Preguntas sobre cargos de línea de detalle en una factura.
 
 - ****Facturación general****
 
-    Preguntas acerca de una factura, como la cantidad de uso o tarifas
-
-- ****Pedir una copia de factura****
-
-    El usuario quiere una copia de una factura del periodo de facturación actual o previo.
+    Preguntas sobre una factura como, por ejemplo, la cantidad de uso o tarifas de uso
 
 - ****Recordatorios de pago****
 
-    Preguntas de recordatorios de pago, por ejemplo qué son y cómo configurarlos o pararlos.
+    Preguntas sobre recordatorios de pago como, por ejemplo, lo qué son y cómo activarlos o detenerlos
 
-- ****Situación crediticia****
+- ****Resúmenes de factura en línea****
 
-    El usuario quiere saber si su situación crediticia le califica para un cambio en servicios o equipo.
+    El usuario desea ver una resumen en línea, o conmutar solo a resúmenes en línea
 
-- ****Solicitud de saldo****
+- ****Resúmenes de factura en papel****
 
-    El usuario quiere saber el saldo de la cuenta o tiene preguntas sobre el saldo
+    Preguntas sobre copias en papel de facturas para una cuenta
 
-### Gestión de Cuenta
+- ****Solicitar copia de factura****
+
+    El usuario desea una copia de una factura del periodo de facturación actual o anterior
+
+### Gestión de cuentas
 
 - ****Abrir una cuenta****
 
-    El usuario quiere abrir una cuenta
+    El usuario desea abrir una cuenta
+
+- ****Actualizar calendario de elegibilidad****
+
+    El usuario desea saber cuándo será apto para una actualización de teléfono
 
 - ****Actualizar correo electrónico****
 
-    El usuario quiere cambiar el correo electrónico de contacto en la cuenta
+    El usuario desea cambiar la dirección de correo electrónico de contacto de contacto en la cuenta.
 
 - ****Actualizar dirección****
 
-    El usuario desea cambiar la dirección de facturación o de correo de la cuenta
+    El usuario desea cambiar la dirección de facturación o de envío de correos en la cuenta.
 
-- ****Actualizar el estado de elegibilidad****
+- ****Actualizar estado de elegibilidad****
 
-    El usuario quiere saber si, actualmente, tiene derecho a una actualización telefónica
-
-- ****Actualizar el tiempo de elegibilidad****
-
-    El usuario quiere saber cuándo tendrá derecho a una actualización telefónica
+    El usuario desea saber si, actualmente, es apto para una actualización de teléfono.
 
 - ****Actualizar número de teléfono de contacto****
 
-    El usuario desea cambiar el número de telefóno de contacto de su cuenta.
+    El usuario desea cambiar el número de teléfono en la cuenta que se utiliza para contactar con ellos.
 
-- ****Cambiar el nombre de cuenta****
+- ****Cambio de nombre de cuenta****
 
-    El usuario quiere cambiar los nombres relacionados con una cuenta
+    El usuario desea cambiar los nombres que están asociados a una cuenta
 
 - ****Cancelar una cuenta****
 
-    El usuario quiere cancelar o cerrar una cuenta
+    El usuario desea cancelar o cerrar una cuenta.
 
 - ****Canjear puntos****
 
-    El usuario quiere canjear puntos para hacer una compra o canjear su valor.
+    El usuario desea canjear puntos para realizar una compra o canjear su valor
 
-- ****Estado de Lealtad****
+- ****Consulta de contraseña de perfil****
 
-    El usuario quiere saber su estado o elegibilidad para el programa de lealtad de clientes
+    El usuario desea recuperar o cambiar la contraseña que está asociada a la cuenta
+
+- ****Consulta de dirección de facturación****
+
+    El usuario desea saber la dirección de facturación de una cuenta
+
+- ****Estado de fidelización****
+
+    El usuario desea saber su elegibilidad o el estado de su programa de fidelidad de cliente
 
 - ****Gestión general de cuentas****
 
-    Preguntas generales de cuenta, por ejemplo cómo añadir usuarios o cancelar una cuenta.
+    Preguntas generales de cuenta como, por ejemplo, cómo añadir usuarios o cancelar una cuenta
 
 - ****Número de cuenta de cliente****
 
-    Preguntas sobre el número de cuenta de un usuario
+    Preguntas sobre un número de cuenta de usuario
 
 - ****Perfil de Cliente****
 
@@ -168,314 +175,306 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Preguntas de seguridad de perfil****
 
-    El usuario quiere revisar o cambiar las preguntas de seguridad que están relacionadas con la cuenta.
+    El usuario desea revisar o cambiar las preguntas de seguridad que están asociadas a la cuenta.
 
 - ****Privilegios de cuenta****
 
-    El usuario desea información de los productos o servicios potenciales disponibles según su cuenta.
+    El usuario desea saber qué productos o servicios potenciales están disponibles para él basándose en su cuenta
 
-- ****Programa de Lealtad de Clientes****
+- ****Programa de fidelidad de cliente****
 
-    El usuario desea información sobre los programas de lealtad de clientes
-
-- ****Solicitud de la contraseña de perfil****
-
-    El usuario quiere recuperar o cambiar la contraseña ligada con la cuenta.
-
-- ****Solicitud de la dirección de facturación****
-
-    El usuario quiere saber la dirección de facturación en una cuenta
+    El usuario desea obtener más información sobre programas de fidelidad de cliente
 
 - ****Transferir puntos****
 
-    El usuario quiere transferir puntos entre cuentas
+    El usuario desea transferir puntos entre cuentas
 
-- ****Uso Fraudulento****
+- ****Uso fraudulento****
 
-    El usuario quiere informar sobre el uso fraudulento de una tarjeta o cuenta.
+    El usuario desea investigar o notificar el uso fraudulento de una tarjeta o una cuenta.
 
 - ****Usuarios autorizados****
 
-    El usuario quiere cambiar quien tiene acceso a una cuenta
+    El usuario desea cambiar quién tiene acceso a una cuenta.
 
-- ****Valor de puntos****
+- ****Valor de punto****
 
-    El usuario quiere saber el valor de sus puntos.
+    El usuario desea saber cuánto valen sus puntos
 
-### Gestión de Pedido
+### Gestión de dispositivos
 
-- ****Cambiar pedido****
+- ****Activación de dispositivo****
 
-    El usuario quiere cambiar o modificar un pedido realizado
-
-- ****Cancelar pedido****
-
-    El usuario desea cancelar el pedido de un dispositivo.
-
-- ****Crear pedido de producto****
-
-    El usuario desea realizar el pedido de un nuevo dispositivo
-
-- ****Estado de pedido****
-
-    El usuario quiere saber el estado de un pedido que ha sido realizado.
-
-- ****Gestión general de pedido****
-
-    Preguntas acerca de pedidos, incluyendo métodos de realizar un pedido, entregas e historial de pedidos.
-
-### Gestión de Servicio
-
-- ****Activar itinerancia****
-
-    El usuario quiere activar itinerancia internacional
-
-- ****Activar plan prepago****
-
-    El usuario quiere activar un plan prepago
-
-- ****Añadir funciones de servicio****
-
-    Preguntas de añadir funciones de servicio que no están la cuenta, como bloqueo de llamadas.
-
-- ****Añadir un plan de seguro****
-
-    Preguntas sobre añadir cobertura de seguro a una cuenta
-
-- ****Cambiar número telefónico de móvil****
-
-    Preguntas sobre cómo cambiar el número telefónico de un dispositivo móvil.
-
-- ****Cambiar un plan tarifario****
-
-    Preguntas sobre cambio de planes, incluyendo opciones para reducir costos
-
-- ****Consulta de itinerancia****
-
-    Preguntas del uso de un teléfono fuera del país nativo
-
-- ****Consulta de plan tarifario internacional****
-
-    Preguntas sobre planes internacionales, incluyendo países permitidos y tarificación
-
-- ****Consulta de área de cobertura****
-
-    Preguntas de cobertura de red
-
-- ****Desactivar itinerancia****
-
-    El usuario quiere desactivar la itinerancia internacional
-
-- ****Desactivar plan prepago****
-
-    El usuario quiere desactivar un plan prepago
-
-- ****Desbloquear red****
-
-    El usuario quiere liberar su aparato de una red de servicio específica
-
-- ****Gestión general del servicio****
-
-    Preguntas generales del servicio, incluyendo control parental, suspensión, y reconexión.
-
-- ****Quitar funciones de servicio****
-
-    Preguntas de eliminar funciones de servicio de un plan
-
-- ****Solicitud de plan tarifario****
-
-    Preguntas sobre el plan tarifario al que el usuario está suscrito
-
-### Gestión del dispositivo
-
-- ****Activación del dispositivo****
-
-    Preguntas acerca de la activación de un dispositivo
+    Preguntas sobre la activación de un dispositivo
 
 - ****Gestión general de dispositivos****
 
-    El usuario necesita ayuda con un problema,  dispositivo o  servicio
+    Preguntas sobre un dispositivo, sus usos y opciones de garantía y reparación
 
 - ****Intercambiar dispositivo****
 
-    Preguntas acerca de un dispositivo, sus usos, opciones de garantía y reparación
+    Preguntas sobre el cambio de dispositivos, incluyendo la transferencia de servicios y contactos
+
+### Gestión de pedidos
+
+- ****Cambiar pedido****
+
+    El usuario desea cambiar o modificar un pedido realizado
+
+- ****Cancelar pedido****
+
+    El usuario desea cancelar un pedido para un dispositivo
+
+- ****Crear pedido de producto****
+
+    El usuario desea realizar un pedido para un nuevo dispositivo
+
+- ****Estado de pedido****
+
+    El usuario desea saber el estado de un pedido que se ha realizado.
+
+- ****Gestión general de pedidos****
+
+    Preguntas sobre pedidos, incluyendo métodos para realizar pedidos, envíos e historial de pedidos
+
+### Gestión de servicios
+
+- ****Activar la itinerancia****
+
+    El usuario desea activar la itinerancia internacional
+
+- ****Activar plan de prepago****
+
+    El usuario desea activar un plan de prepago
+
+- ****Añadir características de servicio****
+
+    Preguntas sobre cómo añadir características de servicio que todavía no están en la cuenta como el bloqueo de llamadas
+
+- ****Añadir seguro****
+
+    Preguntas sobre cómo añadir una cobertura de seguro a una cuenta
+
+- ****Cambiar número de teléfono móvil****
+
+    Preguntas sobre cómo cambiar el número de teléfono móvil de un dispositivo
+
+- ****Cambio de plan de precios****
+
+    Preguntas sobre cómo cambiar planes, incluyendo opciones para reducir costes
+
+- ****Consulta de itinerancia****
+
+    Preguntas sobre cómo utilizar un teléfono fuera del país de origen
+
+- ****Consulta de plan de precios****
+
+    Preguntas sobre el plan de precios al que está suscrito el usuario
+
+- ****Consulta de plan de tarifas internacional****
+
+    Preguntas sobre planes internacionales, incluyendo países soportados y precios
+
+- ****Consulta de un área de cobertura****
+
+    Preguntas sobre cobertura de red
+
+- ****Desactivar itinerancia****
+
+    El usuario desea desactivar la itinerancia internacional
+
+- ****Desactivar plan de prepago****
+
+    El usuario desea desactivar un plan de prepago
+
+- ****Desbloqueo de red****
+
+    El usuario desea desbloquear su dispositivo de una red de servicio específica
+
+- ****Eliminar características de servicio****
+
+    Preguntas sobre cómo eliminar características de servicio de un plan
+
+- ****Gestión general de servicios****
+
+    Preguntas generales sobre el servicio, incluyendo controles parentales, suspensión y reconexión
 
 ### Información
 
 - ****Acerca de nosotros****
 
-    El usuario solicita  información general sobre la empresa
+    El usuario solicita información general sobre la empresa
 
-- ****Cambiar cita****
+- ****Buscar tienda más cercana****
 
-    El usuario quiere  una cita
+    El usuario desea encontrar la ubicación de la tienda más cercana
 
-- ****Cambiar cita en domicilio****
+- ****Contáctenos****
 
-    El usuario desea cambiar una cita en su domicilio
+    El usuario desea información de contacto de la empresa
 
-- ****Cambiar cita en tienda****
+- ****Crear cita****
 
-    El usuario desea cambiar una cita en tienda
+    El usuario desea programar una cita sin especificar una ubicación
 
-- ****Contacte con nosotros****
+- ****Crear cita en casa****
 
-    El usuario quiere información de contacto de la empresa
+    El usuario desea programar una cita en su casa
 
-- ****Encontrar la tienda más cercana****
+- ****Crear una cita en la tienda****
 
-    El usuario quiere encontrar la tienda más cercana
+    El usuario desea programar una cita en una tienda
 
-- ****Horario de tienda****
+- ****Horario de la tienda****
 
-    Preguntas acerca del horario comercial de la tienda
+    Preguntas sobre el horario de trabajo de la tienda
 
 - ****Información general****
 
-    El usuario solicita información corporativa que no está destinada a otro propósito.
+    El usuario desea información sobre la empresa que es manejada por otro intento
 
-- ****Número telefónico de tienda****
+- ****Número de teléfono de tienda****
 
-    Preguntas acerca de números telefónicos de tiendas
-
-- ****Oportunidades de empleo****
-
-    El usuario quiere saber sobre oportunidades de empleo.
+    Preguntas sobre números de teléfono de tienda
 
 - ****Productos disponibles****
 
-    El usuario quiere saber qué productos están disponibles para su compra.
+    El usuario desea saber qué productos están disponibles para la compra
 
-- ****Programar cita en domicilio****
+- ****Puestos vacantes****
 
-    El usuario desea programar una cita en su domicilio.
-
-- ****Reservar cita****
-
-    El usuario desea programar una cita sin especificar la ubicación.
-
-- ****Reservar cita en tienda****
-
-    El usuario desea programar una cita en tienda.
+    El usuario desea saber sobre oportunidades de trabajo.
 
 - ****Servicios de tienda****
 
-    El usuario quiere saber acerca de los servicios que se ofrecen en las tiendas.
+    El usuario desea saber los servicios que se proporcionan en ubicaciones de tienda.
 
-- ****Ubicación de tienda****
+- ****Ubicación de la tienda****
 
-    Preguntas acerca de ubicaciones de tiendas
+    Preguntas sobre ubicaciones de tienda
 
-### Pagos
+- ****Volver a programa cita****
 
-- ****Actualizar método de pago****
+    El usuario desea volver a programa una cita
 
-    El usuario desea cambiar los detalles de cobro de la cuenta (Por ejemplo,  tarjeta de crédito de cargo)
+- ****Volver a programar una cita en casa****
 
-- ****Cambiar la fecha de vencimiento de pago****
+    El usuario desea volver a programar un cita en su casa
 
-    El usuario quiere cambiar la fecha en que se vencen los pagos futuros
+- ****Volver a programar una cita en la tienda****
 
-- ****Cargos por mora****
+    El usuario desea volver a programar una cita en la tienda
 
-    El usuario desea información acerca de los cargos por demora
+### Pago
 
-- ****Diferir pago****
+- ****Actualización del método de pago****
 
-    El usuario desea realizar pagos aplazados
+    El usuario desea cambiar los detalles de pago (la tarjeta de crédito para realizar el cargo, por ejemplo) en la cuenta
 
-- ****Disposiciones de pago****
+- ****Acuerdos de pago****
 
-    El usuario quiere realizar pagos con el tiempo
+    El usuario desea realizar pagos en un periodo de tiempo
+
+- ****Cambiar fecha de vencimiento de pago****
+
+    El usuario desea cambiar la fecha en la que vencen futuros pagos
+
+- ****Cargos por demora****
+
+    El usuario desea conocer los cargos por demora
+
+- ****Cuotas de pago****
+
+    Preguntas sobre cómo pagar una factura en cuotas
+
+- ****Falta un pago o se ha aplicado mal****
+
+    Preguntas sobre un pago que falta, que no se ha realizado o que ha sido rechazado
 
 - ****Fecha de vencimiento de pago****
 
-    Preguntas de cuándo se vence el próximo pago.
+    Preguntas sobre cuándo vence el pago siguiente
+
+- ****Hacer un pago****
+
+    El usuario desea hacer un pago
 
 - ****Historial de pago****
 
-    El usuario quiere ver el resumen de pagos pasados
+    El usuario desea ver un resumen de pagos pasados
 
 - ****Información bancaria****
 
-    El usuario desea proporcionar información bancaria asociada a su cuenta de crédito
+    El usuario desea proporcionar la información bancaria asociada a su cuenta de crédito
 
 - ****Investigación de pago****
 
     El usuario tiene preguntas generales sobre pagos pasados
 
-- ****Métodos aceptados de pago****
+- ****Métodos de pago aceptados****
 
-    El usuario desea información acerca de los métodos de pago aceptados
-
-- ****Pagar en cuotas****
-
-    Preguntas sobre el pago de facturas en  cuotas
-
-- ****Pago Faltante o Malversado****
-
-    Preguntas de un pago faltante, no procesado o rechazado
+    El usuario desea saber qué métodos de pago están aceptados
 
 - ****Pago general****
 
-    Preguntas sobre pagos, incluyendo programación de pagos y estados de proceso
+    Preguntas sobre pagos, incluyendo la planificación de pagos y el estado de proceso
 
-- ****Pagos recurrentes (Autopago)****
+- ****Pagos recurrentes (pago automático)****
 
-    El usuario quiere empezar a realizar pagos recurrentes automáticos
+    El usuario desea empezar a realizar pagos recurrentes
 
-- ****Realizar un pago****
+- ****Posponer pago****
 
-    El usuario quiere realizar un pago
+    El usuario desea retardar la fecha de vencimiento del pago para una factura actual.
 
-- ****Recargar plan prepago****
+- ****Recargar plan de prepago****
 
-    El usuario quiere añadir minutos o valor a su plan prepago o tarjeta SIM
+    El usuario desea añadir minutos o valor a su plan de prepago o tarjeta SIM
 
 - ****Reembolso****
 
-    El usuario quiere un reembolso por un pago
+    El usuario desea el reembolso de un pago
 
 - ****Ubicaciones de pago****
 
-    El usuario quiere realizar un pago en una tienda.
+    El usuario desea hacer un pago en una tienda
 
-- ****Verificación del pago****
+- ****Verificación de pago****
 
-    El usuario quiere confirmación de que un pago fue recibido
+    El usuario desea confirmación de que se ha recibido un pago
 
-### Reclamaciones
+### Quejas
 
 - ****Problemas de red****
 
-    Preguntas acerca de la red, incluyendo problemas de señal, llamadas caídas y cortes.
+    Preguntas sobre la red, incluyendo problemas de señal, llamadas interrumpidas y cortes de electricidad
 
-- ****Reclamación de cliente****
+- ****Queja de cliente****
 
-    El usuario tiene un problema con un dispositivo o servicio.
+    El usuario tiene un problema con un dispositivo o servicio
 
 - ****Resolución de problemas****
 
-    El usuario necesita ayuda con un problema con un aparato o servicio
+    El usuario necesita ayuda con un problema que está teniendo con un dispositivo o servicio
 
-### Sin Relación
+### Tema no pertinente
 
-- ****Ninguno de los anteriores****
+- ****Ninguna de las anteriores****
 
-    Solicitudes o preguntas que no son relevantes al servicio
+    Solicitudes o preguntas que no son relevantes para el servicio
 
 ### Ventas
 
-- ****Consulta de devolución de aparato****
-
-    Preguntas o solicitudes de devolver aparatos no deseados.
-
 - ****Consulta de portabilidad****
 
-    Preguntas o solicitudes de importar un número telefónico de un proveedor de servicios a otro
+    Preguntas o solicitudes sobre la portabilidad de un número de teléfono de un proveedor de servicio a otro
+
+- ****Consulta sobre la devolución de dispositivo****
+
+    Preguntas o solicitudes sobre la devolución de dispositivos no deseados
 
 - ****Ventas generales****
 
-    Preguntas sobre ventas, incluyendo promociones, tarifas y disponibilidad de productos.
+    Preguntas sobre ventas, incluyendo promociones, precios y disponibilidad de producto
 
 [![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_es.html#top)

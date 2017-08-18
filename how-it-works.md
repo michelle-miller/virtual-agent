@@ -43,14 +43,12 @@ The following table summarizes the packs that are offered. Click the **details**
 
 | Language | Customer Service (General) | Energy  | Retail Banking | Telco   |
 |----------|----------------------------|---------|----------------|---------|
-| English  | [details](/docs/services/virtual-agent/capabilities_list_general_en.html?locale=en)   | [details](/docs/services/virtual-agent/capabilities_list_energy.html?locale=en) | [details](/docs/services/virtual-agent/capabilities_list_banking.html?locale=en)        | [details](/docs/services/virtual-agent/capabilities_list_telco_en.html?locale=en) |
-| French   | [details](/docs/services/virtual-agent/capabilities_list_general_fr.html)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
-| German   | [details](/docs/services/virtual-agent/capabilities_list_general_de.html) | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco_de.html) |
-| Italian | [details](/docs/services/virtual-agent/capabilities_list_general_it.html) | n/a | n/a | [details](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
-| Portuguese (Brazilian) | [details](/docs/services/virtual-agent/capabilities_list_general_pt-br.html)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
-| Spanish | [details](/docs/services/virtual-agent/capabilities_list_general_es.html)   | n/a     | n/a            | [details](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
-
-*n/a means not available now.
+| English  | [details](/docs/services/virtual-agent/capabilities_list_general_en.html) | [details](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [details](/docs/services/virtual-agent/capabilities_list_banking_en.html) | [details](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
+| French   | [details](/docs/services/virtual-agent/capabilities_list_general_fr.html) | [details](/docs/services/virtual-agent/capabilities_list_energy_fr.html) | [details](/docs/services/virtual-agent/capabilities_list_banking_fr.html) | [details](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
+| German   | [details](/docs/services/virtual-agent/capabilities_list_general_de.html) | [details](/docs/services/virtual-agent/capabilities_list_energy_de.html)  | [details](/docs/services/virtual-agent/capabilities_list_banking_de.html)  | [details](/docs/services/virtual-agent/capabilities_list_telco_de.html) |
+| Italian | [details](/docs/services/virtual-agent/capabilities_list_general_it.html) |[details](/docs/services/virtual-agent/capabilities_list_energy_it.html) | [details](/docs/services/virtual-agent/capabilities_list_banking_it.html) | [details](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
+| Portuguese (Brazilian) | [details](/docs/services/virtual-agent/capabilities_list_general_pt-br.html) | [details](/docs/services/virtual-agent/capabilities_list_energy_pt-br.html) | [details](/docs/services/virtual-agent/capabilities_list_banking_pt-br.html) | [details](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
+| Spanish | [details](/docs/services/virtual-agent/capabilities_list_general_es.html) | [details](/docs/services/virtual-agent/capabilities_list_energy_es.html) | [details](/docs/services/virtual-agent/capabilities_list_banking_es.html) | [details](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
 
 If the core capabilities do not address a common goal that your customers have, then you can add your own capabilities to supplement those provided in a pack. For example, if you own a bakery, your customers might often ask about the cupcake flavors that you offer. You can add a *Cupcake menu* capability to handle such questions. See [Adding your own capabilities](add-custom-capabilities.html) for more information.
 

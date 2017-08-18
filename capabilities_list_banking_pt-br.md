@@ -17,8 +17,8 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Recursos principais de Telco
-{: #capabilities_list_telco_pt-br}
+# Recursos principais financeiros de varejo
+{: #capabilities_list_banking_pt-br}
 {: #top}
 
 ## Detalhes
@@ -30,13 +30,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Acesso à conta on-line****
 
-    O usuário tem uma pergunta ou problema sobre como acessar uma conta on-line
+    O usuário tem uma pergunta ou um problema sobre como acessar uma conta on-line
 
 ### Ajuda
 
 - ****Ajuda****
 
-    Perguntas sobre quais opções estão disponíveis ao usar o agente virtual
+    O usuário tem perguntas sobre quais opções estão disponíveis ao usar o agente virtual
 
 - ****Assistência de segurança****
 
@@ -52,11 +52,55 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Informação do sistema****
 
-    Perguntas sobre a tecnologia do agente virtual com a qual estão interagindo
+    O usuário tem perguntas sobre a tecnologia de agente virtual com a qual ele está interagindo
 
 - ****Saudações****
 
     Saudação usada para envolver o usuário na conversa
+
+### Alertas
+
+- ****Alerta de viagem****
+
+    O usuário deseja notificar seu banco sobre uma viagem.
+
+- ****Edite os métodos de entrega (e-mail, notificações da Apple)****
+
+    O usuário deseja gerenciar o método de entrega dos seus alertas customizados
+
+- ****Limite de gastos****
+
+    O usuário deseja configurar alertas sobre o seu limite de gastos
+
+- ****Pagamentos postados****
+
+    O usuário deseja gerenciar os alertas sobre seus pagamentos que estão sendo postados.
+
+### Conta corrente/Conta poupança
+
+- ****Configurar um depósito direto****
+
+    O usuário deseja configurar um depósito direto para sua conta corrente ou poupança.
+
+- ****Solicitar talão de cheques****
+
+    O usuário está solicitando um talão de cheques.
+
+- ****Transferir dinheiro****
+
+    O usuário deseja transferir dinheiro entre suas contas ou para contas externas.
+
+- ****Transferir fundos****
+
+    O usuário deseja conectar fundos.
+
+- ****Visualizar atividade****
+
+    O usuário deseja visualizar as atividades em sua conta.
+
+- ****Visualizar número de roteamento****
+
+    O usuário deseja visualizar seu número de roteamento.
 
 ### Faturamento
 
@@ -66,7 +110,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Ciclo de faturamento****
 
-    Perguntas ou solicitações sobre a frequência ou datas de início e término do ciclo de faturamento de um usuário
+    O usuário tem perguntas ou solicitações sobre a solicitação ou sobre as datas de início e de encerramento do ciclo de faturamento de um usuário
 
 - ****Consulta de saldo****
 
@@ -76,25 +120,17 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer contestar uma cobrança de uma conta
 
-- ****Encargos recorrentes****
-
-    Perguntas sobre cobranças recorrentes em uma conta, como mensagens de texto ilimitadas, correio de voz visual, ou taxas de plano familiar
-
-- ****Explicação de cobrança única****
-
-    O usuário quer uma explicação de uma cobrança especifica em uma conta.
-
 - ****Explicação de conta****
 
-    Perguntas sobre cobranças de itens de linha em uma conta
+    O usuário tem perguntas sobre os encargos do item de linha em uma fatura
 
 - ****Faturamento geral****
 
-    Perguntas sobre a conta , como o valor de uso ou taxas
+    O usuário tem perguntas sobre uma fatura, como a quantia de uso ou as taxas
 
 - ****Faturas impressas****
 
-    Perguntas sobre cópias impressas de contas para uma conta
+    O usuário tem perguntas sobre cópias impressas de faturas de uma conta
 
 - ****Faturas on-line****
 
@@ -102,35 +138,17 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Lembretes de pagamento****
 
-    Perguntas sobre lembretes de pagamento, tais como o que são e como configurá-los ou cancelá-los
+    O usuário tem perguntas sobre lembretes de pagamento, como o que são e como configurá-los ou pará-los
 
 - ****Solicitar cópia de conta****
 
     O usuário quer uma cópia de uma conta para o periodo de faturamento atual ou anterior
 
-- ****Status de Crédito****
-
-    O usuário deseja saber se o seu status de crédito o qualifica para uma mudança em serviços ou em equipamento
-
 ### Fora do tópico
 
 - ****Nenhuma das anteriores****
 
-    Solicitações ou perguntas que não são relevantes para o serviço
-
-### Gerenciamento de Dispositivo
-
-- ****Ativação do dispositivo****
-
-    Questões sobre como ativar um dispositivo
-
-- ****Dispositivo de troca****
-
-    Perguntas sobre como mudar dispositivos, incluindo a transferência de serviços e de contatos
-
-- ****Gerenciamento geral do dispositivo****
-
-    Questões sobre um dispositivo, seu uso e opções de garantia e de reparo
+    O usuário envia uma solicitação ou uma pergunta que não é relevante para o serviço
 
 ### Gerenciamento de conta
 
@@ -150,10 +168,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer alterar o número de contato na conta.
 
-- ****Atualizar status de elegibilidade****
-
-    O usuário deseja saber se ele está elegível atualmente para um upgrade do telefone
-
 - ****Cancelar conta****
 
     O usuário deseja cancelar ou fechar a conta
@@ -168,7 +182,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Gerenciamento geral de contas****
 
-    Perguntas gerais da conta, tais como adicionar usuarios ou cancelar uma conta
+    O usuário tem perguntas gerais sobre a conta, tais como qual é a maneira de incluir usuários ou cancelar uma conta
 
 - ****Mudança de nome da conta****
 
@@ -180,7 +194,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Perfil do cliente****
 
-    Perguntas sobre os detalhes de uma conta do usuario
+    O usuário tem perguntas sobre os detalhes da sua conta
 
 - ****Perguntas de segurança do perfil****
 
@@ -202,10 +216,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer saber sobre o status ou eligibilidade do programa de fidelização de clientes
 
-- ****Tempo de elegibilidade do upgrade****
-
-    O usuário deseja saber quando ele estará elegível para um upgrade do telefone
-
 - ****Transferir pontos****
 
     O usuário quer transferir pontos entre contas
@@ -222,90 +232,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer saber quanto valem seus pontos
 
-### Gerenciamento de pedido
-
-- ****Cancelar pedido****
-
-    O usuário deseja cancelar um pedido de um dispositivo
-
-- ****Criar pedido de produto****
-
-    O usuário deseja fazer um pedido de um dispositivo novo
-
-- ****Gerenciamento geral de pedidos****
-
-    Perguntas sobre pedidos, inclusive métodos para fazer pedidos, remessa e histórico do pedido
-
-- ****Modificar pedido****
-
-    O usuário deseja mudar ou modificar um pedido efetuado
-
-- ****Status de pedido****
-
-    O usuário deseja saber o status de um pedido efetuado
-
-### Gerenciamento de serviço
-
-- ****Ativar plano pré-pago****
-
-    O usuário deseja ativar um plano pré-pago
-
-- ****Ativar roaming****
-
-    O usuário deseja ativar roaming internacional
-
-- ****Consulta sobre a área de cobertura****
-
-    Perguntas sobre cobertura de rede
-
-- ****Consulta sobre plano de preços****
-
-    Perguntas sobre o plano de preços no qual o usuário está inscrito
-
-- ****Consulta sobre plano de taxa internacional****
-
-    Perguntas sobre os planos internacionais, incluindo países e precificação suportados
-
-- ****Consulta sobre roaming****
-
-    Perguntas sobre como usar um telefone fora do país de origem
-
-- ****Desativar plano pré-pago****
-
-    O usuário deseja desativar um plano pré-pago
-
-- ****Desativar roaming****
-
-    O usuário deseja desativar o roaming internacional
-
-- ****Desbloqueio de rede****
-
-    O usuário deseja desbloquear seu aparelho de uma rede de serviço específica
-
-- ****Gerenciamento de serviço geral****
-
-    Perguntas gerais sobre serviço, incluindo controles parentais, suspensão e reconexão
-
-- ****Incluir recursos de serviços****
-
-    Perguntas sobre como incluir recursos de serviços que ainda não estão na conta, como bloqueio de chamada
-
-- ****Incluir seguro****
-
-    Perguntas sobre como incluir cobertura de seguro em uma conta
-
-- ****Mudança do plano de preços****
-
-    Perguntas sobre a mudança de planos, incluindo opções para reduzir custos
-
-- ****Mudar número do telefone celular****
-
-    Perguntas sobre como mudar o número do telefone celular de um aparelho
-
-- ****Remover recursos de serviços****
-
-    Perguntas sobre como remover recursos de serviços de um plano
-
 ### Informações
 
 - ****Contate-nos****
@@ -316,9 +242,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer encontrar a loja mais próxima
 
+- ****Fazer um compromisso no escritório****
+
+    O usuário deseja planejar um compromisso no escritório
+
 - ****Horário de atendimento de loja****
 
-    Perguntas sobre horários de atendimento de lojas
+    O usuário tem perguntas sobre os horários comerciais da loja
 
 - ****Informacões gerais****
 
@@ -326,39 +256,23 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Localização de loja****
 
-    Perguntas sobre localizações de loja
-
-- ****Marcar compromisso na loja****
-
-    O usuário deseja planejar um compromisso na loja
+    O usuário tem perguntas sobre a localização das lojas
 
 - ****Marcar um compromisso****
 
     O usuário deseja marcar um compromisso sem indicar um local
 
-- ****Marcar um compromisso em casa****
-
-    O usuário deseja marcar um compromisso na sua casa
-
 - ****Número de telefone de loja****
 
-    Perguntas sobre números de telefone de loja
+    O usuário tem perguntas sobre os números de telefone das lojas
 
 - ****Ofertas de emprego****
 
     O usuário quer saber sobre ofertas de emprego
 
-- ****Produtos disponíveis****
+- ****Reagendar compromisso no escritório****
 
-    O usuário deseja saber quais produtos são disponíveis para compra
-
-- ****Reagendar compromisso em casa****
-
-    O usuário deseja reagendar um compromisso em sua casa
-
-- ****Reagendar compromisso na loja****
-
-    O usuário deseja reagendar um compromisso na loja
+    O usuário deseja reagendar um compromisso no escritório
 
 - ****Reagendar um compromisso****
 
@@ -416,11 +330,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Pagamento geral****
 
-    Perguntas sobre pagamentos inclusive prazos de pagamento e status de processamento
+    O usuário tem perguntas sobre pagamentos, incluindo a programação de pagamento e o status de processamento
 
 - ****Pagamento inexistente ou indevido****
 
-    Perguntas sobre um pagamento que está faltando, que não foi processado ou que foi rejeitado
+    O usuário tem perguntas sobre um pagamento que está faltando, que não foi processado ou que foi rejeitado
 
 - ****Pagamento recorrente (pagamento automático)****
 
@@ -428,15 +342,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Parcelas de pagamento****
 
-    Perguntas sobre como pagar uma conta em parcelas
+    O usuário tem perguntas sobre como pagar uma fatura em parcelas
 
 - ****Pesquisa de pagamento****
 
     O usuário tem perguntas gerais sobre pagamentos passados
-
-- ****Recarregar plano pré-pago****
-
-    O usuário deseja incluir minutos ou valor no seu plano pré-pago ou no seu cartão SIM
 
 - ****Reembolso****
 
@@ -452,30 +362,46 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Reclamações
 
-- ****Problemas de Rede****
-
-    Questões sobre a rede, incluindo problemas de sinal, ligações cortadas e indisponibilidades
-
 - ****Reclamação de cliente****
 
-    O usuário tem um problema com um dispositivo ou um serviço
+    O usuário tem um problema com o serviço
 
-- ****Resolução de problemas****
+### Serviços de conta de cartão de crédito
 
-    O usuário precisa de ajuda com um problema que está tendo com um dispositivo ou um serviço
+- ****Ativar um cartão****
 
-### Vendas
+    O usuário deseja ativar seu cartão.
 
-- ****Consulta sobre portabilidade****
+- ****Cancelar cartão de crédito****
 
-    Perguntas ou solicitações sobre como transferir um número do telefone de um provedor de serviços para outro
+    O usuário deseja cancelar seu cartão de crédito.
 
-- ****Retornar consulta sobre aparelho****
+- ****Consulta de taxa****
 
-    Perguntas ou solicitações sobre como devolver aparelhos indesejados
+    O usuário tem uma consulta de taxa sobre as taxas anuais do seu cartão de crédito.
 
-- ****Vendas gerais****
+- ****Relatar cartão perdido ou roubado****
 
-    Perguntas sobre vendas, incluindo promoções, precificação e disponibilidade do produto
+    O usuário deseja relatar um cartão perdido ou roubado.
 
-[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_pt-br.html#top)
+- ****Solicitar aumento na linha de crédito****
+
+    O usuário está solicitando aumento no seu limite de crédito.
+
+- ****Solicitar contrato de membro do cartão****
+
+    O usuário está solicitando seu contrato de membro do cartão.
+
+- ****Solicitar formulários de impostos****
+
+    O usuário deseja solicitar formulários de impostos.
+
+- ****Substituir um cartão****
+
+    O usuário deseja substituir seu cartão de crédito.
+
+- ****Visualizar encargos pendentes****
+
+    O cliente deseja visualizar os encargos pendentes em sua conta de cartão de crédito.
+
+[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_banking_pt-br.html#top)

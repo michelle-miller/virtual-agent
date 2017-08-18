@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-17"
 
 ---
 
@@ -38,13 +38,9 @@ lastupdated: "2017-08-10"
 
     Domande sulle opzioni disponibili durante l'utilizzo di Virtual Agent
 
-- ****Connetti all'agente****
-
-    L'utente desidera parlare con un agente umano del servizio clienti
-
 - ****Fine****
 
-    Parole di commiato per concludere la conversazione.
+    Espressione di saluto per concludere la conversazione
 
 - ****Garanzia di sicurezza****
 
@@ -52,9 +48,13 @@ lastupdated: "2017-08-10"
 
 - ****Informazioni di sistema****
 
-    Domande sulla tecnologia degli agenti virtuali con cui interagiscono
+    Domande sulla tecnologia di agent virtuale con cui stanno interagendo
 
-- ****Salve****
+- ****Metti in contatto con l'operatore****
+
+    L'utente desidera parlare con un operatore del servizio clienti
+
+- ****Saluti****
 
     Saluto utilizzato per coinvolgere l'utente nella conversazione
 
@@ -64,41 +64,41 @@ lastupdated: "2017-08-10"
 
     Domande sugli addebiti ricorrenti in una fattura, ad esempio messaggi illimitati, segreteria telefonica visiva o addebiti per i piani familiari
 
-- ****Bollette online****
-
-    L'utente desidera visualizzare un estratto conto online o passare esclusivamente agli estratti conto online
-
 - ****Ciclo di fatturazione****
 
     Domande o richieste sulla frequenza o sulle date di inizio e fine del ciclo di fatturazione di un cliente
 
 - ****Contestazione di una fattura****
 
-    L'utente desidera contestare un addebito in una fattura
+    L'utente desidera contestare un addebito in fattura
 
-- ****Correzione della bolletta****
+- ****Correzione della fattura****
 
-    L'utente desidera uno sconto in una fattura a causa di un servizio insoddisfacente o di un addebito non valido.
+    L'utente desidera uno sconto in fattura a causa di un servizio insoddisfacente o di un addebito errato.
 
 - ****Estratto conto cartaceo****
 
     Domande relative alle copie cartacee delle fatture per un account
 
+- ****Estratto conto online****
+
+    L'utente desidera visualizzare un estratto conto online o passare esclusivamente agli estratti conto online
+
 - ****Fatturazione generale****
 
-    Domande su una fattura, ad esempio la quantità di utilizzo o le spese.
+    Domande sulla fattura, ad esempio la quantità di utilizzo o le commissioni
 
 - ****Promemoria di pagamento****
 
-    Domande relative ai promemoria di pagamento, ad esempio cosa sono, come configurarli e come arrestarli
+    Domande relative ai promemoria di pagamento, ad esempio cosa sono e come impostarli o eliminarli
 
-- ****Richiesta di una copia della bolletta****
+- ****Richiesta di saldo****
+
+    L'utente vuole conoscere il saldo dell'account o ha domande sul saldo
+
+- ****Richiesta di una copia della fattura****
 
     L'utente desidera una copia di una fattura per il ciclo di fatturazione corrente o precedente
-
-- ****Richiesta saldo****
-
-    L'utente vuole conoscere il saldo dell'account, o ha domande sul saldo
 
 - ****Spiegazione dell'addebito una tantum****
 
@@ -110,11 +110,11 @@ lastupdated: "2017-08-10"
 
 - ****Stato del credito****
 
-    L'utente desidera sapere se il suo stato del credito lo qualifica per una modifica ai servizi o alle apparecchiature.
+    L'utente desidera sapere se lo stato del suo credito lo qualifica per una modifica di servizi o apparecchiature
 
 ### Fuori tema
 
-- ****Nessuna delle precedenti****
+- ****Nessuno dei precedenti****
 
     Richieste o domande non pertinenti al servizio
 
@@ -122,15 +122,15 @@ lastupdated: "2017-08-10"
 
 - ****Annulla ordine****
 
-    L'utente vuole annullare l'ordine di un dispositivo
+    L'utente vuole annullare l'ordine di un dispositivo.
 
 - ****Crea un ordine del prodotto****
 
-    L'utente desidera effettuare un ordine per un nuovo dispositivo.
+    L'utente desidera ordinare un nuovo dispositivo
 
 - ****Gestione generale degli ordini****
 
-    Domande sugli ordini, compresi i metodi per effettuare ordini, le spedizioni e la cronologia degli ordini.
+    Domande sugli ordini, come effettuare un ordine, spedizione e cronologia.
 
 - ****Modifica ordine****
 
@@ -140,101 +140,83 @@ lastupdated: "2017-08-10"
 
     L'utente vuole conoscere lo stato di un ordine effettuato.
 
-### Gestione dei dispositivi
-
-- ****Attivazione del dispositivo****
-
-    Domande sull'attivazione del dispositivo.
-
-- ****Cambio del dispositivo****
-
-    Domande sul cambio dei dispositivi, compreso il trasferimento di servizi e contatti
-
-- ****Gestione generale del dispositivo****
-
-    Domande relative a un dispositivo, ai suoi utilizzi e alle opzioni per garanzia e riparazioni
-
 ### Gestione del servizio
 
-- ****Aggiungere un'assicurazione****
+- ****Aggiungi assicurazione****
 
-    Domande relative all'aggiunta di una copertura assicurativa a un account
+    Domande sull'aggiunta di una copertura assicurativa a un account
 
-- ****Aggiungi funzioni del servizio****
+- ****Aggiungi funzionalità di servizio****
 
-    Domande sull'aggiunta di funzioni del servizio che non sono già presenti nell'account, ad esempio il blocco delle chiamate
+    Domande sull'aggiunta di funzionalità di servizio che non sono già associate all'account, ad esempio il blocco delle chiamate
+
+- ****Attiva il roaming****
+
+    L'utente desidera attivare il roaming internazionale
 
 - ****Attiva piano prepagato****
 
     L'utente desidera attivare un piano prepagato.
 
-- ****Attiva roaming****
+- ****Disattiva il roaming****
 
-    L'utente desidera attivare il roaming internazionale
-
-- ****Cambio del piano tariffario****
-
-    Domande sulla modifica dei piani, comprese le opzioni per ridurre i costi.
+    L'utente desidera disattivare il roaming internazionale
 
 - ****Disattiva piano prepagato****
 
     L'utente desidera disattivare un piano prepagato.
 
-- ****Disattiva roaming****
-
-    L'utente desidera disattivare il roaming internazionale
-
-- ****Domanda sul piano tariffario internazionale****
-
-    Domande relative ai piani internazionali, compresi i prezzi e i paesi inclusi
-
-- ****Domanda sul roaming****
-
-    Domande sull'utilizzo del telefono al di fuori del paese di residenza
-
-- ****Domande sul piano tariffario****
-
-    Domande relative al piano tariffario a cui l'utente è abbonato.
-
-- ****Domande sulla copertura di rete****
-
-    Domande sulla copertura di rete
-
 - ****Gestione dei servizi generali****
 
-    Domande generali sul servizio, tra cui il controllo dei genitori, la sospensione e la riconnessione.
+    Domande generali sul servizio, inclusi parental control, sospensione e riconnessione
+
+- ****Modifica del piano tariffario****
+
+    Domande su come cambiare i piani, comprese le opzioni per ridurre i costi
 
 - ****Modifica numero di telefono cellulare****
 
-    Domande sulla modifica del numero telefonico di un dispositivo
+    Domande relative alla modifica del numero di telefono cellulare di un dispositivo
 
-- ****Rimuovi funzioni del servizio****
+- ****Richiesta sul piano tariffario****
 
-    Domande sulla rimozione di funzioni del servizio da un piano
+    Domande sul piano tariffario sottoscritto dall'utente
 
-- ****Sblocco rete****
+- ****Richiesta sul piano tariffario internazionale****
 
-    L'utente desidera sbloccare il suo dispositivo da una rete di servizio specifica
+    Domande relative ai piani internazionali, compresi i prezzi e i paesi supportati
+
+- ****Richiesta sul roaming****
+
+    Domande sull'uso di un telefono fuori dal paese
+
+- ****Richiesta sull'area di copertura****
+
+    Domande relative alla copertura di rete
+
+- ****Rimuovi funzionalità di servizio****
+
+    Domande relative alla rimozione delle funzionalità di servizio da un piano
+
+- ****Sblocco di rete****
+
+    L'utente desidera sbloccare il dispositivo da una specifica rete di servizio
 
 ### Gestione dell'account
 
 - ****Aggiorna il numero telefonico del contatto****
 
-    L'utente desiera modificare il numero telefonico utilizzato come contatto sull'account.
+    L'utente desidera modificare il numero telefonico di contatto associato all'account
 
 - ****Aggiorna indirizzo****
 
-    L'utente desidera modificare l'indirizzo di fatturazione o l'indirizzo postale sull'account.
+    L'utente desidera modificare l'indirizzo di fatturazione o l'indirizzo postale dell'account.
 
 - ****Aggiorna indirizzo email****
 
-    L'utente desidera modificare l'indirizzo email sul account.
+    L'utente desidera modificare l'indirizzo email del suo account.
 
-- ****Apri un account****
-
-    L'utente desidera aprire un account.
-
-- ****Cancella account****
+- ****Chiusura dell'account****
 
     L'utente desidera chiudere o cancellare un account.
 
@@ -242,53 +224,53 @@ lastupdated: "2017-08-10"
 
     L'utente vuole rivedere o modificare le domande di sicurezza associate all'account.
 
-- ****Gestione generale del conto****
+- ****Gestione dell'account****
 
-    Domande generiche sull'account, ad esempio su come aggiungere utenti o chiudere un account.
+    Domande generiche sull'account, ad esempio come aggiungere utenti o chiudere un account.
 
 - ****Il numero di account del cliente****
 
     Domande relative al numero di account di un cliente.
 
-- ****Indirizzo di fatturazione****
+- ****Livello di fidelizzazione****
 
-    L'utente desidera sapere qual è l'indirizzo di fatturazione su un account.
+    L'utente desidera avere informazioni sui diritti del suo programma di fidelizzazione
 
-- ****Modifica del nome associato all'account****
+- ****Modifica dell'intestatario dell'account****
 
-    L'utente desidera modificare il nome associato allL'utente desiera modificare il numero telefonico utilizzato come contatto sull'account. .
-
-- ****Privilegi dell'account****
-
-    L'utente desidera sapere quali potenziali prodotti o servizi siano disponibili in base al suo account
+    L'utente desidera modificare gli intestatari dell'account.
 
 - ****Profilo del cliente****
 
-    Domande relative ai dettagli dell'account di un utente.
+    Domande relative al profilo dell'utente
 
-- ****Programma di fedeltà del cliente****
+- ****Programma di fidelizzazione del cliente****
 
-    L'utente desidera avere informazioni sui programmi di fedeltà del cliente.
+    L'utente desidera avere informazioni sui programmi di fidelizzazione del cliente.
 
 - ****Richiesta della password del profilo.****
 
     L'utente desidera recuperare o modificare la password associata all'account.
 
+- ****Richiesta di indirizzo di fatturazione****
+
+    L'utente desidera sapere qual è l'indirizzo di fatturazione su un account.
+
 - ****Riscatta i punti****
 
     L'utente desidera riscattare i suoi punti per effettuare un acquisto o riscattarne il valore.
 
-- ****Stato di fedeltà****
+- ****Sottoscrivi un piano****
 
-    L'utente desidera avere informazioni sulla sua idoneità o sullo stato del programma di fedeltà
+    L'utente desidera aprire un account.
 
-- ****Stato di idoneità per gli aggiornamenti.****
+- ****Stato di idoneità per upgrade****
 
-    L'utente desidera sapere se è idoneo per un aggiornamento.
+    L'utente desidera sapere se attualmente ha i requisiti per un upgrade del telefono
 
-- ****Tempistiche dell'idoneità per l'aggiornamento****
+- ****Tempistica di idoneità per upgrade****
 
-    L'utente desidera sapere quando sarà ideoneo per un aggiornamento.
+    L'utente desidera sapere quando avrà i requisiti per un upgrade del telefono
 
 - ****Trasferisci i punti****
 
@@ -296,7 +278,7 @@ lastupdated: "2017-08-10"
 
 - ****Uso fraudolento****
 
-    L'utente vuole investigare o segnalare l'uso fraudolento di una carta o di un account
+    L'utente vuole approfondire o segnalare l'uso fraudolento di una carta o di un account.
 
 - ****Utenti autorizzati****
 
@@ -306,33 +288,51 @@ lastupdated: "2017-08-10"
 
     L'utente desidera conoscere il valore dei suoi punti.
 
+- ****Vantaggi del piano****
+
+    L'utente desidera sapere quali  prodotti o servizi siano disponibili in base al suo account
+
+### Gestione dispositivi
+
+- ****Attivazione del dispositivo****
+
+    Domande relative all'attivazione di un dispositivo
+
+- ****Cambio dispositivo****
+
+    Domande su come cambiare i dispositivi, inclusi il trasferimento di servizi e contatti
+
+- ****Gestione generale del dispositivo****
+
+    Domande relative a un dispositivo, il suo utilizzo e le opzioni di garanzia e riparazione
+
 ### Informazioni
 
 - ****Chi siamo****
 
-    L'utente richiede informazioni generali sull'azienda
+    L'utente richiede informazioni generali sull'azienda.
 
 - ****Contattaci****
 
-    L'utente desidera cooscere le informazioni di contatto dell'azienda
+    L'utente desidera conoscere i contatti dell'azienda
 
 - ****Fissa un appuntamento****
 
-    L'utente vuole fissare un appuntamento senza aver specificato un'ubicazione.
+    L'utente vuole fissare un appuntamento senza specificare un posto
 
 - ****Fissa un appuntamento a casa****
 
     L'utente vuole fissare un appuntamento presso la sua abitazione.
 
-- ****Fissa un appuntamento al negozio****
+- ****Fissa un appuntamento in negozio****
 
     L'utente vuole fissare un appuntamento presso il negozio
 
 - ****Informazioni generali****
 
-    L'utente desidera avere informazioni sull'azienda che non sono gestite da un altro intent
+    L'utente desidera avere informazioni sull'azienda che non sono gestite da un altro intento
 
-- ****Numeri di telefono dei negozi****
+- ****Numero di telefono del negozio****
 
     Domande sui numeri telefonici del negozio.
 
@@ -352,17 +352,17 @@ lastupdated: "2017-08-10"
 
     L'utente vuole informazioni sui servizi offerti nei negozi.
 
-- ****Sposta l'appuntamento****
+- ****Sposta l'appuntamento a casa****
 
-    L'utente desidera spostare un appuntamento
+    L'utente desidera spostare un appuntamento a casa.
 
-- ****Sposta l'appuntamento domestico****
+- ****Sposta l'appuntamento in negozio****
 
-    L'utente desidera spostare un appuntamento domestico.
+    L'utente desidera spostare un appuntamento in negozio
 
-- ****Sposta un appuntamento presso il negozio****
+- ****Sposta un appuntamento****
 
-    L'utente vuole spostare l'appuntamento presso il negozio
+    L'utente desidera spostare un appuntamento.
 
 - ****Trova il negozio più vicino****
 
@@ -374,9 +374,13 @@ lastupdated: "2017-08-10"
 
 ### Pagamento
 
-- ****Aggiornamento del metodo di pagamento****
+- ****Addebiti per pagamenti in ritardo****
 
-    L'utente desidera modificare i dettagli di pagamento (ad esempio, la carta di credito su cui effettuare l'addebito) sull'account
+    L'utente desidera conoscere le penali per i pagamenti in ritardo.
+
+- ****Aggiornamento sul metodo di pagamento****
+
+    L'utente desidera modificare i dettagli di pagamento collegati al suo account (ad esempio, la carta di credito su cui effettuare l'addebito)
 
 - ****Cronologia dei pagamenti****
 
@@ -396,7 +400,7 @@ lastupdated: "2017-08-10"
 
 - ****Informazioni bancarie****
 
-    L'utente desidera fornire le informazioni bancarie associate al suo account di credito.
+    L'utente desidera fornire le informazioni bancarie associate al suo conto di credito.
 
 - ****Metodi di pagamento accettati****
 
@@ -406,29 +410,25 @@ lastupdated: "2017-08-10"
 
     L'utente desidera modificare la data di scadenza dei pagamenti futuri
 
-- ****Pagamenti generali****
-
-    Domande sui pagamenti, compresi lo stato di elaborazione e la pianificazione del pagamento.
-
 - ****Pagamenti ricorrenti****
 
     L'utente desidera iniziare ad effettuare pagamenti ricorrenti automatici.
 
-- ****Pagamento a rate****
+- ****Pagamento generale****
 
-    Domande sul pagamento a rate di una fattura.
+    Domande sui pagamenti, compreso lo stato di elaborazione e la pianificazione del pagamento.
 
 - ****Pagamento mancante o non corretto****
 
     Domande su un pagamento mancante, non riuscito o rifiutato
 
-- ****Penali per pagamento tardivo****
+- ****Rateizza pagamento****
 
-    L'utente desidera conoscere le multe per i pagamenti in ritardo.
+    Domande sul pagamento a rate di una fattura.
 
 - ****Ricarica piano prepagato****
 
-    L'utente desidera aggiungere minuti o valore al suo piano prepagato o alla scheda SIM.
+    L'utente vuole aggiungere minuti o un importo al piano o alla scheda SIM prepagata
 
 - ****Ricerca pagamenti****
 
@@ -436,7 +436,7 @@ lastupdated: "2017-08-10"
 
 - ****Rimanda pagamento****
 
-    L'utente desidera rimandare la data di scadenza di un pagamento per una fattura corrente
+    L'utente desidera rimandare la data di scadenza di un pagamento di una fattura in corso
 
 - ****Rimborso****
 
@@ -454,7 +454,7 @@ lastupdated: "2017-08-10"
 
 - ****Problemi di rete****
 
-    Domande sulla rete, compresi i problemi di segnale, le chiamate interrotte e le interruzioni del servizio.
+    Domande sulla rete, inclusi problemi di segnale, cadute di linea e interruzioni di servizio
 
 - ****Reclamo del cliente****
 
@@ -462,21 +462,21 @@ lastupdated: "2017-08-10"
 
 - ****Risoluzione dei problemi****
 
-    L'utente necessita di aiuto con un dispositivo o un servizio.
+    L'utente ha bisogno di aiuto per un problema con un dispositivo o un servizio
 
 ### Vendite
 
-- ****Richiesta di trasferimento del numero****
+- ****Richiesta sulla portabilità****
 
-    Domande o richieste relative al trasferimento di un numero telefonico da un provider di servizi a un altro
+    Domande o richieste di portabilità di un numero di telefono da un fornitore del servizio a un altro
 
-- ****Richiesta per la restituzione del dispositivo****
+- ****Richiesta sulla restituzione del dispositivo****
 
-    Domande o richieste per la restituzione di dispositivi indesiderati
+    Domande o richieste sulla restituzione dei dispositivi indesiderati
 
 - ****Vendite generali****
 
-    Domande sulle vendite, inclusi i prezzi, le promozioni e la disponibilità dei prodotti
+    Domande sulle vendite, inclusi i prezzi, le promozioni e la disponibilità dei prodotti.
 
 [![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco.html#top)
 

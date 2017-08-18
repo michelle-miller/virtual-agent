@@ -17,13 +17,13 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Capacità di General customer service
-{: #capabilities_list_general_it}
+# Capacità base di Energy
+{: #capabilities_list_energy}
 {: #top}
 
 ## Dettagli
 
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
+[![Indietro](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
 {: shortdesc}
 
 ### Accesso all'account online
@@ -68,6 +68,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Domande o richieste sulla frequenza o sulle date di inizio e fine del ciclo di fatturazione di un cliente
 
+- ****Comunica consumo****
+
+    L'utente desidera comunicare il consumo registrato sul proprio contatore
+
 - ****Contestazione di una fattura****
 
     L'utente desidera contestare un addebito in fattura
@@ -75,6 +79,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Correzione della fattura****
 
     L'utente desidera uno sconto in fattura a causa di un servizio insoddisfacente o di un addebito errato.
+
+- ****Dettagli del consumo****
+
+    L'utente desidera dettagli sul proprio consumo di energia
 
 - ****Estratto conto cartaceo****
 
@@ -87,6 +95,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Fatturazione generale****
 
     Domande sulla fattura, ad esempio la quantità di utilizzo o le commissioni
+
+- ****Presenta un reclamo per perdita****
+
+    L'utente desidera presentare un reclamo per una perdita
 
 - ****Promemoria di pagamento****
 
@@ -136,17 +148,51 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente vuole conoscere lo stato di un ordine effettuato.
 
+### Gestione del servizio
+
+- ****Avvia servizio****
+
+    L'utente desidera avviare il servizio
+
+- ****Interrompi servizio****
+
+    L'utente desidera interrompere il servizio
+
+- ****Iscriviti al programma fedeltà****
+
+    L'utente desidera iscriversi al programma fedeltà
+
+- ****Notifiche di costruzione****
+
+    L'utente desidera comunicare al fornitore che nella propria abitazione sono in corso lavori di costruzione o ristrutturazione.
+
+- ****Registrazione dispositivo****
+
+    L'utente desidera registrare un nuovo dispositivo
+
+- ****Richiesta di programma incentivi****
+
+    L'utente ha una domanda sul programma fedeltà
+
+- ****Richiesta di servizio****
+
+    L'utente desidera gestire una richiesta di servizio
+
+- ****Richiesta di servizio di costruzione****
+
+    L'utente desidera creare una richiesta di servizio per lavori di costruzione o ristrutturazione che si svolgono nella propria abitazione
+
 ### Gestione dell'account
 
 - ****Aggiorna il numero telefonico del contatto****
 
     L'utente desidera modificare il numero telefonico di contatto associato all'account
 
-- ****Aggiorna indirizzo****
+- ****Aggiorna l' indirizzo****
 
     L'utente desidera modificare l'indirizzo di fatturazione o l'indirizzo postale dell'account.
 
-- ****Aggiorna indirizzo email****
+- ****Aggiorna l' indirizzo email****
 
     L'utente desidera modificare l'indirizzo email del suo account.
 
@@ -166,10 +212,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Domande relative al numero di account di un cliente.
 
-- ****Livello di fidelizzazione****
-
-    L'utente desidera avere informazioni sui diritti del suo programma di fidelizzazione
-
 - ****Modifica dell'intestatario dell'account****
 
     L'utente desidera modificare gli intestatari dell'account.
@@ -177,10 +219,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Profilo del cliente****
 
     Domande relative al profilo dell'utente
-
-- ****Programma di fidelizzazione del cliente****
-
-    L'utente desidera avere informazioni sui programmi di fidelizzazione del cliente.
 
 - ****Richiesta della password del profilo.****
 
@@ -190,17 +228,9 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente desidera sapere qual è l'indirizzo di fatturazione su un account.
 
-- ****Riscatta i punti****
-
-    L'utente desidera riscattare i suoi punti per effettuare un acquisto o riscattarne il valore.
-
 - ****Sottoscrivi un piano****
 
     L'utente desidera aprire un account.
-
-- ****Trasferisci i punti****
-
-    L'utente desidera trasferire i punti tra diversi account.
 
 - ****Uso fraudolento****
 
@@ -209,14 +239,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Utenti autorizzati****
 
     L'utente desidera modificare le autorizzazioni di accesso all'account.
-
-- ****Valore dei punti****
-
-    L'utente desidera conoscere il valore dei suoi punti.
-
-- ****Vantaggi del piano****
-
-    L'utente desidera sapere quali  prodotti o servizi siano disponibili in base al suo account
 
 ### Informazioni
 
@@ -232,9 +254,17 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente vuole fissare un appuntamento senza specificare un posto
 
+- ****Fissa un appuntamento a casa****
+
+    L'utente vuole fissare un appuntamento presso la sua abitazione.
+
 - ****Informazioni generali****
 
     L'utente desidera avere informazioni sull'azienda che non sono gestite da un altro intento
+
+- ****Linee guida per lavori di costruzione****
+
+    L'utente desidera comunicare al fornitore che nella propria abitazione sono in corso lavori di costruzione o ristrutturazione.
 
 - ****Numero di telefono del negozio****
 
@@ -248,6 +278,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente desidera avere informazioni sulle opportunità lavorative.
 
+- ****Preparazione in caso di tempesta****
+
+    L'utente desidera dettagli su come preparare il proprio domicilio in caso di tempesta
+
+- ****Prevenzione delle interruzioni di corrente****
+
+    L'utente desidera informazioni sulla prevenzione delle interruzioni di corrente
+
 - ****Prodotti disponibili****
 
     Gli utenti vogliono sapere quali prodotti sono disponibili per l'acquisto.
@@ -256,13 +294,29 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente vuole informazioni sui servizi offerti nei negozi.
 
+- ****Sposta l'appuntamento domestico****
+
+    L'utente desidera spostare un appuntamento domestico.
+
 - ****Sposta un appuntamento****
 
     L'utente desidera spostare un appuntamento.
 
+- ****Stato della tempesta****
+
+    L'utente desidera informazioni sulla tempesta in corso
+
+- ****Suggerimenti per il risparmio energetico****
+
+    L'utente desidera suggerimenti per il risparmio energetico
+
 - ****Trova il negozio più vicino****
 
     L'utente vuole individuare il negozio più vicino.
+
+- ****Trova un generatore****
+
+    L'utente desidera individuare un generatore
 
 - ****Ubicazione del negozio****
 
@@ -344,8 +398,42 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Reclami
 
+- ****Aggiornamento su interruzione di corrente****
+
+    L'utente desidera avere aggiornamenti sull'interruzione di corrente
+
+- ****Qualità dell'energia****
+
+    L'utente ha una domanda sulla qualità dell'energia
+
 - ****Reclamo del cliente****
 
-    L'utente ha un problema con un dispositivo o un servizio.
+    L'utente ha un problema con il servizio
 
-[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_it.html#top)
+- ****Ricerca interruzioni di corrente****
+
+    L'utente desidera ricercare interruzioni di corrente nella propria area
+
+- ****Segnala fuga di gas****
+
+    L'utente desidera segnalare una fuga di gas
+
+- ****Segnala interruzione dell'illuminazione stradale****
+
+    L'utente desidera segnalare un'interruzione dell'illuminazione stradale
+
+- ****Segnala interruzione di corrente****
+
+    L'utente desidera segnalare un'interruzione di corrente
+
+- ****Segnala linea elettrica interrotta****
+
+    L'utente desidera segnalare una linea elettrica interrotta
+
+### Vendite
+
+- ****Vendite generali****
+
+    Domande relative alle vendite, compresi prezzi e promozioni
+
+[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy.html#top)

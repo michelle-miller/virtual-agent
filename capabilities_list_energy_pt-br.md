@@ -17,8 +17,8 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Recursos principais de Telco
-{: #capabilities_list_telco_pt-br}
+# Recursos principais de energia
+{: #capabilities_list_energy_pt-br}
 {: #top}
 
 ## Detalhes
@@ -76,9 +76,17 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer contestar uma cobrança de uma conta
 
+- ****Detalhes de uso****
+
+    O usuário deseja obter os detalhes do seu uso de energia
+
 - ****Encargos recorrentes****
 
     Perguntas sobre cobranças recorrentes em uma conta, como mensagens de texto ilimitadas, correio de voz visual, ou taxas de plano familiar
+
+- ****Entrar com uma reclamação de perda****
+
+    O usuário deseja entrar com uma reclamação de perda
 
 - ****Explicação de cobrança única****
 
@@ -104,33 +112,19 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Perguntas sobre lembretes de pagamento, tais como o que são e como configurá-los ou cancelá-los
 
+- ****Relatar uso****
+
+    O usuário deseja relatar um uso registrado em seu medidor
+
 - ****Solicitar cópia de conta****
 
     O usuário quer uma cópia de uma conta para o periodo de faturamento atual ou anterior
-
-- ****Status de Crédito****
-
-    O usuário deseja saber se o seu status de crédito o qualifica para uma mudança em serviços ou em equipamento
 
 ### Fora do tópico
 
 - ****Nenhuma das anteriores****
 
     Solicitações ou perguntas que não são relevantes para o serviço
-
-### Gerenciamento de Dispositivo
-
-- ****Ativação do dispositivo****
-
-    Questões sobre como ativar um dispositivo
-
-- ****Dispositivo de troca****
-
-    Perguntas sobre como mudar dispositivos, incluindo a transferência de serviços e de contatos
-
-- ****Gerenciamento geral do dispositivo****
-
-    Questões sobre um dispositivo, seu uso e opções de garantia e de reparo
 
 ### Gerenciamento de conta
 
@@ -149,10 +143,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Atualizar número do telefone de contato****
 
     O usuário quer alterar o número de contato na conta.
-
-- ****Atualizar status de elegibilidade****
-
-    O usuário deseja saber se ele está elegível atualmente para um upgrade do telefone
 
 - ****Cancelar conta****
 
@@ -186,30 +176,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário deseja rever ou alterar as perguntas de segurança associadas à conta
 
-- ****Privilégios de conta****
-
-    O usuário quer saber quais produtos ou serviços potenciais estão disponíveis  para ele com base em sua conta
-
-- ****Programa de fidelidade do cliente****
-
-    O usuário quer aprender sobre programas de  fidelização de clientes.
-
-- ****Resgatar pontos****
-
-    O usuário quer resgatar pontos para fazer uma compra ou resgatar seu valor
-
-- ****Status de fidelidade****
-
-    O usuário quer saber sobre o status ou eligibilidade do programa de fidelização de clientes
-
-- ****Tempo de elegibilidade do upgrade****
-
-    O usuário deseja saber quando ele estará elegível para um upgrade do telefone
-
-- ****Transferir pontos****
-
-    O usuário quer transferir pontos entre contas
-
 - ****Usuários autorizados****
 
     O usuário quer mudar quem tem acesso à conta
@@ -217,10 +183,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Utilização fraudulenta****
 
     O usuário quer investigar ou denunciar o uso fraudulento de um cartão ou conta
-
-- ****Valor de pontos****
-
-    O usuário quer saber quanto valem seus pontos
 
 ### Gerenciamento de pedido
 
@@ -246,71 +208,51 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Gerenciamento de serviço
 
-- ****Ativar plano pré-pago****
+- ****Consulta de programas de incentivo****
 
-    O usuário deseja ativar um plano pré-pago
+    O usuário tem uma pergunta sobre um programa de cliente
 
-- ****Ativar roaming****
+- ****Consulta de serviço****
 
-    O usuário deseja ativar roaming internacional
+    O usuário deseja gerenciar sua consulta de serviço
 
-- ****Consulta sobre a área de cobertura****
+- ****Iniciar serviço****
 
-    Perguntas sobre cobertura de rede
+    O usuário deseja iniciar seu serviço
 
-- ****Consulta sobre plano de preços****
+- ****Inscrição no programa de cliente****
 
-    Perguntas sobre o plano de preços no qual o usuário está inscrito
+    O usuário deseja inscrever-se no programa de cliente
 
-- ****Consulta sobre plano de taxa internacional****
+- ****Notificações de construção****
 
-    Perguntas sobre os planos internacionais, incluindo países e precificação suportados
+    O usuário deseja notificar o provedor de que a construção ou a remodelagem está ocorrendo em sua residência.
 
-- ****Consulta sobre roaming****
+- ****Parar serviço****
 
-    Perguntas sobre como usar um telefone fora do país de origem
+    O usuário deseja parar seu serviço
 
-- ****Desativar plano pré-pago****
+- ****Registro de dispositivo****
 
-    O usuário deseja desativar um plano pré-pago
+    O usuário deseja registrar um novo dispositivo
 
-- ****Desativar roaming****
+- ****Solicitação de serviço de construção****
 
-    O usuário deseja desativar o roaming internacional
-
-- ****Desbloqueio de rede****
-
-    O usuário deseja desbloquear seu aparelho de uma rede de serviço específica
-
-- ****Gerenciamento de serviço geral****
-
-    Perguntas gerais sobre serviço, incluindo controles parentais, suspensão e reconexão
-
-- ****Incluir recursos de serviços****
-
-    Perguntas sobre como incluir recursos de serviços que ainda não estão na conta, como bloqueio de chamada
-
-- ****Incluir seguro****
-
-    Perguntas sobre como incluir cobertura de seguro em uma conta
-
-- ****Mudança do plano de preços****
-
-    Perguntas sobre a mudança de planos, incluindo opções para reduzir custos
-
-- ****Mudar número do telefone celular****
-
-    Perguntas sobre como mudar o número do telefone celular de um aparelho
-
-- ****Remover recursos de serviços****
-
-    Perguntas sobre como remover recursos de serviços de um plano
+    O usuário deseja criar uma solicitação de serviço para a construção ou a remodelagem que está acontecendo em sua residência
 
 ### Informações
 
 - ****Contate-nos****
 
     O usuário deseja informações de contato da empresa
+
+- ****Dicas de economia de energia****
+
+    O usuário deseja obter dicas de economia de energia
+
+- ****Diretrizes de construção****
+
+    O usuário deseja notificar o provedor de que a construção ou a remodelagem está ocorrendo em sua residência.
 
 - ****Encontrar a loja mais próxima****
 
@@ -324,13 +266,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer informações sobre a empresa que não são manipuladas por outra intenção
 
+- ****Localizar um gerador****
+
+    O usuário deseja localizar um gerador
+
 - ****Localização de loja****
 
     Perguntas sobre localizações de loja
-
-- ****Marcar compromisso na loja****
-
-    O usuário deseja planejar um compromisso na loja
 
 - ****Marcar um compromisso****
 
@@ -348,6 +290,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer saber sobre ofertas de emprego
 
+- ****Preparação para tempestade****
+
+    O usuário deseja obter detalhes sobre como preparar a sua residência para uma tempestade
+
+- ****Prevenção de indisponibilidade****
+
+    O usuário deseja obter informações sobre a prevenção de indisponibilidades
+
 - ****Produtos disponíveis****
 
     O usuário deseja saber quais produtos são disponíveis para compra
@@ -355,10 +305,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Reagendar compromisso em casa****
 
     O usuário deseja reagendar um compromisso em sua casa
-
-- ****Reagendar compromisso na loja****
-
-    O usuário deseja reagendar um compromisso na loja
 
 - ****Reagendar um compromisso****
 
@@ -371,6 +317,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Sobre nós****
 
     O usuário solicita informações gerais sobre a empresa
+
+- ****Status da tempestade****
+
+    O usuário deseja obter informações atuais sobre a tempestade
 
 ### Pagamento
 
@@ -434,10 +384,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário tem perguntas gerais sobre pagamentos passados
 
-- ****Recarregar plano pré-pago****
-
-    O usuário deseja incluir minutos ou valor no seu plano pré-pago ou no seu cartão SIM
-
 - ****Reembolso****
 
     O usuário quer um reembolso para um pagamento
@@ -452,30 +398,42 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Reclamações
 
-- ****Problemas de Rede****
+- ****Atualização sobre indisponibilidade****
 
-    Questões sobre a rede, incluindo problemas de sinal, ligações cortadas e indisponibilidades
+    O usuário deseja obter uma atualização sobre a indisponibilidade
+
+- ****Procurar indisponibilidades****
+
+    O usuário deseja procurar indisponibilidades em sua área
+
+- ****Qualidade da energia****
+
+    O usuário tem uma pergunta sobre a qualidade da energia
 
 - ****Reclamação de cliente****
 
-    O usuário tem um problema com um dispositivo ou um serviço
+    O usuário tem um problema com o serviço
 
-- ****Resolução de problemas****
+- ****Relatar falta de iluminação pública****
 
-    O usuário precisa de ajuda com um problema que está tendo com um dispositivo ou um serviço
+    O usuário deseja relatar um poste de iluminação pública apagado
+
+- ****Relatar indisponibilidade****
+
+    O usuário deseja relatar uma indisponibilidade
+
+- ****Relatar queda da linha de energia****
+
+    O usuário deseja relatar uma queda da linha de energia
+
+- ****Relatar vazamento de gás****
+
+    O usuário deseja relatar um vazamento de gás
 
 ### Vendas
 
-- ****Consulta sobre portabilidade****
-
-    Perguntas ou solicitações sobre como transferir um número do telefone de um provedor de serviços para outro
-
-- ****Retornar consulta sobre aparelho****
-
-    Perguntas ou solicitações sobre como devolver aparelhos indesejados
-
 - ****Vendas gerais****
 
-    Perguntas sobre vendas, incluindo promoções, precificação e disponibilidade do produto
+    Perguntas sobre vendas, incluindo promoções e preços
 
-[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_pt-br.html#top)
+[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy_pt-br.html#top)

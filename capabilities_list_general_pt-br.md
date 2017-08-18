@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-17"
 
 ---
 
@@ -38,21 +38,21 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Perguntas sobre quais opções estão disponíveis ao usar o agente virtual
 
-- ****Assistência em relação à segurança****
+- ****Assistência de segurança****
 
     O usuário quer uma garantia de que qualquer informação fornecida no bate-papo é protegida
 
 - ****Conectar-se a um agente****
 
-    O usuário quer falar com um atendente humano de serviço ao cliente
+    O usuário quer falar com um agente humano de serviço ao cliente
 
 - ****Encerramento****
 
     Últimas palavras usadas para finalizar a conversa
 
-- ****Informações sobre o sistema****
+- ****Informação do sistema****
 
-    Perguntas sobre a tecnologia do atendente virtual com o qual estão interagindo
+    Perguntas sobre a tecnologia do agente virtual com a qual estão interagindo
 
 - ****Saudações****
 
@@ -66,11 +66,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Ciclo de faturamento****
 
-    Perguntas ou solicitações sobre a frequência ou datas de inicio e término do ciclo de faturamento de um usuario
+    Perguntas ou solicitações sobre a frequência ou datas de início e término do ciclo de faturamento de um usuário
 
 - ****Consulta de saldo****
 
-    O usuário quer saber o saldo da conta ou tem dúvidas sobre o saldo
+    O usuário quer  saber o saldo da conta ou tem dúvidas sobre o saldo
 
 - ****Contestação de conta****
 
@@ -80,21 +80,21 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Perguntas sobre cobranças recorrentes em uma conta, como mensagens de texto ilimitadas, correio de voz visual, ou taxas de plano familiar
 
-- ****Explicação da fatura****
-
-    Perguntas sobre cobranças na fatura
-
 - ****Explicação de cobrança única****
 
     O usuário quer uma explicação de uma cobrança especifica em uma conta.
 
-- ****Faturamento em geral****
+- ****Explicação de conta****
 
-    Perguntas sobre a fatura, tais como o custo de consumo ou taxas
+    Perguntas sobre cobranças de itens de linha em uma conta
+
+- ****Faturamento geral****
+
+    Perguntas sobre a conta , como o valor de uso ou taxas
 
 - ****Faturas impressas****
 
-    Perguntas sobre cópias impressas de faturas de uma conta
+    Perguntas sobre cópias impressas de contas para uma conta
 
 - ****Faturas on-line****
 
@@ -102,15 +102,15 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Lembretes de pagamento****
 
-    Perguntas sobre lembretes, como o que eles são e como configurá-los ou pará-los
+    Perguntas sobre lembretes de pagamento, tais como o que são e como configurá-los ou cancelá-los
 
 - ****Solicitar cópia de conta****
 
-    O usuário quer uma cópia da conta do período de faturamento atual ou anterior
+    O usuário quer uma cópia de uma conta para o periodo de faturamento atual ou anterior
 
 ### Fora do tópico
 
-- ****Nenhuma das acima****
+- ****Nenhuma das anteriores****
 
     Solicitações ou perguntas que não são relevantes para o serviço
 
@@ -126,7 +126,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Atualizar endereço de email****
 
-    O usuário deseja alterar o endereço de correio eletrónico na conta
+    O usuário deseja alterar o endereço de correio eletrônico na conta
 
 - ****Atualizar número do telefone de contato****
 
@@ -146,7 +146,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Gerenciamento geral de contas****
 
-    Perguntas gerais da conta tal como adicionar usuarios ou cancelar uma conta
+    Perguntas gerais da conta, tais como adicionar usuarios ou cancelar uma conta
 
 - ****Mudança de nome da conta****
 
@@ -154,45 +154,45 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Número de conta do cliente****
 
-    Perguntas sobre o número da conta de um usuário
+    Perguntas sobre o número de conta de um usuário
 
 - ****Perfil do cliente****
 
-    Perguntas sobre os dados da conta do usuário
+    Perguntas sobre os detalhes de uma conta do usuario
 
 - ****Perguntas de segurança do perfil****
 
     O usuário deseja rever ou alterar as perguntas de segurança associadas à conta
 
-- ****Privilégios da conta****
+- ****Privilégios de conta****
 
-    O usuário quer saber quais produtos ou serviços potenciais estão disponíveis para ele baseado em sua conta
+    O usuário quer saber quais produtos ou serviços potenciais estão disponíveis  para ele com base em sua conta
 
-- ****Programa de fidelidade para o cliente****
+- ****Programa de fidelidade do cliente****
 
-    O usuário quer informações sobre os programas de fidelização de clientes.
+    O usuário quer aprender sobre programas de  fidelização de clientes.
 
-- ****Resgate de pontos****
+- ****Resgatar pontos****
 
     O usuário quer resgatar pontos para fazer uma compra ou resgatar seu valor
 
 - ****Status de fidelidade****
 
-    O usuário quer informações sobre seu status ou elegibilidade para o programa de fidelidade de clientes
+    O usuário quer saber sobre o status ou eligibilidade do programa de fidelização de clientes
 
 - ****Transferir pontos****
 
-    O usuário deseja transferir pontos entre contas
-
-- ****Uso fraudulento****
-
-    O usuário quer investigar ou denunciar o uso fraudulento de um cartão ou de uma conta
+    O usuário quer transferir pontos entre contas
 
 - ****Usuários autorizados****
 
     O usuário quer mudar quem tem acesso à conta
 
-- ****Valor dos pontos****
+- ****Utilização fraudulenta****
+
+    O usuário quer investigar ou denunciar o uso fraudulento de um cartão ou conta
+
+- ****Valor de pontos****
 
     O usuário quer saber quanto valem seus pontos
 
@@ -204,11 +204,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Criar pedido de produto****
 
-    O usuário deseja comprar um dispositivo novo
+    O usuário deseja fazer um pedido de um dispositivo novo
 
 - ****Gerenciamento geral de pedidos****
 
-    Perguntas sobre pedidos, inclusive métodos para fazer pedidos, remesa e histórico do pedido
+    Perguntas sobre pedidos, inclusive métodos para fazer pedidos, remessa e histórico do pedido
 
 - ****Modificar pedido****
 
@@ -220,13 +220,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 ### Informações
 
+- ****Contate-nos****
+
+    O usuário deseja informações de contato da empresa
+
 - ****Encontrar a loja mais próxima****
 
     O usuário quer encontrar a loja mais próxima
-
-- ****Entre em contato****
-
-    O usuário deseja informações de contato da empresa
 
 - ****Horário de atendimento de loja****
 
@@ -236,7 +236,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário quer informações sobre a empresa que não são manipuladas por outra intenção
 
-- ****Localizar uma loja****
+- ****Localização de loja****
 
     Perguntas sobre localizações de loja
 
@@ -244,39 +244,39 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     O usuário deseja marcar um compromisso sem indicar um local
 
-- ****Número de telefone da loja****
+- ****Número de telefone de loja****
 
     Perguntas sobre números de telefone de loja
 
 - ****Ofertas de emprego****
 
-    O usuário quer informações sobre ofertas de emprego
+    O usuário quer saber sobre ofertas de emprego
 
 - ****Produtos disponíveis****
 
-    O usuário deseja saber quais são os produtos disponíveis para compra
+    O usuário deseja saber quais produtos são disponíveis para compra
 
-- ****Reagendar compromisso****
+- ****Reagendar um compromisso****
 
     O usuário deseja reagendar um compromisso
 
-- ****Serviços das lojas****
+- ****Serviços de loja****
 
-    O usuário deseja saber quais são os serviços fornecidos pelas lojas
+    O usuário deseja saber os serviços fornecidos nas lojas
 
 - ****Sobre nós****
 
-    O usuário soliçita informações gerais sobre a empresa
+    O usuário solicita informações gerais sobre a empresa
 
 ### Pagamento
 
 - ****Acordos de pagamento****
 
-    Usuário quer fazer pagamentos ao longo do tempo
+    O usuário quer fazer pagamentos em parcelas
 
 - ****Adiar o pagamento****
 
-    Usuário quer adiar a data de vencimento de pagamento para uma fatura atual
+    O usuário quer adiar a data de vencimento de pagamento de uma fatura atual
 
 - ****Atualizar método de pagamento****
 
@@ -284,7 +284,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Data de vencimento de pagamento****
 
-    Perguntas sobre quando vai vencer o próximo pagamento
+    Perguntas sobre quando o próximo pagamento vai vencer
 
 - ****Efetuar um pagamento****
 
@@ -292,60 +292,60 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Formas de pagamentos aceitas****
 
-    O usuário deseja saber quais são os métodos de pagamento aceitos
+    O usuário deseja saber quais são as formas de pagamento aceitas
 
 - ****Histórico de pagamento****
 
-    Usuário quer ver uma lista de pagamentos anteriores
+    O usuário quer ver um resumo de pagamentos passados
 
 - ****Informação bancária****
 
-    O usuário deseja fornecer informações bancarias vinculadas à sua conta crédito
+    O usuário deseja fornecer informações bancárias vinculadas à sua conta de crédito
 
 - ****Locais de pagamento****
 
-    O usuário deseja efetuar um pagamento numa loja
+    O usuário deseja efetuar um pagamento na loja
 
 - ****Modificar a data de vencimento de pagamento****
 
     O usuário quer mudar a data de vencimento de pagamentos futuros
 
-- ****Pagamento ausente ou indevido****
+- ****Pagamento geral****
 
-    Perguntas sobre um pagamento que está ausente, não efetuado ou que foi rejeitado
+    Perguntas sobre pagamentos inclusive prazos de pagamento e status de processamento
 
-- ****Pagamento parcelado****
+- ****Pagamento inexistente ou indevido****
 
-    Perguntas sobre pagamento parcelado de uma fatura
+    Perguntas sobre um pagamento que está faltando, que não foi processado ou que foi rejeitado
 
 - ****Pagamento recorrente (pagamento automático)****
 
-    Usuário quer fazer pagamentos recorrentes automáticos
+    O usuário quer fazer pagamentos recorrentes automáticos
 
-- ****Pagamentos em geral****
+- ****Parcelas de pagamento****
 
-    Perguntas sobre pagamentos, inclusive prazos de pagamento e status de processamento
+    Perguntas sobre como pagar uma conta em parcelas
 
 - ****Pesquisa de pagamento****
 
-    Usuário tem perguntas gerais sobre pagamentos anteriores
+    O usuário tem perguntas gerais sobre pagamentos passados
 
 - ****Reembolso****
 
-    Usuário quer o reembolso de um pagamento
+    O usuário quer um reembolso para um pagamento
 
-- ****Taxa de cobrança por atraso no pagamento****
+- ****Taxas de atraso****
 
-    Usuário quer informações sobre taxa de cobrança por atraso no pagamento
+    O usuário quer saber sobre taxas de atraso no pagamento
 
 - ****Verificação de pagamento****
 
-    Usuário quer confirmação de que o pagamento foi recebido
+    O usuário quer confirmação que o pagamento foi recebido
 
 ### Reclamações
 
 - ****Reclamação de cliente****
 
-    O usuário tem um problema com um dispositivo ou serviço
+    O usuário tem um problema com um dispositivo ou um serviço
 
 [![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_pt-br.html#top)

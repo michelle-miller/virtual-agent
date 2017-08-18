@@ -17,13 +17,11 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Prestaciones general
-{: #capabilities_list_general}
+# Prestaciones básicas de Energía
+{: #capabilities_list_energy_es}
 {: #top}
-[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
-
-## Detalles
 
 ### Acceso de cuenta en línea
 
@@ -75,6 +73,10 @@ lastupdated: "2017-08-17"
 
     El usuario desea saber el saldo de la cuenta o tiene preguntas sobre el saldo
 
+- ****Detalle de uso****
+
+    El usuario desea detalles sobre su uso energético
+
 - ****Disputa de una factura****
 
     El usuario desea debatir un cargo de una factura
@@ -91,6 +93,10 @@ lastupdated: "2017-08-17"
 
     Preguntas sobre una factura como, por ejemplo, la cantidad de uso o tarifas de uso
 
+- ****Presentar una reclamación por pérdidas****
+
+    El usuario desea presentar una reclamación por pérdidas
+
 - ****Recordatorios de pago****
 
     Preguntas sobre recordatorios de pago como, por ejemplo, lo qué son y cómo activarlos o detenerlos
@@ -106,6 +112,10 @@ lastupdated: "2017-08-17"
 - ****Solicitar copia de factura****
 
     El usuario desea una copia de una factura del periodo de facturación actual o anterior
+
+- ****Uso de informe****
+
+    El usuario desea informar del uso registrado en su medidor
 
 ### Gestión de cuentas
 
@@ -133,10 +143,6 @@ lastupdated: "2017-08-17"
 
     El usuario desea cancelar o cerrar una cuenta.
 
-- ****Canjear puntos****
-
-    El usuario desea canjear puntos para realizar una compra o canjear su valor
-
 - ****Consulta de contraseña de perfil****
 
     El usuario desea recuperar o cambiar la contraseña que está asociada a la cuenta
@@ -144,10 +150,6 @@ lastupdated: "2017-08-17"
 - ****Consulta de dirección de facturación****
 
     El usuario desea saber la dirección de facturación de una cuenta
-
-- ****Estado de fidelización****
-
-    El usuario desea saber su elegibilidad o el estado de su programa de fidelidad de cliente
 
 - ****Gestión general de cuentas****
 
@@ -165,18 +167,6 @@ lastupdated: "2017-08-17"
 
     El usuario desea revisar o cambiar las preguntas de seguridad que están asociadas a la cuenta.
 
-- ****Privilegios de cuenta****
-
-    El usuario desea saber qué productos o servicios potenciales están disponibles para él basándose en su cuenta
-
-- ****Programa de fidelidad de cliente****
-
-    El usuario desea obtener más información sobre programas de fidelidad de cliente
-
-- ****Transferir puntos****
-
-    El usuario desea transferir puntos entre cuentas
-
 - ****Uso fraudulento****
 
     El usuario desea investigar o notificar el uso fraudulento de una tarjeta o una cuenta.
@@ -184,10 +174,6 @@ lastupdated: "2017-08-17"
 - ****Usuarios autorizados****
 
     El usuario desea cambiar quién tiene acceso a una cuenta.
-
-- ****Valor de punto****
-
-    El usuario desea saber cuánto valen sus puntos
 
 ### Gestión de pedidos
 
@@ -211,6 +197,40 @@ lastupdated: "2017-08-17"
 
     Preguntas sobre pedidos, incluyendo métodos para realizar pedidos, envíos e historial de pedidos
 
+### Gestión de servicios
+
+- ****Consulta de programa de incentivos****
+
+    El usuario tiene una pregunta sobre un programa de clientes
+
+- ****Consulta de servicio****
+
+    El usuario desea gestionar su consulta de servicio
+
+- ****Detener servicio****
+
+    El usuario desea detener su servicio
+
+- ****Iniciar servicio****
+
+    El usuario desea iniciar su servicio
+
+- ****Inscribirse en un programa de clientes****
+
+    El usuario desea inscribirse en el programa de clientes
+
+- ****Notificaciones de construcción****
+
+    El usuario desea notificar a su proveedor que la construcción o remodelación se está produciendo en su casa.
+
+- ****Registro de dispositivo****
+
+    El usuario desea registrar un dispositivo nuevo
+
+- ****Solicitud de servicio de construcción****
+
+    El usuario desea crear una solicitud de servicio para la construcción o remodelación que se está produciendo en su casa
+
 ### Información
 
 - ****Acerca de nosotros****
@@ -221,6 +241,10 @@ lastupdated: "2017-08-17"
 
     El usuario desea encontrar la ubicación de la tienda más cercana
 
+- ****Buscar un generador****
+
+    El usuario desea localizar un generador
+
 - ****Contáctenos****
 
     El usuario desea información de contacto de la empresa
@@ -228,6 +252,18 @@ lastupdated: "2017-08-17"
 - ****Crear cita****
 
     El usuario desea programar una cita sin especificar una ubicación
+
+- ****Crear cita en casa****
+
+    El usuario desea programar una cita en su casa
+
+- ****Directrices de construcción****
+
+    El usuario desea notificar a su proveedor que la construcción o remodelación se está produciendo en su casa.
+
+- ****Estado de la tormenta****
+
+    El usuario desea información de la tormenta actual
 
 - ****Horario de la tienda****
 
@@ -241,6 +277,14 @@ lastupdated: "2017-08-17"
 
     Preguntas sobre números de teléfono de tienda
 
+- ****Preparación para tormentas****
+
+    El usuario desea detalles sobre cómo preparar su casa para una tormenta
+
+- ****Prevención de corte eléctrico****
+
+    El usuario desea información sobre la prevención de cortes eléctricos
+
 - ****Productos disponibles****
 
     El usuario desea saber qué productos están disponibles para la compra
@@ -253,6 +297,10 @@ lastupdated: "2017-08-17"
 
     El usuario desea saber los servicios que se proporcionan en ubicaciones de tienda.
 
+- ****Sugerencias para ahorrar energía****
+
+    El usuario desea sugerencias de ahorro de energía
+
 - ****Ubicación de la tienda****
 
     Preguntas sobre ubicaciones de tienda
@@ -260,6 +308,10 @@ lastupdated: "2017-08-17"
 - ****Volver a programa cita****
 
     El usuario desea volver a programa una cita
+
+- ****Volver a programar una cita en casa****
+
+    El usuario desea volver a programar un cita en su casa
 
 ### Pago
 
@@ -337,9 +389,37 @@ lastupdated: "2017-08-17"
 
 ### Quejas
 
+- ****Actualización de parada****
+
+    El usuario desea obtener una actualización en su parada
+
+- ****Buscar cortes de luz****
+
+    El usuario desea buscar cortes de luz en su zona
+
+- ****Calidad de potencia****
+
+    El usuario tiene una pregunta sobre la calidad de la potencia
+
+- ****Notificar fuga de gas****
+
+    El usuario desea notificar una fuga de gas
+
+- ****Notificar línea eléctrica caída****
+
+    El usuario desea notificar una línea eléctrica caída
+
+- ****Notificar un apagón****
+
+    El usuario desea notificar un apagón
+
+- ****Notificar un corte de luz de la calle****
+
+    El usuario desea notificar que una farola está apagada
+
 - ****Queja de cliente****
 
-    El usuario tiene un problema con un dispositivo o servicio
+    El usuario tiene un problema con su servicio
 
 ### Tema no pertinente
 
@@ -347,4 +427,10 @@ lastupdated: "2017-08-17"
 
     Solicitudes o preguntas que no son relevantes para el servicio
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general.html#top)
+### Ventas
+
+- ****Ventas generales****
+
+    Preguntas sobre ventas, incluyendo promociones y precios
+
+[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy_es.html#top)

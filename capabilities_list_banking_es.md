@@ -17,25 +17,41 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Prestaciones general
-{: #capabilities_list_general}
+# Prestaciones básicas de Banca a particulares
+{: #capabilities_list_banking_es}
 {: #top}
-[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
-
-## Detalles
 
 ### Acceso de cuenta en línea
 
 - ****Acceso de cuenta en línea****
 
-    El usuario tiene una pregunta o problema sobre el acceso a una cuenta en línea
+    El usuario tiene una pregunta o un problema con respecto a cómo acceder a una cuenta en línea
+
+### Alertas
+
+- ****Alerta de viaje****
+
+    El usuario desea notificar su banco de viaje.
+
+- ****Editar métodos de entrega (correo electrónico, notificaciones apple)****
+
+    El usuario desea gestionar el método de entrega de sus alertas personalizadas
+
+- ****Pagos publicados****
+
+    El usuario desea gestionar alertas sobre sus pagos que se están publicando.
+
+- ****Umbral de gasto****
+
+    El usuario desea establecer alertas sobre su umbral de gasto
 
 ### Ayuda
 
 - ****Ayuda****
 
-    Preguntas sobre qué opciones están disponibles al utilizar el agente virtual.
+    El usuario tiene preguntas sobre qué opciones están disponibles al utilizar el agente virtual
 
 - ****Conectar con agente****
 
@@ -51,11 +67,37 @@ lastupdated: "2017-08-17"
 
 - ****Información del sistema****
 
-    Preguntas sobre la tecnología del agente virtual con la que interactúan
+    El usuario tiene preguntas sobre la tecnología de agente virtual con la que está interactuando
 
 - ****Saludos****
 
     Saludos utilizados para implicar al usuario en la conversación
+
+### Cuentas corrientes/de ahorro
+
+- ****Configurar un depósito directo****
+
+    El usuario desea configurar un depósito directo para sus cuentas corrientes o de ahorro.
+
+- ****Solicitar talonario de cheques****
+
+    El usuario está solicitando un talonario de cheques.
+
+- ****Transferir dinero****
+
+    El usuario desea transferir dinero entre sus cuentas o a cuentas externas.
+
+- ****Transferir fondos****
+
+    El usuario desea transferir fondos.
+
+- ****Ver actividad****
+
+    El usuario desea ver su actividad en sus cuentas.
+
+- ****Ver número de direccionamiento****
+
+    El usuario desea ver su número de direccionamiento.
 
 ### Facturación
 
@@ -63,13 +105,9 @@ lastupdated: "2017-08-17"
 
     El usuario desea un descuento en una factura por un servicio deficiente o un cargo no válido
 
-- ****Cargos recurrentes****
-
-    Preguntas sobre cargos recurrentes de una factura como, por ejemplo, cargos por mensajes ilimitados, buzón de voz visual o cargos de planes familiares
-
 - ****Ciclo de facturación****
 
-    Preguntas o solicitudes sobre la frecuencia, o fechas de inicio o finalización del ciclo de facturación de un usuario
+    El usuario tiene preguntas sobre la frecuencia, o fechas de inicio y finalización del ciclo de facturación de un usuario
 
 - ****Consulta de saldo****
 
@@ -79,21 +117,17 @@ lastupdated: "2017-08-17"
 
     El usuario desea debatir un cargo de una factura
 
-- ****Explicación de cargo único****
-
-    El usuario desea una explicación de un cargo específico de una factura
-
 - ****Explicación de la factura****
 
-    Preguntas sobre cargos de línea de detalle en una factura.
+    El usuario tiene preguntas sobre cargos de línea de detalle en una factura
 
 - ****Facturación general****
 
-    Preguntas sobre una factura como, por ejemplo, la cantidad de uso o tarifas de uso
+    El usuario tiene preguntas sobre una factura como, por ejemplo, la cantidad de uso o tarifas de uso
 
 - ****Recordatorios de pago****
 
-    Preguntas sobre recordatorios de pago como, por ejemplo, lo qué son y cómo activarlos o detenerlos
+    El usuario tiene preguntas sobre recordatorios de pago como, por ejemplo, qué son y cómo se activan o cómo se detienen
 
 - ****Resúmenes de factura en línea****
 
@@ -101,7 +135,7 @@ lastupdated: "2017-08-17"
 
 - ****Resúmenes de factura en papel****
 
-    Preguntas sobre copias en papel de facturas para una cuenta
+    El usuario tiene preguntas sobre copias en papel de facturas para una cuenta.
 
 - ****Solicitar copia de factura****
 
@@ -151,7 +185,7 @@ lastupdated: "2017-08-17"
 
 - ****Gestión general de cuentas****
 
-    Preguntas generales de cuenta como, por ejemplo, cómo añadir usuarios o cancelar una cuenta
+    El usuario tiene preguntas de cuenta generales como, por ejemplo, cómo añadir usuarios o cancelar una cuenta
 
 - ****Número de cuenta de cliente****
 
@@ -159,7 +193,7 @@ lastupdated: "2017-08-17"
 
 - ****Perfil de Cliente****
 
-    Preguntas sobre los detalles de cuenta de un usuario
+    El usuario tiene preguntas sobre detalles de su cuenta
 
 - ****Preguntas de seguridad de perfil****
 
@@ -189,28 +223,6 @@ lastupdated: "2017-08-17"
 
     El usuario desea saber cuánto valen sus puntos
 
-### Gestión de pedidos
-
-- ****Cambiar pedido****
-
-    El usuario desea cambiar o modificar un pedido realizado
-
-- ****Cancelar pedido****
-
-    El usuario desea cancelar un pedido para un dispositivo
-
-- ****Crear pedido de producto****
-
-    El usuario desea realizar un pedido para un nuevo dispositivo
-
-- ****Estado de pedido****
-
-    El usuario desea saber el estado de un pedido que se ha realizado.
-
-- ****Gestión general de pedidos****
-
-    Preguntas sobre pedidos, incluyendo métodos para realizar pedidos, envíos e historial de pedidos
-
 ### Información
 
 - ****Acerca de nosotros****
@@ -229,9 +241,13 @@ lastupdated: "2017-08-17"
 
     El usuario desea programar una cita sin especificar una ubicación
 
+- ****Crear cita en la oficina****
+
+    El usuario desea programar una cita en la oficina
+
 - ****Horario de la tienda****
 
-    Preguntas sobre el horario de trabajo de la tienda
+    El usuario tiene preguntas sobre el horario comercial de la tienda
 
 - ****Información general****
 
@@ -239,11 +255,7 @@ lastupdated: "2017-08-17"
 
 - ****Número de teléfono de tienda****
 
-    Preguntas sobre números de teléfono de tienda
-
-- ****Productos disponibles****
-
-    El usuario desea saber qué productos están disponibles para la compra
+    El usuario tiene preguntas sobre números de teléfono de tienda
 
 - ****Puestos vacantes****
 
@@ -255,11 +267,15 @@ lastupdated: "2017-08-17"
 
 - ****Ubicación de la tienda****
 
-    Preguntas sobre ubicaciones de tienda
+    El usuario tiene preguntas sobre ubicaciones de tienda
 
 - ****Volver a programa cita****
 
     El usuario desea volver a programa una cita
+
+- ****Volver a programar una cita en la oficina****
+
+    El usuario desea volver a programar una cita en la oficina
 
 ### Pago
 
@@ -281,11 +297,11 @@ lastupdated: "2017-08-17"
 
 - ****Cuotas de pago****
 
-    Preguntas sobre cómo pagar una factura en cuotas
+    El usuario tiene preguntas sobre cómo pagar una factura en cuotas
 
 - ****Falta un pago o se ha aplicado mal****
 
-    Preguntas sobre un pago que falta, que no se ha realizado o que ha sido rechazado
+    El usuario tiene preguntas sobre un pago que falta, que no se ha realizado o que ha sido rechazado
 
 - ****Fecha de vencimiento de pago****
 
@@ -313,7 +329,7 @@ lastupdated: "2017-08-17"
 
 - ****Pago general****
 
-    Preguntas sobre pagos, incluyendo la planificación de pagos y el estado de proceso
+    El usuario tiene preguntas sobre pagos, incluyendo la planificación de pagos y el estado del proceso
 
 - ****Pagos recurrentes (pago automático)****
 
@@ -339,12 +355,50 @@ lastupdated: "2017-08-17"
 
 - ****Queja de cliente****
 
-    El usuario tiene un problema con un dispositivo o servicio
+    El usuario tiene un problema con su servicio
+
+### Servicios de cuenta de tarjeta de crédito
+
+- ****Activar una tarjeta****
+
+    El usuario desea activar su tarjeta.
+
+- ****Cancelar tarjeta de crédito****
+
+    El usuario desea cancelar su tarjeta de crédito.
+
+- ****Consulta de tarifa****
+
+    El usuario tiene una consulta de tarifa con respecto a sus tarifas anuales de tarjeta de crédito.
+
+- ****Notificar una tarjeta perdida o robada****
+
+    El usuario desea notificar una tarjeta perdida o robada.
+
+- ****Solicitar aumento en línea de crédito****
+
+    El usuario está solicitando aumentar su límite de crédito.
+
+- ****Solicitar formularios fiscales****
+
+    El usuario desea solicitar formularios fiscales.
+
+- ****Solicitar un acuerdo de miembro de tarjeta****
+
+    El usuario está solicitando su acuerdo de miembro de tarjeta.
+
+- ****Sustituir una tarjeta****
+
+    El usuario desea sustituir su tarjeta de crédito.
+
+- ****Ver cargos pendientes****
+
+    El cliente desea ver los cargos pendientes en su cuenta de tarjeta de crédito.
 
 ### Tema no pertinente
 
 - ****Ninguna de las anteriores****
 
-    Solicitudes o preguntas que no son relevantes para el servicio
+    El usuario envía una solicitud o una pregunta que no es relevante para el servicio
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general.html#top)
+[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_banking_es.html#top)
