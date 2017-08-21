@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-21"
 
 ---
 
@@ -39,7 +39,6 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Contestation de facture | #Billing-Dispute |
 | Créer une commande de produit | #Order_Management-Create_Product_Order |
 | Cycle de facturation | #Billing-Billing_Cycle |
-| Demande de solde | #Billing-Balance_Inquiry |
 | Demande du mot de passe du profil | #Account_Management-Profile_Password |
 | Demander une copie de la facture | #Billing-Bill_Copy |
 | Différer un paiement | #Payment-Defer_Payment |
@@ -47,7 +46,7 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Echéance du paiement | #Payment-Payment_Due_Date |
 | Effectuer un paiement | #Payment-Make_A_Payment |
 | Explication de facture | #Billing-Bill_Explanation |
-| Explication de frais spécifiques | #Billing-One_Time_Charges |
+| Explication de frais particuliers | #Billing-One_Time_Charges |
 | Facturation générale | #Billing-Misc |
 | Frais récurrents | #Billing-Recurring_Charges |
 | Garantie de sécurité | #Help-Security_Assurance |
@@ -64,7 +63,7 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Mettre à jour le numéro de téléphone de contact | #Account_Management-Update_Change_Contact_Phone_Number |
 | Mettre à jour les moyens de paiement | #Payment-Method_Of_Payment_Update |
 | Modifier l'échéance | #Payment-Payment_Due_Date_Change |
-| Modifier les noms du compte | #Account_Management-Name_Change |
+| Modifier les noms associés au compte | #Account_Management-Name_Change |
 | Modifier une commande | #Order_Management-Modify_Product_Order |
 | Moyens de paiement acceptés | #Payment-Method_Of_Payment_Inquiry |
 | Numéro de compte client | #Account_Management-Account_Number_Inquiry |
@@ -89,6 +88,7 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Relevés de facture papier | #Billing-Paper_Statements |
 | Remboursement | #Payment-Refund_Payment |
 | Renseignement sur l'adresse de facturation | #Account_Management-Billing_Address_Inquiry |
+| Renseignements sur le solde | #Billing-Balance_Inquiry |
 | Replanifier un rendez-vous | #Information-Change_Appointment |
 | Réclamation du client | #Complaints-Misc |
 | Résilier le compte | #Account_Management-Close_Cancel_Account |

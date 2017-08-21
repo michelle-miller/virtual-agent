@@ -2,7 +2,7 @@
 
 Copyright:
 Jahre: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-21"
 
 ---
 
@@ -27,4 +27,4 @@ Die Funktionen sind von Pack zu Pack unterschiedlich.
 
 | Kundendienst (Allgemein) | Energy  | Retail Banking | Telekommunikationsunternehmen   |
 |--------------------------|---------|----------------|---------------------------------|
-| [Details](intent_codenames_general.html) | x | x | [Details](intent_codenames_telco.html) |
+| [Details](intent_codenames_general.html) | [Details](intent_codenames_energy.html) | [Details](intent_codenames_banking.html) | [Details](intent_codenames_telco.html) |

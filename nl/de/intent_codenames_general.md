@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-21"
 
 ---
 
@@ -30,7 +30,8 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 |---------------------------------|--------------------------------------------------------|
 | Abfrage des Kontostands | #Billing-Balance_Inquiry |
 | Abrechnung allgemein | #Billing-Misc |
-| Adresse aktualisieren | #Account_Management-Update_Change_Address |
+| Adresse aktualisieren`*` | #Account_Management-Update_Change_Address |
+| Aktualisierung der Zahlungsart | #Payment-Method_Of_Payment_Update |
 | Akzeptierte Zahlungsarten | #Payment-Method_Of_Payment_Inquiry |
 | Allgemeine Informationen | #Information-Misc |
 | Anfrage der Rechnungsanschrift | #Account_Management-Billing_Address_Inquiry |
@@ -43,18 +44,18 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Bestellung stornieren | #Order_Management-Cancel_Product_Order |
 | Bestellung ändern | #Order_Management-Modify_Product_Order |
 | Dienstleistungen der Filiale | #Information-Store_Services |
-| E-Mail aktualisieren | #Account_Management-Email_Change |
-| Eine Zahlung leisten | #Payment-Make_A_Payment |
+| E-Mail aktualisieren`*` | #Account_Management-Email_Change |
+| Eine Zahlung tätigen`*` | #Payment-Make_A_Payment |
 | Einzelgebührerklärung | #Billing-One_Time_Charges |
 | Erstattung | #Payment-Refund_Payment |
 | Fehlende oder falsche Zahlungen | #Payment-Missing_Misapplied_Payment |
 | Hilfe | #Help-Help |
-| Keine der oben genannten | #Off_Topic-None_of_the_Above |
+| Keines der Obigen | #Off_Topic-None_of_the_Above |
 | Kontakt | #Information-Contact_Us |
 | Konto eröffnen | #Account_Management-Open_Account |
 | Konto löschen | #Account_Management-Close_Cancel_Account |
 | Kontoberechtigungen | #Account_Management-Privileges |
-| Kontonamensänderung | #Account_Management-Name_Change |
+| Kontonamensänderung`*` | #Account_Management-Name_Change |
 | Kontoverwaltung allgemein | #Account_Management-Misc |
 | Kundenkontonummer | #Account_Management-Account_Number_Inquiry |
 | Kundenprofil | #Account_Management-Customer_Profile |
@@ -63,7 +64,7 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Kundentreuestatus | #Account_Management-Loyalty_Status |
 | Missbrauch | #Account_Management-Fraudulent_Use |
 | Mit Kundenbetreuer verbinden | #Help-Connect_to_Agent |
-| Nächstgelegene Filiale finden | #Information-Find_Nearest_Store |
+| Nächstgelegene Filiale finden`*` | #Information-Find_Nearest_Store |
 | Offene Stellen | #Information-Jobs |
 | Online-Kontozugriff | #Online_Account_Access-Misc |
 | Online-Rechnungen | #Billing-Online_Statements |
@@ -80,11 +81,11 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Rechnungskorrektur | #Billing-Request_Adjustment |
 | Rechnungsreklamation | #Billing-Dispute |
 | Rechnungszeitraum | #Billing-Billing_Cycle |
-| Rufnummer der Filiale | #Information-Store_Phone_Number |
 | Sicherheitsgarantie | #Help-Security_Assurance |
-| Standort der Filiale | #Information-Store_Location |
-| Systeminformation | #Help-Misc |
+| Standort der Filiale`*` | #Information-Store_Location |
+| Systeminformationen | #Help-Misc |
 | Telefonnummer aktualisieren | #Account_Management-Update_Change_Contact_Phone_Number |
+| Telefonnummer der Filiale`*` | #Information-Store_Phone_Number |
 | Termin vereinbaren | #Information-Make_Appointment |
 | Termin verschieben | #Information-Change_Appointment |
 | Verfügbare Produkte | #Information-Store_Products |
@@ -92,17 +93,16 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Wiederkehrende Gebühren | #Billing-Recurring_Charges |
 | Wiederkehrende Zahlungen (autopay) | #Payment-Recurring_Payment_Autopay |
 | Zahlung auschieben | #Payment-Defer_Payment |
-| Zahlung vor Ort | #Payment-Payment_Locations |
 | Zahlungen allgemein | #Payment-Misc |
-| Zahlungsart aktualisieren | #Payment-Method_Of_Payment_Update |
 | Zahlungserinnerungen | #Billing-Payment_Reminders |
 | Zahlungsfälligkeitsdatum | #Payment-Payment_Due_Date |
 | Zahlungsfälligkeitsdatum ändern | #Payment-Payment_Due_Date_Change |
-| Zahlungshistorie | #Payment-Payment_History |
 | Zahlungsmodalitäten | #Payment-Payment_Arrangement |
 | Zahlungsnachforschung | #Payment-Research_Payment |
+| Zahlungsorte | #Payment-Payment_Locations |
 | Zahlungsüberprüfung | #Payment-Verify_Payment |
-| Öffnungszeiten | #Information-Store_Hours |
+| Zahlungsübersicht | #Payment-Payment_History |
+| Öffnungszeiten`*` | #Information-Store_Hours |
 | Über uns | #Information-About_Us |
 
 [![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)

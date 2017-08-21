@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-21"
 
 ---
 
@@ -27,4 +27,4 @@ Les capacités diffèrent selon le pack.
 
 | Service clients (Général) | Energie| Banque de détail| Télécommunications|
 |----------------------------|---------|----------------|---------|
-| [détails](intent_codenames_general.html) | x | x | [détails](intent_codenames_telco.html) |
+| [détails](intent_codenames_general.html) | [détails](intent_codenames_energy.html) | [détails](intent_codenames_banking.html) | [détails](intent_codenames_telco.html) |
