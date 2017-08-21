@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-21"
 
 ---
 
@@ -29,80 +29,80 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Prestaciones                    | Nombre de intención asociado a la prestación                                    |
 |---------------------------------|--------------------------------------------------------|
 | Abrir una cuenta | #Account_Management-Open_Account |
-| Acceso a cuenta en línea | #Online_Account_Access-Misc |
+| Acceso de cuenta en línea | #Online_Account_Access-Misc |
 | Acerca de nosotros | #Information-About_Us |
+| Actualización del método de pago | #Payment-Method_Of_Payment_Update |
 | Actualizar correo electrónico | #Account_Management-Email_Change |
 | Actualizar dirección | #Account_Management-Update_Change_Address |
-| Actualizar método de pago | #Payment-Method_Of_Payment_Update |
 | Actualizar número de teléfono de contacto | #Account_Management-Update_Change_Contact_Phone_Number |
-| Ajuste de facturación | #Billing-Request_Adjustment |
+| Acuerdos de pago | #Payment-Payment_Arrangement |
+| Ajuste de factura | #Billing-Request_Adjustment |
 | Ayuda | #Help-Help |
-| Cambiar cita | #Information-Change_Appointment |
-| Cambiar el nombre de cuenta | #Account_Management-Name_Change |
-| Cambiar la fecha de vencimiento de pago | #Payment-Payment_Due_Date_Change |
+| Buscar tienda más cercana | #Information-Find_Nearest_Store |
+| Cambiar fecha de vencimiento de pago | #Payment-Payment_Due_Date_Change |
 | Cambiar pedido | #Order_Management-Modify_Product_Order |
+| Cambio de nombre de cuenta | #Account_Management-Name_Change |
 | Cancelar pedido | #Order_Management-Cancel_Product_Order |
 | Cancelar una cuenta | #Account_Management-Close_Cancel_Account |
 | Canjear puntos | #Account_Management-Redeem_Points |
-| Cargos por mora | #Payment-Late_Fees |
+| Cargos por demora | #Payment-Late_Fees |
 | Cargos recurrentes | #Billing-Recurring_Charges |
 | Ciclo de facturación | #Billing-Billing_Cycle |
-| Conectar con un agente | #Help-Connect_to_Agent |
-| Conflicto de facturación | #Billing-Dispute |
-| Contacte con nosotros | #Information-Contact_Us |
+| Conectar con agente | #Help-Connect_to_Agent |
+| Consulta de contraseña de perfil | #Account_Management-Profile_Password |
+| Consulta de dirección de facturación | #Account_Management-Billing_Address_Inquiry |
+| Consulta de saldo | #Billing-Balance_Inquiry |
+| Contáctenos | #Information-Contact_Us |
+| Crear cita | #Information-Make_Appointment |
 | Crear pedido de producto | #Order_Management-Create_Product_Order |
-| Diferir pago | #Payment-Defer_Payment |
-| Disposiciones de pago | #Payment-Payment_Arrangement |
-| Encontrar la tienda más cercana | #Information-Find_Nearest_Store |
-| Estado de Lealtad | #Account_Management-Loyalty_Status |
+| Cuotas de pago | #Payment-Installments |
+| Disputa de una factura | #Billing-Dispute |
+| Estado de fidelización | #Account_Management-Loyalty_Status |
 | Estado de pedido | #Order_Management-Get_Product_Order_Status |
-| Estados de cuenta en línea | #Billing-Online_Statements |
-| Estados de cuenta impresos | #Billing-Paper_Statements |
-| Explicación de cargos únicos | #Billing-One_Time_Charges |
-| Explicación de factura | #Billing-Bill_Explanation |
+| Explicación de cargo único | #Billing-One_Time_Charges |
+| Explicación de la factura | #Billing-Bill_Explanation |
 | Facturación general | #Billing-Misc |
+| Falta un pago o se ha aplicado mal | #Payment-Missing_Misapplied_Payment |
 | Fecha de vencimiento de pago | #Payment-Payment_Due_Date |
-| Final | #Help-Ending |
+| Finalización | #Help-Ending |
 | Garantía de seguridad | #Help-Security_Assurance |
 | Gestión general de cuentas | #Account_Management-Misc |
-| Gestión general de pedido | #Order_Management-Misc |
+| Gestión general de pedidos | #Order_Management-Misc |
+| Hacer un pago | #Payment-Make_A_Payment |
 | Historial de pago | #Payment-Payment_History |
-| Horario de tienda | #Information-Store_Hours |
+| Horario de la tienda | #Information-Store_Hours |
 | Información bancaria | #Payment-Bank_Information |
-| Información de sistema | #Help-Misc |
+| Información del sistema | #Help-Misc |
 | Información general | #Information-Misc |
 | Investigación de pago | #Payment-Research_Payment |
-| Métodos aceptados de pago | #Payment-Method_Of_Payment_Inquiry |
-| Ninguno de los anteriores | #Off_Topic-None_of_the_Above |
+| Métodos de pago aceptados | #Payment-Method_Of_Payment_Inquiry |
+| Ninguna de las anteriores | #Off_Topic-None_of_the_Above |
 | Número de cuenta de cliente | #Account_Management-Account_Number_Inquiry |
-| Número telefónico de tienda | #Information-Store_Phone_Number |
-| Oportunidades de empleo | #Information-Jobs |
-| Pagar en cuotas | #Payment-Installments |
-| Pago Faltante o Malversado | #Payment-Missing_Misapplied_Payment |
+| Número de teléfono de tienda | #Information-Store_Phone_Number |
 | Pago general | #Payment-Misc |
-| Pagos recurrentes (Autopago) | #Payment-Recurring_Payment_Autopay |
-| Pedir una copia de factura | #Billing-Bill_Copy |
+| Pagos recurrentes (pago automático) | #Payment-Recurring_Payment_Autopay |
 | Perfil de Cliente | #Account_Management-Customer_Profile |
+| Posponer pago | #Payment-Defer_Payment |
 | Preguntas de seguridad de perfil | #Account_Management-Profile_Security_Questions |
 | Privilegios de cuenta | #Account_Management-Privileges |
 | Productos disponibles | #Information-Store_Products |
-| Programa de Lealtad de Clientes | #Account_Management-Customer_Loyalty_Program |
-| Realizar un pago | #Payment-Make_A_Payment |
-| Reclamación de cliente | #Complaints-Misc |
+| Programa de fidelidad de cliente | #Account_Management-Customer_Loyalty_Program |
+| Puestos vacantes | #Information-Jobs |
+| Queja de cliente | #Complaints-Misc |
 | Recordatorios de pago | #Billing-Payment_Reminders |
 | Reembolso | #Payment-Refund_Payment |
-| Reservar cita | #Information-Make_Appointment |
+| Resúmenes de factura en línea | #Billing-Online_Statements |
+| Resúmenes de factura en papel | #Billing-Paper_Statements |
 | Saludos | #Help-Greetings |
 | Servicios de tienda | #Information-Store_Services |
-| Solicitud de la contraseña de perfil | #Account_Management-Profile_Password |
-| Solicitud de la dirección de facturación | #Account_Management-Billing_Address_Inquiry |
-| Solicitud de saldo | #Billing-Balance_Inquiry |
+| Solicitar copia de factura | #Billing-Bill_Copy |
 | Transferir puntos | #Account_Management-Transfer_Points |
 | Ubicaciones de pago | #Payment-Payment_Locations |
-| Ubicación de tienda | #Information-Store_Location |
-| Uso Fraudulento | #Account_Management-Fraudulent_Use |
+| Ubicación de la tienda | #Information-Store_Location |
+| Uso fraudulento | #Account_Management-Fraudulent_Use |
 | Usuarios autorizados | #Account_Management-Authorized_User |
-| Valor de puntos | #Account_Management-Points_Value |
-| Verificación del pago | #Payment-Verify_Payment |
+| Valor de punto | #Account_Management-Points_Value |
+| Verificación de pago | #Payment-Verify_Payment |
+| Volver a programa cita | #Information-Change_Appointment |
 
 [![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)

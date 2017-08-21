@@ -17,8 +17,8 @@ lastupdated: "2017-08-21"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Nomi intento (General)
-{: #intent_codenames_general}
+# Nomi intento (Retail Banking)
+{: #intent_codenames_banking}
 {: #top}
 
 [![Indietro](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
@@ -33,34 +33,37 @@ possibile trovarli qui.
 |---------------------------------|--------------------------------------------------------|
 | Accesso all'account online | #Online_Account_Access-Misc |
 | Addebiti per pagamenti in ritardo | #Payment-Late_Fees |
-| Addebiti ricorrenti | #Billing-Recurring_Charges |
-| Aggiorna il numero telefonico del contatto | #Account_Management-Update_Change_Contact_Phone_Number |
-| Aggiorna indirizzo | #Account_Management-Update_Change_Address |
-| Aggiorna indirizzo email | #Account_Management-Email_Change |
+| Aggiorna il contatto telefonico | #Account_Management-Update_Change_Contact_Phone_Number |
+| Aggiorna l'indirizzo | #Account_Management-Update_Change_Address |
+| Aggiorna l'indirizzo email | #Account_Management-Email_Change |
 | Aggiornamento sul metodo di pagamento | #Payment-Method_Of_Payment_Update |
 | Aiuto | #Help-Help |
-| Annulla ordine | #Order_Management-Cancel_Product_Order |
+| Annulla carta di credito | #Credit_Card_Account_Services-Cancel_Credit_Card |
+| Attiva una carta | #Credit_Card_Account_Services-Activate_A_Card |
+| Avviso di viaggio | #Alerts-Account_Alerts_Travel |
 | Chi siamo | #Information-About_Us |
 | Chiusura dell'account | #Account_Management-Close_Cancel_Account |
 | Ciclo di fatturazione | #Billing-Billing_Cycle |
 | Contattaci | #Information-Contact_Us |
 | Contestazione di una fattura | #Billing-Dispute |
 | Correzione della fattura | #Billing-Request_Adjustment |
-| Crea un ordine del prodotto | #Order_Management-Create_Product_Order |
 | Cronologia dei pagamenti | #Payment-Payment_History |
 | Data di scadenza del pagamento | #Payment-Payment_Due_Date |
 | Dilazione dei pagamenti | #Payment-Payment_Arrangement |
 | Domande di sicurezza del profilo | #Account_Management-Profile_Security_Questions |
+| Domande sulle commissioni | #Credit_Card_Account_Services-Fee_Inquiry |
+| Effettua bonifico | #Checking_Savings_Accounts-Wire_Funds |
 | Effettua un pagamento | #Payment-Make_A_Payment |
 | Estratto conto cartaceo | #Billing-Paper_Statements |
 | Estratto conto online | #Billing-Online_Statements |
 | Fatturazione generale | #Billing-Misc |
 | Fine | #Help-Ending |
+| Fissa appuntamento in ufficio | #Information-Make_Store_Appointment |
 | Fissa un appuntamento | #Information-Make_Appointment |
 | Garanzia di sicurezza | #Help-Security_Assurance |
 | Gestione dell'account | #Account_Management-Misc |
-| Gestione generale degli ordini | #Order_Management-Misc |
 | Il numero di account del cliente | #Account_Management-Account_Number_Inquiry |
+| Imposta accredito diretto | #Checking_Savings_Accounts-Set_Up_Direct_Deposit |
 | Informazioni bancarie | #Payment-Bank_Information |
 | Informazioni di sistema | #Help-Misc |
 | Informazioni generali | #Information-Misc |
@@ -69,21 +72,25 @@ possibile trovarli qui.
 | Metti in contatto con l'operatore | #Help-Connect_to_Agent |
 | Modifica data di scadenza del pagamento | #Payment-Payment_Due_Date_Change |
 | Modifica dell'intestatario dell'account | #Account_Management-Name_Change |
-| Modifica ordine | #Order_Management-Modify_Product_Order |
+| Modifica metodi di consegna (e-mail, notifiche apple) | #Alerts-Edit_Delivery_Methods |
 | Nessuno dei precedenti | #Off_Topic-None_of_the_Above |
 | Numero di telefono del negozio | #Information-Store_Phone_Number |
 | Orari di apertura dei negozi | #Information-Store_Hours |
+| Pagamenti inviati | #Alerts-Account_Alerts_Payment_Posted |
 | Pagamenti ricorrenti | #Payment-Recurring_Payment_Autopay |
 | Pagamento generale | #Payment-Misc |
 | Pagamento mancante o non corretto | #Payment-Missing_Misapplied_Payment |
 | Posizioni lavorative disponibili | #Information-Jobs |
-| Prodotti disponibili | #Information-Store_Products |
 | Profilo del cliente | #Account_Management-Customer_Profile |
 | Programma di fidelizzazione del cliente | #Account_Management-Customer_Loyalty_Program |
 | Promemoria di pagamento | #Billing-Payment_Reminders |
 | Rateizza pagamento | #Payment-Installments |
 | Reclamo del cliente | #Complaints-Misc |
 | Ricerca pagamenti | #Payment-Research_Payment |
+| Richiedi aumento della linea di credito | #Credit_Card_Account_Services-Request_Increase_In_Credit_Line |
+| Richiedi libretto di assegni | #Checking_Savings_Accounts-Request_Checkbook |
+| Richiedi moduli di imposta | #Credit_Card_Account_Services-Tax_Forms |
+| Richiedi regolamento per i titolari di carta | #Credit_Card_Account_Services-Request_Card_Member_Agreement |
 | Richiesta della password del profilo. | #Account_Management-Profile_Password |
 | Richiesta di indirizzo di fatturazione | #Account_Management-Billing_Address_Inquiry |
 | Richiesta di saldo | #Billing-Balance_Inquiry |
@@ -92,12 +99,15 @@ possibile trovarli qui.
 | Rimborso | #Payment-Refund_Payment |
 | Riscatta i punti | #Account_Management-Redeem_Points |
 | Saluti | #Help-Greetings |
+| Segnala carta persa o rubata | #Credit_Card_Account_Services-Report_Lost_Or_Stolen_Card |
 | Servizi del negozio | #Information-Store_Services |
+| Soglia di spesa | #Alerts-Account_Alerts_Spending_Threshold |
+| Sostituisci una carta | #Credit_Card_Account_Services-Replace_A_Card |
 | Sottoscrivi un piano | #Account_Management-Open_Account |
-| Spiegazione dell'addebito una tantum | #Billing-One_Time_Charges |
 | Spiegazione della fattura | #Billing-Bill_Explanation |
+| Sposta appuntamento in ufficio | #Information-Change_Store_Appointment |
 | Sposta un appuntamento | #Information-Change_Appointment |
-| Stato dell'ordine | #Order_Management-Get_Product_Order_Status |
+| Trasferisci fondi | #Checking_Savings_Accounts-Transfer_Money |
 | Trasferisci i punti | #Account_Management-Transfer_Points |
 | Trova il negozio più vicino | #Information-Find_Nearest_Store |
 | Ubicazione del negozio | #Information-Store_Location |
@@ -107,5 +117,8 @@ possibile trovarli qui.
 | Valore dei punti | #Account_Management-Points_Value |
 | Vantaggi del piano | #Account_Management-Privileges |
 | Verifica pagamenti | #Payment-Verify_Payment |
+| Visualizza addebiti sospesi | #Credit_Card_Account_Services-View_Pending_Charges |
+| Visualizza attività | #Checking_Savings_Accounts-View_Activity |
+| Visualizza codice di instradamento internazionale | #Checking_Savings_Accounts-View_Routing_Number |
 
-[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
+[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_banking.html#top)

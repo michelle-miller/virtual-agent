@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-21"
 
 ---
 
@@ -27,4 +27,4 @@ Os recursos diferem por pacote.
 
 | Atendimento ao Cliente (Geral) | Energia  | Transações Bancárias de Varejo | mais inteligentes |
 |--------------------------------|----------|--------------------------------|-------------------|
-| [detalhes](intent_codenames_general.html) | x | x | [detalhes](intent_codenames_telco.html) |
+| [detalhes](intent_codenames_general.html) | [detalhes](intent_codenames_energy.html) | [detalhes](intent_codenames_banking.html) | [detalhes](intent_codenames_telco.html) |

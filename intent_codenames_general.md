@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-21"
 
 ---
 
@@ -102,7 +102,7 @@ The following table lists the intent names for each supported capability. If you
 | System information | #Help-Misc |
 | Transfer points | #Account_Management-Transfer_Points |
 | Update address`*` | #Account_Management-Update_Change_Address |
-| Update contact phone number* | #Account_Management-Update_Change_Contact_Phone_Number |
+| Update contact phone number`*` | #Account_Management-Update_Change_Contact_Phone_Number |
 | Update email`*` | #Account_Management-Email_Change |
 
 `*` Identifies capabilities for which built-in dialogs are provided. See [Built-in dialogs](configure.html#builtin_dialog_ovw) for more information.

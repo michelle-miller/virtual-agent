@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-21"
 
 ---
 
@@ -27,5 +27,5 @@ Las prestaciones de cada paquete son diferentes.
 
 | Servicio al cliente (General) | Energía  | Banca a particulares| Telco   |
 |----------------------------|---------|----------------|---------|
-| [detalles](intent_codenames_general.html)   | x | x | [detalles](intent_codenames_telco.html) |
+| [detalles](intent_codenames_general.html) | [detalles](intent_codenames_energy.html) | [detalles](intent_codenames_banking.html) | [detalles](intent_codenames_telco.html) |
 
