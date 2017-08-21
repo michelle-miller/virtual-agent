@@ -17,13 +17,14 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Allgemeine Funktionen des Kundendiensts
-{: #capabilities_list_general}
-[![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+# Zentrale Funktionen für Energy
+{: #capabilities_list_energy_de}
+{: #top}
+Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
 
 ## Zentrale Funktionen
-{: #top}
+
 ### Abrechnung
 
 - ****Abfrage des Kontostands****
@@ -34,9 +35,21 @@ lastupdated: "2017-08-17"
 
     Fragen zu einer Rechnung, wie zum Beipiel dem Nutzungsumfang oder Gebühren
 
+- ****Beschwerde wegen Verlustes einreichen****
+
+    Der Benutzer möchte eine Beschwerde wegen Verlustes einreichen
+
 - ****Einzelgebührerklärung****
 
     Der Benutzer möchte eine Erläuterung zu einer bestimmten Gebühr auf einer Rechnung
+
+- ****Einzelheiten zum Verbrauch****
+
+    Der Benutzer möchte Einzelheiten zu seinem Energieverbrauch erfahren
+
+- ****Nutzung melden****
+
+    Der Benutzer möchte die für sein Messgerät verzeichnete Nutzung melden
 
 - ****Online-Rechnungen****
 
@@ -98,9 +111,37 @@ lastupdated: "2017-08-17"
 
 ### Beschwerden
 
+- ****Ausfall der Straßenbeleuchtung melden****
+
+    Der Benutzer möchte einen Ausfall der Straßenlaterne melden
+
+- ****Ausfall melden****
+
+    Der Benutzer möchte einen Ausfall melden
+
+- ****Ausgefallene Stromleitung melden****
+
+    Der Benutzer möchte eine ausgefallene Stromleitung melden
+
+- ****Gasaustritt melden****
+
+    Der Benutzer möchte Gasaustritt melden
+
 - ****Kundenreklamation****
 
-    Benutzer hat ein Problem mit einem Gerät oder Service
+    Der Benutzer hat ein Problem mit einer Dienstleistung
+
+- ****Nach Ausfällen suchen****
+
+    Der Benutzer möchte nach Ausfällen in seinem Bereich suchen
+
+- ****Netzqualität****
+
+    Der Benutzer hat eine Frage zur Netzqualität
+
+- ****Update zu Ausfall****
+
+    Der Benutzer möchte ein Update zu seinem Ausfall bekommen
 
 ### Hilfe
 
@@ -138,6 +179,22 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte Informationen über die in Filialen verfügbaren Dienstleistungen
 
+- ****Energiespartipps****
+
+    Der Benutzer möchte Energiespartipps bekommen
+
+- ****Generator suchen****
+
+    Der Benutzer möchte einen Generator suchen
+
+- ****Haustermin vereinbaren****
+
+    Der Benutzer möchte einen Termin zu Hause vereinbaren.
+
+- ****Haustermin verschieben****
+
+    Der Benutzer möchte einen Termin bei sich zu Hause verschieben
+
 - ****Kontakt****
 
     Der Benutzer möchte die Kontaktdaten des Unternehmens
@@ -149,6 +206,10 @@ lastupdated: "2017-08-17"
 - ****Offene Stellen****
 
     Der Benutzer möchte Informationen zu Stellenangeboten
+
+- ****Richtlinien für Bauarbeiten****
+
+    Der Benutzer möchte seinen Anbieter darüber informieren, dass bei ihm zu Hause Bauarbeiten oder Umbauten stattfinden.
 
 - ****Standort der Filiale****
 
@@ -166,9 +227,21 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte einen Termin verschieben
 
+- ****Unwetterstatus****
+
+    Der Benutzer möchte aktuelle Informationen zum Unwetter haben
+
 - ****Verfügbare Produkte****
 
     Der Benutzer möchte wissen, welche Produkte für den Kauf verfügbar sind.
+
+- ****Vermeidung von Ausfällen****
+
+    Der Benutzer möchte Informationen zur Vermeidung von Ausfällen haben
+
+- ****Vorbereitung auf Unwetter****
+
+    Der Benutzer möchte Einzelheiten zur Vorbereitung auf ein Unwetter erfahren
 
 - ****Öffnungszeiten****
 
@@ -204,10 +277,6 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte ein Konto löschen oder schließen
 
-- ****Kontoberechtigungen****
-
-    Der Benutzer möchte wissen, welche möglichen Produkte oder Dienstleistungen auf der Grundlage seines Konto zur Verfügung stehen.
-
 - ****Kontonamensänderung****
 
     Der Benutzer möchte die dem Konto zugehörigen Namen ändern
@@ -224,14 +293,6 @@ lastupdated: "2017-08-17"
 
     Fragen zu den Kontodaten des Benutzers
 
-- ****Kundentreueprogramm****
-
-    Der Benutzer möchte Informationen zum Kundentreueprogramm
-
-- ****Kundentreuestatus****
-
-    Der Benutzer möchte sich über den Status oder Anspruch seines Kundentreueprogramms informieren
-
 - ****Missbrauch****
 
     Der Benutzer möchte Karten- oder Kontomissbrauch melden oder prüfen
@@ -243,18 +304,6 @@ lastupdated: "2017-08-17"
 - ****Profilsicherheitsfragen****
 
     Der Benutzer möchte die dem Konto zugehörigen Sicherheitsfragen anzeigen oder ändern
-
-- ****Punkte einlösen****
-
-    Der Benutzer möchte Punkte für einen Einkauf oder ihren Wert einlösen
-
-- ****Punkte übertragen****
-
-    Der Benutzer möchte Punkte zwischen Konten übertragen
-
-- ****Punktewert****
-
-    Der Benutzer möchte den Wert seiner Punkte erfahren
 
 - ****Telefonnummer aktualisieren****
 
@@ -271,6 +320,46 @@ lastupdated: "2017-08-17"
 - ****Online-Kontozugriff****
 
     Der Benutzer hat eine Frage oder ein Problem bezüglich dem Onlinezugriff auf ein Konto
+
+### Serviceverwaltung
+
+- ****Anfrage zum Bonusprogramm****
+
+    Der Benutzer hat eine Frage zu einem Kundenprogramm
+
+- ****Bei Kundenprogramm registrieren****
+
+    Der Benutzer möchte sich beim Kundenprogramm registrieren
+
+- ****Benachrichtigungen über Bauarbeiten****
+
+    Der Benutzer möchte seinen Anbieter darüber informieren, dass bei ihm zu Hause Bauarbeiten oder Umbauten stattfinden.
+
+- ****Geräteregistrierung****
+
+    Der Benutzer möchte ein neues Gerät registrieren
+
+- ****Service beenden****
+
+    Der Benutzer möchte den Service beenden
+
+- ****Service starten****
+
+    Der Benutzer möchte den Service starten
+
+- ****Serviceanforderung****
+
+    Der Benutzer möchte seine Serviceanforderung verwalten
+
+- ****Serviceanforderung für Bauarbeiten****
+
+    Der Benutzer möchte eine Serviceanforderung für Bauarbeiten oder Umbauten erstellen, die bei ihm zu Hause erfolgen
+
+### Vertrieb
+
+- ****Verkauf allgemein****
+
+    Fragen zum Verkauf, einschließlich Werbeaktionen und Preisgestaltung
 
 ### Zahlung
 
@@ -346,5 +435,4 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_de.html#top)
-
+[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy_de.html#top)

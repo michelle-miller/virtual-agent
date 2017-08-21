@@ -17,13 +17,12 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# General customer service capabilities
-{: #capabilities_list_general_en}
+# Core Retail Banking capabilities
+{: #capabilities_list_banking_en}
 {: #top}
 
 ## Details
-
-[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
+[Go back](how-it-works.html#capability-packs)
 
 ### Account management
 
@@ -57,7 +56,7 @@ lastupdated: "2017-08-17"
 
 - ****Customer profile****
 
-    Questions about a user's account details
+    User has questions about their account details
 
 - ****Fraudulent use****
 
@@ -65,7 +64,7 @@ lastupdated: "2017-08-17"
 
 - ****General account management****
 
-    General account questions, such as how to add users or cancel an account
+    User has general account questions, such as how to add users or cancel an account
 
 - ****Loyalty status****
 
@@ -107,6 +106,24 @@ lastupdated: "2017-08-17"
 
     User wants to change the contact email address on the account
 
+### Alerts
+
+- ****Edit delivery methods (e-mail, apple notifications)****
+
+    User wants to manage the delivery method of their custom alerts
+
+- ****Payments posted****
+
+    User wants to manage alerts about their payments being posted.
+
+- ****Spending threshold****
+
+    User wants to set alerts about their spending threshold
+
+- ****Travel alert****
+
+    User wants to notify their bank of travel.
+
 ### Billing
 
 - ****Balance inquiry****
@@ -123,19 +140,15 @@ lastupdated: "2017-08-17"
 
 - ****Bill explanation****
 
-    Questions about line item charges on a bill
+    User has questions about line item charges on a bill
 
 - ****Billing cycle****
 
-    Questions or requests about the frequency, or start and end dates of a user's billing cycle
+    Use has questions or requests about the frequency, or start and end dates of a user's billing cycle
 
 - ****General billing****
 
-    Questions about a bill, such as usage amount or fees
-
-- ****One-time charge explanation****
-
-    User wants an explanation of a specific charge on a bill
+    User has questions about a bill, such as usage amount or fees
 
 - ****Online bill statements****
 
@@ -143,25 +156,85 @@ lastupdated: "2017-08-17"
 
 - ****Paper bill statements****
 
-    Questions about hard copies of bills for an account
+    User has questions about hard copies of bills for an account
 
 - ****Payment reminders****
 
-    Questions about payment reminders, such as what they are, and how to set them up or stop them
-
-- ****Recurring charges****
-
-    Questions about recurring charges on a bill, such as unlimited texting, visual voicemail, or family plan charges
+    User has questions about payment reminders, such as what they are, and how to set them up or stop them
 
 - ****Request bill copy****
 
     User wants a copy of a bill for the current or previous billing period
 
+### Checking/Savings accounts
+
+- ****Request checkbook****
+
+    User is requesting a checkbook.
+
+- ****Set up direct deposit****
+
+    User wants to set up a direct deposit for their checking or savings accounts.
+
+- ****Transfer money****
+
+    User wants to transfer money between their accounts or to external accounts.
+
+- ****View activity****
+
+    User wants to view their activity on their accounts.
+
+- ****View routing number****
+
+    User wants to view their routing number.
+
+- ****Wire funds****
+
+    User wants to wire funds.
+
 ### Complaints
 
 - ****Customer complaint****
 
-    User has an issue with a device or service
+    User has an issue with their service
+
+### Credit card account services
+
+- ****Activate a card****
+
+    User wants to activate their card.
+
+- ****Cancel credit card****
+
+    User wants to cancel their credit card.
+
+- ****Fee inquiry****
+
+    User has a fee inquiry regarding their credit card annual fees.
+
+- ****Replace a card****
+
+    User wants to replace their credit card.
+
+- ****Report lost or stolen card****
+
+    User wants to report a lost or stolen card.
+
+- ****Request card member agreement****
+
+    User is requesting their card member agreement.
+
+- ****Request increase in credit line****
+
+    User is requesting to increase their credit limit.
+
+- ****Request tax forms****
+
+    User wants to request tax forms.
+
+- ****View pending charges****
+
+    Customer wants to view the pending charges on their credit card account.
 
 ### Help
 
@@ -179,7 +252,7 @@ lastupdated: "2017-08-17"
 
 - ****Help****
 
-    Questions about what options are available when using the virtual agent
+    User has questions about what options are available when using the virtual agent
 
 - ****Security assurance****
 
@@ -187,17 +260,13 @@ lastupdated: "2017-08-17"
 
 - ****System information****
 
-    Questions about the virtual agent technology that they are interacting with
+    User has questions about the virtual agent technology that they are interacting with
 
 ### Information
 
 - ****About us****
 
     User asks for general information about the company
-
-- ****Available products****
-
-    User wants to know what products are available for purchase
 
 - ****Contact us****
 
@@ -219,21 +288,29 @@ lastupdated: "2017-08-17"
 
     User wants to schedule an appointment without specifying a location
 
+- ****Make office appointment****
+
+    User wants to schedule an office appointment
+
 - ****Reschedule appointment****
 
     User wants to reschedule an appointment
 
+- ****Reschedule office appointment****
+
+    User wants to reschedule an office appointment
+
 - ****Store hours****
 
-    Questions about store business hours
+    User has questions about store business hours
 
 - ****Store location****
 
-    Questions about store locations
+    User has questions about store locations
 
 - ****Store phone number****
 
-    Questions about store phone numbers
+    User has questions about store phone numbers
 
 - ****Store services****
 
@@ -243,35 +320,13 @@ lastupdated: "2017-08-17"
 
 - ****None of the above****
 
-    Requests or questions that are not relevant to the service
+    User sends a requests or question that are not relevant to the service
 
 ### Online account access
 
 - ****Online account access****
 
-    User has a question or issue about accesssing an account online
-
-### Order management
-
-- ****Cancel order****
-
-    User wants to cancel an order for a device
-
-- ****Change order****
-
-    User wants to change or modify a placed order
-
-- ****Create product order****
-
-    User wants to place an order for a new device
-
-- ****General order management****
-
-    Questions about orders, including methods for placing orders, shipping, and order history
-
-- ****Order status****
-
-    User wants to know the status of an order that has been placed
+    User has a question or issue about accessing an account online
 
 ### Payment
 
@@ -293,7 +348,7 @@ lastupdated: "2017-08-17"
 
 - ****General payment****
 
-    Questions about payments, including payment scheduling and processing status
+    User has questions about payments, including payment scheduling and processing status
 
 - ****Late fees****
 
@@ -309,7 +364,7 @@ lastupdated: "2017-08-17"
 
 - ****Missing or misapplied payment****
 
-    Questions about a payment that is missing, didn't go through, or was rejected
+    User has questions about a payment that is missing, didn't go through, or was rejected
 
 - ****Payment arrangements****
 
@@ -325,7 +380,7 @@ lastupdated: "2017-08-17"
 
 - ****Payment installments****
 
-    Questions about paying a bill in installments
+    User has questions about paying a bill in installments
 
 - ****Payment locations****
 
@@ -347,4 +402,4 @@ lastupdated: "2017-08-17"
 
     User wants a refund for a payment
 
-[Back to top](capabilities_list_general_en.html#top)
+[Back to top](capabilities_list_banking_en.html#top)

@@ -17,23 +17,18 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# General customer service capabilities
-{: #capabilities_list_general_en}
+# Core Energy capabilities
+{: #capabilities_list_energy_en}
 {: #top}
 
 ## Details
-
-[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
+[Go back](how-it-works.html#capability-packs)
 
 ### Account management
 
 - ****Account name change****
 
     User wants to change the names that are associated with an account
-
-- ****Account privileges****
-
-    User wants to know what potential products or services are available to them based on their account
 
 - ****Authorized users****
 
@@ -51,10 +46,6 @@ lastupdated: "2017-08-17"
 
     Questions about a user's account number
 
-- ****Customer loyalty program****
-
-    User wants to learn about customer loyalty programs
-
 - ****Customer profile****
 
     Questions about a user's account details
@@ -67,17 +58,9 @@ lastupdated: "2017-08-17"
 
     General account questions, such as how to add users or cancel an account
 
-- ****Loyalty status****
-
-    User wants to know about their customer loyalty program status or eligibility
-
 - ****Open account****
 
     User wants to open an account
-
-- ****Points value****
-
-    User wants to know how much value their points are worth
 
 - ****Profile password inquiry****
 
@@ -86,14 +69,6 @@ lastupdated: "2017-08-17"
 - ****Profile security questions****
 
     User wants to review or change the security questions that are associated with the account
-
-- ****Redeem points****
-
-    User wants to redeem points to make a purchase or redeem their value
-
-- ****Transfer points****
-
-    User wants to transfer points between accounts
 
 - ****Update address****
 
@@ -129,6 +104,10 @@ lastupdated: "2017-08-17"
 
     Questions or requests about the frequency, or start and end dates of a user's billing cycle
 
+- ****File a loss claim****
+
+    User wants to file a claim for a loss
+
 - ****General billing****
 
     Questions about a bill, such as usage amount or fees
@@ -153,15 +132,51 @@ lastupdated: "2017-08-17"
 
     Questions about recurring charges on a bill, such as unlimited texting, visual voicemail, or family plan charges
 
+- ****Report usage****
+
+    User wants to report usage registered on their meter
+
 - ****Request bill copy****
 
     User wants a copy of a bill for the current or previous billing period
+
+- ****Usage detail****
+
+    User wants details on their energy use
 
 ### Complaints
 
 - ****Customer complaint****
 
-    User has an issue with a device or service
+    User has an issue with their service
+
+- ****Outage update****
+
+    User wants to get an update on their outage
+
+- ****Power quality****
+
+    User has a question about power quality
+
+- ****Report downed power line****
+
+    User wants to report a downed power line
+
+- ****Report gas leak****
+
+    User Wants to report a gas leak
+
+- ****Report outage****
+
+    User wants to report an outage
+
+- ****Report street light outage****
+
+    User wants to report a street light that is out
+
+- ****Search outages****
+
+    User wants to search for outages in their area
 
 ### Help
 
@@ -199,9 +214,21 @@ lastupdated: "2017-08-17"
 
     User wants to know what products are available for purchase
 
+- ****Construction guidelines****
+
+    User wants to notify their provider that construction or re-modeling is occurring at their home.
+
 - ****Contact us****
 
     User wants company contact information
+
+- ****Energy saving tips****
+
+    User wants energy saving tips
+
+- ****Find a generator****
+
+    User wants to locate a generator
 
 - ****Find nearest store****
 
@@ -219,9 +246,21 @@ lastupdated: "2017-08-17"
 
     User wants to schedule an appointment without specifying a location
 
+- ****Make home appointment****
+
+    User wants to schedule an appointment at their home
+
+- ****Outage prevention****
+
+    User wants information on outage prevention
+
 - ****Reschedule appointment****
 
     User wants to reschedule an appointment
+
+- ****Reschedule home appointment****
+
+    User wants to reschedule an appointment at their home
 
 - ****Store hours****
 
@@ -238,6 +277,14 @@ lastupdated: "2017-08-17"
 - ****Store services****
 
     User wants to know about the services that are provided at store locations
+
+- ****Storm preparation****
+
+    User wants details on how to prepare home for a storm
+
+- ****Storm status****
+
+    User wants current storm information
 
 ### Off-topic
 
@@ -347,4 +394,44 @@ lastupdated: "2017-08-17"
 
     User wants a refund for a payment
 
-[Back to top](capabilities_list_general_en.html#top)
+### Sales
+
+- ****General sales****
+
+    Questions about sales, including promotions and pricing
+
+### Service management
+
+- ****Construction notifications****
+
+    User wants to notify their provider that construction or re-modeling is occurring at their home.
+
+- ****Construction service request****
+
+    User wants to create a service request for construction or re-modeling that is happening on their home
+
+- ****Device registration****
+
+    User wants to register a new device
+
+- ****Enroll in customer program****
+
+    User wants to enroll in the customer program
+
+- ****Incentive program inquiry****
+
+    User has a question about a customer program
+
+- ****Service inquiry****
+
+    User wants to manage their service inquiry
+
+- ****Start service****
+
+    User wants to start their service
+
+- ****Stop service****
+
+    User wants to stop their service
+
+[Back to top](capabilities_list_energy_en.html#top)

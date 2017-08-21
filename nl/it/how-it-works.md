@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-17"
 
 ---
 
@@ -68,14 +68,12 @@ per visualizzare un elenco di capacità e le relative descrizioni per ogni lingu
 
 | Lingua   | Customer Service (General) | Energy  | Retail Banking | Telco   |
 |----------|----------------------------|---------|----------------|---------|
-| Inglese  | [dettagli](/docs/services/virtual-agent/capabilities_list_general_en.html)  | [dettagli](/docs/services/virtual-agent/capabilities_list_energy.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_banking.html)        | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
-| Francese | [dettagli](/docs/services/virtual-agent/capabilities_list_general_fr.html)  | n/d     | n/d            | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
-| Tedesco  | [dettagli](/docs/services/virtual-agent/capabilities_list_general_de.html)  | n/d     | n/d            | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_de.html) |
-| Italiano | [dettagli](/docs/services/virtual-agent/capabilities_list_general.html)  | n/d | n/d | [dettagli](/docs/services/virtual-agent/capabilities_list_telco.html) |
-| Portoghese (brasiliano) | [dettagli](/docs/services/virtual-agent/capabilities_list_general_pt-br.html)   | n/d     | n/d            | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
-| Spagnolo | [dettagli](/docs/services/virtual-agent/capabilities_list_general_es.html)  | n/d     | n/d            | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
-
-*n/d indica non disponibile adesso.
+| Inglese  | [dettagli](/docs/services/virtual-agent/capabilities_list_general_en.html)  | [dettagli](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_banking_en.html)        | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
+| Francese | [dettagli](/docs/services/virtual-agent/capabilities_list_general_fr.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_energy_fr.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_banking_fr.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
+| Tedesco  | [dettagli](/docs/services/virtual-agent/capabilities_list_general_de.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_energy_de.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_banking_de.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_de.html) |
+| Italiano | [dettagli](/docs/services/virtual-agent/capabilities_list_general.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_energy.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_banking.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_telco.html) |
+| Portoghese (brasiliano) | [dettagli](/docs/services/virtual-agent/capabilities_list_general_pt-br.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_energy_pt-br.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_banking_pt-br.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
+| Spagnolo | [dettagli](/docs/services/virtual-agent/capabilities_list_general_es.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_energy_es.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_banking_es.html) | [dettagli](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
 
 Se le capacità base non soddisfano un obiettivo comune specifico dei propri clienti, è
 possibile aggiungere le proprie capacità per integrare quelle fornite in un pacchetto. Ad esempio, se si è proprietari di una pasticceria, i clienti potrebbero chiedere spesso quali sono i gusti dei cupcake in vendita. È possibile aggiungere una capacità *Menu cupcake* per gestire queste domande. Per ulteriori informazioni, vedere [Aggiunta di proprie capacità](add-custom-capabilities.html).

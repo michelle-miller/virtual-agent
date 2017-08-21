@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-17"
 
 ---
 
@@ -45,7 +45,7 @@ lastupdated: "2017-08-10"
 
 - ****Online-Rechnungen****
 
-    Der Benutzer will den Online-Kontoauszug sehen oder zum Online-Kontoauszug wechseln
+    Der Benutzer will den Online-Kontoauszug sehen oder zum Online-Kontoauszug wechseln.
 
 - ****Papierrechnungen****
 
@@ -113,11 +113,11 @@ lastupdated: "2017-08-10"
 
 - ****Netzprobleme****
 
-    Fragen über das Netz, einschließlich Signalprobleme, abgelehnte Anrufe und Ausfälle
+    Fragen über das Netz, einschließlich Signalprobleme, unterbrochene Anrufe und Ausfälle
 
 ### Gerätverwaltung
 
-- ****Gerätaktivierung****
+- ****Geräteaktivierung****
 
     Fragen zur Aktivierung eines Geräts
 
@@ -133,11 +133,11 @@ lastupdated: "2017-08-10"
 
 - ****Beendung****
 
-    Die Abschiedswörter, die zur Beendung des Gesprächs verwendet werden
+    Die Abschiedsworte, die zur Beendung des Gesprächs verwendet werden.
 
 - ****Begrüßung****
 
-    Die Begrüßung, die wir bei der Kommunikation mit dem Benutzer verwenden
+    Die Begrüßung, die wir bei der Kommunikation mit dem Benutzer verwenden.
 
 - ****Hilfe****
 
@@ -151,9 +151,9 @@ lastupdated: "2017-08-10"
 
     Der Benutzer möchte sicherstellen, dass alle im Chat bereitgestellten Informationen geschützt und sicher sind.
 
-- ****Systeminformation****
+- ****Systeminformationen****
 
-    Fragen über die Virtuell-Agent-Technologie, mit der sie interagieren
+    Fragen zur Technologie des virtuellen Agenten, mit dem der Benutzer interagiert
 
 ### Information
 
@@ -165,9 +165,13 @@ lastupdated: "2017-08-10"
 
     Der Benutzer möchte Informationen über die in Filialen verfügbaren Dienstleistungen
 
+- ****Filialtermin verschieben****
+
+    Der Benutzer möchte einen Filialtermin verschieben
+
 - ****Haustermin vereinbaren****
 
-    Der Benutzer möchte einen Termin zu Hause vereinbaren
+    Der Benutzer möchte einen Termin zu Hause vereinbaren.
 
 - ****Haustermin verschieben****
 
@@ -181,10 +185,6 @@ lastupdated: "2017-08-10"
 
     Der Benutzer möchte einen Termin in einer Filiale vereinbaren
 
-- ****Ladentermin verschieben****
-
-    Der Benutzer möchte einen Termin in einer Filiale verschieben
-
 - ****Nächstgelegene Filiale finden****
 
     Der Benutzer möchte die nächstgelegene Filiale finden
@@ -193,21 +193,21 @@ lastupdated: "2017-08-10"
 
     Der Benutzer möchte Informationen zu Stellenangeboten
 
-- ****Rufnummer der Filiale****
-
-    Fragen zu Rufnummern von Filialen
-
 - ****Standort der Filiale****
 
     Fragen zu Standorten von Filialen
 
+- ****Telefonnummer der Filiale****
+
+    Fragen zu Telefonnummern von Filialen
+
 - ****Termin vereinbaren****
 
-    Der Benutzer möchte einen Termin ohne einen spezifischen Ort zu vereinbaren
+    Der Benutzer möchte einen Termin ohne einen spezifischen Ort vereinbaren
 
 - ****Termin verschieben****
 
-    Der Benutzer möchte einen Termin verschieben.
+    Der Benutzer möchte einen Termin verschieben
 
 - ****Verfügbare Produkte****
 
@@ -229,7 +229,7 @@ lastupdated: "2017-08-10"
 
 - ****Anfrage der Rechnungsanschrift****
 
-    Der Benutzer möchte die Rechnungsanschrift eines Kontos erfahren.
+    Der Benutzer möchte die Rechnungsanschrift eines Kontos erfahren
 
 - ****Anspruchsstatus auf Upgrade****
 
@@ -237,7 +237,7 @@ lastupdated: "2017-08-10"
 
 - ****Berechtigte Benutzer****
 
-    Der Benutzer möchte den Zugriff auf ein Konto ändern
+    Der Benutzer möchte die Zugriffsberechtigungen für ein Konto ändern
 
 - ****E-Mail aktualisieren****
 
@@ -289,7 +289,7 @@ lastupdated: "2017-08-10"
 
 - ****Profilsicherheitsfragen****
 
-    Der Benutzer möchte die dem Konto zugehörigen Sicherheitsfragen überprüfen oder ändern
+    Der Benutzer möchte die dem Konto zugehörigen Sicherheitsfragen anzeigen oder ändern
 
 - ****Punkte einlösen****
 
@@ -305,17 +305,17 @@ lastupdated: "2017-08-10"
 
 - ****Telefonnummer aktualisieren****
 
-    Der Benutzer will die Rufnummer des Kontos ändern, die zur Kontaktaufnahme benutzt wird
+    Der Benutzer will die Telefonnummer des Kontos ändern, die zur Kontaktaufnahme verwendet wird.
 
 - ****Zeitspanne bis Upgrade****
 
     Der Benutzer möchte erfahren, wann er Anspruch auf ein Handy-Upgrade hat
 
-### Nicht relevant
+### Off-Topic
 
-- ****Keine der oben genannten****
+- ****Keines der Obigen****
 
-    Anfragen und Fragen, die für die Leistungen nicht relevant sind.
+    Anforderungen oder Fragen, die für die Dienstleistung nicht relevant sind
 
 ### Online-Kontozugriff
 
@@ -325,33 +325,33 @@ lastupdated: "2017-08-10"
 
 ### Serviceverwaltung
 
-- ****Anfrage  zur Netzabdeckung****
-
-    Fragen zur Netzabdekung
-
 - ****Anfrage zu Roaming****
 
-    Fragen zur Verwendung eines Telefons außerhalb des Heimatlandes
+    Fragen zur Verwendung eines Handys im Ausland
 
 - ****Anfrage zu internationalem Tarifmodell****
 
     Fragen zu internationalen Tarifen, einschließlich der unterstützten Länder und der Preisgestaltung
 
-- ****Dienstleistungsmerkmale entfernen****
+- ****Anfrage zur Netzabdeckung****
 
-    Fragen zu dem Entfernen von Dienstleistungsmerkmalen aus einem Tarif
+    Fragen zur Netzabdekung
 
-- ****Dienstleistungsmerkmale hinzufügen****
+- ****Dienstleistungen entfernen****
 
-    Fragen über das Hinzufügen von Dienstleistungsmerkmalen, die noch nicht im Konto enthalten sind, wie z. B. Anrufunterdrückung
+    Fragen zu dem Entfernen von Dienstleistungen aus einem Tarif
+
+- ****Dienstleistungen hinzufügen****
+
+    Fragen über das Hinzufügen von Dienstleistungen, die noch nicht im Konto enthalten sind, wie z. B. Anrufunterdrückung
 
 - ****Handynummer ändern****
 
-    Fragen zur Änderung der Handynummer von einem Gerät
+    Fragen zur Änderung der Handynummer
 
-- ****Netzsperre aufheben****
+- ****Netzbetreibersperre aufheben****
 
-    Der Benutzer möchte die Netzsperre eines bestimmten Dienstleistungsnetzes aufheben
+    Der Benutzer möchte die Netzbetreibersperre eines bestimmten Dienstleisters aufheben
 
 - ****Prepaid-Tarif aktivieren****
 
@@ -363,7 +363,7 @@ lastupdated: "2017-08-10"
 
 - ****Roaming aktivieren****
 
-    Benutzer möchte das internationale Roaming aktivieren
+    Benutzer möchte das internationale Roaming aktivieren.
 
 - ****Roaming deaktivieren****
 
@@ -391,15 +391,19 @@ lastupdated: "2017-08-10"
 
     Fragen oder Anfragen zur Rückgabe von unerwünschten Geräten
 
-- ****Portierungsanfrage****
+- ****Rufnummermitnahme****
 
-    Fragen oder Anfragen zum Portieren einer Telefonnummer von einem Dienstanbieter zu einem anderen
+    Fragen oder Anfragen zur Mitnahme der Rufnummer von einem Dienstanbieter zu einem anderen
 
 - ****Verkauf allgemein****
 
     Fragen über den Verkauf, einschließlich Werbeaktionen, Preisgestaltung und Produktverfügbarkeit
 
 ### Zahlung
+
+- ****Aktualisierung der Zahlungsart****
+
+    Der Benutzer möchte die Zahlungsdetails (z. B. die zu belastende Kreditkarte) ändern
 
 - ****Akzeptierte Zahlungsarten****
 
@@ -409,9 +413,9 @@ lastupdated: "2017-08-10"
 
     Der Benutzer möchte die zu seinem Kreditkonto zugehörigen Bankdaten angeben
 
-- ****Eine Zahlung leisten****
+- ****Eine Zahlung tätigen****
 
-    Der Benutzer möchte eine Zahlung leisten
+    Der Benutzer möchte eine Zahlung tätigen
 
 - ****Erstattung****
 
@@ -441,17 +445,9 @@ lastupdated: "2017-08-10"
 
     Der Benutzer möchte das Fälligkeitsdatum der Zahlung für eine aktuelle Rechnung aufschieben
 
-- ****Zahlung vor Ort****
-
-    Der Benutzer möchte die Rechnungen im Laden bezahlen
-
 - ****Zahlungen allgemein****
 
     Fragen zu Zahlungen, einschließlich Zahlungstermin und Bearbeitungsstatus
-
-- ****Zahlungsart aktualisieren****
-
-    Der Benutzer möchte die Zahlungsdaten (z. B. die zu belastende Kreditkarte) ändern
 
 - ****Zahlungsfälligkeitsdatum****
 
@@ -461,20 +457,24 @@ lastupdated: "2017-08-10"
 
     Der Benutzer möchte das Datum ändern, an dem zukünftige Zahlungen fällig sind
 
-- ****Zahlungshistorie****
-
-    Der Benutzer möchte eine Zusammenfassung der letzten Zahlungen sehen
-
 - ****Zahlungsmodalitäten****
 
     Der Benutzer möchte in Raten zahlen
 
 - ****Zahlungsnachforschung****
 
-    Benutzer hat allgemeine Fragen über vorherige Zahlungen
+    Benutzer hat allgemeine Fragen über vergangene Zahlungen
+
+- ****Zahlungsorte****
+
+    Der Benutzer möchte in der Filiale eine Zahlung tätigen
 
 - ****Zahlungsüberprüfung****
 
     Der Benutzer möchte eine Bestätigung über den Eingang einer Zahlung
+
+- ****Zahlungsübersicht****
+
+    Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
 [![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_de.html#top)

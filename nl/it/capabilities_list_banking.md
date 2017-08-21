@@ -17,26 +17,26 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Capacità di General customer service
-{: #capabilities_list_general_it}
+# Capacità base di Retail Banking
+{: #capabilities_list_banking}
 {: #top}
 
 ## Dettagli
 
-Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
+[![Indietro](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
 {: shortdesc}
 
 ### Accesso all'account online
 
 - ****Accesso all'account online****
 
-    L'utente ha una domanda o un problema riguardo all'accesso all'account online.
+    L'utente ha una domanda o un problema riguardo all'accesso all'account online
 
 ### Aiuto
 
 - ****Aiuto****
 
-    Domande sulle opzioni disponibili durante l'utilizzo di Virtual Agent
+    L'utente ha domande sulle opzioni disponibili durante l'utilizzo di Virtual Agent
 
 - ****Fine****
 
@@ -48,7 +48,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Informazioni di sistema****
 
-    Domande sulla tecnologia di agent virtuale con cui stanno interagendo
+    L'utente ha domande sulla tecnologia di agent virtuale con cui stanno interagendo
 
 - ****Metti in contatto con l'operatore****
 
@@ -58,15 +58,55 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Saluto utilizzato per coinvolgere l'utente nella conversazione
 
+### Avvisi
+
+- ****Avviso di viaggio****
+
+    L'utente desidera comunicare un viaggio alla banca.
+
+- ****Modifica metodi di consegna (e-mail, notifiche apple)****
+
+    L'utente desidera gestire il metodo di consegna degli avvisi personalizzati
+
+- ****Pagamenti inviati****
+
+    L'utente desidera gestire gli avvisi sui pagamenti inviati.
+
+- ****Soglia di spesa****
+
+    L'utente desidera impostare avvisi sulla soglia di spesa
+
+### Conto corrente/conto deposito
+
+- ****Effettua bonifico****
+
+    L'utente desidera effettuare un bonifico.
+
+- ****Imposta accredito diretto****
+
+    L'utente desidera impostare un accredito diretto per il conto corrente o conto deposito.
+
+- ****Richiedi libretto di assegni****
+
+    L'utente sta richiedendo un libretto di assegni.
+
+- ****Trasferisci fondi****
+
+    L'utente desidera trasferire fondi tra i propri conti o verso conti esterni.
+
+- ****Visualizza attività****
+
+    L'utente desidera visualizzare l'attività sui propri conti.
+
+- ****Visualizza codice di instradamento internazionale****
+
+    L'utente desidera visualizzare il codice di instradamento internazionale.
+
 ### Fatturazione
-
-- ****Addebiti ricorrenti****
-
-    Domande sugli addebiti ricorrenti in una fattura, ad esempio messaggi illimitati, segreteria telefonica visiva o addebiti per i piani familiari
 
 - ****Ciclo di fatturazione****
 
-    Domande o richieste sulla frequenza o sulle date di inizio e fine del ciclo di fatturazione di un cliente
+    L'utente ha domande o richieste sulla frequenza o sulle date di inizio e fine del ciclo di fatturazione di un utente
 
 - ****Contestazione di una fattura****
 
@@ -78,7 +118,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Estratto conto cartaceo****
 
-    Domande relative alle copie cartacee delle fatture per un account
+    L'utente ha domande relative alle copie cartacee delle fatture per un account
 
 - ****Estratto conto online****
 
@@ -86,11 +126,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Fatturazione generale****
 
-    Domande sulla fattura, ad esempio la quantità di utilizzo o le commissioni
+    L'utente ha domande sulla fattura, ad esempio la quantità di utilizzo o le commissioni
 
 - ****Promemoria di pagamento****
 
-    Domande relative ai promemoria di pagamento, ad esempio cosa sono e come impostarli o eliminarli
+    L'utente ha domande relative ai promemoria di pagamento, ad esempio cosa sono e come impostarli o eliminarli
 
 - ****Richiesta di saldo****
 
@@ -100,53 +140,27 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente desidera una copia di una fattura per il ciclo di fatturazione corrente o precedente
 
-- ****Spiegazione dell'addebito una tantum****
-
-    L'utente richiede una spiegazione di uno specifico addebito in una fattura
-
 - ****Spiegazione della fattura****
 
-    Domande sugli addebiti in una fattura
+    L'utente ha domande sugli addebiti di riga in una fattura
 
 ### Fuori tema
 
 - ****Nessuno dei precedenti****
 
-    Richieste o domande non pertinenti al servizio
-
-### Gestione degli ordini
-
-- ****Annulla ordine****
-
-    L'utente vuole annullare l'ordine di un dispositivo.
-
-- ****Crea un ordine del prodotto****
-
-    L'utente desidera ordinare un nuovo dispositivo
-
-- ****Gestione generale degli ordini****
-
-    Domande sugli ordini, come effettuare un ordine, spedizione e cronologia.
-
-- ****Modifica ordine****
-
-    L'utente vuole modificare un ordine già effettuato.
-
-- ****Stato dell'ordine****
-
-    L'utente vuole conoscere lo stato di un ordine effettuato.
+    L'utente invia richieste o domande non rilevanti per il servizio
 
 ### Gestione dell'account
 
-- ****Aggiorna il numero telefonico del contatto****
+- ****Aggiorna il contatto telefonico****
 
-    L'utente desidera modificare il numero telefonico di contatto associato all'account
+    L'utente desidera modificare il contatto telefonico associato all'account
 
-- ****Aggiorna indirizzo****
+- ****Aggiorna l'indirizzo****
 
     L'utente desidera modificare l'indirizzo di fatturazione o l'indirizzo postale dell'account.
 
-- ****Aggiorna indirizzo email****
+- ****Aggiorna l'indirizzo email****
 
     L'utente desidera modificare l'indirizzo email del suo account.
 
@@ -160,7 +174,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Gestione dell'account****
 
-    Domande generiche sull'account, ad esempio come aggiungere utenti o chiudere un account.
+    L'utente ha domande generiche sull'account, ad esempio come aggiungere utenti o annullare un account
 
 - ****Il numero di account del cliente****
 
@@ -176,7 +190,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Profilo del cliente****
 
-    Domande relative al profilo dell'utente
+    L'utente ha domande sui dettagli dell'account
 
 - ****Programma di fidelizzazione del cliente****
 
@@ -228,6 +242,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utente desidera conoscere i contatti dell'azienda
 
+- ****Fissa appuntamento in ufficio****
+
+    L'utente desidera fissare un appuntamento in ufficio
+
 - ****Fissa un appuntamento****
 
     L'utente vuole fissare un appuntamento senza specificare un posto
@@ -238,23 +256,23 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Numero di telefono del negozio****
 
-    Domande sui numeri telefonici del negozio.
+    L'utente ha domande sui numeri di telefono dei negozi
 
 - ****Orari di apertura dei negozi****
 
-    Domande sugli orari di apertura dei negozi.
+    L'utente ha domande sugli orari di apertura dei negozi.
 
 - ****Posizioni lavorative disponibili****
 
     L'utente desidera avere informazioni sulle opportunità lavorative.
 
-- ****Prodotti disponibili****
-
-    Gli utenti vogliono sapere quali prodotti sono disponibili per l'acquisto.
-
 - ****Servizi del negozio****
 
     L'utente vuole informazioni sui servizi offerti nei negozi.
+
+- ****Sposta appuntamento in ufficio****
+
+    L'utente desidera spostare un appuntamento.
 
 - ****Sposta un appuntamento****
 
@@ -266,7 +284,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Ubicazione del negozio****
 
-    Domande sulle ubicazioni dei negozi.
+    L'utente ha domande sulle ubicazioni dei negozi.
 
 ### Pagamento
 
@@ -312,15 +330,15 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Pagamento generale****
 
-    Domande sui pagamenti, compreso lo stato di elaborazione e la pianificazione del pagamento.
+    L'utente ha domande sui pagamenti, compreso lo stato di elaborazione e la pianificazione del pagamento.
 
 - ****Pagamento mancante o non corretto****
 
-    Domande su un pagamento mancante, non riuscito o rifiutato
+    L'utente ha domande su un pagamento mancante, non riuscito o rifiutato
 
 - ****Rateizza pagamento****
 
-    Domande sul pagamento a rate di una fattura.
+    L'utente ha domande sulla rateizzazione del pagamento di una fattura
 
 - ****Ricerca pagamenti****
 
@@ -346,6 +364,44 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Reclamo del cliente****
 
-    L'utente ha un problema con un dispositivo o un servizio.
+    L'utente ha un problema con il servizio
 
-[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_it.html#top)
+### Servizi del conto carta di credito
+
+- ****Annulla carta di credito****
+
+    L'utente desidera annullare la carta di credito.
+
+- ****Attiva una carta****
+
+    L'utente desidera attivare la carta.
+
+- ****Domande sulle commissioni****
+
+    L'utente ha una domanda relativa alle commissioni annuali della carta di credito.
+
+- ****Richiedi aumento della linea di credito****
+
+    L'utente sta richiedendo di aumentare il limite di credito.
+
+- ****Richiedi moduli di imposta****
+
+    L'utente desidera richiedere i moduli di imposta.
+
+- ****Richiedi regolamento per i titolari di carta****
+
+    L'utente sta richiedendo il regolamento per i titolari di carta.
+
+- ****Segnala carta persa o rubata****
+
+    L'utente desidera segnalare la perdita o il furto di una carta.
+
+- ****Sostituisci una carta****
+
+    L'utente desidera sostituire la carta di credito.
+
+- ****Visualizza addebiti sospesi****
+
+    Il cliente desidera visualizzare gli addebiti sospesi sul conto della carta di credito.
+
+[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_banking.html#top)
