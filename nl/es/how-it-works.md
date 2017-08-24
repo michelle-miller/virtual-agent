@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-24"
 
 ---
 
@@ -42,11 +42,13 @@ La siguiente tabla resume los paquetes que se ofrecen. Pulse los enlaces de **de
 | Idioma | Servicio al cliente (General) | Energía  | Banca a particulares | Telco   |
 |----------|----------------------------|---------|----------------|---------|
 | Inglés  | [detalles](/docs/services/virtual-agent/capabilities_list_general_en.html) | [detalles](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [detalles](/docs/services/virtual-agent/capabilities_list_banking_en.html)        | [detalles](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
-| Francés   | [detalles](/docs/services/virtual-agent/capabilities_list_general_fr.html) | [detalles](/docs/services/virtual-agent/capabilities_list_energy_fr.html) | [detalles](/docs/services/virtual-agent/capabilities_list_banking_fr.html) | [detalles](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
-| Alemán   | [detalles](/docs/services/virtual-agent/capabilities_list_general_de.html) | [detalles](/docs/services/virtual-agent/capabilities_list_energy_de.html) | [detalles](/docs/services/virtual-agent/capabilities_list_banking_de.html) | [detalles](/docs/services/virtual-agent/capabilities_list_telco_de.html) |
-| Italiano | [detalles](/docs/services/virtual-agent/capabilities_list_general_it.html) | [detalles](/docs/services/virtual-agent/capabilities_list_energy_it.html) | [detalles](/docs/services/virtual-agent/capabilities_list_banking_it.html) | [detalles](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
-| Portugués (Brasil) | [detalles](/docs/services/virtual-agent/capabilities_list_general_pt-br.html) | [detalles](/docs/services/virtual-agent/capabilities_list_energy_pt-br.html) | [detalles](/docs/services/virtual-agent/capabilities_list_banking_pt-br.html) | [detalles](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
-| Español | [detalles](/docs/services/virtual-agent/capabilities_list_general.html) | [detalles](/docs/services/virtual-agent/capabilities_list_energy.html) | [detalles](/docs/services/virtual-agent/capabilities_list_banking.html) | [detalles](/docs/services/virtual-agent/capabilities_list_telco.html) |
+| Francés   | [detalles](/docs/services/virtual-agent/capabilities_list_general_fr.html) | n/d | n/d | [detalles](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
+| Alemán   | [detalles](/docs/services/virtual-agent/capabilities_list_general_de.html) | n/d | n/d | [detalles](/docs/services/virtual-agent/capabilities_list_telco_de.html) |
+| Italiano | [detalles](/docs/services/virtual-agent/capabilities_list_general_it.html) | n/d | n/d | [detalles](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
+| Portugués (Brasil) | [detalles](/docs/services/virtual-agent/capabilities_list_general_pt-br.html) | n/d | n/d | [detalles](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
+| Español | [detalles](/docs/services/virtual-agent/capabilities_list_general.html) | n/d | n/d | [detalles](/docs/services/virtual-agent/capabilities_list_telco.html) |
+
+*n/d significa que no está disponible en este momento
 
 Si las prestaciones básicas no cubren un objetivo común específico de sus clientes, puede añadir sus propias prestaciones para suplementar las que ya se proporcionan. Por ejemplo, si es propietario de una panadería, es posible que sus clientes con frecuencia pregunten sobre los sabores de magdalena que ofrece. Puede añadir una prestación *Menú de magdalenas* para gestionar este tipo de preguntas. Consulte [Adición de sus propias prestaciones](add-custom-capabilities.html) para obtener más información.
 

@@ -2,7 +2,7 @@
 
 Copyright:
 Jahre: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-08-24"
 
 ---
 
@@ -42,11 +42,13 @@ Die folgende Tabelle enthält eine Zusammenfassung der angebotenen Packs. Klicke
 | Sprache | Kundendienst (Allgemein) | Energie  | Retail Banking | Telekommunikationsunternehmen   |
 |----------|----------------------------|---------|----------------|---------|
 | Englisch  | [Details](/docs/services/virtual-agent/capabilities_list_general_en.html)   | [Details](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_en.html)        | [Details](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
-| Französisch   | [Details](/docs/services/virtual-agent/capabilities_list_general_fr.html) | [Details](/docs/services/virtual-agent/capabilities_list_energy_fr.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_fr.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
-| Deutsch   | [Details](/docs/services/virtual-agent/capabilities_list_general.html) | [Details](/docs/services/virtual-agent/capabilities_list_energy.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco.html) |
-| Italienisch | [Details](/docs/services/virtual-agent/capabilities_list_general_it.html) | [Details](/docs/services/virtual-agent/capabilities_list_energy_it.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_it.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
-| Portugiesisch (Brasilianisch) | [Details](/docs/services/virtual-agent/capabilities_list_general_pt-br.html)   | [Details](/docs/services/virtual-agent/capabilities_list_energy_pt-br.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_pt-br.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
-| Spanisch | [Details](/docs/services/virtual-agent/capabilities_list_general_es.html)   | nicht zutreffend     | nicht zutreffend            | [Details](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
+| Französisch   | [Details](/docs/services/virtual-agent/capabilities_list_general_fr.html) | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
+| Deutsch   | [Details](/docs/services/virtual-agent/capabilities_list_general.html) | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco.html) |
+| Italienisch | [Details](/docs/services/virtual-agent/capabilities_list_general_it.html) | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
+| Portugiesisch (Brasilianisch) | [Details](/docs/services/virtual-agent/capabilities_list_general_pt-br.html)   | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
+| Spanisch | [Details](/docs/services/virtual-agent/capabilities_list_general_es.html)   | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
+
+*nicht zutreffend = derzeit nicht verfügbar
 
 Wenn die zentralen Funktionen kein gemeinsames Ziel Ihrer Kunden verfolgen, können Sie Ihre eigenen Funktionen hinzufügen, um die Ziele durch in einem Pack bereitgestellte Ziele zu ergänzen. Wenn Sie beispielsweise eine Bäckerei besitzen, fragen Ihre Kunden möglicherweise häufig nach den Geschmacksrichtungen, in denen Sie Cupcakes anbieten. Zur Behandlung derartiger Fragen können Sie die Funktion *Cupcake-Menü* hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen Ihrer eigenen Funktionen](add-custom-capabilities.html).
 
