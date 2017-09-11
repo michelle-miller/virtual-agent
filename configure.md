@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-11"
 
 ---
 
@@ -57,6 +57,8 @@ To configure a core capability, complete the following steps:
 
         If you select the **Built-in** response type, you might also need to configure additional data that the dialog uses to present choices to the user (such as store locations or payment methods). In many cases, your application must listen for events that can be triggered by the dialog and implement actions in your systems of record. See [Implementing logic to support built-in conversation](impl_intents.html#backend_transaction) for more details.
 
+        **Note**: You cannot provide augmented training data for core capabilities that you configure to use this response type.
+
     - **Use your own conversation**
 
         If you need to implement complex customer interactions for a capability, you can build your own dialog that shapes the agent's conversation with the customer. This option requires additional steps that involve building a custom dialog with the {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service and linking it to the agent. See [Building a custom dialog](add-custom-dialog.html) for more details.
@@ -87,6 +89,9 @@ The only additional step required by you is to add store location details for ev
 
 - Find nearest store
 - Store location
+
+If your users are located outside the US and Canada, then include a country parameter that specifies the country of origin of the current user. If provided, this information is passed with the zip code to the bot code, which calculates the user's exact location. The bot expects US and Canada postal code formats; by providing this additional country information, you can help the bot to calculate international locations properly. See [Adding the provided chat widget to your UI](integrate_add-chat.html) for more information.
+{: tip}
 
 ### Make a payment
 

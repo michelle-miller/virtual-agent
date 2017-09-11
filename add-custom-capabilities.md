@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-11"
 
 ---
 
@@ -41,15 +41,15 @@ You can create only one workspace to define custom capabilities. Each intent tha
     - Do not create a custom intent with the same name as an intent that is used by a core capability. See [Intent names](intent_codenames.html) for a list of names to avoid.
 
 1.  Link the workspace to the agent. See [Linking workspaces](link_workspace.html)
-1.  From the **Capabilities** page, open the **Custom capabilities** tab.
+1.  From the **Capabilities** page, expand the **Custom** section.
 1.  Click **Add Capabilities**.
-1.  Select the workspace that you linked to the agent in Step 2, and then click **Select Workspace**.
+1.  Select the workspace that you linked to the agent in Step 2, and then click **Save**.
 
     The intents that are defined in the linked workspace are now listed as enabled capabilities.
 
     > **Note:** You cannot disable individual capabilities. If you want to remove one custom capability, you can delete the intent from the workspace in the {{site.data.keyword.conversationshort}} service tool.
 
-    You can remove all of the capabilities at once by clicking **Remove Private Capabilities**. Removing the capabilities does not delete the association between the agent and the workspace that the capabilities are defined in.
+    You can remove all of the capabilities at once by opening the More menu ![More](images/kabob.png) for the Custom section, and then selecting **Remove All Custom Capabilities**. Removing the capabilities does not delete the association between the agent and the workspace that the capabilities are defined in.
 
 ### Results
 
@@ -65,6 +65,8 @@ When you add your own capabilities, you can easily define one that is similar in
 {: #validate_custom_capabilities}
 
 Avoid defining capabilities that are so similar to one another that they compete to respond to certain user queries. If you do, you cannot anticipate which capability will ultimately provide a response to users. That variation in responses can be perceived by users as inconsistent behavior on the part of the agent, which could be confusing or make it appear to users that the agent is not working properly.
+
+There are some conflicts that you can ignore altogether. If you are adding to the training data of a core capability, for example, then the core capability you are augmenting will likely conflict with the custom capability that you add with the same name. For all other conflicts, review the conflict details to determine whether further action is required.
 
 ### About this task
 
