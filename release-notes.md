@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-11"
 
 ---
 
@@ -22,6 +22,13 @@ lastupdated: "2017-08-10"
 
 ## Changes
 {: shortdesc}
+
+### September 2017
+{: #September2017}
+
+- You can now augment the training data that is used to teach the service about a core capability. See [Augmenting the training data of core capabilities](add-custom-training.html) for more information.
+- Pass user ID and location information to the /dialogs API endpoint or when you initialize the provided chat widget to capture information that the service metrics can subsequently leverage. See [Analyzing user activity](dashboard.html) for more information.
+- Provide a country parameter with the zipcode information that is requested by the built-in dialog for the **Find nearest store** capability to help the bot calculate locations outside the US and Canada.
 
 ### July 2017
 {: #July2017}

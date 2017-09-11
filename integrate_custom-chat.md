@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-08"
 
 ---
 
@@ -36,3 +36,8 @@ To develop a custom chat interface with JavaScript, use the following resources:
 - **API Explorer**
 
     A portal providing access to the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} REST APIs on {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}. You can access the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} APIs from [{{site.data.keyword.IBM_notm}} developerWorks API Explorer ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}.
+
+If you want the **Metrics** page to show real user information, you must include the following parameters on calls that you make to the /dialogs endpoint:
+
+- `user_id`: A unique user ID. Use only non-personally identifiable user IDs. For example, do not use an email address or anything else that fully or partially includes a user name. This information is displayed in the **Interactions** page and feeds into other metrics, like the **Unique users** graph on the **User Metrics** tab.
+- `user_latlon`: Location coordinates specified in decimal degrees. This information is used to populate the **Locations** map on the **User Metrics** tab.

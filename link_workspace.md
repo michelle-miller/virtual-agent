@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-08"
 
 ---
 
@@ -60,12 +60,12 @@ Be sure that the workspace you want to unlink is not being actively used by a ca
 
 ### About this task
 
-When you unlink a workspace from a capability, the capability is automatically turned off. Disabling the capability ensures that active users are not exposed to unexpected behavior while you are making changes. This approach is true for all but the **None of the above** capability, which cannot be disabled. You must change the response type from **Use your own conversation** to one of the other response type options for this capability before you can unlink a workspace that is associated with it.
+When you unlink a workspace from a capability, the capability is automatically turned off. Disabling the capability ensures that active users are not exposed to unexpected behavior while you are making changes. This approach is true for all but the **None of the above** and **Connect to agent** capabilities. You must change the response type from **Use your own conversation** to one of the other response type options for these capabilities before you can unlink a workspace that is associated with them.
 
 ### Procedure
 
 1.  Open the **Linked Workspaces** page for the current agent.
 1.  Click to open the workspace that you want to disassociate with the agent.
-1.  Click **Unlink this Workspace** ![trash can icon representing delete link relationship](images/trash.png) .
+1.  Click **Unlink this Workspace** ![trash can icon representing delete link relationship](images/trash.png).
 
 [Linking workspaces](link_workspace.html)

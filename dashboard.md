@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-11"
 
 ---
 
@@ -76,11 +76,21 @@ The metrics analyze the data of conversations at a low-level, focusing on the ar
 
         Get information about where your users are located, and the volume of conversations.
 
+        **Note**: These metrics are only meaningful if your agent is set up to collect user ID and location information. For more information about how to capture that user information, see the appropriate topic for your publication method:
+
+        - [Adding the provided chat widget to your UI](integrate_add-chat.html)
+        - [Building a custom chat interface](integrate_custom-chat.html)
+
     - **Interactions**
 
         Look at the transcripts of individual conversations.
 
-        The transcripts do not contain personally identifiable information. Even the name of the user who participated in the conversation is kept private. A user ID, such as 509JAJT8PX, is used in its place. Any other personally identifiable information that users provide during the conversation, such as phone numbers or postal codes, is replaced by variables that indicate the types of data that were provided, but not the data itself.
+        The transcripts do not automatically show real user identity information. The term *Not Provided* is used as the user ID. For interactions that occur during testing, as you or someone on your team chats with the agent through the preview pane, the term *Preview User* is used to represent the test user.
+
+        If you want to capture real user information, you must configure the agent user interface to collect it. See the Note in the User Metrics section above for more information.
+        {: tip}
+
+        Any other personally identifiable information that users provide during the conversation, such as phone numbers or postal codes, is replaced by variables that indicate the types of data that were provided, but not the data itself.
 
         > **Note:** The term *interaction* represents a conversation that takes place between the user and the virtual agent. It starts when the user starts to chat with the virtual agent and ends when the chat window session ends (which occurs when the user is logged out, logs out, closes the chat window, or refreshes the chat window). An interaction often includes more than just an exchange of words; users can click buttons, view graphics such as maps, and perform other transactions. And, unlike a phone call to customer support, the interaction with the virtual agent chat session does not end as soon as the user stops engaging with it. The virtual agent doesn't have anywhere else to be; it hangs around in case the user wants to do or ask about something else. For example, if the user asks about something, then 20 minutes later asks about something else (and does so within the same chat window session), then both exchanges are treated as a single interaction with a duration of about 25 minutes.
 
