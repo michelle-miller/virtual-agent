@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-15"
 
 ---
 
@@ -71,7 +71,8 @@ To simplify the process of creating a {{site.data.keyword.conversationshort}} wo
 ### Procedure
 
 1.  Download the [car_demo_workspace.json ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-developer-cloud.github.io/doc-tutorial-downloads/virtual-agent/car_demo_workspace.json){: new_window} file to your computer.
-1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/dashboard/watson){: new_window} to your {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service instance.
+1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/dashboard/watson){: new_window} to {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}.
+1.  Click your {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service instance to open it.
 1.  Click **Launch tool**.
 1.  To import a workspace from a JSON file, click the ![Arrow facing up above an inbox to indicate an import action](images/workspace_import.png) icon.
 1.  Click **Choose a file** to browse for the `car_demo_workspace.json` file that you downloaded earlier.
@@ -104,7 +105,7 @@ In this lesson, you will learn how to add custom capabilities to your agent.
 1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} menu, select **Capabilities**.
 1.  Click the **Custom capabilities** tab.
 1.  Click **Add Capabilities**.
-1.  Click the **Car Dashboard Tutorial** workspace, and then click **Select Workspace**.
+1.  Click the **Car Dashboard Tutorial** workspace, and then click **Save**.
 
     The Custom Capabilities page now displays a list of capabilities.
 
@@ -175,9 +176,9 @@ After you link the custom workspace, you are notified that conflicts exist betwe
         The `#system_reliance` capability has limited training data compared to the `Security assurance` capability, so you will use the core capability instead of the custom one.
 
     To disable a custom capability, you must delete it from the {{site.data.keyword.conversationshort}} workspace.
-    1.  From the {{site.data.keyword.conversationshort}} tool, expand the `#goodbyes` intent on the Intents page, and then click the**Delete intent** icon to delete it from the workspace.
-    1.  Expand the `#locate_amenity` intent, and then click the**Delete intent** icon to delete it from the workspace.
-    1.  Expand the `#system_reliance` intent, and then click the**Delete intent** icon to delete it from the workspace.
+    1.  From the {{site.data.keyword.conversationshort}} tool, expand the `#goodbyes` intent on the Intents page, and then click the **Delete intent** icon to delete it from the workspace.
+    1.  Expand the `#locate_amenity` intent, and then click the **Delete intent** icon to delete it from the workspace.
+    1.  Expand the `#system_reliance` intent, and then click the **Delete intent** icon to delete it from the workspace.
 
 1.  When you make changes to the custom workspace, it is automatically retrained with the new data. After the workspace training is complete, return to the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}.
 
@@ -186,7 +187,7 @@ After you link the custom workspace, you are notified that conflicts exist betwe
 1.  The `Greetings` and `#greetings` capabilities completely overlap one another. We want the agent to exhibit consistent behavior and to have some personality. The custom `#greetings` capability is designed to emote a specific personality type that reflects the company brand, so you will use the custom capability instead of the core one.
 
     To disable a core capability, you must turn it off.
-    1.  From the **Core Capabilities** tab of the Capabilities page of {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}, find the `Greetings` capability.
+    1.  From Capabilities page of {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}, find the `Greetings` capability in the **Help** section.
     1.  Click the tile to open it, and then switch the On toggle to **Off**. Click the back arrow to return to the main configuration page.
 
 1.  Do more testing by entering test user queries in the Preview pane to confirm that the appropriate capability is handling user input as expected. For example, you can test the following utterances again:
