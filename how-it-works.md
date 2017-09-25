@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-24"
+lastupdated: "2017-09-25"
 
 ---
 
@@ -41,14 +41,14 @@ A *capability pack* groups the most important capabilities for your industry tog
 
 The following table summarizes the packs that are offered. Click the **details** links to see a list of capabilities and descriptions for each supported language.
 
-| Language | Customer Service (General) | Energy  | Retail Banking | Telco   |
-|----------|----------------------------|---------|----------------|---------|
-| English  | [details](/docs/services/virtual-agent/capabilities_list_general_en.html) | [details](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [details](/docs/services/virtual-agent/capabilities_list_banking_en.html) | [details](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
-| French   | [details](/docs/services/virtual-agent/capabilities_list_general_fr.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
-| German   | [details](/docs/services/virtual-agent/capabilities_list_general_de.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_de.html) |
-| Italian | [details](/docs/services/virtual-agent/capabilities_list_general_it.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
-| Portuguese (Brazilian) | [details](/docs/services/virtual-agent/capabilities_list_general_pt-br.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
-| Spanish | [details](/docs/services/virtual-agent/capabilities_list_general_es.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
+| Language | Customer Service (General) | Energy  | Retail Banking | Telco   | Insurance |
+|----------|----------------------------|---------|----------------|---------|-----------|
+| English  | [details](/docs/services/virtual-agent/capabilities_list_general_en.html) | [details](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [details](/docs/services/virtual-agent/capabilities_list_banking_en.html) | [details](/docs/services/virtual-agent/capabilities_list_telco_en.html) | [details](/docs/services/virtual-agent/capabilities_list_insurance_en.html) |
+| French   | [details](/docs/services/virtual-agent/capabilities_list_general_fr.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_fr.html) | n/a* |
+| German   | [details](/docs/services/virtual-agent/capabilities_list_general_de.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_de.html) | n/a* |
+| Italian | [details](/docs/services/virtual-agent/capabilities_list_general_it.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_it.html) | n/a* |
+| Portuguese (Brazilian) | [details](/docs/services/virtual-agent/capabilities_list_general_pt-br.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) | n/a* |
+| Spanish | [details](/docs/services/virtual-agent/capabilities_list_general_es.html) | n/a* | n/a* | [details](/docs/services/virtual-agent/capabilities_list_telco_es.html) | n/a* |
 
 *n/a means currently not available
 

@@ -24,8 +24,9 @@ Virtual Agent
         personalize.md
         link_workspace.md
         add-custom-dialog.md
-        add-custom-training.md
+        edit-builtin-dialogs.md
         add-custom-capabilities.md
+        add-custom-training.md
     tutorial.md
 
     {: .topicgroup}
