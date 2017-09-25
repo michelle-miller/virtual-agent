@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-25"
 
 ---
 
@@ -78,7 +78,7 @@ To build a custom dialog:
 
     See [Linking workspaces](link_workspace.html) for details.
 
-1.  From the **Core Capabilities** tab of the Capabilities page, change the response type of each capability for which you want to use a custom dialog to the **Use your own conversation** response type.
+1.  From the **Capabilities** page, change the response type of each capability for which you want to use a custom dialog to the **Use your own conversation** response type.
 1.  Pick the workspace that contains the dialog you want to use from the list of linked workspaces, and then click **Save** to finish establishing the link.
 
     If you haven't linked the workspace yet, then you can click **Link a workspace** from here to link a workspace that you created earlier to your agent.

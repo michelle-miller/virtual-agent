@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-12"
+lastupdated: "2017-09-20"
 
 ---
 
@@ -29,6 +29,7 @@ lastupdated: "2017-09-12"
 - You can now augment the training data that is used to teach the service about a core capability. See [Augmenting the training data of core capabilities](add-custom-training.html) for more information.
 - Pass user ID and location information to the /dialogs API endpoint or to the provided chat widget when you initialize it to capture information that the service metrics can subsequently leverage. See [Analyzing user activity](dashboard.html) for more information.
 - Provide a country parameter with the zipcode information that is requested by the built-in dialog for the **Find nearest store** capability to help the bot calculate locations outside the US and Canada.
+- The **Customer Service for Insurance** capability pack is now available (in English only currently). The new pack contains common customer service capabilities that are specific to the insurance industry.
 
 ### July 2017
 {: #July2017}

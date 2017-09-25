@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-15"
+lastupdated: "2017-09-25"
 
 ---
 
@@ -123,7 +123,7 @@ Now that you have added capabilities to the agent, find out what they can do.
 1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} header, click **Preview**.
 1.  Ask a question that will trigger a custom capability. Enter the text, *Can we listen to music?*
 
-    The agent evaluates this request and maps it to the **#turn_on** custom capability. In the linked workspace, the dialog node with a condition that matches the #turn_on intent is used. As a result, the agent asks what genre of music to play.
+    The agent evaluates this request and maps it to the **`#turn_on`** custom capability. In the linked workspace, the dialog node with a condition that matches the #turn_on intent is used. As a result, the agent asks what genre of music to play.
 
     > **Note:** You can see the capability that the user input is mapped to because the capability name is displayed as a link below the response.
 
