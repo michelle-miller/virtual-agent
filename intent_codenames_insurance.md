@@ -70,7 +70,7 @@ The following table lists the intent names for each supported capability. If you
 | Make a payment`*` | #Payment-Make_A_Payment |
 | Make appointment | #Information-Make_Appointment |
 | Make home appointment | #Information-Make_At_Home_Appointment |
-| Make store appointment | #Information-Make_Store_Appointment |
+| Make office appointment | #Information-Make_Store_Appointment |
 | Method of payment update | #Payment-Method_Of_Payment_Update |
 | Missing or misapplied payment | #Payment-Missing_Misapplied_Payment |
 | None of the above | #Off_Topic-None_of_the_Above |
