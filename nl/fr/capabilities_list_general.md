@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,18 +21,19 @@ lastupdated: "2017-08-17"
 {: #capabilities_list_general}
 {: #top}
 
-[![Précédent](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Précédent](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
-
 ## Détails
 
 ### Accès au compte en ligne
+<!-- {.toc-ignore} -->
 
 - ****Accès au compte en ligne****
 
     L'utilisateur a des questions ou rencontre des difficultés concernant l'accès à un compte en ligne.
 
 ### Aide
+<!-- {.toc-ignore} -->
 
 - ****Aide****
 
@@ -59,6 +60,7 @@ lastupdated: "2017-08-17"
     Salutations utilisées pour impliquer l'utilisateur dans la conversation
 
 ### Facturation
+<!-- {.toc-ignore} -->
 
 - ****Ajustement de facture****
 
@@ -109,6 +111,7 @@ lastupdated: "2017-08-17"
     L'utilisateur souhaite connaître son solde ou a des questions à son propos.
 
 ### Gestion de la commande
+<!-- {.toc-ignore} -->
 
 - ****Annuler une commande****
 
@@ -131,6 +134,7 @@ lastupdated: "2017-08-17"
     L'utilisateur souhaite connaître le statut d'une commande déjà passée.
 
 ### Gestion du compte
+<!-- {.toc-ignore} -->
 
 - ****Demande du mot de passe du profil****
 
@@ -146,7 +150,7 @@ lastupdated: "2017-08-17"
 
 - ****Mettre à jour l'adresse****
 
-    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse électronique du compte.
+    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse postale du compte.
 
 - ****Mettre à jour l'adresse électronique****
 
@@ -213,12 +217,14 @@ lastupdated: "2017-08-17"
     L'utlisateur souhaite connaître la valeur de ses points.
 
 ### Hors sujet
+<!-- {.toc-ignore} -->
 
 - ****Aucun****
 
     Demandes ou questions non liées au service
 
 ### Informations
+<!-- {.toc-ignore} -->
 
 - ****Adresse du magasin****
 
@@ -269,6 +275,7 @@ lastupdated: "2017-08-17"
     L'utilisateur recherche le magasin le plus proche.
 
 ### Paiement
+<!-- {.toc-ignore} -->
 
 - ****Différer un paiement****
 
@@ -343,9 +350,12 @@ lastupdated: "2017-08-17"
     L'utilisateur souhaite obtenir la confirmation que le paiement a été reçu.
 
 ### Réclamations
+<!-- {.toc-ignore} -->
 
 - ****Réclamation du client****
 
     L'utilisateur rencontre un problème avec un appareil ou un service.
 
-[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general.html#top)
+
+
+[![Haut de la page](images/up-arrow.png)](capabilities_list_general.html#top)

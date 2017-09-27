@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,11 +17,11 @@ lastupdated: "2017-08-21"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Nomes de intenção (Telco)
+# Nomes de intenção (mais inteligentes)
 {: #intent_codenames_telco}
 {: #top}
 
-[![Voltar](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Voltar](images/back-arrow.png)](intent_codenames.html)
 
 A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se você optar por fornecer seu próprio diálogo de serviço {{site.data.keyword.conversationshort}} para um recurso, precisará saber o nome da intenção apropriado para especificar no diálogo. Você pode olhar aqui.
 {: shortdesc}
@@ -38,10 +38,10 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Ativar plano pré-pago | #Service_Management-Activate_Prepaid_Plan |
 | Ativar roaming | #Service_Management-Activate_Roaming |
 | Ativação do dispositivo | #Device_Management-Activation |
-| Atualizar endereço | #Account_Management-Update_Change_Address |
-| Atualizar endereço de email | #Account_Management-Email_Change |
+| Atualizar endereço`*` | #Account_Management-Update_Change_Address |
+| Atualizar endereço de email`*` | #Account_Management-Email_Change |
 | Atualizar método de pagamento | #Payment-Method_Of_Payment_Update |
-| Atualizar número do telefone de contato | #Account_Management-Update_Change_Contact_Phone_Number |
+| Atualizar número do telefone de contato`*` | #Account_Management-Update_Change_Contact_Phone_Number |
 | Atualizar status de elegibilidade | #Account_Management-Upgrade_Eligibility_Status |
 | Cancelar conta | #Account_Management-Close_Cancel_Account |
 | Cancelar pedido | #Order_Management-Cancel_Product_Order |
@@ -63,10 +63,10 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Desativar roaming | #Service_Management-De_Activate_Roaming |
 | Desbloqueio de rede | #Service_Management-Network_Unlock |
 | Dispositivo de troca | #Device_Management-Swap_Device |
-| Efetuar um pagamento | #Payment-Make_A_Payment |
+| Efetuar um pagamento`*` | #Payment-Make_A_Payment |
 | Encargos recorrentes | #Billing-Recurring_Charges |
 | Encerramento | #Help-Ending |
-| Encontrar a loja mais próxima | #Information-Find_Nearest_Store |
+| Encontrar a loja mais próxima`*` | #Information-Find_Nearest_Store |
 | Explicação de cobrança única | #Billing-One_Time_Charges |
 | Explicação de conta | #Billing-Bill_Explanation |
 | Faturamento geral | #Billing-Misc |
@@ -78,7 +78,7 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Gerenciamento geral de pedidos | #Order_Management-Misc |
 | Gerenciamento geral do dispositivo | #Device_Management-Misc |
 | Histórico de pagamento | #Payment-Payment_History |
-| Horário de atendimento de loja | #Information-Store_Hours |
+| Horário de atendimento de loja`*` | #Information-Store_Hours |
 | Incluir recursos de serviços | #Service_Management-Add_Service_Features |
 | Incluir seguro | #Service_Management-Add_Insurance |
 | Informacões gerais | #Information-Misc |
@@ -86,7 +86,7 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Informação do sistema | #Help-Misc |
 | Lembretes de pagamento | #Billing-Payment_Reminders |
 | Locais de pagamento | #Payment-Payment_Locations |
-| Localização de loja | #Information-Store_Location |
+| Localização de loja`*` | #Information-Store_Location |
 | Marcar compromisso na loja | #Information-Make_Store_Appointment |
 | Marcar um compromisso | #Information-Make_Appointment |
 | Marcar um compromisso em casa | #Information-Make_At_Home_Appointment |
@@ -97,7 +97,7 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Mudar número do telefone celular | #Service_Management-Change_Mobile_Phone_Number |
 | Nenhuma das anteriores | #Off_Topic-None_of_the_Above |
 | Número de conta do cliente | #Account_Management-Account_Number_Inquiry |
-| Número de telefone de loja | #Information-Store_Phone_Number |
+| Número de telefone de loja`*` | #Information-Store_Phone_Number |
 | Ofertas de emprego | #Information-Jobs |
 | Pagamento geral | #Payment-Misc |
 | Pagamento inexistente ou indevido | #Payment-Missing_Misapplied_Payment |
@@ -136,4 +136,7 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Vendas gerais | #Sales-Misc |
 | Verificação de pagamento | #Payment-Verify_Payment |
 
-[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_telco.html#top)
+
+`*` [Diálogos integrados](configure.html#builtin_dialog_ovw)
+
+[![Voltar ao início da página](images/up-arrow.png)](intent_codenames_telco.html#top)

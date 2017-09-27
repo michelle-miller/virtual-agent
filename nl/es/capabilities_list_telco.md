@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,18 +21,19 @@ lastupdated: "2017-08-17"
 {: #capabilities_list_telco}
 {: #top}
 
-[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
-
 ## Detalles
 
 ### Acceso de cuenta en línea
+<!-- {.toc-ignore} -->
 
 - ****Acceso de cuenta en línea****
 
     El usuario tiene una pregunta o problema sobre el acceso a una cuenta en línea
 
 ### Ayuda
+<!-- {.toc-ignore} -->
 
 - ****Ayuda****
 
@@ -59,6 +60,7 @@ lastupdated: "2017-08-17"
     Saludos utilizados para implicar al usuario en la conversación
 
 ### Facturación
+<!-- {.toc-ignore} -->
 
 - ****Ajuste de factura****
 
@@ -66,7 +68,7 @@ lastupdated: "2017-08-17"
 
 - ****Cargos recurrentes****
 
-    Preguntas sobre cargos recurrentes de una factura como, por ejemplo, cargos por mensajes ilimitados, buzón de voz visual o cargos de planes familiares
+    Preguntas sobre cargos recurrentes de una factura, por ejemplo, cargos por mensajes ilimitados, buzón de voz visual o cargos de planes familiares
 
 - ****Ciclo de facturación****
 
@@ -94,11 +96,11 @@ lastupdated: "2017-08-17"
 
 - ****Facturación general****
 
-    Preguntas sobre una factura como, por ejemplo, la cantidad de uso o tarifas de uso
+    Preguntas sobre una factura, por ejemplo, la cantidad de uso o tarifas de uso
 
 - ****Recordatorios de pago****
 
-    Preguntas sobre recordatorios de pago como, por ejemplo, lo qué son y cómo activarlos o detenerlos
+    Preguntas sobre recordatorios de pago, por ejemplo, lo qué son, cómo activarlos o detenerlos
 
 - ****Resúmenes de factura en línea****
 
@@ -113,14 +115,15 @@ lastupdated: "2017-08-17"
     El usuario desea una copia de una factura del periodo de facturación actual o anterior
 
 ### Gestión de cuentas
+<!-- {.toc-ignore} -->
 
 - ****Abrir una cuenta****
 
     El usuario desea abrir una cuenta
 
-- ****Actualizar calendario de elegibilidad****
+- ****Actualizar calendario de disponibilidad****
 
-    El usuario desea saber cuándo será apto para una actualización de teléfono
+    El usuario desea saber cuándo estará disponible para una actualización del teléfono
 
 - ****Actualizar correo electrónico****
 
@@ -130,7 +133,7 @@ lastupdated: "2017-08-17"
 
     El usuario desea cambiar la dirección de facturación o de envío de correos en la cuenta.
 
-- ****Actualizar estado de elegibilidad****
+- ****Actualizar estado de disponibilidad****
 
     El usuario desea saber si, actualmente, es apto para una actualización de teléfono.
 
@@ -160,11 +163,11 @@ lastupdated: "2017-08-17"
 
 - ****Estado de fidelización****
 
-    El usuario desea saber su elegibilidad o el estado de su programa de fidelidad de cliente
+    El usuario desea conocer su disposición o su estado en el programa de fidelidad de cliente
 
 - ****Gestión general de cuentas****
 
-    Preguntas generales de cuenta como, por ejemplo, cómo añadir usuarios o cancelar una cuenta
+    Preguntas generales de cuenta, por ejemplo, cómo añadir usuarios o cancelar una cuenta
 
 - ****Número de cuenta de cliente****
 
@@ -203,6 +206,7 @@ lastupdated: "2017-08-17"
     El usuario desea saber cuánto valen sus puntos
 
 ### Gestión de dispositivos
+<!-- {.toc-ignore} -->
 
 - ****Activación de dispositivo****
 
@@ -217,6 +221,7 @@ lastupdated: "2017-08-17"
     Preguntas sobre el cambio de dispositivos, incluyendo la transferencia de servicios y contactos
 
 ### Gestión de pedidos
+<!-- {.toc-ignore} -->
 
 - ****Cambiar pedido****
 
@@ -239,6 +244,7 @@ lastupdated: "2017-08-17"
     Preguntas sobre pedidos, incluyendo métodos para realizar pedidos, envíos e historial de pedidos
 
 ### Gestión de servicios
+<!-- {.toc-ignore} -->
 
 - ****Activar la itinerancia****
 
@@ -301,6 +307,7 @@ lastupdated: "2017-08-17"
     Preguntas generales sobre el servicio, incluyendo controles parentales, suspensión y reconexión
 
 ### Información
+<!-- {.toc-ignore} -->
 
 - ****Acerca de nosotros****
 
@@ -360,13 +367,14 @@ lastupdated: "2017-08-17"
 
 - ****Volver a programar una cita en casa****
 
-    El usuario desea volver a programar un cita en su casa
+    El usuario desea volver a programar un cita en su domicilio
 
 - ****Volver a programar una cita en la tienda****
 
     El usuario desea volver a programar una cita en la tienda
 
 ### Pago
+<!-- {.toc-ignore} -->
 
 - ****Actualización del método de pago****
 
@@ -402,7 +410,7 @@ lastupdated: "2017-08-17"
 
 - ****Historial de pago****
 
-    El usuario desea ver un resumen de pagos pasados
+    El usuario desea ver un resumen de pagos anteriores
 
 - ****Información bancaria****
 
@@ -410,7 +418,7 @@ lastupdated: "2017-08-17"
 
 - ****Investigación de pago****
 
-    El usuario tiene preguntas generales sobre pagos pasados
+    El usuario tiene preguntas generales sobre pagos anteriores
 
 - ****Métodos de pago aceptados****
 
@@ -445,12 +453,13 @@ lastupdated: "2017-08-17"
     El usuario desea confirmación de que se ha recibido un pago
 
 ### Quejas
+<!-- {.toc-ignore} -->
 
 - ****Problemas de red****
 
-    Preguntas sobre la red, incluyendo problemas de señal, llamadas interrumpidas y cortes de electricidad
+    Preguntas sobre la red, incluyendo problemas de señal, llamadas interrumpidas y cortes eléctricos
 
-- ****Queja de cliente****
+- ****Quejas de cliente****
 
     El usuario tiene un problema con un dispositivo o servicio
 
@@ -459,12 +468,14 @@ lastupdated: "2017-08-17"
     El usuario necesita ayuda con un problema que está teniendo con un dispositivo o servicio
 
 ### Tema no pertinente
+<!-- {.toc-ignore} -->
 
 - ****Ninguna de las anteriores****
 
     Solicitudes o preguntas que no son relevantes para el servicio
 
 ### Ventas
+<!-- {.toc-ignore} -->
 
 - ****Consulta de portabilidad****
 
@@ -478,4 +489,6 @@ lastupdated: "2017-08-17"
 
     Preguntas sobre ventas, incluyendo promociones, precios y disponibilidad de producto
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco.html#top)
+
+
+[![Volver al inicio](images/up-arrow.png)](capabilities_list_telco.html#top)

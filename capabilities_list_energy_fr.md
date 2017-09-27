@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-22"
 
 ---
 
@@ -17,34 +17,34 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Capacités Energie de base
+# Capacités Energie
 {: #capabilities_list_energy_fr}
 {: #top}
-
-## Détails
-
 Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
+## Détails
 
 ### Accès au compte en ligne
+<!-- {.toc-ignore} -->
 
 - ****Accès au compte en ligne****
 
     L'utilisateur a des questions ou rencontre des difficultés concernant l'accès à un compte en ligne.
 
 ### Aide
+<!-- {.toc-ignore} -->
 
 - ****Aide****
 
     Questions sur les options disponibles pendant l'utilisation de l'agent virtuel
 
-- ****Ending (Formule de politesse)****
+- ****Conclusion****
 
     Expression utilisée pour conclure la conversation
 
-- ****Greetings (Salutations)****
+- ****Garantie de sécurité****
 
-    Salutations utilisées pour impliquer l'utilisateur dans la conversation
+    L'utilisateur souhaite avoir la garantie que toutes les informations fournies dans la conversation sont protégées et sécurisées.
 
 - ****Informations système****
 
@@ -54,11 +54,12 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite parler à un agent humain du service client.
 
-- ****Security assurance (Assurance sécurité)****
+- ****Salutations****
 
-    L'utilisateur souhaite avoir la garantie que toutes les informations fournies dans la conversation sont protégées et sécurisées.
+    Salutations utilisées pour impliquer l'utilisateur dans la conversation
 
 ### Facturation
+<!-- {.toc-ignore} -->
 
 - ****Ajustement de facture****
 
@@ -121,6 +122,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur souhaite signaler la consommation inscrite sur son compteur
 
 ### Gestion de la commande
+<!-- {.toc-ignore} -->
 
 - ****Annuler une commande****
 
@@ -143,6 +145,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur souhaite connaître le statut d'une commande déjà passée.
 
 ### Gestion des services
+<!-- {.toc-ignore} -->
 
 - ****Arrêt du service****
 
@@ -150,7 +153,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Demande de service de construction****
 
-    L'utilisateur souhaite créer une demande de service pour une construction ou une rénovation à leur domicile.
+    L'utilisateur souhaite créer une demande de service pour une construction ou une rénovation à son domicile.
 
 - ****Demande relative au programme de fidélisation****
 
@@ -177,6 +180,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur souhaite prévenir son fournisseur que la construction ou la rénovation a lieu à son domicile.
 
 ### Gestion du compte
+<!-- {.toc-ignore} -->
 
 - ****Demande du mot de passe du profil****
 
@@ -185,6 +189,18 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Gestion générale du compte****
 
     Questions générales sur la gestion du compte, comme l'ajout d'utilisateurs ou la résiliation d'un compte
+
+- ****Mettre à jour l'adresse****
+
+    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse postale du compte.
+
+- ****Mettre à jour l'adresse électronique****
+
+    L'utilisateur souhaite modifier l'adresse électronique de contact du compte.
+
+- ****Mettre à jour le numéro de téléphone de contact****
+
+    L'utilisateur souhaite modifier le numéro de téléphone du compte qui est utilisé pour le contacter.
 
 - ****Modifier les noms associés au compte****
 
@@ -214,18 +230,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite résilier ou clôturer un compte.
 
-- ****Update address (Mettre à jour l'adresse)****
-
-    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse électronique du compte.
-
-- ****Update contact phone number (Mettre à jour le numéro de téléphone de contact)****
-
-    L'utilisateur souhaite modifier le numéro de téléphone du compte qui est utilisé pour le contacter.
-
-- ****Update email (Mettre à jour l'adresse électronique)****
-
-    L'utilisateur souhaite modifier l'adresse électronique de contact du compte.
-
 - ****Utilisateurs autorisés****
 
     L'utilisateur souhaite modifier les personnes ayant accès à un compte.
@@ -235,12 +239,18 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur souhaite signaler l'utilisation frauduleuse d'une carte ou d'un compte, ou en savoir plus à ce sujet.
 
 ### Hors sujet
+<!-- {.toc-ignore} -->
 
 - ****Aucun****
 
     Demandes ou questions non liées au service
 
 ### Informations
+<!-- {.toc-ignore} -->
+
+- ****Adresse du magasin****
+
+    Questions sur les adresses des magasins
 
 - ****Conseils d'économie d'énergie****
 
@@ -250,9 +260,9 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite obtenir les coordonnées de l'entreprise.
 
-- ****Find nearest store (Rechercher le magasin le plus proche)****
+- ****Horaires du magasin****
 
-    L'utilisateur recherche le magasin le plus proche.
+    Questions sur les horaires des magasins
 
 - ****Informations générales****
 
@@ -260,7 +270,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Instructions de construction****
 
-    L'utilisateur souhaite prévenir son fournisseur que la construction ou la rénovation a lieu à son domicile.
+    L'utilisateur demande des conseils sur la gestion des changements potentiels dans leur service par suite de la construction.
+
+- ****Numéro de téléphone du magasin****
+
+    Questions sur les numéros de téléphone des magasins
 
 - ****Offres d'emploi****
 
@@ -294,6 +308,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite rechercher un générateur
 
+- ****Rechercher le magasin le plus proche****
+
+    L'utilisateur recherche le magasin le plus proche.
+
 - ****Replanifier un rendez-vous****
 
     L'utilisateur souhaite replanifier un rendez-vous
@@ -310,19 +328,8 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     L'utilisateur souhaite obtenir les toutes dernières informations sur une tempête
 
-- ****Store hours (Horaires du magasin)****
-
-    Questions sur les horaires des magasins
-
-- ****Store location (Adresse du magasin)****
-
-    Questions sur les adresses des magasins
-
-- ****Store phone number (Numéro de téléphone du magasin)****
-
-    Questions sur les numéros de téléphone des magasins
-
 ### Paiement
+<!-- {.toc-ignore} -->
 
 - ****Différer un paiement****
 
@@ -332,6 +339,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Questions sur l'échéance du prochain paiement
 
+- ****Effectuer un paiement****
+
+    L'utilisateur souhaite effectuer un paiement.
+
 - ****Historique des paiements****
 
     L'utilisateur souhaite consulter l'historique des paiements déjà effectués.
@@ -339,10 +350,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Informations bancaires****
 
     L'utilisateur souhaite indiquer les informations bancaires associées à son compte de crédit.
-
-- ****Make a payment (Effectuer un paiement)****
-
-    L'utilisateur souhaite effectuer un paiement.
 
 - ****Mettre à jour les moyens de paiement****
 
@@ -397,6 +404,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur souhaite obtenir la confirmation que le paiement a été reçu.
 
 ### Réclamations
+<!-- {.toc-ignore} -->
 
 - ****Qualité de l'alimentation électrique****
 
@@ -431,9 +439,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur souhaite connaître le statut de sa panne
 
 ### Ventes
+<!-- {.toc-ignore} -->
 
 - ****Généralités sur les ventes****
 
     Questions sur les ventes et notamment sur les promotions et les prix
 
-[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy_fr.html#top)
+
+[![Haut de la page](images/up-arrow.png)](capabilities_list_energy_fr.html#top)

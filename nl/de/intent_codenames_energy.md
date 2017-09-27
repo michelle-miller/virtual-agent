@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-22"
 
 ---
 
@@ -17,11 +17,11 @@ lastupdated: "2017-08-21"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Absichtsnamen (Energy)
+# Absichtsnamen (Energie)
 {: #intent_codenames_energy}
 {: #top}
 
-[![Zurück](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Zurück](images/back-arrow.png)](intent_codenames.html)
 
 In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten Funktionen aufgelistet. Wenn Sie für eine Funktion Ihren eigenen {{site.data.keyword.conversationshort}}-Servicedialog bereitstellen möchten, muss Ihnen der entsprechende Absichtsname bekannt sein, damit Sie diesen im Dialog angeben können. Sie können den Namen hier suchen.
 {: shortdesc}
@@ -50,7 +50,7 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Bestellstatus | #Order_Management-Get_Product_Order_Status |
 | Bestellung stornieren | #Order_Management-Cancel_Product_Order |
 | Bestellung ändern | #Order_Management-Modify_Product_Order |
-| Dienstleistungen der Filiale | #Information-Store_Services |
+| Dienstleistungen einer Filiale | #Information-Store_Services |
 | E-Mail aktualisieren`*` | #Account_Management-Email_Change |
 | Eine Zahlung tätigen`*` | #Payment-Make_A_Payment |
 | Einzelgebührerklärung | #Billing-One_Time_Charges |
@@ -68,7 +68,7 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Kontakt | #Information-Contact_Us |
 | Konto eröffnen | #Account_Management-Open_Account |
 | Konto löschen | #Account_Management-Close_Cancel_Account |
-| Kontonamensänderung`*` | #Account_Management-Name_Change |
+| Kontonamensänderung | #Account_Management-Name_Change |
 | Kontoverwaltung allgemein | #Account_Management-Misc |
 | Kundenkontonummer | #Account_Management-Account_Number_Inquiry |
 | Kundenprofil | #Account_Management-Customer_Profile |
@@ -77,7 +77,6 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Mit Kundenbetreuer verbinden | #Help-Connect_to_Agent |
 | Nach Ausfällen suchen | #Complaints-Search_Outages |
 | Netzqualität | #Complaints-Power_Quality |
-| Nutzung melden | #Billing-Report_Usage |
 | Nächstgelegene Filiale finden`*` | #Information-Find_Nearest_Store |
 | Offene Stellen | #Information-Jobs |
 | Online-Kontozugriff | #Online_Account_Access-Misc |
@@ -98,14 +97,15 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Serviceanforderung | #Service_Management-Service_Inquiry |
 | Serviceanforderung für Bauarbeiten | #Service_Management-Construction_Service_Request |
 | Sicherheitsgarantie | #Help-Security_Assurance |
-| Standort der Filiale`*` | #Information-Store_Location |
+| Standort einer Filiale`*` | #Information-Store_Location |
 | Systeminformationen | #Help-Misc |
-| Telefonnummer aktualisieren | #Account_Management-Update_Change_Contact_Phone_Number |
-| Telefonnummer der Filiale`*` | #Information-Store_Phone_Number |
+| Telefonnummer aktualisieren`*` | #Account_Management-Update_Change_Contact_Phone_Number |
+| Telefonnummer einer Filiale`*` | #Information-Store_Phone_Number |
 | Termin vereinbaren | #Information-Make_Appointment |
 | Termin verschieben | #Information-Change_Appointment |
 | Unwetterstatus | #Information-Storm_Status |
 | Update zu Ausfall | #Complaints-Outage_Update |
+| Verbrauch melden | #Billing-Report_Usage |
 | Verfügbare Produkte | #Information-Store_Products |
 | Verkauf allgemein | #Sales-Misc |
 | Vermeidung von Ausfällen | #Information-Outage_Prevention |
@@ -126,4 +126,7 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Öffnungszeiten`*` | #Information-Store_Hours |
 | Über uns | #Information-About_Us |
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_energy.html#top)
+
+`*` [Integrierte Dialoge](configure.html#builtin_dialog_ovw)
+
+[![Zurück nach oben](images/up-arrow.png)](intent_codenames_energy.html#top)

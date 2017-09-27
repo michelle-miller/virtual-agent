@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-25"
+lastupdated: "2017-09-26"
 
 ---
 
@@ -78,7 +78,7 @@ To configure a core capability, complete the following steps:
 
 The following sections describe the core capabilities that the built-in conversation flows are trained to recognize and react to. These built-in dialogs are provided with all of the capability packs.
 
-You can customize or add to these dialogs. See [Editing built-in dialogs](edit-builtin-dialogs.md) for more information.
+You can customize or add to these dialogs. See [Editing built-in dialogs](edit-builtin-dialogs.html) for more information.
 
 ### Find nearest store
 {: #builtin_dialog_ovw__findNearestStore}

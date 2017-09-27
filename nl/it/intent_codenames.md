@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -25,6 +25,8 @@ Andare a [Aggiunta di dialoghi personalizzati per le capacità base](add-custom-
 
 Le capacità sono diverse in base al pacchetto.
 
-| Customer Service (General) | Energy  | Retail Banking | Telco   |
-|----------------------------|---------|----------------|---------|
-| [dettagli](intent_codenames_general.html) | [dettagli](intent_codenames_energy.html) | [dettagli](intent_codenames_banking.html) | [dettagli](intent_codenames_telco.html) |
+| Customer Service (General) | Energy | Retail Banking | Telco | Assicurazione |
+|----------------------------|--------|----------------|-------|---------------|
+| [dettagli](intent_codenames_general.html) | [dettagli](intent_codenames_energy.html) | [dettagli](intent_codenames_banking.html) | [dettagli](intent_codenames_telco.html) | n/d* |
+
+*n/d indica non disponibile adesso

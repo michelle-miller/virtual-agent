@@ -2,7 +2,7 @@
 
 Copyright:
 Jahre: 2015, 2017
-lastupdated: "2017-08-24"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -39,14 +39,14 @@ In einem *Funktionspack* werden die wichtigsten Funktionen für Ihre Branche fü
 
 Die folgende Tabelle enthält eine Zusammenfassung der angebotenen Packs. Klicken Sie auf die Links **Details**, um eine Liste der Funktionen und Beschreibungen für die einzelnen unterstützten Sprachen anzuzeigen.
 
-| Sprache | Kundendienst (Allgemein) | Energie  | Retail Banking | Telekommunikationsunternehmen   |
-|----------|----------------------------|---------|----------------|---------|
-| Englisch  | [Details](/docs/services/virtual-agent/capabilities_list_general_en.html)   | [Details](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_en.html)        | [Details](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
-| Französisch   | [Details](/docs/services/virtual-agent/capabilities_list_general_fr.html) | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
-| Deutsch   | [Details](/docs/services/virtual-agent/capabilities_list_general.html) | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco.html) |
-| Italienisch | [Details](/docs/services/virtual-agent/capabilities_list_general_it.html) | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
-| Portugiesisch (Brasilianisch) | [Details](/docs/services/virtual-agent/capabilities_list_general_pt-br.html)   | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) |
-| Spanisch | [Details](/docs/services/virtual-agent/capabilities_list_general_es.html)   | nicht zutreffend | nicht zutreffend | [Details](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
+| Sprache | Kundendienst (Allgemein) | Energie  | Retail Banking | Telekommunikationsunternehmen | Versicherung |
+|---------|--------------------------|----------|----------------|-------------------------------|--------------|
+| Englisch  | [Details](/docs/services/virtual-agent/capabilities_list_general_en.html)   | [Details](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_en.html)        | [Details](/docs/services/virtual-agent/capabilities_list_telco_en.html) | [Details](/docs/services/virtual-agent/capabilities_list_insurance_en.html) |
+| Französisch   | [Details](/docs/services/virtual-agent/capabilities_list_general_fr.html) | [Details](/docs/services/virtual-agent/capabilities_list_energy_fr.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_fr.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco_fr.html) | nicht zutreffend |
+| Deutsch   | [Details](/docs/services/virtual-agent/capabilities_list_general.html) | [Details](/docs/services/virtual-agent/capabilities_list_energy.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco.html) | nicht zutreffend |
+| Italienisch | [Details](/docs/services/virtual-agent/capabilities_list_general_it.html) | [Details](/docs/services/virtual-agent/capabilities_list_energy_it.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_it.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco_it.html) | nicht zutreffend |
+| Portugiesisch (Brasilianisch) | [Details](/docs/services/virtual-agent/capabilities_list_general_pt-br.html)   | [Details](/docs/services/virtual-agent/capabilities_list_energy_pt-br.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_pt-br.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco_pt-br.html) | nicht zutreffend |
+| Spanisch | [Details](/docs/services/virtual-agent/capabilities_list_general_es.html)   | [Details](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [Details](/docs/services/virtual-agent/capabilities_list_banking_en.html) | [Details](/docs/services/virtual-agent/capabilities_list_telco_es.html) | nicht zutreffend |
 
 *nicht zutreffend = derzeit nicht verfügbar
 

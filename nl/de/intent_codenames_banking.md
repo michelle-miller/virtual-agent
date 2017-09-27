@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-21"
 {: #intent_codenames_banking}
 {: #top}
 
-[![Zurück](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Zurück](images/back-arrow.png)](intent_codenames.html)
 
 In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten Funktionen aufgelistet. Wenn Sie für eine Funktion Ihren eigenen {{site.data.keyword.conversationshort}}-Servicedialog bereitstellen möchten, muss Ihnen der entsprechende Absichtsname bekannt sein, damit Sie diesen im Dialog angeben können. Sie können den Namen hier suchen.
 {: shortdesc}
@@ -30,7 +30,7 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 |---------------------------------|--------------------------------------------------------|
 | Abfrage des Kontostands | #Billing-Balance_Inquiry |
 | Abrechnung allgemein | #Billing-Misc |
-| Adresse aktualisieren | #Account_Management-Update_Change_Address |
+| Adresse aktualisieren`*` | #Account_Management-Update_Change_Address |
 | Aktivität anzeigen | #Checking_Savings_Accounts-View_Activity |
 | Aktualisierung der Zahlungsart | #Payment-Method_Of_Payment_Update |
 | Akzeptierte Zahlungsarten | #Payment-Method_Of_Payment_Inquiry |
@@ -44,14 +44,14 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Banküberweisungen | #Checking_Savings_Accounts-Wire_Funds |
 | Beendung | #Help-Ending |
 | Begrüßung | #Help-Greetings |
-| Benachrichtigung über Geschäftsreisen | #Alerts-Account_Alerts_Travel |
+| Benachrichtigung über Geschäftsreisen`*` | #Alerts-Account_Alerts_Travel |
 | Berechtigte Benutzer | #Account_Management-Authorized_User |
 | Bürotermin vereinbaren | #Information-Make_Store_Appointment |
 | Bürotermin verschieben | #Information-Change_Store_Appointment |
-| Dienstleistungen der Filiale | #Information-Store_Services |
+| Dienstleistungen einer Filiale | #Information-Store_Services |
 | Direktüberweisungen einrichten | #Checking_Savings_Accounts-Set_Up_Direct_Deposit |
-| E-Mail aktualisieren | #Account_Management-Email_Change |
-| Eine Zahlung tätigen | #Payment-Make_A_Payment |
+| E-Mail aktualisieren`*` | #Account_Management-Email_Change |
+| Eine Zahlung tätigen`*` | #Payment-Make_A_Payment |
 | Erhöhung des Kreditrahmens anfordern | #Credit_Card_Account_Services-Request_Increase_In_Credit_Line |
 | Erstattung | #Payment-Refund_Payment |
 | Fehlende oder falsche Zahlungen | #Payment-Missing_Misapplied_Payment |
@@ -59,8 +59,8 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Gebührenanfrage | #Credit_Card_Account_Services-Fee_Inquiry |
 | Geldüberweisung | #Checking_Savings_Accounts-Transfer_Money |
 | Hilfe | #Help-Help |
-| Karte aktivieren | #Credit_Card_Account_Services-Activate_A_Card |
-| Karte ersetzen | #Credit_Card_Account_Services-Replace_A_Card |
+| Karte aktivieren`*` | #Credit_Card_Account_Services-Activate_A_Card |
+| Karte ersetzen`*` | #Credit_Card_Account_Services-Replace_A_Card |
 | Keines der Obigen | #Off_Topic-None_of_the_Above |
 | Kontakt | #Information-Contact_Us |
 | Konto eröffnen | #Account_Management-Open_Account |
@@ -74,9 +74,9 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Kundenreklamation | #Complaints-Misc |
 | Kundentreueprogramm | #Account_Management-Customer_Loyalty_Program |
 | Kundentreuestatus | #Account_Management-Loyalty_Status |
-| Missbrauch | #Account_Management-Fraudulent_Use |
+| Missbrauch`*` | #Account_Management-Fraudulent_Use |
 | Mit Kundenbetreuer verbinden | #Help-Connect_to_Agent |
-| Nächstgelegene Filiale finden | #Information-Find_Nearest_Store |
+| Nächstgelegene Filiale finden`*` | #Information-Find_Nearest_Store |
 | Offene Stellen | #Information-Jobs |
 | Online-Kontozugriff | #Online_Account_Access-Misc |
 | Online-Rechnungen | #Billing-Online_Statements |
@@ -94,14 +94,14 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Rechnungszeitraum | #Billing-Billing_Cycle |
 | Scheckbuch anfordern | #Checking_Savings_Accounts-Request_Checkbook |
 | Sicherheitsgarantie | #Help-Security_Assurance |
-| Standort der Filiale | #Information-Store_Location |
+| Standort einer Filiale`*` | #Information-Store_Location |
 | Steuerformulare anfordern | #Credit_Card_Account_Services-Tax_Forms |
 | Systeminformationen | #Help-Misc |
-| Telefonnummer aktualisieren | #Account_Management-Update_Change_Contact_Phone_Number |
-| Telefonnummer der Filiale | #Information-Store_Phone_Number |
+| Telefonnummer aktualisieren`*` | #Account_Management-Update_Change_Contact_Phone_Number |
+| Telefonnummer einer Filiale`*` | #Information-Store_Phone_Number |
 | Termin vereinbaren | #Information-Make_Appointment |
 | Termin verschieben | #Information-Change_Appointment |
-| Verloren gegangenen oder gestohlenen Karte melden | #Credit_Card_Account_Services-Report_Lost_Or_Stolen_Card |
+| Verloren gegangenen oder gestohlenen Karte melden`*` | #Credit_Card_Account_Services-Report_Lost_Or_Stolen_Card |
 | Verspätungszuschlag | #Payment-Late_Fees |
 | Wiederkehrende Zahlungen (autopay) | #Payment-Recurring_Payment_Autopay |
 | Zahlung auschieben | #Payment-Defer_Payment |
@@ -115,7 +115,10 @@ In der folgenden Tabelle werden die Absichtsnamen der einzelnen unterstützten F
 | Zahlungsüberprüfung | #Payment-Verify_Payment |
 | Zahlungsübersicht | #Payment-Payment_History |
 | Zustellungsmethoden bearbeiten (E-Mail-, Apple-Benachrichtigungen) | #Alerts-Edit_Delivery_Methods |
-| Öffnungszeiten | #Information-Store_Hours |
+| Öffnungszeiten`*` | #Information-Store_Hours |
 | Über uns | #Information-About_Us |
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_banking.html#top)
+
+`*` [Integrierte Dialoge](configure.html#builtin_dialog_ovw)
+
+[![Zurück nach oben](images/up-arrow.png)](intent_codenames_banking.html#top)

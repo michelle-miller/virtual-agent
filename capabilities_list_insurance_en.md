@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-25"
+lastupdated: "2017-08-22"
 
 ---
 
@@ -22,8 +22,7 @@ lastupdated: "2017-09-25"
 {: #top}
 
 [Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
-(: #shortdesc)
-
+{: shortdesc}
 ## Details
 
 ### Account management
@@ -198,11 +197,15 @@ lastupdated: "2017-09-25"
 
 - ****Change appointment****
 
-    User wants to schedule an appointment without specifying a location
+    User wants to change an appointment without specifying a location
 
 - ****Change home appointment****
 
     User wants to reschedule an at-home appointment
+
+- ****Change office appointment****
+
+    User wants to reschedule an office appointment
 
 - ****Contact us****
 
@@ -226,11 +229,7 @@ lastupdated: "2017-09-25"
 
 - ****Make store appointment****
 
-    User wants to schedule a store  appointment
-
-- ****Reschedule appointment****
-
-    User wants to reschedule an appointment
+    User wants to schedule an appointment at an office
 
 - ****Store location****
 
@@ -346,7 +345,7 @@ lastupdated: "2017-09-25"
 
 - ****Cancel policy****
 
-    User wants to cancel a policy or close an account
+    User wants to cancel a policy.
 
 - ****Change policy****
 
@@ -386,4 +385,3 @@ lastupdated: "2017-09-25"
 
 
 [Back to top](capabilities_list_insurance_en.html#top)
-

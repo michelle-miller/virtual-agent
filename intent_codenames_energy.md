@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-22"
 
 ---
 
@@ -126,6 +126,7 @@ The following table lists the intent names for each supported capability. If you
 | Update email`*` | #Account_Management-Email_Change |
 | Usage detail | #Billing-Usage_Detail |
 
-`*` Identifies the capabilities for which built-in dialogs are provided. See [Built-in dialogs](configure.html#builtin_dialog_ovw) for more information.
+
+`*` Identifies capabilities for which built-in dialogs are provided. See [Built-in dialogs](configure.html#builtin_dialog_ovw) for more information.
 
 [Back to top](intent_codenames_energy.html#top)

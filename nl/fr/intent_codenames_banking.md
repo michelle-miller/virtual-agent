@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-21"
 {: #intent_codenames_banking}
 {: #top}
 
-[![Précédent](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Précédent](images/back-arrow.png)](intent_codenames.html)
 
 Le tableau ci-après répertorie les noms d'intention de chaque capacité prise en charge. Si vous choisissez de fournir votre propre dialogue de service {{site.data.keyword.conversationshort}} pour une capacité, vous devez connaître le nom d'intention approprié à spécifier dans le dialogue. Vous pouvez le rechercher ici.
 {: shortdesc}
@@ -29,12 +29,13 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Capacités                       | Nom d'intention associée à la capacité                 |
 |---------------------------------|--------------------------------------------------------|
 | Accès au compte en ligne | #Online_Account_Access-Misc |
-| Activation d'une carte | #Credit_Card_Account_Services-Activate_A_Card |
+| Activation d'une carte`*` | #Credit_Card_Account_Services-Activate_A_Card |
+| Adresse du magasin`*` | #Information-Store_Location |
 | Aide | #Help-Help |
 | Ajustement de facture | #Billing-Request_Adjustment |
-| Alerte de déplacement | #Alerts-Account_Alerts_Travel |
-| Annulation d'une carte de crédit | #Credit_Card_Account_Services-Cancel_Credit_Card |
+| Alerte de déplacement`*` | #Alerts-Account_Alerts_Travel |
 | Aucun | #Off_Topic-None_of_the_Above |
+| Conclusion | #Help-Ending |
 | Configuration d'un virement direct | #Checking_Savings_Accounts-Set_Up_Direct_Deposit |
 | Consultation de l'activité | #Checking_Savings_Accounts-View_Activity |
 | Consultation des frais en cours | #Credit_Card_Account_Services-View_Pending_Charges |
@@ -42,7 +43,7 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Contactez-nous | #Information-Contact_Us |
 | Contestation de facture | #Billing-Dispute |
 | Cycle de facturation | #Billing-Billing_Cycle |
-| Demande d'augmentation de la ligne de crédit | #Credit_Card_Account_Services-Request_Increase_In_Credit_Line |
+| Demande d'augmentation de la limite de crédit | #Credit_Card_Account_Services-Request_Increase_In_Credit_Line |
 | Demande de chéquier | #Checking_Savings_Accounts-Request_Checkbook |
 | Demande de convention de carte | #Credit_Card_Account_Services-Request_Card_Member_Agreement |
 | Demande de formulaires fiscaux | #Credit_Card_Account_Services-Tax_Forms |
@@ -52,23 +53,26 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Echanger des points | #Account_Management-Redeem_Points |
 | Echéance du paiement | #Payment-Payment_Due_Date |
 | Edition des méthodes de distribution (notifications par courrier électronique, apple) | #Alerts-Edit_Delivery_Methods |
-| Ending (Formule de politesse) | #Help-Ending |
+| Effectuer un paiement`*` | #Payment-Make_A_Payment |
 | Explication de facture | #Billing-Bill_Explanation |
 | Facturation générale | #Billing-Misc |
-| Find nearest store (Rechercher le magasin le plus proche) | #Information-Find_Nearest_Store |
+| Garantie de sécurité | #Help-Security_Assurance |
 | Gestion générale du compte | #Account_Management-Misc |
-| Greetings (Salutations) | #Help-Greetings |
 | Historique des paiements | #Payment-Payment_History |
+| Horaires du magasin`*` | #Information-Store_Hours |
 | Informations bancaires | #Payment-Bank_Information |
 | Informations générales | #Information-Misc |
 | Informations système | #Help-Misc |
-| Make a payment (Effectuer un paiement) | #Payment-Make_A_Payment |
 | Mettre en relation avec un agent | #Help-Connect_to_Agent |
+| Mettre à jour l'adresse`*` | #Account_Management-Update_Change_Address |
+| Mettre à jour l'adresse électronique`*` | #Account_Management-Email_Change |
+| Mettre à jour le numéro de téléphone du contact`*` | #Account_Management-Update_Change_Contact_Phone_Number |
 | Mettre à jour les moyens de paiement | #Payment-Method_Of_Payment_Update |
 | Modifier l'échéance | #Payment-Payment_Due_Date_Change |
 | Modifier les noms associés au compte | #Account_Management-Name_Change |
 | Moyens de paiement acceptés | #Payment-Method_Of_Payment_Inquiry |
 | Numéro de compte client | #Account_Management-Account_Number_Inquiry |
+| Numéro de téléphone du magasin`*` | #Information-Store_Phone_Number |
 | Offres d'emploi | #Information-Jobs |
 | Ouvrir un compte | #Account_Management-Open_Account |
 | Paiement général | #Payment-Misc |
@@ -87,35 +91,34 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Qui sommes-nous ? | #Information-About_Us |
 | Rappels de paiement | #Billing-Payment_Reminders |
 | Recherche de paiement | #Payment-Research_Payment |
+| Rechercher le magasin le plus proche`*` | #Information-Find_Nearest_Store |
 | Relevés de facture en ligne | #Billing-Online_Statements |
 | Relevés de facture papier | #Billing-Paper_Statements |
 | Remboursement | #Payment-Refund_Payment |
-| Remplacement d'une carte | #Credit_Card_Account_Services-Replace_A_Card |
+| Remplacement d'une carte`*` | #Credit_Card_Account_Services-Replace_A_Card |
 | Renseignement sur l'adresse de facturation | #Account_Management-Billing_Address_Inquiry |
 | Renseignements sur le solde | #Billing-Balance_Inquiry |
 | Replanifier un rendez-vous | #Information-Change_Appointment |
 | Replanifier un rendez-vous au bureau | #Information-Change_Store_Appointment |
 | Réclamation du client | #Complaints-Misc |
+| Résiliation d'une carte de crédit | #Credit_Card_Account_Services-Cancel_Credit_Card |
 | Résilier le compte | #Account_Management-Close_Cancel_Account |
-| Security assurance (Assurance sécurité) | #Help-Security_Assurance |
+| Salutations | #Help-Greetings |
 | Services disponibles dans le magasin | #Information-Store_Services |
 | Seuil de dépenses | #Alerts-Account_Alerts_Spending_Threshold |
-| Signalement d'une carte perdue ou volée | #Credit_Card_Account_Services-Report_Lost_Or_Stolen_Card |
+| Signalement d'une carte perdue ou volée`*` | #Credit_Card_Account_Services-Report_Lost_Or_Stolen_Card |
 | Sites de paiement | #Payment-Payment_Locations |
 | Statut de fidélité | #Account_Management-Loyalty_Status |
-| Store hours (Adresse du magasin) | #Information-Store_Hours |
-| Store location (Adresse du magasin) | #Information-Store_Location |
-| Store phone number (Numéro de téléphone du magasin) | #Information-Store_Phone_Number |
 | Transfert d'argent | #Checking_Savings_Accounts-Transfer_Money |
 | Transférer des points | #Account_Management-Transfer_Points |
-| Update address (Mettre à jour l'adresse) | #Account_Management-Update_Change_Address |
-| Update contact phone number (Mettre à jour le numéro de téléphone du contact) | #Account_Management-Update_Change_Contact_Phone_Number |
-| Update email (Mettre à jour l'adresse électronique) | #Account_Management-Email_Change |
 | Utilisateurs autorisés | #Account_Management-Authorized_User |
-| Utilisation frauduleuse | #Account_Management-Fraudulent_Use |
+| Utilisation frauduleuse`*` | #Account_Management-Fraudulent_Use |
 | Valeur des points | #Account_Management-Points_Value |
 | Versements de paiement | #Payment-Installments |
 | Virements | #Checking_Savings_Accounts-Wire_Funds |
 | Vérification du paiement | #Payment-Verify_Payment |
 
-[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_banking.html#top)
+
+`*` [Dialogues intégrés](configure.html#builtin_dialog_ovw)
+
+[![Haut de la page](images/up-arrow.png)](intent_codenames_banking.html#top)

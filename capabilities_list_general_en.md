@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,11 +21,12 @@ lastupdated: "2017-08-17"
 {: #capabilities_list_general_en}
 {: #top}
 
+[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
+{: shortdesc}
 ## Details
 
-[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
-
 ### Account management
+<!-- {.toc-ignore} -->
 
 - ****Account name change****
 
@@ -108,6 +109,7 @@ lastupdated: "2017-08-17"
     User wants to change the contact email address on the account
 
 ### Billing
+<!-- {.toc-ignore} -->
 
 - ****Balance inquiry****
 
@@ -158,12 +160,14 @@ lastupdated: "2017-08-17"
     User wants a copy of a bill for the current or previous billing period
 
 ### Complaints
+<!-- {.toc-ignore} -->
 
 - ****Customer complaint****
 
     User has an issue with a device or service
 
 ### Help
+<!-- {.toc-ignore} -->
 
 - ****Connect to agent****
 
@@ -190,6 +194,7 @@ lastupdated: "2017-08-17"
     Questions about the virtual agent technology that they are interacting with
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****About us****
 
@@ -240,18 +245,21 @@ lastupdated: "2017-08-17"
     User wants to know about the services that are provided at store locations
 
 ### Off-topic
+<!-- {.toc-ignore} -->
 
 - ****None of the above****
 
     Requests or questions that are not relevant to the service
 
 ### Online account access
+<!-- {.toc-ignore} -->
 
 - ****Online account access****
 
     User has a question or issue about accesssing an account online
 
 ### Order management
+<!-- {.toc-ignore} -->
 
 - ****Cancel order****
 
@@ -274,6 +282,7 @@ lastupdated: "2017-08-17"
     User wants to know the status of an order that has been placed
 
 ### Payment
+<!-- {.toc-ignore} -->
 
 - ****Accepted methods of payment****
 
@@ -346,5 +355,7 @@ lastupdated: "2017-08-17"
 - ****Refund****
 
     User wants a refund for a payment
+
+
 
 [Back to top](capabilities_list_general_en.html#top)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -20,18 +20,20 @@ lastupdated: "2017-08-17"
 # Prestaciones general
 {: #capabilities_list_general}
 {: #top}
-[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
-{: shortdesc}
 
+[![Volver](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
+{: shortdesc}
 ## Detalles
 
 ### Acceso de cuenta en línea
+<!-- {.toc-ignore} -->
 
 - ****Acceso de cuenta en línea****
 
     El usuario tiene una pregunta o problema sobre el acceso a una cuenta en línea
 
 ### Ayuda
+<!-- {.toc-ignore} -->
 
 - ****Ayuda****
 
@@ -58,6 +60,7 @@ lastupdated: "2017-08-17"
     Saludos utilizados para implicar al usuario en la conversación
 
 ### Facturación
+<!-- {.toc-ignore} -->
 
 - ****Ajuste de factura****
 
@@ -65,7 +68,7 @@ lastupdated: "2017-08-17"
 
 - ****Cargos recurrentes****
 
-    Preguntas sobre cargos recurrentes de una factura como, por ejemplo, cargos por mensajes ilimitados, buzón de voz visual o cargos de planes familiares
+    Preguntas sobre cargos recurrentes de una factura, por ejemplo, cargos por mensajes ilimitados, buzón de voz visual o cargos de planes familiares
 
 - ****Ciclo de facturación****
 
@@ -89,11 +92,11 @@ lastupdated: "2017-08-17"
 
 - ****Facturación general****
 
-    Preguntas sobre una factura como, por ejemplo, la cantidad de uso o tarifas de uso
+    Preguntas sobre una factura, por ejemplo, la cantidad de uso o tarifas de uso
 
 - ****Recordatorios de pago****
 
-    Preguntas sobre recordatorios de pago como, por ejemplo, lo qué son y cómo activarlos o detenerlos
+    Preguntas sobre recordatorios de pago, por ejemplo, lo qué son, cómo activarlos o detenerlos
 
 - ****Resúmenes de factura en línea****
 
@@ -108,6 +111,7 @@ lastupdated: "2017-08-17"
     El usuario desea una copia de una factura del periodo de facturación actual o anterior
 
 ### Gestión de cuentas
+<!-- {.toc-ignore} -->
 
 - ****Abrir una cuenta****
 
@@ -147,11 +151,11 @@ lastupdated: "2017-08-17"
 
 - ****Estado de fidelización****
 
-    El usuario desea saber su elegibilidad o el estado de su programa de fidelidad de cliente
+    El usuario desea conocer su disposición o su estado en el programa de fidelidad de cliente
 
 - ****Gestión general de cuentas****
 
-    Preguntas generales de cuenta como, por ejemplo, cómo añadir usuarios o cancelar una cuenta
+    Preguntas generales de cuenta, por ejemplo, cómo añadir usuarios o cancelar una cuenta
 
 - ****Número de cuenta de cliente****
 
@@ -190,6 +194,7 @@ lastupdated: "2017-08-17"
     El usuario desea saber cuánto valen sus puntos
 
 ### Gestión de pedidos
+<!-- {.toc-ignore} -->
 
 - ****Cambiar pedido****
 
@@ -212,6 +217,7 @@ lastupdated: "2017-08-17"
     Preguntas sobre pedidos, incluyendo métodos para realizar pedidos, envíos e historial de pedidos
 
 ### Información
+<!-- {.toc-ignore} -->
 
 - ****Acerca de nosotros****
 
@@ -262,6 +268,7 @@ lastupdated: "2017-08-17"
     El usuario desea volver a programa una cita
 
 ### Pago
+<!-- {.toc-ignore} -->
 
 - ****Actualización del método de pago****
 
@@ -297,7 +304,7 @@ lastupdated: "2017-08-17"
 
 - ****Historial de pago****
 
-    El usuario desea ver un resumen de pagos pasados
+    El usuario desea ver un resumen de pagos anteriores
 
 - ****Información bancaria****
 
@@ -305,7 +312,7 @@ lastupdated: "2017-08-17"
 
 - ****Investigación de pago****
 
-    El usuario tiene preguntas generales sobre pagos pasados
+    El usuario tiene preguntas generales sobre pagos anteriores
 
 - ****Métodos de pago aceptados****
 
@@ -336,15 +343,19 @@ lastupdated: "2017-08-17"
     El usuario desea confirmación de que se ha recibido un pago
 
 ### Quejas
+<!-- {.toc-ignore} -->
 
-- ****Queja de cliente****
+- ****Quejas de cliente****
 
     El usuario tiene un problema con un dispositivo o servicio
 
 ### Tema no pertinente
+<!-- {.toc-ignore} -->
 
 - ****Ninguna de las anteriores****
 
     Solicitudes o preguntas que no son relevantes para el servicio
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general.html#top)
+
+
+[![Volver al inicio](images/up-arrow.png)](capabilities_list_general.html#top)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -20,19 +20,19 @@ lastupdated: "2017-08-17"
 # Capacités Télécommunications de base
 {: #capabilities_list_telco_fr}
 {: #top}
-
-## Détails
-
 Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
+## Détails
 
 ### Accès au compte en ligne
+<!-- {.toc-ignore} -->
 
 - ****Accès au compte en ligne****
 
     L'utilisateur a des questions ou rencontre des difficultés concernant l'accès à un compte en ligne.
 
 ### Aide
+<!-- {.toc-ignore} -->
 
 - ****Aide****
 
@@ -59,6 +59,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Salutations utilisées pour impliquer l'utilisateur dans la conversation
 
 ### Facturation
+<!-- {.toc-ignore} -->
 
 - ****Ajustement de facture****
 
@@ -113,6 +114,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur veut savoir si le statut de son crédit lui permet de bénéficier d'un changement de services ou d'équipement.
 
 ### Gestion de la commande
+<!-- {.toc-ignore} -->
 
 - ****Annuler une commande****
 
@@ -135,6 +137,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur souhaite connaître le statut d'une commande déjà passée.
 
 ### Gestion des appareils
+<!-- {.toc-ignore} -->
 
 - ****Activer l'appareil****
 
@@ -149,6 +152,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Questions sur un appareil, ses utilisations, sa garantie et les possibilités de réparation
 
 ### Gestion des services
+<!-- {.toc-ignore} -->
 
 - ****Activer l'itinérance****
 
@@ -211,6 +215,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Questions sur le retrait des options d'un forfait
 
 ### Gestion du compte
+<!-- {.toc-ignore} -->
 
 - ****Demande du mot de passe du profil****
 
@@ -230,7 +235,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Mettre à jour l'adresse****
 
-    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse électronique du compte.
+    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse postale du compte.
 
 - ****Mettre à jour l'adresse électronique****
 
@@ -301,12 +306,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utlisateur souhaite connaître la valeur de ses points.
 
 ### Hors sujet
+<!-- {.toc-ignore} -->
 
 - ****Aucun****
 
     Demandes ou questions non liées au service
 
 ### Informations
+<!-- {.toc-ignore} -->
 
 - ****Adresse du magasin****
 
@@ -373,6 +380,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur recherche le magasin le plus proche.
 
 ### Paiement
+<!-- {.toc-ignore} -->
 
 - ****Différer un paiement****
 
@@ -451,6 +459,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur souhaite obtenir la confirmation que le paiement a été reçu.
 
 ### Réclamations
+<!-- {.toc-ignore} -->
 
 - ****Problèmes réseau****
 
@@ -465,6 +474,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     L'utilisateur a besoin d'aide pour résoudre un problème qu'il rencontre avec un appareil ou un service.
 
 ### Ventes
+<!-- {.toc-ignore} -->
 
 - ****Généralités sur les ventes****
 
@@ -478,4 +488,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Questions ou demandes concernant le retour des appareils non souhaités
 
-[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_fr.html#top)
+
+
+[![Haut de la page](images/up-arrow.png)](capabilities_list_telco_fr.html#top)

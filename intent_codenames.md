@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -25,6 +25,6 @@ Go to [Adding custom dialogs for core capabilities](add-custom-dialog.html).
 
 The capabilities differ by pack.
 
-| Customer Service (General) | Energy  | Retail Banking | Telco   |
-|----------------------------|---------|----------------|---------|
-|                  [details](intent_codenames_general.html) | [details](intent_codenames_energy.html) | [details](intent_codenames_banking.html)        | [details](intent_codenames_telco.html) |
+| General | Energy  | Banking | Telco |
+|---------|---------|---------|-------|
+| [details](intent_codenames_general.html) | [details](intent_codenames_energy.html) | [details](intent_codenames_banking.html)        | [details](intent_codenames_telco.html) | [details](intent_codenames_insurance.html) |

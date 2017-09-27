@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -135,6 +135,7 @@ The following table lists the intent names for each supported capability. If you
 | Update email`*` | #Account_Management-Email_Change |
 | Upgrade eligibility status | #Account_Management-Upgrade_Eligibility_Status |
 | Upgrade eligibility timing | #Account_Management-Upgrade_Eligibility_Timing |
+
 
 `*` Identifies capabilities for which built-in dialogs are provided. See [Built-in dialogs](configure.html#builtin_dialog_ovw) for more information.
 

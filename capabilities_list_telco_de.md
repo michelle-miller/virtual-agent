@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,7 +17,6 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-
 # Zentrale Funktionen für Telekommunikationsunternehmen
 {: #capabilities_list_telco_de}
 {: #top}
@@ -27,6 +26,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 ## Zentrale Funktionen
 
 ### Abrechnung
+<!-- {.toc-ignore} -->
 
 - ****Abfrage des Kontostands****
 
@@ -81,6 +81,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Fragen zu Zahlungserinnerungen, wie zum Beispiel ihre Einrichtung oder Beendung
 
 ### Auftragsbearbeitung
+<!-- {.toc-ignore} -->
 
 - ****Auftragsbearbeitung allgemein****
 
@@ -103,6 +104,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Der Benutzer möchte ein neues Gerät bestellen
 
 ### Beschwerden
+<!-- {.toc-ignore} -->
 
 - ****Fehlerbehebung****
 
@@ -117,6 +119,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Fragen über das Netz, einschließlich Signalprobleme, unterbrochene Anrufe und Ausfälle
 
 ### Gerätverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Geräteaktivierung****
 
@@ -131,6 +134,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Fragen bezüglich der Nutzung und Garantie- und Reparaturoptionen eines Gerätes
 
 ### Hilfe
+<!-- {.toc-ignore} -->
 
 - ****Beendung****
 
@@ -157,12 +161,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Fragen zur Technologie des virtuellen Agenten, mit dem der Benutzer interagiert
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****Allgemeine Informationen****
 
     Der Benutzer möchte Informationen über das Unternehmen, die nicht über einen anderen Intent bedient werden
 
-- ****Dienstleistungen der Filiale****
+- ****Dienstleistungen einer Filiale****
 
     Der Benutzer möchte Informationen über die in Filialen verfügbaren Dienstleistungen
 
@@ -194,11 +199,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte Informationen zu Stellenangeboten
 
-- ****Standort der Filiale****
+- ****Standort einer Filiale****
 
     Fragen zu Standorten von Filialen
 
-- ****Telefonnummer der Filiale****
+- ****Telefonnummer einer Filiale****
 
     Fragen zu Telefonnummern von Filialen
 
@@ -223,6 +228,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Der Benutzer möchte allgemeine Informationen über das Unternehmen
 
 ### Kontoverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Adresse aktualisieren****
 
@@ -313,18 +319,21 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Der Benutzer möchte erfahren, wann er Anspruch auf ein Handy-Upgrade hat
 
 ### Off-Topic
+<!-- {.toc-ignore} -->
 
 - ****Keines der Obigen****
 
     Anforderungen oder Fragen, die für die Dienstleistung nicht relevant sind
 
 ### Online-Kontozugriff
+<!-- {.toc-ignore} -->
 
 - ****Online-Kontozugriff****
 
     Der Benutzer hat eine Frage oder ein Problem bezüglich dem Onlinezugriff auf ein Konto
 
 ### Serviceverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Anfrage zu Roaming****
 
@@ -387,6 +396,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Fragen über das Hinzufügen von Versicherungsschutz zu einem Konto
 
 ### Vertrieb
+<!-- {.toc-ignore} -->
 
 - ****Anfrage zur Geräterückgabe****
 
@@ -401,6 +411,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Fragen über den Verkauf, einschließlich Werbeaktionen, Preisgestaltung und Produktverfügbarkeit
 
 ### Zahlung
+<!-- {.toc-ignore} -->
 
 - ****Aktualisierung der Zahlungsart****
 
@@ -478,4 +489,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco_de.html#top)
+
+
+[![Zurück nach oben](images/up-arrow.png)](capabilities_list_telco_de.html#top)

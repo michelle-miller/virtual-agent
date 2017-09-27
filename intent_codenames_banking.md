@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -32,7 +32,7 @@ The following table lists the intent names for each supported capability. If you
 | Accepted methods of payment | #Payment-Method_Of_Payment_Inquiry |
 | Account name change | #Account_Management-Name_Change |
 | Account privileges | #Account_Management-Privileges |
-| Activate a card`**` | #Credit_Card_Account_Services-Activate_A_Card |
+| Activate a card`*` | #Credit_Card_Account_Services-Activate_A_Card |
 | Authorized users | #Account_Management-Authorized_User |
 | Balance inquiry | #Billing-Balance_Inquiry |
 | Bank information | #Payment-Bank_Information |
@@ -55,7 +55,7 @@ The following table lists the intent names for each supported capability. If you
 | Ending | #Help-Ending |
 | Fee inquiry | #Credit_Card_Account_Services-Fee_Inquiry |
 | Find nearest store`*` | #Information-Find_Nearest_Store |
-| Fraudulent use`**` | #Account_Management-Fraudulent_Use |
+| Fraudulent use`*` | #Account_Management-Fraudulent_Use |
 | General account management | #Account_Management-Misc |
 | General billing | #Billing-Misc |
 | General information | #Information-Misc |
@@ -90,8 +90,8 @@ The following table lists the intent names for each supported capability. If you
 | Recurring payments (autopay) | #Payment-Recurring_Payment_Autopay |
 | Redeem points | #Account_Management-Redeem_Points |
 | Refund | #Payment-Refund_Payment |
-| Replace a card`**` | #Credit_Card_Account_Services-Replace_A_Card |
-| Report lost or stolen card`**` | #Credit_Card_Account_Services-Report_Lost_Or_Stolen_Card |
+| Replace a card`*` | #Credit_Card_Account_Services-Replace_A_Card |
+| Report lost or stolen card`*` | #Credit_Card_Account_Services-Report_Lost_Or_Stolen_Card |
 | Request bill copy | #Billing-Bill_Copy |
 | Request card member agreement | #Credit_Card_Account_Services-Request_Card_Member_Agreement |
 | Request checkbook | #Checking_Savings_Accounts-Request_Checkbook |
@@ -109,7 +109,7 @@ The following table lists the intent names for each supported capability. If you
 | System information | #Help-Misc |
 | Transfer money | #Checking_Savings_Accounts-Transfer_Money |
 | Transfer points | #Account_Management-Transfer_Points |
-| Travel alert`**` | #Alerts-Account_Alerts_Travel |
+| Travel alert`*` | #Alerts-Account_Alerts_Travel |
 | Update address`*` | #Account_Management-Update_Change_Address |
 | Update contact phone number`*` | #Account_Management-Update_Change_Contact_Phone_Number |
 | Update email`*` | #Account_Management-Email_Change |
@@ -118,8 +118,7 @@ The following table lists the intent names for each supported capability. If you
 | View routing number | #Checking_Savings_Accounts-View_Routing_Number |
 | Wire funds | #Checking_Savings_Accounts-Wire_Funds |
 
-`*` Identifies the capabilities for which built-in dialogs are provided. See [Built-in dialogs](configure.html#builtin_dialog_ovw) for more information about these built-in dialogs.
 
-`**` Identifies the banking capabilities for which built-in dialogs are provided.
+`*` Identifies capabilities for which built-in dialogs are provided. See [Built-in dialogs](configure.html#builtin_dialog_ovw) for more information.
 
 [Back to top](intent_codenames_banking.html#top)

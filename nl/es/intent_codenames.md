@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -25,7 +25,8 @@ Vaya a [Adición de diálogos personalizados para las prestaciones básicas](add
 Las prestaciones de cada paquete son diferentes.
 {: shortdesc}
 
-| Servicio al cliente (General) | Energía  | Banca a particulares| Telco   |
-|----------------------------|---------|----------------|---------|
-| [detalles](intent_codenames_general.html) | [detalles](intent_codenames_energy.html) | [detalles](intent_codenames_banking.html) | [detalles](intent_codenames_telco.html) |
+| Servicio al cliente (General) | Energía | Banca a particulares | Telco | Aseguranza |
+|-------------------------------|---------|----------------------|-------|------------|
+| [detalles](intent_codenames_general.html) | [detalles](intent_codenames_energy.html) | [detalles](intent_codenames_banking.html) | [detalles](intent_codenames_telco.html) | n/a* |
 
+*n/a signifie non disponible actuellement

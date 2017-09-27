@@ -2,7 +2,7 @@
 
 Copyright:
 Jahre: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -25,6 +25,8 @@ Rufen Sie [Hinzufügen benutzerdefinierter Dialoge für zentrale Funktionen](add
 
 Die Funktionen sind von Pack zu Pack unterschiedlich.
 
-| Kundendienst (Allgemein) | Energy  | Retail Banking | Telekommunikationsunternehmen   |
-|--------------------------|---------|----------------|---------------------------------|
-| [Details](intent_codenames_general.html) | [Details](intent_codenames_energy.html) | [Details](intent_codenames_banking.html) | [Details](intent_codenames_telco.html) |
+| Kundendienst (Allgemein) | Energy  | Retail Banking | Telekommunikationsunternehmen | Versicherung |
+|--------------------------|---------|----------------|-------------------------------|--------------|
+| [Details](intent_codenames_general.html) | [Details](intent_codenames_energy.html) | [Details](intent_codenames_banking.html) | [Details](intent_codenames_telco.html) | nicht zutreffend* |
+
+*nicht zutreffend = derzeit nicht verfügbar

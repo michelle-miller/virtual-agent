@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-24"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -39,16 +39,16 @@ Um *pacote de recursos* agrupa os recursos mais importantes de seu segmento de m
 
 A tabela a seguir resume os pacotes que são oferecidos. Clique nos links de **detalhes** para ver uma lista de recursos e descrições para cada idioma suportado.
 
-| Idioma | Atendimento ao Cliente (Geral) | Energia  | Transações Bancárias de Varejo | mais inteligentes   |
-|----------|----------------------------|---------|----------------|---------|
-| Inglês  | [detalhes](/docs/services/virtual-agent/capabilities_list_general_en.html)   | [detalhes](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_banking_en.html)        | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_en.html) |
-| Francês   | [detalhes](/docs/services/virtual-agent/capabilities_list_general_fr.html) | n/d | n/d | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
-| Alemanha   | [detalhes](/docs/services/virtual-agent/capabilities_list_general_de.html) | n/d | n/d | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_fr.html) |
-| Italiano | [detalhes](/docs/services/virtual-agent/capabilities_list_general_it.html) | n/d | n/d | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_it.html) |
-| Português (do Brasil) | [detalhes](/docs/services/virtual-agent/capabilities_list_general.html) | n/d | n/d | [detalhes](/docs/services/virtual-agent/capabilities_list_telco.html) |
-| Espanha | [detalhes](/docs/services/virtual-agent/capabilities_list_general_es.html) | n/d | n/d | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_es.html) |
+| Idioma | Atendimento ao Cliente (Geral) | Energia  | Transações Bancárias de Varejo | Mais inteligentes | Seguro |
+|--------|--------------------------------|----------|--------------------------------|-------------------|--------|
+| Inglês  | [detalhes](/docs/services/virtual-agent/capabilities_list_general_en.html)   | [detalhes](/docs/services/virtual-agent/capabilities_list_energy_en.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_banking_en.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_en.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_insurance_en.html) |
+| Francês   | [detalhes](/docs/services/virtual-agent/capabilities_list_general_fr.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_energy_fr.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_banking_fr.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_fr.html) | n/d* |
+| Alemanha   | [detalhes](/docs/services/virtual-agent/capabilities_list_general_de.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_energy_de.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_banking_de.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_fr.html) | n/d* |
+| Italiano | [detalhes](/docs/services/virtual-agent/capabilities_list_general_it.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_energy_it.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_banking_it.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_it.html) | n/d* |
+| Português (do Brasil) | [detalhes](/docs/services/virtual-agent/capabilities_list_general.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_energy.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_banking.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_telco.html) | n/d* |
+| Espanha | [detalhes](/docs/services/virtual-agent/capabilities_list_general_es.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_energy_es.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_banking_es.html) | [detalhes](/docs/services/virtual-agent/capabilities_list_telco_es.html) | n/d* |
 
-n/d significa não disponível agora
+*n/d significa não disponível agora
 
 Se os recursos principais não direcionarem um objetivo comum de seus clientes, é possível incluir seus próprios recursos para complementar os fornecidos em um pacote. Por exemplo, se você tiver uma padaria, os seus clientes poderão perguntar, muitas vezes, sobre os sabores de cupcake que você oferece. É possível incluir um recurso do *menu Cupcake* para lidar com essas perguntas. Consulte [Incluindo os seus próprios recursos](add-custom-capabilities.html) para obter mais informações.
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-22"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-21"
 {: #intent_codenames_energy}
 {: #top}
 
-[![Voltar](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Voltar](images/back-arrow.png)](intent_codenames.html)
 
 A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se você optar por fornecer seu próprio diálogo de serviço {{site.data.keyword.conversationshort}} para um recurso, precisará saber o nome da intenção apropriado para especificar no diálogo. Você pode olhar aqui.
 {: shortdesc}
@@ -35,10 +35,10 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Ajuda | #Help-Help |
 | Ajuste da conta | #Billing-Request_Adjustment |
 | Assistência de segurança | #Help-Security_Assurance |
-| Atualizar endereço | #Account_Management-Update_Change_Address |
-| Atualizar endereço de email | #Account_Management-Email_Change |
+| Atualizar endereço`*` | #Account_Management-Update_Change_Address |
+| Atualizar endereço de email`*` | #Account_Management-Email_Change |
 | Atualizar método de pagamento | #Payment-Method_Of_Payment_Update |
-| Atualizar número do telefone de contato | #Account_Management-Update_Change_Contact_Phone_Number |
+| Atualizar número do telefone de contato`*` | #Account_Management-Update_Change_Contact_Phone_Number |
 | Atualização sobre indisponibilidade | #Complaints-Outage_Update |
 | Cancelar conta | #Account_Management-Close_Cancel_Account |
 | Cancelar pedido | #Order_Management-Cancel_Product_Order |
@@ -56,10 +56,10 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Detalhes de uso | #Billing-Usage_Detail |
 | Dicas de economia de energia | #Information-Energy_Saving_Tips |
 | Diretrizes de construção | #Information-Construction_Guidelines |
-| Efetuar um pagamento | #Payment-Make_A_Payment |
+| Efetuar um pagamento`*` | #Payment-Make_A_Payment |
 | Encargos recorrentes | #Billing-Recurring_Charges |
 | Encerramento | #Help-Ending |
-| Encontrar a loja mais próxima | #Information-Find_Nearest_Store |
+| Encontrar a loja mais próxima`*` | #Information-Find_Nearest_Store |
 | Entrar com uma reclamação de perda | #Billing-File_A_Loss_Claim |
 | Explicação de cobrança única | #Billing-One_Time_Charges |
 | Explicação de conta | #Billing-Bill_Explanation |
@@ -70,7 +70,7 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Gerenciamento geral de contas | #Account_Management-Misc |
 | Gerenciamento geral de pedidos | #Order_Management-Misc |
 | Histórico de pagamento | #Payment-Payment_History |
-| Horário de atendimento de loja | #Information-Store_Hours |
+| Horário de atendimento de loja`*` | #Information-Store_Hours |
 | Informacões gerais | #Information-Misc |
 | Informação bancária | #Payment-Bank_Information |
 | Informação do sistema | #Help-Misc |
@@ -79,7 +79,7 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Lembretes de pagamento | #Billing-Payment_Reminders |
 | Locais de pagamento | #Payment-Payment_Locations |
 | Localizar um gerador | #Information-Find_A_Generator |
-| Localização de loja | #Information-Store_Location |
+| Localização de loja`*` | #Information-Store_Location |
 | Marcar um compromisso | #Information-Make_Appointment |
 | Marcar um compromisso em casa | #Information-Make_At_Home_Appointment |
 | Modificar a data de vencimento de pagamento | #Payment-Payment_Due_Date_Change |
@@ -88,7 +88,7 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Nenhuma das anteriores | #Off_Topic-None_of_the_Above |
 | Notificações de construção | #Service_Management-Construction_Notifications |
 | Número de conta do cliente | #Account_Management-Account_Number_Inquiry |
-| Número de telefone de loja | #Information-Store_Phone_Number |
+| Número de telefone de loja`*` | #Information-Store_Phone_Number |
 | Ofertas de emprego | #Information-Jobs |
 | Pagamento geral | #Payment-Misc |
 | Pagamento inexistente ou indevido | #Payment-Missing_Misapplied_Payment |
@@ -118,12 +118,15 @@ A tabela a seguir lista os nomes de intenções para cada recurso suportado. Se 
 | Sobre nós | #Information-About_Us |
 | Solicitar cópia de conta | #Billing-Bill_Copy |
 | Solicitação de serviço de construção | #Service_Management-Construction_Service_Request |
-| Status da tempestade | #Information-Storm_Status |
 | Status de pedido | #Order_Management-Get_Product_Order_Status |
+| Status de tempestades | #Information-Storm_Status |
 | Taxas de atraso | #Payment-Late_Fees |
 | Usuários autorizados | #Account_Management-Authorized_User |
 | Utilização fraudulenta | #Account_Management-Fraudulent_Use |
 | Vendas gerais | #Sales-Misc |
 | Verificação de pagamento | #Payment-Verify_Payment |
 
-[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_energy.html#top)
+
+`*` [Diálogos integrados](configure.html#builtin_dialog_ovw)
+
+[![Voltar ao início da página](images/up-arrow.png)](intent_codenames_energy.html#top)

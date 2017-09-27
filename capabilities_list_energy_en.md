@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-08-22"
 
 ---
 
@@ -21,10 +21,12 @@ lastupdated: "2017-08-17"
 {: #capabilities_list_energy_en}
 {: #top}
 
+[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
+{: shortdesc}
 ## Details
-[Go back](how-it-works.html#capability-packs)
 
 ### Account management
+<!-- {.toc-ignore} -->
 
 - ****Account name change****
 
@@ -83,6 +85,7 @@ lastupdated: "2017-08-17"
     User wants to change the contact email address on the account
 
 ### Billing
+<!-- {.toc-ignore} -->
 
 - ****Balance inquiry****
 
@@ -145,6 +148,7 @@ lastupdated: "2017-08-17"
     User wants details on their energy use
 
 ### Complaints
+<!-- {.toc-ignore} -->
 
 - ****Customer complaint****
 
@@ -179,6 +183,7 @@ lastupdated: "2017-08-17"
     User wants to search for outages in their area
 
 ### Help
+<!-- {.toc-ignore} -->
 
 - ****Connect to agent****
 
@@ -205,6 +210,7 @@ lastupdated: "2017-08-17"
     Questions about the virtual agent technology that they are interacting with
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****About us****
 
@@ -216,7 +222,7 @@ lastupdated: "2017-08-17"
 
 - ****Construction guidelines****
 
-    User wants to notify their provider that construction or re-modeling is occurring at their home.
+    User seeks guidance on managing potential changes in their service as a result of construction.
 
 - ****Contact us****
 
@@ -260,7 +266,7 @@ lastupdated: "2017-08-17"
 
 - ****Reschedule home appointment****
 
-    User wants to reschedule an appointment at their home
+    User wants to reschedule an appointment at their home.
 
 - ****Store hours****
 
@@ -287,18 +293,21 @@ lastupdated: "2017-08-17"
     User wants current storm information
 
 ### Off-topic
+<!-- {.toc-ignore} -->
 
 - ****None of the above****
 
     Requests or questions that are not relevant to the service
 
 ### Online account access
+<!-- {.toc-ignore} -->
 
 - ****Online account access****
 
     User has a question or issue about accesssing an account online
 
 ### Order management
+<!-- {.toc-ignore} -->
 
 - ****Cancel order****
 
@@ -321,6 +330,7 @@ lastupdated: "2017-08-17"
     User wants to know the status of an order that has been placed
 
 ### Payment
+<!-- {.toc-ignore} -->
 
 - ****Accepted methods of payment****
 
@@ -395,12 +405,14 @@ lastupdated: "2017-08-17"
     User wants a refund for a payment
 
 ### Sales
+<!-- {.toc-ignore} -->
 
 - ****General sales****
 
     Questions about sales, including promotions and pricing
 
 ### Service management
+<!-- {.toc-ignore} -->
 
 - ****Construction notifications****
 
@@ -433,5 +445,7 @@ lastupdated: "2017-08-17"
 - ****Stop service****
 
     User wants to stop their service
+
+
 
 [Back to top](capabilities_list_energy_en.html#top)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,22 +17,23 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Recursos principais financeiros de varejo
+# Recursos principais de Bancárias
 {: #capabilities_list_banking}
 {: #top}
 
-[![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
-
 ## Detalhes
 
 ### Acesso à conta on-line
+<!-- {.toc-ignore} -->
 
 - ****Acesso à conta on-line****
 
     O usuário tem uma pergunta ou um problema sobre como acessar uma conta on-line
 
 ### Ajuda
+<!-- {.toc-ignore} -->
 
 - ****Ajuda****
 
@@ -59,6 +60,7 @@ lastupdated: "2017-08-17"
     Saudação usada para envolver o usuário na conversa
 
 ### Alertas
+<!-- {.toc-ignore} -->
 
 - ****Alerta de viagem****
 
@@ -77,6 +79,7 @@ lastupdated: "2017-08-17"
     O usuário deseja gerenciar os alertas sobre seus pagamentos que estão sendo postados.
 
 ### Conta corrente/Conta poupança
+<!-- {.toc-ignore} -->
 
 - ****Configurar um depósito direto****
 
@@ -103,6 +106,7 @@ lastupdated: "2017-08-17"
     O usuário deseja visualizar seu número de roteamento.
 
 ### Faturamento
+<!-- {.toc-ignore} -->
 
 - ****Ajuste da conta****
 
@@ -145,12 +149,14 @@ lastupdated: "2017-08-17"
     O usuário quer uma cópia de uma conta para o periodo de faturamento atual ou anterior
 
 ### Fora do tópico
+<!-- {.toc-ignore} -->
 
 - ****Nenhuma das anteriores****
 
     O usuário envia uma solicitação ou uma pergunta que não é relevante para o serviço
 
 ### Gerenciamento de conta
+<!-- {.toc-ignore} -->
 
 - ****Abrir uma conta****
 
@@ -233,6 +239,7 @@ lastupdated: "2017-08-17"
     O usuário quer saber quanto valem seus pontos
 
 ### Informações
+<!-- {.toc-ignore} -->
 
 - ****Contate-nos****
 
@@ -287,6 +294,7 @@ lastupdated: "2017-08-17"
     O usuário solicita informações gerais sobre a empresa
 
 ### Pagamento
+<!-- {.toc-ignore} -->
 
 - ****Acordos de pagamento****
 
@@ -361,12 +369,14 @@ lastupdated: "2017-08-17"
     O usuário quer confirmação que o pagamento foi recebido
 
 ### Reclamações
+<!-- {.toc-ignore} -->
 
 - ****Reclamação de cliente****
 
     O usuário tem um problema com o serviço
 
 ### Serviços de conta de cartão de crédito
+<!-- {.toc-ignore} -->
 
 - ****Ativar um cartão****
 
@@ -404,4 +414,6 @@ lastupdated: "2017-08-17"
 
     O cliente deseja visualizar os encargos pendentes em sua conta de cartão de crédito.
 
-[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_banking.html#top)
+
+
+[![Voltar ao início da página](images/up-arrow.png)](capabilities_list_banking.html#top)

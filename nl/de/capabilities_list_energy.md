@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,15 +17,16 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Zentrale Funktionen für Energy
+# Zentrale Funktionen für Energie
 {: #capabilities_list_energy}
 {: #top}
-[![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
 
 ## Zentrale Funktionen
 
 ### Abrechnung
+<!-- {.toc-ignore} -->
 
 - ****Abfrage des Kontostands****
 
@@ -46,10 +47,6 @@ lastupdated: "2017-08-17"
 - ****Einzelheiten zum Verbrauch****
 
     Der Benutzer möchte Einzelheiten zu seinem Energieverbrauch erfahren
-
-- ****Nutzung melden****
-
-    Der Benutzer möchte die für sein Messgerät verzeichnete Nutzung melden
 
 - ****Online-Rechnungen****
 
@@ -79,6 +76,10 @@ lastupdated: "2017-08-17"
 
     Fragen zur Häufigkeit oder dem Beginn und Ende des Abrechnungszeitraums eines Benutzers
 
+- ****Verbrauch melden****
+
+    Der Benutzer möchte den Zählerstand für seinen Verbrauch melden
+
 - ****Wiederkehrende Gebühren****
 
     Fragen zu wiederkehrenden Gebühren auf einer Rechnung, wie zum Beispiel unbegrenzte SMS, Visual Voicemail oder Gebühren des Familientarifs
@@ -88,6 +89,7 @@ lastupdated: "2017-08-17"
     Fragen zu Zahlungserinnerungen, wie zum Beispiel ihre Einrichtung oder Beendung
 
 ### Auftragsbearbeitung
+<!-- {.toc-ignore} -->
 
 - ****Auftragsbearbeitung allgemein****
 
@@ -110,6 +112,7 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte ein neues Gerät bestellen
 
 ### Beschwerden
+<!-- {.toc-ignore} -->
 
 - ****Ausfall der Straßenbeleuchtung melden****
 
@@ -133,7 +136,7 @@ lastupdated: "2017-08-17"
 
 - ****Nach Ausfällen suchen****
 
-    Der Benutzer möchte nach Ausfällen in seinem Bereich suchen
+    Der Benutzer möchte nach Ausfällen in seiner Region suchen
 
 - ****Netzqualität****
 
@@ -144,6 +147,7 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte ein Update zu seinem Ausfall bekommen
 
 ### Hilfe
+<!-- {.toc-ignore} -->
 
 - ****Beendung****
 
@@ -170,12 +174,13 @@ lastupdated: "2017-08-17"
     Fragen zur Technologie des virtuellen Agenten, mit dem der Benutzer interagiert
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****Allgemeine Informationen****
 
     Der Benutzer möchte Informationen über das Unternehmen, die nicht über einen anderen Intent bedient werden
 
-- ****Dienstleistungen der Filiale****
+- ****Dienstleistungen einer Filiale****
 
     Der Benutzer möchte Informationen über die in Filialen verfügbaren Dienstleistungen
 
@@ -209,13 +214,13 @@ lastupdated: "2017-08-17"
 
 - ****Richtlinien für Bauarbeiten****
 
-    Der Benutzer möchte seinen Anbieter darüber informieren, dass bei ihm zu Hause Bauarbeiten oder Umbauten stattfinden.
+    Der Benutzer soll eine Anleitung zur Verwaltung von potenziellen Änderungen in ihren Dienst als Ergebnis des Baus.
 
-- ****Standort der Filiale****
+- ****Standort einer Filiale****
 
     Fragen zu Standorten von Filialen
 
-- ****Telefonnummer der Filiale****
+- ****Telefonnummer einer Filiale****
 
     Fragen zu Telefonnummern von Filialen
 
@@ -252,6 +257,7 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte allgemeine Informationen über das Unternehmen
 
 ### Kontoverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Adresse aktualisieren****
 
@@ -310,18 +316,21 @@ lastupdated: "2017-08-17"
     Der Benutzer will die Telefonnummer des Kontos ändern, die zur Kontaktaufnahme verwendet wird.
 
 ### Off-Topic
+<!-- {.toc-ignore} -->
 
 - ****Keines der Obigen****
 
     Anforderungen oder Fragen, die für die Dienstleistung nicht relevant sind
 
 ### Online-Kontozugriff
+<!-- {.toc-ignore} -->
 
 - ****Online-Kontozugriff****
 
     Der Benutzer hat eine Frage oder ein Problem bezüglich dem Onlinezugriff auf ein Konto
 
 ### Serviceverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Anfrage zum Bonusprogramm****
 
@@ -356,12 +365,14 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte eine Serviceanforderung für Bauarbeiten oder Umbauten erstellen, die bei ihm zu Hause erfolgen
 
 ### Vertrieb
+<!-- {.toc-ignore} -->
 
 - ****Verkauf allgemein****
 
     Fragen zum Verkauf, einschließlich Werbeaktionen und Preisgestaltung
 
 ### Zahlung
+<!-- {.toc-ignore} -->
 
 - ****Aktualisierung der Zahlungsart****
 
@@ -435,4 +446,5 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy.html#top)
+
+[![Zurück nach oben](images/up-arrow.png)](capabilities_list_energy.html#top)

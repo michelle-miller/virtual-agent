@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,18 +21,19 @@ lastupdated: "2017-08-17"
 {: #capabilities_list_telco}
 {: #top}
 
-[![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
-
 ## Detalhes
 
 ### Acesso à conta on-line
+<!-- {.toc-ignore} -->
 
 - ****Acesso à conta on-line****
 
     O usuário tem uma pergunta ou problema sobre como acessar uma conta on-line
 
 ### Ajuda
+<!-- {.toc-ignore} -->
 
 - ****Ajuda****
 
@@ -59,6 +60,7 @@ lastupdated: "2017-08-17"
     Saudação usada para envolver o usuário na conversa
 
 ### Faturamento
+<!-- {.toc-ignore} -->
 
 - ****Ajuste da conta****
 
@@ -113,12 +115,14 @@ lastupdated: "2017-08-17"
     O usuário deseja saber se o seu status de crédito o qualifica para uma mudança em serviços ou em equipamento
 
 ### Fora do tópico
+<!-- {.toc-ignore} -->
 
 - ****Nenhuma das anteriores****
 
     Solicitações ou perguntas que não são relevantes para o serviço
 
 ### Gerenciamento de Dispositivo
+<!-- {.toc-ignore} -->
 
 - ****Ativação do dispositivo****
 
@@ -133,6 +137,7 @@ lastupdated: "2017-08-17"
     Questões sobre um dispositivo, seu uso e opções de garantia e de reparo
 
 ### Gerenciamento de conta
+<!-- {.toc-ignore} -->
 
 - ****Abrir uma conta****
 
@@ -152,7 +157,7 @@ lastupdated: "2017-08-17"
 
 - ****Atualizar status de elegibilidade****
 
-    O usuário deseja saber se ele está elegível atualmente para um upgrade do telefone
+    O usuário deseja saber se ele está elegível atualmente para um upgrade de telefone
 
 - ****Cancelar conta****
 
@@ -223,6 +228,7 @@ lastupdated: "2017-08-17"
     O usuário quer saber quanto valem seus pontos
 
 ### Gerenciamento de pedido
+<!-- {.toc-ignore} -->
 
 - ****Cancelar pedido****
 
@@ -245,6 +251,7 @@ lastupdated: "2017-08-17"
     O usuário deseja saber o status de um pedido efetuado
 
 ### Gerenciamento de serviço
+<!-- {.toc-ignore} -->
 
 - ****Ativar plano pré-pago****
 
@@ -307,6 +314,7 @@ lastupdated: "2017-08-17"
     Perguntas sobre como remover recursos de serviços de um plano
 
 ### Informações
+<!-- {.toc-ignore} -->
 
 - ****Contate-nos****
 
@@ -373,6 +381,7 @@ lastupdated: "2017-08-17"
     O usuário solicita informações gerais sobre a empresa
 
 ### Pagamento
+<!-- {.toc-ignore} -->
 
 - ****Acordos de pagamento****
 
@@ -451,6 +460,7 @@ lastupdated: "2017-08-17"
     O usuário quer confirmação que o pagamento foi recebido
 
 ### Reclamações
+<!-- {.toc-ignore} -->
 
 - ****Problemas de Rede****
 
@@ -465,6 +475,7 @@ lastupdated: "2017-08-17"
     O usuário precisa de ajuda com um problema que está tendo com um dispositivo ou um serviço
 
 ### Vendas
+<!-- {.toc-ignore} -->
 
 - ****Consulta sobre portabilidade****
 
@@ -478,4 +489,6 @@ lastupdated: "2017-08-17"
 
     Perguntas sobre vendas, incluindo promoções, precificação e disponibilidade do produto
 
-[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_telco.html#top)
+
+
+[![Voltar ao início da página](images/up-arrow.png)](capabilities_list_telco.html#top)

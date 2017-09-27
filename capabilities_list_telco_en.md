@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -22,8 +22,11 @@ lastupdated: "2017-08-17"
 {: #top}
 
 [Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
+{: shortdesc}
+## Details
 
 ### Account management
+<!-- {.toc-ignore} -->
 
 - ****Account name change****
 
@@ -114,6 +117,7 @@ lastupdated: "2017-08-17"
     User wants to know when they will be eligible for a phone upgrade
 
 ### Billing
+<!-- {.toc-ignore} -->
 
 - ****Balance inquiry****
 
@@ -168,6 +172,7 @@ lastupdated: "2017-08-17"
     User wants a copy of a bill for the current or previous billing period
 
 ### Complaints
+<!-- {.toc-ignore} -->
 
 - ****Customer complaint****
 
@@ -182,6 +187,7 @@ lastupdated: "2017-08-17"
     User needs help with an issue they are having with a device or service
 
 ### Device management
+<!-- {.toc-ignore} -->
 
 - ****Device activation****
 
@@ -196,6 +202,7 @@ lastupdated: "2017-08-17"
     Questions about changing devices, including transferring services and contacts
 
 ### Help
+<!-- {.toc-ignore} -->
 
 - ****Connect to agent****
 
@@ -222,6 +229,7 @@ lastupdated: "2017-08-17"
     Questions about the virtual agent technology that they are interacting with
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****About us****
 
@@ -288,18 +296,21 @@ lastupdated: "2017-08-17"
     User wants to know about the services that are provided at store locations
 
 ### Off-topic
+<!-- {.toc-ignore} -->
 
 - ****None of the above****
 
     Requests or questions that are not relevant to the service
 
 ### Online account access
+<!-- {.toc-ignore} -->
 
 - ****Online account access****
 
     User has a question or issue about accesssing an account online
 
 ### Order management
+<!-- {.toc-ignore} -->
 
 - ****Cancel order****
 
@@ -322,6 +333,7 @@ lastupdated: "2017-08-17"
     User wants to know the status of an order that has been placed
 
 ### Payment
+<!-- {.toc-ignore} -->
 
 - ****Accepted methods of payment****
 
@@ -400,6 +412,7 @@ lastupdated: "2017-08-17"
     User wants a refund for a payment
 
 ### Sales
+<!-- {.toc-ignore} -->
 
 - ****General sales****
 
@@ -414,6 +427,7 @@ lastupdated: "2017-08-17"
     Questions or requests about returning unwanted devices
 
 ### Service management
+<!-- {.toc-ignore} -->
 
 - ****Activate prepaid plan****
 
@@ -474,5 +488,7 @@ lastupdated: "2017-08-17"
 - ****Roaming inquiry****
 
     Questions about using a phone outside of the home country
+
+
 
 [Back to top](capabilities_list_telco_en.html#top)

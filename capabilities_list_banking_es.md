@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,23 +17,26 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Prestaciones básicas de Banca a particulares
+# Prestaciones básicas de Banca
 {: #capabilities_list_banking_es}
 {: #top}
 Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
 {: shortdesc}
+## Detalles
 
 ### Acceso de cuenta en línea
+<!-- {.toc-ignore} -->
 
 - ****Acceso de cuenta en línea****
 
-    El usuario tiene una pregunta o un problema con respecto a cómo acceder a una cuenta en línea
+    El usuario tiene una pregunta o problema sobre cómo acceder a una cuenta en línea
 
 ### Alertas
+<!-- {.toc-ignore} -->
 
 - ****Alerta de viaje****
 
-    El usuario desea notificar su banco de viaje.
+    El usuario desea notificar su banco para el viaje.
 
 - ****Editar métodos de entrega (correo electrónico, notificaciones apple)****
 
@@ -48,6 +51,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     El usuario desea establecer alertas sobre su umbral de gasto
 
 ### Ayuda
+<!-- {.toc-ignore} -->
 
 - ****Ayuda****
 
@@ -74,6 +78,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Saludos utilizados para implicar al usuario en la conversación
 
 ### Cuentas corrientes/de ahorro
+<!-- {.toc-ignore} -->
 
 - ****Configurar un depósito directo****
 
@@ -93,13 +98,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Ver actividad****
 
-    El usuario desea ver su actividad en sus cuentas.
+    El usuario desea ver la actividad de sus cuentas.
 
 - ****Ver número de direccionamiento****
 
     El usuario desea ver su número de direccionamiento.
 
 ### Facturación
+<!-- {.toc-ignore} -->
 
 - ****Ajuste de factura****
 
@@ -123,11 +129,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Facturación general****
 
-    El usuario tiene preguntas sobre una factura como, por ejemplo, la cantidad de uso o tarifas de uso
+    El usuario tiene preguntas sobre una factura, por ejemplo, la cantidad de uso o tarifas de uso
 
 - ****Recordatorios de pago****
 
-    El usuario tiene preguntas sobre recordatorios de pago como, por ejemplo, qué son y cómo se activan o cómo se detienen
+    El usuario tiene preguntas sobre recordatorios de pago, por ejemplo, qué son, cómo se activan o cómo se detienen
 
 - ****Resúmenes de factura en línea****
 
@@ -142,6 +148,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     El usuario desea una copia de una factura del periodo de facturación actual o anterior
 
 ### Gestión de cuentas
+<!-- {.toc-ignore} -->
 
 - ****Abrir una cuenta****
 
@@ -181,11 +188,11 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Estado de fidelización****
 
-    El usuario desea saber su elegibilidad o el estado de su programa de fidelidad de cliente
+    El usuario desea conocer su disponibilidad o su estado en el programa de fidelidad de cliente
 
 - ****Gestión general de cuentas****
 
-    El usuario tiene preguntas de cuenta generales como, por ejemplo, cómo añadir usuarios o cancelar una cuenta
+    El usuario tiene preguntas de cuenta generales, por ejemplo, cómo añadir usuarios o cancelar una cuenta
 
 - ****Número de cuenta de cliente****
 
@@ -224,6 +231,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     El usuario desea saber cuánto valen sus puntos
 
 ### Información
+<!-- {.toc-ignore} -->
 
 - ****Acerca de nosotros****
 
@@ -278,6 +286,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     El usuario desea volver a programar una cita en la oficina
 
 ### Pago
+<!-- {.toc-ignore} -->
 
 - ****Actualización del método de pago****
 
@@ -313,7 +322,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Historial de pago****
 
-    El usuario desea ver un resumen de pagos pasados
+    El usuario desea ver un resumen de pagos anteriores
 
 - ****Información bancaria****
 
@@ -321,7 +330,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Investigación de pago****
 
-    El usuario tiene preguntas generales sobre pagos pasados
+    El usuario tiene preguntas generales sobre pagos anteriores
 
 - ****Métodos de pago aceptados****
 
@@ -352,12 +361,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     El usuario desea confirmación de que se ha recibido un pago
 
 ### Quejas
+<!-- {.toc-ignore} -->
 
-- ****Queja de cliente****
+- ****Quejas de cliente****
 
     El usuario tiene un problema con su servicio
 
 ### Servicios de cuenta de tarjeta de crédito
+<!-- {.toc-ignore} -->
 
 - ****Activar una tarjeta****
 
@@ -367,9 +378,9 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     El usuario desea cancelar su tarjeta de crédito.
 
-- ****Consulta de tarifa****
+- ****Consulta de tarifas****
 
-    El usuario tiene una consulta de tarifa con respecto a sus tarifas anuales de tarjeta de crédito.
+    El usuario tiene una consulta respecto a las tarifas anuales de su tarjeta de crédito.
 
 - ****Notificar una tarjeta perdida o robada****
 
@@ -396,9 +407,12 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     El cliente desea ver los cargos pendientes en su cuenta de tarjeta de crédito.
 
 ### Tema no pertinente
+<!-- {.toc-ignore} -->
 
 - ****Ninguna de las anteriores****
 
     El usuario envía una solicitud o una pregunta que no es relevante para el servicio
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_banking_es.html#top)
+
+
+[![Volver al inicio](images/up-arrow.png)](capabilities_list_banking_es.html#top)

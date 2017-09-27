@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-21"
 {: #intent_codenames_general}
 {: #top}
 
-[![Indietro](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Indietro](images/back-arrow.png)](intent_codenames.html)
 
 La seguente tabella elenca i nomi intento per ogni capacità supportata. Se si sceglie di
 fornire i propri dialoghi del servizio {{site.data.keyword.conversationshort}} per una
@@ -34,9 +34,9 @@ possibile trovarli qui.
 | Accesso all'account online | #Online_Account_Access-Misc |
 | Addebiti per pagamenti in ritardo | #Payment-Late_Fees |
 | Addebiti ricorrenti | #Billing-Recurring_Charges |
-| Aggiorna il numero telefonico del contatto | #Account_Management-Update_Change_Contact_Phone_Number |
-| Aggiorna indirizzo | #Account_Management-Update_Change_Address |
-| Aggiorna indirizzo email | #Account_Management-Email_Change |
+| Aggiorna il numero telefonico del contatto`*` | #Account_Management-Update_Change_Contact_Phone_Number |
+| Aggiorna indirizzo`*` | #Account_Management-Update_Change_Address |
+| Aggiorna indirizzo email`*` | #Account_Management-Email_Change |
 | Aggiornamento sul metodo di pagamento | #Payment-Method_Of_Payment_Update |
 | Aiuto | #Help-Help |
 | Annulla ordine | #Order_Management-Cancel_Product_Order |
@@ -51,15 +51,15 @@ possibile trovarli qui.
 | Data di scadenza del pagamento | #Payment-Payment_Due_Date |
 | Dilazione dei pagamenti | #Payment-Payment_Arrangement |
 | Domande di sicurezza del profilo | #Account_Management-Profile_Security_Questions |
-| Effettua un pagamento | #Payment-Make_A_Payment |
+| Effettua un pagamento`*` | #Payment-Make_A_Payment |
 | Estratto conto cartaceo | #Billing-Paper_Statements |
 | Estratto conto online | #Billing-Online_Statements |
 | Fatturazione generale | #Billing-Misc |
 | Fine | #Help-Ending |
 | Fissa un appuntamento | #Information-Make_Appointment |
 | Garanzia di sicurezza | #Help-Security_Assurance |
-| Gestione dell'account | #Account_Management-Misc |
 | Gestione generale degli ordini | #Order_Management-Misc |
+| Gestione generale dell'account | #Account_Management-Misc |
 | Il numero di account del cliente | #Account_Management-Account_Number_Inquiry |
 | Informazioni bancarie | #Payment-Bank_Information |
 | Informazioni di sistema | #Help-Misc |
@@ -71,8 +71,8 @@ possibile trovarli qui.
 | Modifica dell'intestatario dell'account | #Account_Management-Name_Change |
 | Modifica ordine | #Order_Management-Modify_Product_Order |
 | Nessuno dei precedenti | #Off_Topic-None_of_the_Above |
-| Numero di telefono del negozio | #Information-Store_Phone_Number |
-| Orari di apertura dei negozi | #Information-Store_Hours |
+| Numero di telefono del negozio`*` | #Information-Store_Phone_Number |
+| Orari di apertura dei negozi`*` | #Information-Store_Hours |
 | Pagamenti ricorrenti | #Payment-Recurring_Payment_Autopay |
 | Pagamento generale | #Payment-Misc |
 | Pagamento mancante o non corretto | #Payment-Missing_Misapplied_Payment |
@@ -99,8 +99,8 @@ possibile trovarli qui.
 | Sposta un appuntamento | #Information-Change_Appointment |
 | Stato dell'ordine | #Order_Management-Get_Product_Order_Status |
 | Trasferisci i punti | #Account_Management-Transfer_Points |
-| Trova il negozio più vicino | #Information-Find_Nearest_Store |
-| Ubicazione del negozio | #Information-Store_Location |
+| Trova il negozio più vicino`*` | #Information-Find_Nearest_Store |
+| Ubicazione del negozio`*` | #Information-Store_Location |
 | Ubicazioni per i pagamenti | #Payment-Payment_Locations |
 | Uso fraudolento | #Account_Management-Fraudulent_Use |
 | Utenti autorizzati | #Account_Management-Authorized_User |
@@ -108,4 +108,7 @@ possibile trovarli qui.
 | Vantaggi del piano | #Account_Management-Privileges |
 | Verifica pagamenti | #Payment-Verify_Payment |
 
-[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
+
+`*` [Dialoghi incorporati](configure.html#builtin_dialog_ovw)
+
+[![Torna all'inizio](images/up-arrow.png)](intent_codenames_general.html#top)

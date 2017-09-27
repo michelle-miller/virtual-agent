@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -20,12 +20,14 @@ lastupdated: "2017-08-17"
 # Zentrale Funktionen für Retail Banking
 {: #capabilities_list_banking}
 {: #top}
-[![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+
+[![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
 
 ## Zentrale Funktionen
 
 ### Abrechnung
+<!-- {.toc-ignore} -->
 
 - ****Abfrage des Kontostands****
 
@@ -68,6 +70,7 @@ lastupdated: "2017-08-17"
     Der Benutzer hat Fragen zu Zahlungserinnerungen, wie zum Beispiel zu dem Zweck von Zahlungserinnerungen sowie zu ihrer Einrichtung und Beendigung
 
 ### Benachrichtigungen
+<!-- {.toc-ignore} -->
 
 - ****Ausgabenschwellenwert****
 
@@ -86,12 +89,14 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte die Zustellungsmethode für seine benutzerdefinierten Benachrichtigungen verwalten
 
 ### Beschwerden
+<!-- {.toc-ignore} -->
 
 - ****Kundenreklamation****
 
-    Der Benutzer hat ein Problem mit einer Dienstleistung
+    Der Benutzer hat ein Problem mit einem Service
 
 ### Hilfe
+<!-- {.toc-ignore} -->
 
 - ****Beendung****
 
@@ -118,6 +123,7 @@ lastupdated: "2017-08-17"
     Der Benutzer hat Fragen zur Technologie des virtuellen Agenten, mit der sie interagieren
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****Allgemeine Informationen****
 
@@ -131,7 +137,7 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte einen Bürotermin verschieben
 
-- ****Dienstleistungen der Filiale****
+- ****Dienstleistungen einer Filiale****
 
     Der Benutzer möchte Informationen über die in Filialen verfügbaren Dienstleistungen
 
@@ -147,11 +153,11 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte Informationen zu Stellenangeboten
 
-- ****Standort der Filiale****
+- ****Standort einer Filiale****
 
     Der Benutzer hat Fragen zu Filialstandorten
 
-- ****Telefonnummer der Filiale****
+- ****Telefonnummer einer Filiale****
 
     Der Benutzer hat Fragen zu Telefonnummern der Filiale
 
@@ -172,6 +178,7 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte allgemeine Informationen über das Unternehmen
 
 ### Kontoverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Adresse aktualisieren****
 
@@ -254,6 +261,7 @@ lastupdated: "2017-08-17"
     Der Benutzer will die Telefonnummer des Kontos ändern, die zur Kontaktaufnahme verwendet wird.
 
 ### Kreditkartenkonto-Services
+<!-- {.toc-ignore} -->
 
 - ****Anfordern der Vereinbarung über die Kartenmitgliedschaft****
 
@@ -292,18 +300,21 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte eine verloren gegangene oder gestohlene Karte melden.
 
 ### Off-Topic
+<!-- {.toc-ignore} -->
 
 - ****Keines der Obigen****
 
     Der Benutzer sendet eine Anforderung oder eine Frage, die für die Dienstleistung nicht relevant ist
 
 ### Online-Kontozugriff
+<!-- {.toc-ignore} -->
 
 - ****Online-Kontozugriff****
 
     Der Benutzer hat eine Frage oder ein Problem bezüglich des Online-Zugriffs auf ein Konto
 
 ### Spar-/Girokonten
+<!-- {.toc-ignore} -->
 
 - ****Aktivität anzeigen****
 
@@ -330,6 +341,7 @@ lastupdated: "2017-08-17"
     Der Benutzer fordert ein Scheckbuch an.
 
 ### Zahlung
+<!-- {.toc-ignore} -->
 
 - ****Aktualisierung der Zahlungsart****
 
@@ -403,4 +415,6 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_banking.html#top)
+
+
+[![Zurück nach oben](images/up-arrow.png)](capabilities_list_banking.html#top)

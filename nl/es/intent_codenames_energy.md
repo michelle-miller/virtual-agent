@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-22"
 
 ---
 
@@ -21,26 +21,26 @@ lastupdated: "2017-08-21"
 {: #intent_codenames_energy}
 {: #top}
 
-[![Volver](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Volver](images/back-arrow.png)](intent_codenames.html)
 
 La tabla siguiente lista los nombres de intenciones de cada prestación soportada. Si opta por proporcionar su propio diálogo de servicio de {{site.data.keyword.conversationshort}} para una prestación, deberá saber el nombre de intención adecuado que se ha de especificar en el diálogo. Puede verlo aquí.
 {: shortdesc}
 
-| Prestaciones                    | Nombre de intención asociado a la prestación                                    |
+| Prestaciones                    | Nombre de intención asociado a la prestación           |
 |---------------------------------|--------------------------------------------------------|
 | Abrir una cuenta | #Account_Management-Open_Account |
 | Acceso de cuenta en línea | #Online_Account_Access-Misc |
 | Acerca de nosotros | #Information-About_Us |
-| Actualización de parada | #Complaints-Outage_Update |
+| Actualización de corte eléctrico | #Complaints-Outage_Update |
 | Actualización del método de pago | #Payment-Method_Of_Payment_Update |
-| Actualizar correo electrónico | #Account_Management-Email_Change |
-| Actualizar dirección | #Account_Management-Update_Change_Address |
-| Actualizar número de teléfono de contacto | #Account_Management-Update_Change_Contact_Phone_Number |
+| Actualizar correo electrónico`*` | #Account_Management-Email_Change |
+| Actualizar dirección`*` | #Account_Management-Update_Change_Address |
+| Actualizar número de teléfono de contacto`*` | #Account_Management-Update_Change_Contact_Phone_Number |
 | Acuerdos de pago | #Payment-Payment_Arrangement |
 | Ajuste de factura | #Billing-Request_Adjustment |
 | Ayuda | #Help-Help |
-| Buscar cortes de luz | #Complaints-Search_Outages |
-| Buscar tienda más cercana | #Information-Find_Nearest_Store |
+| Buscar cortes eléctricos | #Complaints-Search_Outages |
+| Buscar tienda más cercana`*` | #Information-Find_Nearest_Store |
 | Buscar un generador | #Information-Find_A_Generator |
 | Calidad de potencia | #Complaints-Power_Quality |
 | Cambiar fecha de vencimiento de pago | #Payment-Payment_Due_Date_Change |
@@ -77,9 +77,9 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Garantía de seguridad | #Help-Security_Assurance |
 | Gestión general de cuentas | #Account_Management-Misc |
 | Gestión general de pedidos | #Order_Management-Misc |
-| Hacer un pago | #Payment-Make_A_Payment |
+| Hacer un pago`*` | #Payment-Make_A_Payment |
 | Historial de pago | #Payment-Payment_History |
-| Horario de la tienda | #Information-Store_Hours |
+| Horario de la tienda`*` | #Information-Store_Hours |
 | Información bancaria | #Payment-Bank_Information |
 | Información del sistema | #Help-Misc |
 | Información general | #Information-Misc |
@@ -91,10 +91,10 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Notificaciones de construcción | #Service_Management-Construction_Notifications |
 | Notificar fuga de gas | #Complaints-Report_Gas_Leak |
 | Notificar línea eléctrica caída | #Complaints-Report_Downed_Powerline |
-| Notificar un apagón | #Complaints-Report_Outage |
-| Notificar un corte de luz de la calle | #Complaints-Report_Street_Light |
+| Notificar un corte eléctrico | #Complaints-Report_Outage |
+| Notificar un corte eléctrico en la calle | #Complaints-Report_Street_Light |
 | Número de cuenta de cliente | #Account_Management-Account_Number_Inquiry |
-| Número de teléfono de tienda | #Information-Store_Phone_Number |
+| Número de teléfono de tienda`*` | #Information-Store_Phone_Number |
 | Pago general | #Payment-Misc |
 | Pagos recurrentes (pago automático) | #Payment-Recurring_Payment_Autopay |
 | Perfil de Cliente | #Account_Management-Customer_Profile |
@@ -105,7 +105,7 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Prevención de corte eléctrico | #Information-Outage_Prevention |
 | Productos disponibles | #Information-Store_Products |
 | Puestos vacantes | #Information-Jobs |
-| Queja de cliente | #Complaints-Misc |
+| Quejas de cliente | #Complaints-Misc |
 | Recordatorios de pago | #Billing-Payment_Reminders |
 | Reembolso | #Payment-Refund_Payment |
 | Registro de dispositivo | #Service_Management-Device_Registration |
@@ -117,7 +117,7 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Solicitud de servicio de construcción | #Service_Management-Construction_Service_Request |
 | Sugerencias para ahorrar energía | #Information-Energy_Saving_Tips |
 | Ubicaciones de pago | #Payment-Payment_Locations |
-| Ubicación de la tienda | #Information-Store_Location |
+| Ubicación de la tienda`*` | #Information-Store_Location |
 | Uso de informe | #Billing-Report_Usage |
 | Uso fraudulento | #Account_Management-Fraudulent_Use |
 | Usuarios autorizados | #Account_Management-Authorized_User |
@@ -126,4 +126,7 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Volver a programa cita | #Information-Change_Appointment |
 | Volver a programar una cita en casa | #Information-Change_At_Home_Appointment |
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_energy.html#top)
+
+`*` [Diálogos incorporados](configure.html#builtin_dialog_ovw)
+
+[![Volver al inicio](images/up-arrow.png)](intent_codenames_energy.html#top)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -25,6 +25,8 @@ Accédez à [Ajout de dialogues personnalisés pour les capacités de base](add-
 
 Les capacités diffèrent selon le pack.
 
-| Service clients (Général) | Energie| Banque de détail| Télécommunications|
-|----------------------------|---------|----------------|---------|
-| [détails](intent_codenames_general.html) | [détails](intent_codenames_energy.html) | [détails](intent_codenames_banking.html) | [détails](intent_codenames_telco.html) |
+| Service clients (Général) | Energie | Banque de détail | Télécommunications | Assurance |
+|---------------------------|---------|------------------|--------------------|-----------|
+| [détails](intent_codenames_general.html) | [détails](intent_codenames_energy.html) | [détails](intent_codenames_banking.html) | [détails](intent_codenames_telco.html) | n/a* |
+
+*n/a signifie non disponible actuellement

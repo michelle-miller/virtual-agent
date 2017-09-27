@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Zentrale Funktionen für Energy
+# Zentrale Funktionen für Energie
 {: #capabilities_list_energy_de}
 {: #top}
 Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) (English).
@@ -26,6 +26,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 ## Zentrale Funktionen
 
 ### Abrechnung
+<!-- {.toc-ignore} -->
 
 - ****Abfrage des Kontostands****
 
@@ -46,10 +47,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 - ****Einzelheiten zum Verbrauch****
 
     Der Benutzer möchte Einzelheiten zu seinem Energieverbrauch erfahren
-
-- ****Nutzung melden****
-
-    Der Benutzer möchte die für sein Messgerät verzeichnete Nutzung melden
 
 - ****Online-Rechnungen****
 
@@ -79,6 +76,10 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Fragen zur Häufigkeit oder dem Beginn und Ende des Abrechnungszeitraums eines Benutzers
 
+- ****Verbrauch melden****
+
+    Der Benutzer möchte den Zählerstand für seinen Verbrauch melden
+
 - ****Wiederkehrende Gebühren****
 
     Fragen zu wiederkehrenden Gebühren auf einer Rechnung, wie zum Beispiel unbegrenzte SMS, Visual Voicemail oder Gebühren des Familientarifs
@@ -88,6 +89,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Fragen zu Zahlungserinnerungen, wie zum Beispiel ihre Einrichtung oder Beendung
 
 ### Auftragsbearbeitung
+<!-- {.toc-ignore} -->
 
 - ****Auftragsbearbeitung allgemein****
 
@@ -110,6 +112,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Der Benutzer möchte ein neues Gerät bestellen
 
 ### Beschwerden
+<!-- {.toc-ignore} -->
 
 - ****Ausfall der Straßenbeleuchtung melden****
 
@@ -133,7 +136,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Nach Ausfällen suchen****
 
-    Der Benutzer möchte nach Ausfällen in seinem Bereich suchen
+    Der Benutzer möchte nach Ausfällen in seiner Region suchen
 
 - ****Netzqualität****
 
@@ -144,6 +147,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Der Benutzer möchte ein Update zu seinem Ausfall bekommen
 
 ### Hilfe
+<!-- {.toc-ignore} -->
 
 - ****Beendung****
 
@@ -170,12 +174,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Fragen zur Technologie des virtuellen Agenten, mit dem der Benutzer interagiert
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****Allgemeine Informationen****
 
     Der Benutzer möchte Informationen über das Unternehmen, die nicht über einen anderen Intent bedient werden
 
-- ****Dienstleistungen der Filiale****
+- ****Dienstleistungen einer Filiale****
 
     Der Benutzer möchte Informationen über die in Filialen verfügbaren Dienstleistungen
 
@@ -209,13 +214,13 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 - ****Richtlinien für Bauarbeiten****
 
-    Der Benutzer möchte seinen Anbieter darüber informieren, dass bei ihm zu Hause Bauarbeiten oder Umbauten stattfinden.
+    Der Benutzer will Anleitungen ihren Dienst durch ein Bauvorhaben betroffen sein werden und/oder wie sie Veränderungen bei diesen Service zu verwalten erhalten soll.
 
-- ****Standort der Filiale****
+- ****Standort einer Filiale****
 
     Fragen zu Standorten von Filialen
 
-- ****Telefonnummer der Filiale****
+- ****Telefonnummer einer Filiale****
 
     Fragen zu Telefonnummern von Filialen
 
@@ -252,6 +257,7 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Der Benutzer möchte allgemeine Informationen über das Unternehmen
 
 ### Kontoverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Adresse aktualisieren****
 
@@ -310,18 +316,21 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Der Benutzer will die Telefonnummer des Kontos ändern, die zur Kontaktaufnahme verwendet wird.
 
 ### Off-Topic
+<!-- {.toc-ignore} -->
 
 - ****Keines der Obigen****
 
     Anforderungen oder Fragen, die für die Dienstleistung nicht relevant sind
 
 ### Online-Kontozugriff
+<!-- {.toc-ignore} -->
 
 - ****Online-Kontozugriff****
 
     Der Benutzer hat eine Frage oder ein Problem bezüglich dem Onlinezugriff auf ein Konto
 
 ### Serviceverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Anfrage zum Bonusprogramm****
 
@@ -356,12 +365,14 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Der Benutzer möchte eine Serviceanforderung für Bauarbeiten oder Umbauten erstellen, die bei ihm zu Hause erfolgen
 
 ### Vertrieb
+<!-- {.toc-ignore} -->
 
 - ****Verkauf allgemein****
 
     Fragen zum Verkauf, einschließlich Werbeaktionen und Preisgestaltung
 
 ### Zahlung
+<!-- {.toc-ignore} -->
 
 - ****Aktualisierung der Zahlungsart****
 
@@ -435,4 +446,6 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
     Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy_de.html#top)
+
+
+[![Zurück nach oben](images/up-arrow.png)](capabilities_list_energy_de.html#top)

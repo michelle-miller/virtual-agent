@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,24 +21,24 @@ lastupdated: "2017-08-21"
 {: #intent_codenames_general}
 {: #top}
 
-[![Volver](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Volver](images/back-arrow.png)](intent_codenames.html)
 
 La tabla siguiente lista los nombres de intenciones de cada prestación soportada. Si opta por proporcionar su propio diálogo de servicio de {{site.data.keyword.conversationshort}} para una prestación, deberá saber el nombre de intención adecuado que se ha de especificar en el diálogo. Puede verlo aquí.
 {: shortdesc}
 
-| Prestaciones                    | Nombre de intención asociado a la prestación                                    |
+| Prestaciones                    | Nombre de intención asociado a la prestación           |
 |---------------------------------|--------------------------------------------------------|
 | Abrir una cuenta | #Account_Management-Open_Account |
 | Acceso de cuenta en línea | #Online_Account_Access-Misc |
 | Acerca de nosotros | #Information-About_Us |
 | Actualización del método de pago | #Payment-Method_Of_Payment_Update |
-| Actualizar correo electrónico | #Account_Management-Email_Change |
-| Actualizar dirección | #Account_Management-Update_Change_Address |
-| Actualizar número de teléfono de contacto | #Account_Management-Update_Change_Contact_Phone_Number |
+| Actualizar correo electrónico`*` | #Account_Management-Email_Change |
+| Actualizar dirección`*` | #Account_Management-Update_Change_Address |
+| Actualizar número de teléfono de contacto`*` | #Account_Management-Update_Change_Contact_Phone_Number |
 | Acuerdos de pago | #Payment-Payment_Arrangement |
 | Ajuste de factura | #Billing-Request_Adjustment |
 | Ayuda | #Help-Help |
-| Buscar tienda más cercana | #Information-Find_Nearest_Store |
+| Buscar tienda más cercana`*` | #Information-Find_Nearest_Store |
 | Cambiar fecha de vencimiento de pago | #Payment-Payment_Due_Date_Change |
 | Cambiar pedido | #Order_Management-Modify_Product_Order |
 | Cambio de nombre de cuenta | #Account_Management-Name_Change |
@@ -68,9 +68,9 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Garantía de seguridad | #Help-Security_Assurance |
 | Gestión general de cuentas | #Account_Management-Misc |
 | Gestión general de pedidos | #Order_Management-Misc |
-| Hacer un pago | #Payment-Make_A_Payment |
+| Hacer un pago`*` | #Payment-Make_A_Payment |
 | Historial de pago | #Payment-Payment_History |
-| Horario de la tienda | #Information-Store_Hours |
+| Horario de la tienda`*` | #Information-Store_Hours |
 | Información bancaria | #Payment-Bank_Information |
 | Información del sistema | #Help-Misc |
 | Información general | #Information-Misc |
@@ -78,7 +78,7 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Métodos de pago aceptados | #Payment-Method_Of_Payment_Inquiry |
 | Ninguna de las anteriores | #Off_Topic-None_of_the_Above |
 | Número de cuenta de cliente | #Account_Management-Account_Number_Inquiry |
-| Número de teléfono de tienda | #Information-Store_Phone_Number |
+| Número de teléfono de tienda`*` | #Information-Store_Phone_Number |
 | Pago general | #Payment-Misc |
 | Pagos recurrentes (pago automático) | #Payment-Recurring_Payment_Autopay |
 | Perfil de Cliente | #Account_Management-Customer_Profile |
@@ -88,7 +88,7 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Productos disponibles | #Information-Store_Products |
 | Programa de fidelidad de cliente | #Account_Management-Customer_Loyalty_Program |
 | Puestos vacantes | #Information-Jobs |
-| Queja de cliente | #Complaints-Misc |
+| Quejas de cliente | #Complaints-Misc |
 | Recordatorios de pago | #Billing-Payment_Reminders |
 | Reembolso | #Payment-Refund_Payment |
 | Resúmenes de factura en línea | #Billing-Online_Statements |
@@ -98,11 +98,14 @@ La tabla siguiente lista los nombres de intenciones de cada prestación soportad
 | Solicitar copia de factura | #Billing-Bill_Copy |
 | Transferir puntos | #Account_Management-Transfer_Points |
 | Ubicaciones de pago | #Payment-Payment_Locations |
-| Ubicación de la tienda | #Information-Store_Location |
+| Ubicación de la tienda`*` | #Information-Store_Location |
 | Uso fraudulento | #Account_Management-Fraudulent_Use |
 | Usuarios autorizados | #Account_Management-Authorized_User |
 | Valor de punto | #Account_Management-Points_Value |
 | Verificación de pago | #Payment-Verify_Payment |
 | Volver a programa cita | #Information-Change_Appointment |
 
-[![Volver al inicio](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_general.html#top)
+
+`*` [Diálogos incorporados](configure.html#builtin_dialog_ovw)
+
+[![Volver al inicio](images/up-arrow.png)](intent_codenames_general.html#top)

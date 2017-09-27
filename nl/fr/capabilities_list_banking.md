@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,36 +17,35 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Capacités Banque de détail de base
+# Capacités Banque
 {: #capabilities_list_banking}
 {: #top}
 
-[![Précédent](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Précédent](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
-
 ## Détails
 
 ### Accès au compte en ligne
-
+<!-- {.toc-ignore} -->
 
 - ****Accès au compte en ligne****
 
     L'utilisateur a des questions ou rencontre des difficultés concernant l'accès à un compte en ligne.
 
 ### Aide
-
+<!-- {.toc-ignore} -->
 
 - ****Aide****
 
     L'utilisateur a des questions sur les options disponibles pendant l'utilisation de l'agent virtuel
 
-- ****Ending (Formule de politesse)****
+- ****Conclusion****
 
     Expression utilisée pour conclure la conversation
 
-- ****Greetings (Salutations)****
+- ****Garantie de sécurité****
 
-    Salutations utilisées pour impliquer l'utilisateur dans la conversation
+    L'utilisateur souhaite avoir la garantie que toutes les informations fournies dans la conversation sont protégées et sécurisées.
 
 - ****Informations système****
 
@@ -56,12 +55,12 @@ lastupdated: "2017-08-17"
 
     L'utilisateur souhaite parler à un agent humain du service client.
 
-- ****Security assurance (Assurance sécurité)****
+- ****Salutations****
 
-    L'utilisateur souhaite avoir la garantie que toutes les informations fournies dans la conversation sont protégées et sécurisées.
+    Salutations utilisées pour impliquer l'utilisateur dans la conversation
 
 ### Alertes
-
+<!-- {.toc-ignore} -->
 
 - ****Alerte de déplacement****
 
@@ -80,7 +79,7 @@ lastupdated: "2017-08-17"
     L'utilisateur souhaite définir des alertes sur son seuil de dépenses
 
 ### Comptes chèque/d'épargne
-
+<!-- {.toc-ignore} -->
 
 - ****Configuration d'un virement direct****
 
@@ -107,7 +106,7 @@ lastupdated: "2017-08-17"
     L'utilisateur souhaite effectuer un virement.
 
 ### Facturation
-
+<!-- {.toc-ignore} -->
 
 - ****Ajustement de facture****
 
@@ -150,7 +149,7 @@ lastupdated: "2017-08-17"
     L'utilisateur souhaite connaître son solde ou a des questions à son propos.
 
 ### Gestion du compte
-
+<!-- {.toc-ignore} -->
 
 - ****Demande du mot de passe du profil****
 
@@ -163,6 +162,18 @@ lastupdated: "2017-08-17"
 - ****Gestion générale du compte****
 
     L'utilisateur a des questions générales sur la gestion du compte, comme l'ajout d'utilisateurs ou la résiliation d'un compte
+
+- ****Mettre à jour l'adresse****
+
+    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse postale du compte.
+
+- ****Mettre à jour l'adresse électronique****
+
+    L'utilisateur souhaite modifier l'adresse électronique de contact du compte.
+
+- ****Mettre à jour le numéro de téléphone du contact****
+
+    L'utilisateur souhaite modifier le numéro de téléphone du compte qui est utilisé pour le contacter.
 
 - ****Modifier les noms associés au compte****
 
@@ -208,18 +219,6 @@ lastupdated: "2017-08-17"
 
     L'utilisateur souhaite transférer des points entre des comptes.
 
-- ****Update address (Mettre à jour l'adresse)****
-
-    L'utilisateur souhaite modifier l'adresse de facturation ou l'adresse électronique du compte.
-
-- ****Update contact phone number (Mettre à jour le numéro de téléphone du contact)****
-
-    L'utilisateur souhaite modifier le numéro de téléphone du compte qui est utilisé pour le contacter.
-
-- ****Update email (Mettre à jour l'adresse électronique)****
-
-    L'utilisateur souhaite modifier l'adresse électronique de contact du compte.
-
 - ****Utilisateurs autorisés****
 
     L'utilisateur souhaite modifier les personnes ayant accès à un compte.
@@ -233,26 +232,34 @@ lastupdated: "2017-08-17"
     L'utilisateur souhaite connaître la valeur de ses points.
 
 ### Hors sujet
-
+<!-- {.toc-ignore} -->
 
 - ****Aucun****
 
     L'utilisateur envoie une demande ou une question non liée au service
 
 ### Informations
+<!-- {.toc-ignore} -->
 
+- ****Adresse du magasin****
+
+    L'utilisateur a des questions sur les adresses des magasins
 
 - ****Contactez-nous****
 
     L'utilisateur souhaite obtenir les coordonnées de l'entreprise.
 
-- ****Find nearest store (Rechercher le magasin le plus proche)****
+- ****Horaires du magasin****
 
-    L'utilisateur recherche le magasin le plus proche.
+    L'utilisateur a des questions sur les horaires des magasins
 
 - ****Informations générales****
 
     L'utilisateur souhaite obtenir des informations sur l'entreprise qui ne sont pas gérées par une autre intention.
+
+- ****Numéro de téléphone du magasin****
+
+    L'utilisateur a des questions sur les numéros de téléphone des magasins
 
 - ****Offres d'emploi****
 
@@ -270,6 +277,10 @@ lastupdated: "2017-08-17"
 
     L'utilisateur souhaite obtenir des informations générales sur l'entreprise.
 
+- ****Rechercher le magasin le plus proche****
+
+    L'utilisateur recherche le magasin le plus proche.
+
 - ****Replanifier un rendez-vous****
 
     L'utilisateur souhaite replanifier un rendez-vous
@@ -282,20 +293,8 @@ lastupdated: "2017-08-17"
 
     L'utilisateur souhaite se renseigner sur les services disponibles dans les magasins.
 
-- ****Store hours (Adresse du magasin)****
-
-    L'utilisateur a des questions sur les horaires des magasins
-
-- ****Store location (Adresse du magasin)****
-
-    L'utilisateur a des questions sur les adresses des magasins
-
-- ****Store phone number (Numéro de téléphone du magasin)****
-
-    L'utilisateur a des questions sur les numéros de téléphone des magasins
-
 ### Paiement
-
+<!-- {.toc-ignore} -->
 
 - ****Différer un paiement****
 
@@ -305,6 +304,10 @@ lastupdated: "2017-08-17"
 
     Questions sur l'échéance du prochain paiement
 
+- ****Effectuer un paiement****
+
+    L'utilisateur souhaite effectuer un paiement.
+
 - ****Historique des paiements****
 
     L'utilisateur souhaite consulter l'historique des paiements déjà effectués.
@@ -312,10 +315,6 @@ lastupdated: "2017-08-17"
 - ****Informations bancaires****
 
     L'utilisateur souhaite indiquer les informations bancaires associées à son compte de crédit.
-
-- ****Make a payment (Effectuer un paiement)****
-
-    L'utilisateur souhaite effectuer un paiement.
 
 - ****Mettre à jour les moyens de paiement****
 
@@ -370,28 +369,24 @@ lastupdated: "2017-08-17"
     L'utilisateur souhaite obtenir la confirmation que le paiement a été reçu.
 
 ### Réclamations
-
+<!-- {.toc-ignore} -->
 
 - ****Réclamation du client****
 
     L'utilisateur rencontre un problème avec son service.
 
 ### Services de compte de carte de crédit
-
+<!-- {.toc-ignore} -->
 
 - ****Activation d'une carte****
 
     L'utilisateur souhaite activer sa carte.
 
-- ****Annulation d'une carte de crédit****
-
-    L'utilisateur souhaite activer sa carte de crédit.
-
 - ****Consultation des frais en cours****
 
     Le client souhaite consulter les frais en cours sur son compte de carte de crédit.
 
-- ****Demande d'augmentation de la ligne de crédit****
+- ****Demande d'augmentation de la limite de crédit****
 
     L'utilisateur demande à augmenter sa limite de crédit.
 
@@ -411,8 +406,14 @@ lastupdated: "2017-08-17"
 
     L'utilisateur souhaite remplacer sa carte de crédit.
 
+- ****Résiliation d'une carte de crédit****
+
+    L'utilisateur souhaite résilier sa carte de crédit.
+
 - ****Signalement d'une carte perdue ou volée****
 
     L'utilisateur souhaite signaler une carte perdue ou volée.
 
-[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_banking.html#top)
+
+
+[![Haut de la page](images/up-arrow.png)](capabilities_list_banking.html#top)

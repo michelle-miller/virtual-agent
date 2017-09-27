@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,22 +17,22 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Recursos principais de energia
+# Recursos principais de Energia
 {: #capabilities_list_energy}
 {: #top}
-
-[![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
-
 ## Detalhes
 
 ### Acesso à conta on-line
+<!-- {.toc-ignore} -->
 
 - ****Acesso à conta on-line****
 
     O usuário tem uma pergunta ou problema sobre como acessar uma conta on-line
 
 ### Ajuda
+<!-- {.toc-ignore} -->
 
 - ****Ajuda****
 
@@ -59,6 +59,7 @@ lastupdated: "2017-08-17"
     Saudação usada para envolver o usuário na conversa
 
 ### Faturamento
+<!-- {.toc-ignore} -->
 
 - ****Ajuste da conta****
 
@@ -121,12 +122,14 @@ lastupdated: "2017-08-17"
     O usuário quer uma cópia de uma conta para o periodo de faturamento atual ou anterior
 
 ### Fora do tópico
+<!-- {.toc-ignore} -->
 
 - ****Nenhuma das anteriores****
 
     Solicitações ou perguntas que não são relevantes para o serviço
 
 ### Gerenciamento de conta
+<!-- {.toc-ignore} -->
 
 - ****Abrir uma conta****
 
@@ -185,6 +188,7 @@ lastupdated: "2017-08-17"
     O usuário quer investigar ou denunciar o uso fraudulento de um cartão ou conta
 
 ### Gerenciamento de pedido
+<!-- {.toc-ignore} -->
 
 - ****Cancelar pedido****
 
@@ -207,6 +211,7 @@ lastupdated: "2017-08-17"
     O usuário deseja saber o status de um pedido efetuado
 
 ### Gerenciamento de serviço
+<!-- {.toc-ignore} -->
 
 - ****Consulta de programas de incentivo****
 
@@ -241,6 +246,7 @@ lastupdated: "2017-08-17"
     O usuário deseja criar uma solicitação de serviço para a construção ou a remodelagem que está acontecendo em sua residência
 
 ### Informações
+<!-- {.toc-ignore} -->
 
 - ****Contate-nos****
 
@@ -252,7 +258,7 @@ lastupdated: "2017-08-17"
 
 - ****Diretrizes de construção****
 
-    O usuário deseja notificar o provedor de que a construção ou a remodelagem está ocorrendo em sua residência.
+    O usuário pede orientação sobre como gerenciar possíveis mudanças no serviço como um resultado de construção.
 
 - ****Encontrar a loja mais próxima****
 
@@ -318,11 +324,12 @@ lastupdated: "2017-08-17"
 
     O usuário solicita informações gerais sobre a empresa
 
-- ****Status da tempestade****
+- ****Status de tempestades****
 
-    O usuário deseja obter informações atuais sobre a tempestade
+    O usuário deseja obter informações atuais sobre tempestades
 
 ### Pagamento
+<!-- {.toc-ignore} -->
 
 - ****Acordos de pagamento****
 
@@ -397,6 +404,7 @@ lastupdated: "2017-08-17"
     O usuário quer confirmação que o pagamento foi recebido
 
 ### Reclamações
+<!-- {.toc-ignore} -->
 
 - ****Atualização sobre indisponibilidade****
 
@@ -416,7 +424,7 @@ lastupdated: "2017-08-17"
 
 - ****Relatar falta de iluminação pública****
 
-    O usuário deseja relatar um poste de iluminação pública apagado
+    O usuário deseja relatar um poste de iluminação pública que está apagado
 
 - ****Relatar indisponibilidade****
 
@@ -431,9 +439,11 @@ lastupdated: "2017-08-17"
     O usuário deseja relatar um vazamento de gás
 
 ### Vendas
+<!-- {.toc-ignore} -->
 
 - ****Vendas gerais****
 
     Perguntas sobre vendas, incluindo promoções e preços
 
-[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy.html#top)
+
+[![Voltar ao início da página](images/up-arrow.png)](capabilities_list_energy.html#top)

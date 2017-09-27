@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-22"
 
 ---
 
@@ -21,7 +21,7 @@ lastupdated: "2017-08-21"
 {: #intent_codenames_energy}
 {: #top}
 
-[![Précédent](images/back-arrow.png) <!-- {display:block;"} -->](intent_codenames.html)
+[![Précédent](images/back-arrow.png)](intent_codenames.html)
 
 Le tableau ci-après répertorie les noms d'intention de chaque capacité prise en charge. Si vous choisissez de fournir votre propre dialogue de service {{site.data.keyword.conversationshort}} pour une capacité, vous devez connaître le nom d'intention approprié à spécifier dans le dialogue. Vous pouvez le rechercher ici.
 {: shortdesc}
@@ -29,11 +29,13 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Capacités                       | Nom d'intention associée à la capacité                 |
 |---------------------------------|--------------------------------------------------------|
 | Accès au compte en ligne | #Online_Account_Access-Misc |
+| Adresse du magasin`*` | #Information-Store_Location |
 | Aide | #Help-Help |
 | Ajustement de facture | #Billing-Request_Adjustment |
 | Annuler une commande | #Order_Management-Cancel_Product_Order |
 | Arrêt du service | #Service_Management-Stop_Service |
 | Aucun | #Off_Topic-None_of_the_Above |
+| Conclusion | #Help-Ending |
 | Conseils d'économie d'énergie | #Information-Energy_Saving_Tips |
 | Contactez-nous | #Information-Contact_Us |
 | Contestation de facture | #Billing-Dispute |
@@ -49,25 +51,27 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Démarrage du service | #Service_Management-Start_Service |
 | Détails de la consommation | #Billing-Usage_Detail |
 | Echéance du paiement | #Payment-Payment_Due_Date |
-| Ending (Formule de politesse) | #Help-Ending |
+| Effectuer un paiement`*` | #Payment-Make_A_Payment |
 | Enregistrement d'un appareil | #Service_Management-Device_Registration |
 | Explication de facture | #Billing-Bill_Explanation |
 | Explication de frais particuliers | #Billing-One_Time_Charges |
 | Facturation générale | #Billing-Misc |
-| Find nearest store (Rechercher le magasin le plus proche) | #Information-Find_Nearest_Store |
 | Frais récurrents | #Billing-Recurring_Charges |
+| Garantie de sécurité | #Help-Security_Assurance |
 | Gestion générale des commandes | #Order_Management-Misc |
 | Gestion générale du compte | #Account_Management-Misc |
-| Greetings (Salutations) | #Help-Greetings |
 | Généralités sur les ventes | #Sales-Misc |
 | Historique des paiements | #Payment-Payment_History |
+| Horaires du magasin`*` | #Information-Store_Hours |
 | Informations bancaires | #Payment-Bank_Information |
 | Informations générales | #Information-Misc |
 | Informations système | #Help-Misc |
 | Inscription au programme client | #Service_Management-Enroll_In_Incentive_Program |
 | Instructions de construction | #Information-Construction_Guidelines |
-| Make a payment (Effectuer un paiement) | #Payment-Make_A_Payment |
 | Mettre en relation avec un agent | #Help-Connect_to_Agent |
+| Mettre à jour l'adresse`*` | #Account_Management-Update_Change_Address |
+| Mettre à jour l'adresse électronique`*` | #Account_Management-Email_Change |
+| Mettre à jour le numéro de téléphone de contact`*` | #Account_Management-Update_Change_Contact_Phone_Number |
 | Mettre à jour les moyens de paiement | #Payment-Method_Of_Payment_Update |
 | Modifier l'échéance | #Payment-Payment_Due_Date_Change |
 | Modifier les noms associés au compte | #Account_Management-Name_Change |
@@ -75,6 +79,7 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Moyens de paiement acceptés | #Payment-Method_Of_Payment_Inquiry |
 | Notifications de construction | #Service_Management-Construction_Notifications |
 | Numéro de compte client | #Account_Management-Account_Number_Inquiry |
+| Numéro de téléphone du magasin`*` | #Information-Store_Phone_Number |
 | Offres d'emploi | #Information-Jobs |
 | Ouvrir un compte | #Account_Management-Open_Account |
 | Paiement général | #Payment-Misc |
@@ -95,6 +100,7 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Recherche d'un générateur | #Information-Find_A_Generator |
 | Recherche de paiement | #Payment-Research_Payment |
 | Recherche de pannes | #Complaints-Search_Outages |
+| Rechercher le magasin le plus proche`*` | #Information-Find_Nearest_Store |
 | Relevés de facture en ligne | #Billing-Online_Statements |
 | Relevés de facture papier | #Billing-Paper_Statements |
 | Remboursement | #Payment-Refund_Payment |
@@ -104,7 +110,7 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Replanifier un rendez-vous à domicile | #Information-Change_At_Home_Appointment |
 | Réclamation du client | #Complaints-Misc |
 | Résilier le compte | #Account_Management-Close_Cancel_Account |
-| Security assurance (Assurance sécurité) | #Help-Security_Assurance |
+| Salutations | #Help-Greetings |
 | Services disponibles dans le magasin | #Information-Store_Services |
 | Signalement d'une ligne électrique en panne | #Complaints-Report_Downed_Powerline |
 | Signalement de consommation | #Billing-Report_Usage |
@@ -115,15 +121,12 @@ Le tableau ci-après répertorie les noms d'intention de chaque capacité prise 
 | Statut de la commande | #Order_Management-Get_Product_Order_Status |
 | Statut de la panne | #Complaints-Outage_Update |
 | Statut de tempête | #Information-Storm_Status |
-| Store hours (Horaires du magasin) | #Information-Store_Hours |
-| Store location (Adresse du magasin) | #Information-Store_Location |
-| Store phone number (Numéro de téléphone du magasin) | #Information-Store_Phone_Number |
-| Update address (Mettre à jour l'adresse) | #Account_Management-Update_Change_Address |
-| Update contact phone number (Mettre à jour le numéro de téléphone de contact) | #Account_Management-Update_Change_Contact_Phone_Number |
-| Update email (Mettre à jour l'adresse électronique) | #Account_Management-Email_Change |
 | Utilisateurs autorisés | #Account_Management-Authorized_User |
 | Utilisation frauduleuse | #Account_Management-Fraudulent_Use |
 | Versements de paiement | #Payment-Installments |
 | Vérification du paiement | #Payment-Verify_Payment |
 
-[![Haut de la page](images/up-arrow.png) <!-- {display:block;"} -->](intent_codenames_energy.html#top)
+
+`*` [Dialogues intégrés](configure.html#builtin_dialog_ovw)
+
+[![Haut de la page](images/up-arrow.png)](intent_codenames_energy.html#top)

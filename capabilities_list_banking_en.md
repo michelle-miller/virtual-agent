@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,14 +17,16 @@ lastupdated: "2017-08-17"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Core Retail Banking capabilities
+# Core Banking capabilities
 {: #capabilities_list_banking_en}
 {: #top}
 
+[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
+{: shortdesc}
 ## Details
-[Go back](how-it-works.html#capability-packs)
 
 ### Account management
+<!-- {.toc-ignore} -->
 
 - ****Account name change****
 
@@ -107,6 +109,7 @@ lastupdated: "2017-08-17"
     User wants to change the contact email address on the account
 
 ### Alerts
+<!-- {.toc-ignore} -->
 
 - ****Edit delivery methods (e-mail, apple notifications)****
 
@@ -125,6 +128,7 @@ lastupdated: "2017-08-17"
     User wants to notify their bank of travel.
 
 ### Billing
+<!-- {.toc-ignore} -->
 
 - ****Balance inquiry****
 
@@ -167,6 +171,7 @@ lastupdated: "2017-08-17"
     User wants a copy of a bill for the current or previous billing period
 
 ### Checking/Savings accounts
+<!-- {.toc-ignore} -->
 
 - ****Request checkbook****
 
@@ -193,12 +198,14 @@ lastupdated: "2017-08-17"
     User wants to wire funds.
 
 ### Complaints
+<!-- {.toc-ignore} -->
 
 - ****Customer complaint****
 
     User has an issue with their service
 
 ### Credit card account services
+<!-- {.toc-ignore} -->
 
 - ****Activate a card****
 
@@ -237,6 +244,7 @@ lastupdated: "2017-08-17"
     Customer wants to view the pending charges on their credit card account.
 
 ### Help
+<!-- {.toc-ignore} -->
 
 - ****Connect to agent****
 
@@ -263,6 +271,7 @@ lastupdated: "2017-08-17"
     User has questions about the virtual agent technology that they are interacting with
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****About us****
 
@@ -317,18 +326,21 @@ lastupdated: "2017-08-17"
     User wants to know about the services that are provided at store locations
 
 ### Off-topic
+<!-- {.toc-ignore} -->
 
 - ****None of the above****
 
     User sends a requests or question that are not relevant to the service
 
 ### Online account access
+<!-- {.toc-ignore} -->
 
 - ****Online account access****
 
     User has a question or issue about accessing an account online
 
 ### Payment
+<!-- {.toc-ignore} -->
 
 - ****Accepted methods of payment****
 
@@ -401,5 +413,7 @@ lastupdated: "2017-08-17"
 - ****Refund****
 
     User wants a refund for a payment
+
+
 
 [Back to top](capabilities_list_banking_en.html#top)

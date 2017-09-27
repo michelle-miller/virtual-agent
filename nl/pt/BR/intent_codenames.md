@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-21"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -17,7 +17,7 @@ lastupdated: "2017-08-21"
 {:python: .ph data-hd-programlang='python'}
 {:swift: .ph data-hd-programlang='swift'}
 
-# Nomes de intenções 
+# Nomes de intenções
 {: #intent_codenames}
 
 Acesse [Incluindo diálogos customizados para recursos principais](add-custom-dialog.html).
@@ -25,6 +25,8 @@ Acesse [Incluindo diálogos customizados para recursos principais](add-custom-di
 
 Os recursos diferem por pacote.
 
-| Atendimento ao Cliente (Geral) | Energia  | Transações Bancárias de Varejo | mais inteligentes |
-|--------------------------------|----------|--------------------------------|-------------------|
-| [detalhes](intent_codenames_general.html) | [detalhes](intent_codenames_energy.html) | [detalhes](intent_codenames_banking.html) | [detalhes](intent_codenames_telco.html) |
+| Atendimento ao Cliente (Geral) | Energia  | Transações Bancárias de Varejo | Mais inteligentes | Seguro |
+|--------------------------------|----------|--------------------------------|-------------------|--------|
+| [detalhes](intent_codenames_general.html) | [detalhes](intent_codenames_energy.html) | [detalhes](intent_codenames_banking.html) | [detalhes](intent_codenames_telco.html) | n/d* |
+
+*n/d significa não disponível agora

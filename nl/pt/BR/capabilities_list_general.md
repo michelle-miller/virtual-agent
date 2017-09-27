@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,18 +21,19 @@ lastupdated: "2017-08-17"
 {: #capabilities_list_general}
 {: #top}
 
-[![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Voltar](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
-
 ## Detalhes
 
 ### Acesso à conta on-line
+<!-- {.toc-ignore} -->
 
 - ****Acesso à conta on-line****
 
     O usuário tem uma pergunta ou problema sobre como acessar uma conta on-line
 
 ### Ajuda
+<!-- {.toc-ignore} -->
 
 - ****Ajuda****
 
@@ -59,6 +60,7 @@ lastupdated: "2017-08-17"
     Saudação usada para envolver o usuário na conversa
 
 ### Faturamento
+<!-- {.toc-ignore} -->
 
 - ****Ajuste da conta****
 
@@ -109,12 +111,14 @@ lastupdated: "2017-08-17"
     O usuário quer uma cópia de uma conta para o periodo de faturamento atual ou anterior
 
 ### Fora do tópico
+<!-- {.toc-ignore} -->
 
 - ****Nenhuma das anteriores****
 
     Solicitações ou perguntas que não são relevantes para o serviço
 
 ### Gerenciamento de conta
+<!-- {.toc-ignore} -->
 
 - ****Abrir uma conta****
 
@@ -197,6 +201,7 @@ lastupdated: "2017-08-17"
     O usuário quer saber quanto valem seus pontos
 
 ### Gerenciamento de pedido
+<!-- {.toc-ignore} -->
 
 - ****Cancelar pedido****
 
@@ -219,6 +224,7 @@ lastupdated: "2017-08-17"
     O usuário deseja saber o status de um pedido efetuado
 
 ### Informações
+<!-- {.toc-ignore} -->
 
 - ****Contate-nos****
 
@@ -269,6 +275,7 @@ lastupdated: "2017-08-17"
     O usuário solicita informações gerais sobre a empresa
 
 ### Pagamento
+<!-- {.toc-ignore} -->
 
 - ****Acordos de pagamento****
 
@@ -343,9 +350,12 @@ lastupdated: "2017-08-17"
     O usuário quer confirmação que o pagamento foi recebido
 
 ### Reclamações
+<!-- {.toc-ignore} -->
 
 - ****Reclamação de cliente****
 
     O usuário tem um problema com um dispositivo ou um serviço
 
-[![Voltar ao início da página](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general.html#top)
+
+
+[![Voltar ao início da página](images/up-arrow.png)](capabilities_list_general.html#top)

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -21,18 +21,19 @@ lastupdated: "2017-08-17"
 {: #capabilities_list_general}
 {: #top}
 
-[![Indietro](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+[![Indietro](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
-
 ## Dettagli
 
 ### Accesso all'account online
+<!-- {.toc-ignore} -->
 
 - ****Accesso all'account online****
 
     L'utente ha una domanda o un problema riguardo all'accesso all'account online.
 
 ### Aiuto
+<!-- {.toc-ignore} -->
 
 - ****Aiuto****
 
@@ -59,6 +60,7 @@ lastupdated: "2017-08-17"
     Saluto utilizzato per coinvolgere l'utente nella conversazione
 
 ### Fatturazione
+<!-- {.toc-ignore} -->
 
 - ****Addebiti ricorrenti****
 
@@ -109,12 +111,14 @@ lastupdated: "2017-08-17"
     Domande sugli addebiti in una fattura
 
 ### Fuori tema
+<!-- {.toc-ignore} -->
 
 - ****Nessuno dei precedenti****
 
     Richieste o domande non pertinenti al servizio
 
 ### Gestione degli ordini
+<!-- {.toc-ignore} -->
 
 - ****Annulla ordine****
 
@@ -137,6 +141,7 @@ lastupdated: "2017-08-17"
     L'utente vuole conoscere lo stato di un ordine effettuato.
 
 ### Gestione dell'account
+<!-- {.toc-ignore} -->
 
 - ****Aggiorna il numero telefonico del contatto****
 
@@ -158,7 +163,7 @@ lastupdated: "2017-08-17"
 
     L'utente vuole rivedere o modificare le domande di sicurezza associate all'account.
 
-- ****Gestione dell'account****
+- ****Gestione generale dell'account****
 
     Domande generiche sull'account, ad esempio come aggiungere utenti o chiudere un account.
 
@@ -219,6 +224,7 @@ lastupdated: "2017-08-17"
     L'utente desidera sapere quali  prodotti o servizi siano disponibili in base al suo account
 
 ### Informazioni
+<!-- {.toc-ignore} -->
 
 - ****Chi siamo****
 
@@ -269,6 +275,7 @@ lastupdated: "2017-08-17"
     Domande sulle ubicazioni dei negozi.
 
 ### Pagamento
+<!-- {.toc-ignore} -->
 
 - ****Addebiti per pagamenti in ritardo****
 
@@ -343,10 +350,12 @@ lastupdated: "2017-08-17"
     L'utente desidera avere conferma che un pagamento sia stato ricevuto
 
 ### Reclami
+<!-- {.toc-ignore} -->
 
 - ****Reclamo del cliente****
 
     L'utente ha un problema con un dispositivo o un servizio.
 
-[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general.html#top)
 
+
+[![Torna all'inizio](images/up-arrow.png)](capabilities_list_general.html#top)

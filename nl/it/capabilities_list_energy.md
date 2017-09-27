@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -20,19 +20,19 @@ lastupdated: "2017-08-17"
 # Capacità base di Energy
 {: #capabilities_list_energy}
 {: #top}
-
+[![Indietro](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
+{: shortdesc}
 ## Dettagli
 
-[![Indietro](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
-{: shortdesc}
-
 ### Accesso all'account online
+<!-- {.toc-ignore} -->
 
 - ****Accesso all'account online****
 
     L'utente ha una domanda o un problema riguardo all'accesso all'account online.
 
 ### Aiuto
+<!-- {.toc-ignore} -->
 
 - ****Aiuto****
 
@@ -59,6 +59,7 @@ lastupdated: "2017-08-17"
     Saluto utilizzato per coinvolgere l'utente nella conversazione
 
 ### Fatturazione
+<!-- {.toc-ignore} -->
 
 - ****Addebiti ricorrenti****
 
@@ -121,12 +122,14 @@ lastupdated: "2017-08-17"
     Domande sugli addebiti in una fattura
 
 ### Fuori tema
+<!-- {.toc-ignore} -->
 
 - ****Nessuno dei precedenti****
 
     Richieste o domande non pertinenti al servizio
 
 ### Gestione degli ordini
+<!-- {.toc-ignore} -->
 
 - ****Annulla ordine****
 
@@ -149,6 +152,7 @@ lastupdated: "2017-08-17"
     L'utente vuole conoscere lo stato di un ordine effettuato.
 
 ### Gestione del servizio
+<!-- {.toc-ignore} -->
 
 - ****Avvia servizio****
 
@@ -158,7 +162,7 @@ lastupdated: "2017-08-17"
 
     L'utente desidera interrompere il servizio
 
-- ****Iscriviti al programma fedeltà****
+- ****Iscrizione al programma fedeltà****
 
     L'utente desidera iscriversi al programma fedeltà
 
@@ -183,6 +187,7 @@ lastupdated: "2017-08-17"
     L'utente desidera creare una richiesta di servizio per lavori di costruzione o ristrutturazione che si svolgono nella propria abitazione
 
 ### Gestione dell'account
+<!-- {.toc-ignore} -->
 
 - ****Aggiorna il numero telefonico del contatto****
 
@@ -204,7 +209,7 @@ lastupdated: "2017-08-17"
 
     L'utente vuole rivedere o modificare le domande di sicurezza associate all'account.
 
-- ****Gestione dell'account****
+- ****Gestione generale dell'account****
 
     Domande generiche sull'account, ad esempio come aggiungere utenti o chiudere un account.
 
@@ -241,6 +246,7 @@ lastupdated: "2017-08-17"
     L'utente desidera modificare le autorizzazioni di accesso all'account.
 
 ### Informazioni
+<!-- {.toc-ignore} -->
 
 - ****Chi siamo****
 
@@ -264,7 +270,7 @@ lastupdated: "2017-08-17"
 
 - ****Linee guida per lavori di costruzione****
 
-    L'utente desidera comunicare al fornitore che nella propria abitazione sono in corso lavori di costruzione o ristrutturazione.
+    L'utente cerca una guida sulla gestione delle modifiche potenziali nel loro servizio come risultato di costruzione.
 
 - ****Numero di telefono del negozio****
 
@@ -323,6 +329,7 @@ lastupdated: "2017-08-17"
     Domande sulle ubicazioni dei negozi.
 
 ### Pagamento
+<!-- {.toc-ignore} -->
 
 - ****Addebiti per pagamenti in ritardo****
 
@@ -397,6 +404,7 @@ lastupdated: "2017-08-17"
     L'utente desidera avere conferma che un pagamento sia stato ricevuto
 
 ### Reclami
+<!-- {.toc-ignore} -->
 
 - ****Aggiornamento su interruzione di corrente****
 
@@ -431,9 +439,11 @@ lastupdated: "2017-08-17"
     L'utente desidera segnalare una linea elettrica interrotta
 
 ### Vendite
+<!-- {.toc-ignore} -->
 
 - ****Vendite generali****
 
     Domande relative alle vendite, compresi prezzi e promozioni
 
-[![Torna all'inizio](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_energy.html#top)
+
+[![Torna all'inizio](images/up-arrow.png)](capabilities_list_energy.html#top)

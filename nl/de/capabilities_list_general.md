@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-17"
+lastupdated: "2017-09-27"
 
 ---
 
@@ -19,12 +19,15 @@ lastupdated: "2017-08-17"
 
 # Allgemeine Funktionen des Kundendiensts
 {: #capabilities_list_general}
-[![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html)
+{: #top}
+
+[![Zurück](images/back-arrow.png)](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 {: shortdesc}
 
 ## Zentrale Funktionen
-{: #top}
+
 ### Abrechnung
+<!-- {.toc-ignore} -->
 
 - ****Abfrage des Kontostands****
 
@@ -75,6 +78,7 @@ lastupdated: "2017-08-17"
     Fragen zu Zahlungserinnerungen, wie zum Beispiel ihre Einrichtung oder Beendung
 
 ### Auftragsbearbeitung
+<!-- {.toc-ignore} -->
 
 - ****Auftragsbearbeitung allgemein****
 
@@ -97,12 +101,14 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte ein neues Gerät bestellen
 
 ### Beschwerden
+<!-- {.toc-ignore} -->
 
 - ****Kundenreklamation****
 
     Benutzer hat ein Problem mit einem Gerät oder Service
 
 ### Hilfe
+<!-- {.toc-ignore} -->
 
 - ****Beendung****
 
@@ -129,12 +135,13 @@ lastupdated: "2017-08-17"
     Fragen zur Technologie des virtuellen Agenten, mit dem der Benutzer interagiert
 
 ### Information
+<!-- {.toc-ignore} -->
 
 - ****Allgemeine Informationen****
 
     Der Benutzer möchte Informationen über das Unternehmen, die nicht über einen anderen Intent bedient werden
 
-- ****Dienstleistungen der Filiale****
+- ****Dienstleistungen einer Filiale****
 
     Der Benutzer möchte Informationen über die in Filialen verfügbaren Dienstleistungen
 
@@ -150,11 +157,11 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte Informationen zu Stellenangeboten
 
-- ****Standort der Filiale****
+- ****Standort einer Filiale****
 
     Fragen zu Standorten von Filialen
 
-- ****Telefonnummer der Filiale****
+- ****Telefonnummer einer Filiale****
 
     Fragen zu Telefonnummern von Filialen
 
@@ -179,6 +186,7 @@ lastupdated: "2017-08-17"
     Der Benutzer möchte allgemeine Informationen über das Unternehmen
 
 ### Kontoverwaltung
+<!-- {.toc-ignore} -->
 
 - ****Adresse aktualisieren****
 
@@ -261,18 +269,21 @@ lastupdated: "2017-08-17"
     Der Benutzer will die Telefonnummer des Kontos ändern, die zur Kontaktaufnahme verwendet wird.
 
 ### Off-Topic
+<!-- {.toc-ignore} -->
 
 - ****Keines der Obigen****
 
     Anforderungen oder Fragen, die für die Dienstleistung nicht relevant sind
 
 ### Online-Kontozugriff
+<!-- {.toc-ignore} -->
 
 - ****Online-Kontozugriff****
 
     Der Benutzer hat eine Frage oder ein Problem bezüglich dem Onlinezugriff auf ein Konto
 
 ### Zahlung
+<!-- {.toc-ignore} -->
 
 - ****Aktualisierung der Zahlungsart****
 
@@ -346,5 +357,6 @@ lastupdated: "2017-08-17"
 
     Der Benutzer möchte eine Übersicht der letzten Zahlungen sehen
 
-[![Zurück nach oben](images/up-arrow.png) <!-- {display:block;"} -->](capabilities_list_general_de.html#top)
 
+
+[![Zurück nach oben](images/up-arrow.png)](capabilities_list_general.html#top)
