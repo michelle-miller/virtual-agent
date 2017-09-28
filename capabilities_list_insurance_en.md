@@ -227,7 +227,7 @@ lastupdated: "2017-08-22"
 
     User wants to schedule an appointment at their home
 
-- ****Make store appointment****
+- ****Make office appointment****
 
     User wants to schedule an appointment at an office
 
