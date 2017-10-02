@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-25"
+lastupdated: "2017-10-02"
 
 ---
 
@@ -43,22 +43,22 @@ You must have an {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm
 
 After completing this tutorial, in addition to answering typical user questions about your company, your agent will be able to address questions and requests that someone driving a car might ask of their co-pilot, such as *When do you think we will arrive?* or *Turn on the radio.*
 
-### Lessons in this tutorial
+### Steps in this tutorial
 
-[Lesson 1: Importing a workspace to {{site.data.keyword.conversationshort}}](tutorial.html#tutless1)
+[Step 1: Importing a workspace to {{site.data.keyword.conversationshort}}](tutorial.html#tutless1)
 
-[Lesson 2: Linking a workspace](tutorial.html#tutless2)
+[Step 2: Linking a workspace](tutorial.html#tutless2)
 
-[Lesson 3: Adding custom capabilities](tutorial.html#tutless3)
+[Step 3: Adding custom capabilities](tutorial.html#tutless3)
 
-[Lesson 4: Testing custom capabilities](tutorial.html#tutless4)
+[Step 4: Testing custom capabilities](tutorial.html#tutless4)
 
-[Lesson 5: Resolving conflicts between capabilities](tutorial.html#tutless5)
+[Step 5: Resolving conflicts between capabilities](tutorial.html#tutless5)
 
-## Lesson 1: Importing a workspace to Conversation
+## Step 1: Importing a workspace to Conversation
 {: #tutless1}
 
-In this lesson, you will learn how to import a workspace to the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service.
+By performing this step, you will learn how to import a workspace to the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service.
 
 ### Before you begin
 
@@ -70,7 +70,7 @@ To simplify the process of creating a {{site.data.keyword.conversationshort}} wo
 
 ### Procedure
 
-1.  Download the [car_demo_workspace.json ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-developer-cloud.github.io/doc-tutorial-downloads/virtual-agent/car_demo_workspace.json){: new_window} file to your computer.
+1.  Download the [car_demo_workspace.json ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-developer-cloud.github.io/doc-tutorial-downloads/virtual-agent/car_demo_workspace.json){: new_window} file to your computer. (You can view the **Raw** format of the file, and then use the **Save as** functionality of your web browser to download it.)
 1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/dashboard/watson){: new_window} to {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}.
 1.  Click your {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service instance to open it.
 1.  Click **Launch tool**.
@@ -82,37 +82,40 @@ To simplify the process of creating a {{site.data.keyword.conversationshort}} wo
 
 The **Car Dashboard Tutorial** workspace is added to your {{site.data.keyword.conversationshort}} service instance.
 
-## Lesson 2: Linking a workspace
+In the next two steps, you will link this workspace to the agent, and add the intents that are defined in the workspace to the agent as custom capabilities. When you add custom capabilities to the agent, you give the agent the ability to recognize and respond to more intents than the built-in customer service capabilities that it can recognize automatically.
+
+## Step 2: Linking a workspace
 {: #tutless2}
 
-In this lesson, you will learn how to link a {{site.data.keyword.conversationshort}} service workspace to your agent.
+By performing this step, you will learn how to link a {{site.data.keyword.conversationshort}} service workspace to your agent.
 
 ### Procedure
 
-1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} menu, select **Linked Workspaces**.
+1.  Return to your agent in [{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}](https://virtual-agent.watson.ibm.com/).
+1.  From the menu, select **Linked Workspaces**.
 1.  Click **Link Workspace**.
 1.  Select the instance of the {{site.data.keyword.conversationshort}} service to which you imported the workspace in the previous lesson.
 1.  Select the **Car Dashboard Tutorial** workspace.
 1.  Click **Link workspaces**.
 
-## Lesson 3: Adding custom capabilities
+## Step 3: Adding custom capabilities
 {: #tutless3}
 
-In this lesson, you will learn how to add custom capabilities to your agent.
+By completing this step, you will learn how to add custom capabilities to your agent.
 
 ### Procedure
 
 1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} menu, select **Capabilities**.
-1.  Click the **Custom capabilities** tab.
+1.  Expand the **Custom** section.
 1.  Click **Add Capabilities**.
 1.  Click the **Car Dashboard Tutorial** workspace, and then click **Save**.
 
-    The Custom Capabilities page now displays a list of capabilities.
+The Custom Capabilities page now displays a list of capabilities.
 
-## Lesson 4: Testing custom capabilities
+## Step 4: Testing custom capabilities
 {: #tutless4}
 
-In this lesson, you will learn more about the custom capabilities that you added.
+By completing this step, you will learn more about the capabilities that were created when you linked the Car Dashboard Tutorial workspace to the agent, and added the intents from the workspace as custom capabilities.
 
 ### About this task
 
@@ -128,7 +131,6 @@ Now that you have added capabilities to the agent, find out what they can do.
     > **Note:** You can see the capability that the user input is mapped to because the capability name is displayed as a link below the response.
 
 1.  Enter a music genre, such as *Classical* or *Rock* to complete the dialog.
-1.  Click **Edit** next to the identified capability (#turn_on) from the preview history to open the custom capabilities page.
 1.  Now, ask a question that will trigger a core capability. Enter the text, *Tell me about yourself*.
 
     Click **Edit** next to the *System information* link to open the capability details page. Core capabilities each have their own capability details page where you can customize the response.
@@ -137,10 +139,10 @@ Now that you have added capabilities to the agent, find out what they can do.
 
     The agent recognizes that you already asked to play music, and tells you so.
 
-## Lesson 5: Resolving conflicts between capabilities
+## Step 5: Resolving conflicts between capabilities
 {: #tutless5}
 
-In this lesson, you will learn how to resolve conflicts between core and custom capabilities.
+By completing this step, you will learn how to resolve conflicts between core and custom capabilities.
 
 ### About this task
 
@@ -151,7 +153,7 @@ After you link the custom workspace, you are notified that conflicts exist betwe
 | Ending             | #goodbyes         |
 | Find nearest store | #locate_amenity   |
 | Greetings          | #greetings        |
-| Security assurance | #system_reliance  |
+| Store location     | #locate_amenity   |
 
 ### Procedure
 
@@ -168,21 +170,13 @@ After you link the custom workspace, you are notified that conflicts exist betwe
 
         The custom `#locate_amenity` capability provides information about a wider range of amenities besides just a store, but the core capability has a nice built-in conversation associated with it that collects a zip code form the user, and returns the address of the store nearest them. To take advantage of the built-in behavior, use the core `Find nearest store` capability.
 
-    - The security-related capabilities also overlap. To get a better sense of what types of user input are handled by each one, enter these sample utterances in the Preview pane.
-
-        - *Is my data protected?* is routed to `Security assurance`.
-        - *Can I trust you with my information?* is routed to `#system_reliance`.
-
-        The `#system_reliance` capability has limited training data compared to the `Security assurance` capability, so you will use the core capability instead of the custom one.
-
     To disable a custom capability, you must delete it from the {{site.data.keyword.conversationshort}} workspace.
     1.  From the {{site.data.keyword.conversationshort}} tool, expand the `#goodbyes` intent on the Intents page, and then click the **Delete intent** icon to delete it from the workspace.
     1.  Expand the `#locate_amenity` intent, and then click the **Delete intent** icon to delete it from the workspace.
-    1.  Expand the `#system_reliance` intent, and then click the **Delete intent** icon to delete it from the workspace.
 
 1.  When you make changes to the custom workspace, it is automatically retrained with the new data. After the workspace training is complete, return to the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}.
 
-    From the Capabilities page, open the **Custom Capabilities** tab to confirm that the capabilities you removed (`#goodbyes`, `#locate_amenity`, and `#system_reliance`) are no longer listed.
+    From the Capabilities page, open the **Custom Capabilities** tab to confirm that the capabilities you removed (`#goodbyes` and `#locate_amenity`) are no longer listed.
 
 1.  The `Greetings` and `#greetings` capabilities completely overlap one another. We want the agent to exhibit consistent behavior and to have some personality. The custom `#greetings` capability is designed to emote a specific personality type that reflects the company brand, so you will use the custom capability instead of the core one.
 
@@ -190,9 +184,8 @@ After you link the custom workspace, you are notified that conflicts exist betwe
     1.  From Capabilities page of {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}, find the `Greetings` capability in the **Help** section.
     1.  Click the tile to open it, and then switch the On toggle to **Off**. Click the back arrow to return to the main configuration page.
 
-1.  Do more testing by entering test user queries in the Preview pane to confirm that the appropriate capability is handling user input as expected. For example, you can test the following utterances again:
+1.  Do more testing by entering test user queries in the Preview pane to confirm that the appropriate capability is handling user input as expected. For example, you can test the following utterance again:
 
-    - *Can I trust you with my information?* should be handled by the `Security assurance` capability.
     - *find the nearest store* should be handled by the `Find nearest store` capability.
 
 ## Tutorial summary
@@ -200,7 +193,7 @@ After you link the custom workspace, you are notified that conflicts exist betwe
 
 While learning about {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}, you augmented your agent with custom capabilities.
 
-### Lessons learned
+### What you learned
 
 By completing this tutorial, you learned about the following concepts:
 
