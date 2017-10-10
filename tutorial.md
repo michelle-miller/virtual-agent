@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-02"
+lastupdated: "2017-10-10"
 
 ---
 
@@ -82,26 +82,28 @@ To simplify the process of creating a {{site.data.keyword.conversationshort}} wo
 
 The **Car Dashboard Tutorial** workspace is added to your {{site.data.keyword.conversationshort}} service instance.
 
-In the next two steps, you will link this workspace to the agent, and add the intents that are defined in the workspace to the agent as custom capabilities. When you add custom capabilities to the agent, you give the agent the ability to recognize and respond to more intents than the built-in customer service capabilities that it can recognize automatically.
-
 ## Step 2: Linking a workspace
 {: #tutless2}
 
-By performing this step, you will learn how to link a {{site.data.keyword.conversationshort}} service workspace to your agent.
+This step and the next step work together to add intents from a {{site.data.keyword.conversationshort}} service workspace to your agent as custom capabilities.
+
+In this step, you will link a workspace with a set of defined intents to the agent. In the next step, you will add the intents from the linked workspace to the agent as custom capabilities.
+
+When you add custom capabilities to the agent, you give the agent the ability to recognize and respond to more intents than the built-in customer service capabilities that it can recognize automatically.
 
 ### Procedure
 
 1.  Return to your agent in [{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}](https://virtual-agent.watson.ibm.com/).
 1.  From the menu, select **Linked Workspaces**.
 1.  Click **Link Workspace**.
-1.  Select the instance of the {{site.data.keyword.conversationshort}} service to which you imported the workspace in the previous lesson.
+1.  Select the instance of the {{site.data.keyword.conversationshort}} service to which you imported the workspace in the previous step.
 1.  Select the **Car Dashboard Tutorial** workspace.
 1.  Click **Link workspaces**.
 
 ## Step 3: Adding custom capabilities
 {: #tutless3}
 
-By completing this step, you will learn how to add custom capabilities to your agent.
+By completing this step, you will learn how to add custom capabilities to your agent. These custom capabilities enable the agent to recognize utterances that a user might say to control a car dashboard. In practice, you can create a workspace in which you define intents that represent common goals of your users in particular, and link the workspace to your agent to add those intents as custom capabilities.
 
 ### Procedure
 
@@ -115,7 +117,7 @@ The Custom Capabilities page now displays a list of capabilities.
 ## Step 4: Testing custom capabilities
 {: #tutless4}
 
-By completing this step, you will learn more about the capabilities that were created when you linked the Car Dashboard Tutorial workspace to the agent, and added the intents from the workspace as custom capabilities.
+By completing this step, you will learn more about the capabilities that were created when you linked the Car Dashboard Tutorial workspace to the agent and added the intents from the workspace as custom capabilities.
 
 ### About this task
 
@@ -128,7 +130,7 @@ Now that you have added capabilities to the agent, find out what they can do.
 
     The agent evaluates this request and maps it to the **`#turn_on`** custom capability. In the linked workspace, the dialog node with a condition that matches the #turn_on intent is used. As a result, the agent asks what genre of music to play.
 
-    > **Note:** You can see the capability that the user input is mapped to because the capability name is displayed as a link below the response.
+    > **Note:** You can see the capability that the user input is mapped to because the capability name is displayed below the response.
 
 1.  Enter a music genre, such as *Classical* or *Rock* to complete the dialog.
 1.  Now, ask a question that will trigger a core capability. Enter the text, *Tell me about yourself*.
