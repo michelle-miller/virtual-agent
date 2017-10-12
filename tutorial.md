@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-10"
+lastupdated: "2017-10-12"
 
 ---
 
@@ -70,7 +70,7 @@ To simplify the process of creating a {{site.data.keyword.conversationshort}} wo
 
 ### Procedure
 
-1.  Download the [car_demo_workspace.json ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-developer-cloud.github.io/doc-tutorial-downloads/virtual-agent/car_demo_workspace.json){: new_window} file to your computer. (You can view the **Raw** format of the file, and then use the **Save as** functionality of your web browser to download it.)
+1.  Download the [car_demo_workspace.json ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-developer-cloud.github.io/doc-tutorial-downloads/virtual-agent/car_demo_workspace.json){: new_window} file to your computer. (You can use the *Save as* functionality of your web browser to download it.)
 1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/dashboard/watson){: new_window} to {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}.
 1.  Click your {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service instance to open it.
 1.  Click **Launch tool**.
@@ -112,7 +112,9 @@ By completing this step, you will learn how to add custom capabilities to your a
 1.  Click **Add Capabilities**.
 1.  Click the **Car Dashboard Tutorial** workspace, and then click **Save**.
 
-The Custom Capabilities page now displays a list of capabilities.
+The intents that were defined in the workspace are now listed as custom capabilities and are enabled for use by your agent.
+
+{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} automatically begins to validate the custom capabilities that you added. It compares the utterances that existing core capabilities are designed to address to those the new custom capabilities are designed to address to look for possible conflicts.
 
 ## Step 4: Testing custom capabilities
 {: #tutless4}
@@ -121,7 +123,7 @@ By completing this step, you will learn more about the capabilities that were cr
 
 ### About this task
 
-Now that you have added capabilities to the agent, find out what they can do.
+While the newly-added custom capabilities are being validated, let's find out what they can do.
 
 ### Procedure
 
@@ -135,7 +137,7 @@ Now that you have added capabilities to the agent, find out what they can do.
 1.  Enter a music genre, such as *Classical* or *Rock* to complete the dialog.
 1.  Now, ask a question that will trigger a core capability. Enter the text, *Tell me about yourself*.
 
-    Click **Edit** next to the *System information* link to open the capability details page. Core capabilities each have their own capability details page where you can customize the response.
+    Click **Edit** next to the *System information* capability name to open the capability details page. Core capabilities each have their own capability details page where you can customize the response.
 
 1.  Now, try to confuse the agent by entering the text, *Can we listen to some music?*
 
@@ -148,47 +150,42 @@ By completing this step, you will learn how to resolve conflicts between core an
 
 ### About this task
 
-After you link the custom workspace, you are notified that conflicts exist between core capabilities and some of the capabilities you added.
-
-| Core capability    | Custom capability |
-|--------------------|-------------------|
-| Ending             | #goodbyes         |
-| Find nearest store | #locate_amenity   |
-| Greetings          | #greetings        |
-| Store location     | #locate_amenity   |
+After the validation of the newly-added custom capabilities is completed, you are notified that conflicts exist between core capabilities and some of the capabilities you added. You will address these conflicts next.
 
 ### Procedure
 
-1.  Disable any custom capabilities that you choose to not use.
+1.  Click **Resolve** to see a list of the conflicts.
+1.  Disable any conflicting core capabilities that you do not need.
 
-    - The purpose of the `Ending` and `#goodbyes` capabilities entirely overlaps. To ensure that users have a consistent experience when they finish a conversation with your agent, you must choose to use one or the other, but not both.
+    - The `#turn_on` intent that you added as a custom capability conflicts with several of the core capabilities. However, its function is useful, so we will keep the `#turn_on` capability and disable the core capabilities that conflict with it. These include:
 
-        It is common to build logic that is triggered at the end of a conversation. To guarantee that control over any such behavior is maintained by the virtual agent, you will use the core `Ending` capability instead of the custom one.
+      - Bill adjustment
+      - Bill explanation*
+      - One-time charge explanation*
+      - Recurring charges
 
-    - The `Find nearest store` and `#locate_amenity` capabilities overlap. Enter the following sample utterances in the Preview pane to see for yourself:
+    *These core capabilities might not be listed as conflicts after the first validation run completes, but conflicts are typically found with these core capabilities on subsequent validation runs.
 
-        - *find the nearest store* is routed to `#locate_amenity`.
-        - *find my store* is routed to `Find nearest store`.
+    - The `Help` core capability conflicts with several custom capabilities. This core capability can be safely disabled.
 
-        The custom `#locate_amenity` capability provides information about a wider range of amenities besides just a store, but the core capability has a nice built-in conversation associated with it that collects a zip code form the user, and returns the address of the store nearest them. To take advantage of the built-in behavior, use the core `Find nearest store` capability.
+    To disable a core capability from the *Review and resolve conflicts* page, find the core capabilities that you want to disable, and switch the On toggle next to each one to **Off**. Close the *Review and resolve conflicts* page.
+
+    The validation process runs again automatically.
+
+1.  Disable any custom capabilities that serve a purpose that is already met by a core capability.
+
+    - The purpose of the `Ending` and `#goodbyes` capabilities entirely overlaps. The same is true for the `Greetings` and `#greetings` capabilities. To ensure that users have a consistent experience when they start and finish a conversation with your agent, you must choose to use one or the other, but not both.
+
+    It is common to build logic that is triggered at the end of a conversation. To guarantee that control over any such behavior is maintained by the virtual agent, you will use the core `Ending` core capability instead of the custom one. You will also use the core `Greetings` capability instead of the custom one.
 
     To disable a custom capability, you must delete it from the {{site.data.keyword.conversationshort}} workspace.
     1.  From the {{site.data.keyword.conversationshort}} tool, expand the `#goodbyes` intent on the Intents page, and then click the **Delete intent** icon to delete it from the workspace.
-    1.  Expand the `#locate_amenity` intent, and then click the **Delete intent** icon to delete it from the workspace.
+    1.  Expand the `#greetings` intent, and then click the **Delete intent** icon to delete it from the workspace.
+    1.  To preserve the integrity of the source workspace, open the Dialogs tab and remove the dialog nodes that condition on the `#goodbyes` and `#greetings` intents.
+    1.  When you make changes to the custom workspace, it is automatically retrained with the new data. After the workspace training is complete, return to your agent in [{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}](https://virtual-agent.watson.ibm.com/).
+    1.  From the Capabilities page, click **Revalidate**.
 
-1.  When you make changes to the custom workspace, it is automatically retrained with the new data. After the workspace training is complete, return to the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}.
-
-    From the Capabilities page, open the **Custom Capabilities** tab to confirm that the capabilities you removed (`#goodbyes` and `#locate_amenity`) are no longer listed.
-
-1.  The `Greetings` and `#greetings` capabilities completely overlap one another. We want the agent to exhibit consistent behavior and to have some personality. The custom `#greetings` capability is designed to emote a specific personality type that reflects the company brand, so you will use the custom capability instead of the core one.
-
-    To disable a core capability, you must turn it off.
-    1.  From Capabilities page of {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}, find the `Greetings` capability in the **Help** section.
-    1.  Click the tile to open it, and then switch the On toggle to **Off**. Click the back arrow to return to the main configuration page.
-
-1.  Do more testing by entering test user queries in the Preview pane to confirm that the appropriate capability is handling user input as expected. For example, you can test the following utterance again:
-
-    - *find the nearest store* should be handled by the `Find nearest store` capability.
+1.  Do more testing by entering test user queries in the Preview pane to confirm that the appropriate capability is handling the user input in the way you expect.
 
 ## Tutorial summary
 {: #tutless_sum}
