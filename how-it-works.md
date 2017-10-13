@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-27"
+lastupdated: "2017-10-13"
 
 ---
 
@@ -51,6 +51,9 @@ The following table summarizes the packs that are offered. Click the **details**
 | Spanish | [details](/docs/services/virtual-agent/capabilities_list_general_es.html) | [details](/docs/services/virtual-agent/capabilities_list_energy_es.html) | [details](/docs/services/virtual-agent/capabilities_list_banking_es.html) | [details](/docs/services/virtual-agent/capabilities_list_telco_es.html) | n/a* |
 
 *n/a means currently not available
+
+Scroll to the right to see details for the **Customer Service for Insurance** capability pack.
+{: tip}
 
 If the core capabilities do not address a common goal that your customers have, then you can add your own capabilities to supplement those provided in a pack. For example, if you own a bakery, your customers might often ask about the cupcake flavors that you offer. You can add a *Cupcake menu* capability to handle such questions. See [Adding your own capabilities](add-custom-capabilities.html) for more information.
 
