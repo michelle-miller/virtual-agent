@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-10-31"
+lastupdated: "2017-11-01"
 
 ---
 
@@ -30,4 +30,4 @@ Get answers to questions that you have as you work with the application.
     Submit a problem ticket from the [{{site.data.keyword.IBM_notm}} Cloud Service Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson.service-now.com/wcp){: new_window}.
     1.  Define the problem, gather background information, and determine the severity of the problem.
     1.  Gather diagnostic information, if possible.
-    1.  Submit the problem to {{site.data.keyword.IBM_notm}} Support. For contact details, refer to the [SaaS Support Handbook ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-01.ibm.com/software/support/acceleratedvalue/SaaS_Handbook_V18.pdf){: new_window}.
+    1.  Submit the problem to {{site.data.keyword.IBM_notm}} Support. For contact details, refer to the [Software as a Service support guide ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www-01.ibm.com/software/support/acceleratedvalue/SaaS_Handbook_V18.pdf){: new_window}.
