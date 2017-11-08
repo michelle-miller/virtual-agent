@@ -43,6 +43,6 @@ utilizza un host [GitHub
 - **API Explorer**
 
     Un portale che fornisce accesso alle API REST di {{site.data.keyword.watson}}
-{{site.data.keyword.virtualagentshort}} su {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}. È
+{{site.data.keyword.virtualagentshort}} su {{site.data.keyword.Bluemix_notm}}. È
 possibile accedere alle API di {{site.data.keyword.watson}}
 {{site.data.keyword.virtualagentshort}} da [{{site.data.keyword.IBM_notm}} developerWorks API Explorer ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent "Icona link esterno"){: new_window}.

@@ -31,7 +31,7 @@ Pour utiliser l'API {{site.data.keyword.watson}} {{site.data.keyword.virtualagen
 
 1.  Extrayez les clés d'API nécessaires pour effectuer des appels d'API. Pour plus de détails, voir [Obtention des clés d'API](api-keys.html). 
 
-1.  Utilisez les API REST {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} pour interagir avec le bot à l'aide d'un programme. Accédez au portail de l'**[explorateur d'API d'{{site.data.keyword.IBM_notm}} developerWorks](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}** pour accéder aux API REST sur {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}.
+1.  Utilisez les API REST {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} pour interagir avec le bot à l'aide d'un programme. Accédez au portail de l'**[explorateur d'API d'{{site.data.keyword.IBM_notm}} developerWorks](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}** pour accéder aux API REST sur {{site.data.keyword.Bluemix_notm}}.
 
 1.  Pour obtenir l'ID bot, effectuez l'une des opérations suivantes : 
     - Pour obtenir l'ID bot à partir de l'interface utilisateur des outils de configuration {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}, procédez comme suit : 

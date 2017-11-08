@@ -39,7 +39,7 @@ You *can* use the same workspace to add both custom capabilities and custom dial
 1.  Open the **Linked Workspaces** page for the current agent.
 1.  Click **Link Workspace**.
 
-    Provide your {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} account credentials to give {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} permission to access your {{site.data.keyword.conversationshort}} service instance and retrieve workspace information.
+    Provide your {{site.data.keyword.Bluemix_notm}} account credentials to give {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} permission to access your {{site.data.keyword.conversationshort}} service instance and retrieve workspace information.
 
 1.  Select the instance of the {{site.data.keyword.conversationshort}} service that contains the workspaces you want to use.
 1.  Select one or more workspaces that you want to link to your agent.

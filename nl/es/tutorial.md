@@ -38,7 +38,7 @@ otros conceptos relacionados con esta guía de aprendizaje, puede tardar más.
 
 ### Requisitos previos
 
-Debe tener una cuenta de {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} y haberse registrado para utilizar el servicio {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. Para
+Debe tener una cuenta de {{site.data.keyword.Bluemix_notm}} y haberse registrado para utilizar el servicio {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. Para
 obtener más información, consulte
 [Guía
 de inicio ![Icono de enlace
@@ -67,7 +67,7 @@ En esta lección, aprenderá cómo importar un espacio de trabajo en el servicio
 
 ### Antes de empezar
 
-Debe tener una cuenta de {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} y haberse registrado para el servicio {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}.
+Debe tener una cuenta de {{site.data.keyword.Bluemix_notm}} y haberse registrado para el servicio {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}.
 
 ### Acerca de esta tarea
 

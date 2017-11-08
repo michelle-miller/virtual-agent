@@ -41,7 +41,7 @@ Esse tutorial levará aproximadamente 30 minutos para ser concluído. Se você e
 
 ### Pré-Requisitos
 
-Deve-se ter uma conta do {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} e estar inscrito para usar o
+Deve-se ter uma conta do {{site.data.keyword.Bluemix_notm}} e estar inscrito para usar o
 serviço do {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. Consulte o [tutorial de Introdução ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted "External link icon"){: new_window} para obter detalhes.
 
 ### Resultados
@@ -67,7 +67,7 @@ Nesta lição, você aprenderá como importar uma área de trabalho para o servi
 
 ### Antes de começar
 
-Deve-se ter uma conta do {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} e estar inscrito para o serviço do {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}.
+Deve-se ter uma conta do {{site.data.keyword.Bluemix_notm}} e estar inscrito para o serviço do {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}.
 
 ### Sobre essa Tarefa
 

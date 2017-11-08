@@ -39,7 +39,7 @@ Vous *pouvez* utiliser le même espace de travail pour ajouter à la fois des ca
 1.  Ouvrez la page **Linked Workspaces (Espaces de travail associés)** de l'agent actuel.
 1.  Cliquez sur **Link Workspace (Associer un espace de travail)**.
 
-    Spécifiez les données d'identification de votre compte {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} pour permettre à {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} d'accéder à votre instance de service {{site.data.keyword.conversationshort}} et d'extraire les informations sur les espaces de travail.
+    Spécifiez les données d'identification de votre compte {{site.data.keyword.Bluemix_notm}} pour permettre à {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} d'accéder à votre instance de service {{site.data.keyword.conversationshort}} et d'extraire les informations sur les espaces de travail.
 
 1.  Sélectionnez l'instance du service {{site.data.keyword.conversationshort}} qui contient les espaces de travail à utiliser.
 1.  Sélectionnez un ou plusieurs espaces de travail à associer à votre agent.

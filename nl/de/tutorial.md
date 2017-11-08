@@ -37,7 +37,7 @@ Zur Ausführung dieses Lernprogramms werden ca. 30 Minuten benötigt. Wenn Sie s
 
 ### Voraussetzungen
 
-Sie müssen über ein {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}-Konto verfügen und sich für die Verwendung des {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}}-{{site.data.keyword.conversationshort}}service angemeldet haben. Entsprechende Einzelheiten finden Sie im [Lernprogramm für erste Schritte ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted "External link icon"){: new_window}.
+Sie müssen über ein {{site.data.keyword.Bluemix_notm}}-Konto verfügen und sich für die Verwendung des {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}}-{{site.data.keyword.conversationshort}}service angemeldet haben. Entsprechende Einzelheiten finden Sie im [Lernprogramm für erste Schritte ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted "External link icon"){: new_window}.
 
 ### Ergebnisse
 
@@ -62,7 +62,7 @@ In dieser Lerneinheit lernen Sie, wie Sie einen Arbeitsbereich in den {{site.dat
 
 ### Vorbereitung
 
-Sie müssen über ein {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}-Konto verfügen und sich bei dem {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}-Service angemeldet haben.
+Sie müssen über ein {{site.data.keyword.Bluemix_notm}}-Konto verfügen und sich bei dem {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}-Service angemeldet haben.
 
 ### Informationen zu dieser Aufgabe
 

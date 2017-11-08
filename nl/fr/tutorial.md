@@ -38,7 +38,7 @@ L'exécution de ce tutoriel prend environ 30 minutes. Si vous explorez d'autres 
 
 ### Conditions préalables
 
-Vous devez disposer d'un compte {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} et être inscrit pour pouvoir utiliser le service {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. Pour plus de détails, voir le [tutoriel Mise en route ![icône Lien externe](../../icons/launch-glyph.svg "icône Lien externe")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted "icône Lien externe"){: new_window}. 
+Vous devez disposer d'un compte {{site.data.keyword.Bluemix_notm}} et être inscrit pour pouvoir utiliser le service {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. Pour plus de détails, voir le [tutoriel Mise en route ![icône Lien externe](../../icons/launch-glyph.svg "icône Lien externe")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted "icône Lien externe"){: new_window}. 
 
 ### Résultats
 
@@ -65,7 +65,7 @@ Dans cette leçon, vous allez apprendre comment importer un espace de travail da
 
 ### Avant de commencer
 
-Vous devez disposer d'un compte {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} et être inscrit pour le service {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}.
+Vous devez disposer d'un compte {{site.data.keyword.Bluemix_notm}} et être inscrit pour le service {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}.
 
 ### A propos de cette tâche
 

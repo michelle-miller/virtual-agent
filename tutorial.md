@@ -37,7 +37,7 @@ This tutorial should take approximately 30 minutes to finish. If you explore oth
 
 ### Prerequisites
 
-You must have an {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} account and be signed up to use the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. See the [Getting started tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} for details.
+You must have an {{site.data.keyword.Bluemix_notm}} account and be signed up to use the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. See the [Getting started tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} for details.
 
 ### Results
 
@@ -62,7 +62,7 @@ By performing this step, you will learn how to import a workspace to the {{site.
 
 ### Before you begin
 
-You must have an {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} account and be signed up for the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service.
+You must have an {{site.data.keyword.Bluemix_notm}} account and be signed up for the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service.
 
 ### About this task
 
@@ -71,7 +71,7 @@ To simplify the process of creating a {{site.data.keyword.conversationshort}} wo
 ### Procedure
 
 1.  Download the [car_demo_workspace.json ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-developer-cloud.github.io/doc-tutorial-downloads/virtual-agent/car_demo_workspace.json){: new_window} file to your computer. (You can use the *Save as* functionality of your web browser to download it.)
-1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/dashboard/watson){: new_window} to {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}.
+1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/dashboard/watson){: new_window} to {{site.data.keyword.Bluemix_notm}}.
 1.  Click your {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service instance to open it.
 1.  Click **Launch tool**.
 1.  To import a workspace from a JSON file, click the ![Arrow facing up above an inbox to indicate an import action](images/workspace_import.png) icon.

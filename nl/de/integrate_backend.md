@@ -29,7 +29,7 @@ Führen Sie die folgenden Schritte aus, um den virtuellen Agenten über die {{si
 
 1.  Rufen Sie die API-Schlüssel ab, die zum Durchführen von API-Aufrufen erforderlich sind. Weitere Einzelheiten finden Sie unter [Abrufen von API-Schlüsseln](publish.html#api-keys).
 
-1.  Interagieren Sie über die {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}-REST-APIs programmgesteuert mit dem Bot. Rufen Sie das Portal **[{{site.data.keyword.IBM_notm}} developerWorks API Explorer](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}** auf, um auf die REST-APIs unter {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} zuzugreifen.
+1.  Interagieren Sie über die {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}-REST-APIs programmgesteuert mit dem Bot. Rufen Sie das Portal **[{{site.data.keyword.IBM_notm}} developerWorks API Explorer](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}** auf, um auf die REST-APIs unter {{site.data.keyword.Bluemix_notm}} zuzugreifen.
 
 1.  Führen Sie zum Abrufen der Bot-ID einen der folgenden Schritte aus:
     - Führen Sie die folgenden Schritte aus, um die Bot-ID über die Benutzerschnittstelle des {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}-Konfigurationstools abzurufen:
