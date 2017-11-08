@@ -39,7 +39,7 @@ Puede enlazar espacios de trabajo para conseguir los objetivos siguientes:
 1.  Abra la página **Linked Workspaces (Espacios de trabajo enlazados)** para el agente actual. 
 1.  Pulse **Link Workspace (Enlazar espacio de trabajo)**.
 
-    Proporcione las credenciales de su cuenta de {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} para dar a {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} permiso para acceder a la instancia de servicio de {{site.data.keyword.conversationshort}} y obtener la información del espacio de trabajo.
+    Proporcione las credenciales de su cuenta de {{site.data.keyword.Bluemix_notm}} para dar a {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} permiso para acceder a la instancia de servicio de {{site.data.keyword.conversationshort}} y obtener la información del espacio de trabajo.
 
 1.  Seleccione la instancia del servicio {{site.data.keyword.conversationshort}} que contenga los espacios de trabajo que desee utilizar.
 1.  Seleccione uno o más espacios de trabajo que desee enlazar al agente.

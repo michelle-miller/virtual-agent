@@ -29,7 +29,7 @@ Para usar a API do {{site.data.keyword.watson}} {{site.data.keyword.virtualagent
 
 1.  Recupere as chaves API que são necessárias para fazer chamadas API. Consulte [Obtendo chaves API](publish.html#api-keys) para obter detalhes. 
 
-1.  Use as APIs REST do {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} para interagir com o robô programaticamente. Acesse o portal **[{{site.data.keyword.IBM_notm}} developerWorks API Explorer](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}** para acessar as APIs REST no {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}.
+1.  Use as APIs REST do {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} para interagir com o robô programaticamente. Acesse o portal **[{{site.data.keyword.IBM_notm}} developerWorks API Explorer](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}** para acessar as APIs REST no {{site.data.keyword.Bluemix_notm}}.
 
 1.  Para obter o ID do robô, execute uma das seguintes ações:
     - Para obter o ID do robô da interface com o usuário da ferramenta de configuração do {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}, conclua as seguintes etapas:

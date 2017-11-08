@@ -39,7 +39,7 @@ Sie *können* in demselben Arbeitsbereich benutzerdefinierte Funktionen und benu
 1.  Öffnen Sie die Seite **Linked Workspaces (Verlinkte Arbeitsbereiche)** für den aktuellen Agenten.
 1.  Klicken Sie auf **Link Workspace (Arbeitsbereich verlinken)**.
 
-    Geben Sie Ihre {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}-Kontoberechtigungsnachweise an, um {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} eine Berechtigung für den Zugriff auf Ihre Instanz des {{site.data.keyword.conversationshort}}-Service und das Abrufen von Informationen aus dem Arbeitsbereich zu erteilen.
+    Geben Sie Ihre {{site.data.keyword.Bluemix_notm}}-Kontoberechtigungsnachweise an, um {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} eine Berechtigung für den Zugriff auf Ihre Instanz des {{site.data.keyword.conversationshort}}-Service und das Abrufen von Informationen aus dem Arbeitsbereich zu erteilen.
 
 1.  Wählen Sie die Instanz des {{site.data.keyword.conversationshort}}-Service aus, die die gewünschten Arbeitsbereiche enthält.
 1.  Wählen Sie mindestens einen Arbeitsbereich aus, den Sie mit Ihrem Agenten verlinken möchten.

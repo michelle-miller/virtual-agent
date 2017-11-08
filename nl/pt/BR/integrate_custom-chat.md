@@ -38,4 +38,4 @@ Para desenvolver uma interface de bate-papo customizada com o JavaScript, use os
 - **Explorer de API**
 
     Um portal que fornece acesso às APIs de REST do {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} no
-{{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}. É possível acessar APIs do {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} no [{{site.data.keyword.IBM_notm}} developerWorks API Explorer ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent "Ícone de link externo"){: new_window}.
+{{site.data.keyword.Bluemix_notm}}. É possível acessar APIs do {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} no [{{site.data.keyword.IBM_notm}} developerWorks API Explorer ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent "Ícone de link externo"){: new_window}.

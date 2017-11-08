@@ -45,7 +45,7 @@ intenção para um recurso principal.
 1.  Abra a página **Linked Workspaces (Áreas de Trabalho Vinculadas)** para o agente atual. 
 1.  Clique em **Link Workspace (Vincular Área de Trabalho)**.
 
-    Forneça as suas credenciais de conta do {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}} para
+    Forneça as suas credenciais de conta do {{site.data.keyword.Bluemix_notm}} para
 dar permissão ao {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} para acessar a sua
 instância de serviço do {{site.data.keyword.conversationshort}} e recuperar informações da área de trabalho.
 

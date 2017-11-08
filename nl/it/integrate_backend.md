@@ -47,7 +47,7 @@ vedere [Acquisizione delle chiavi API](publish.html#api-keys).
 {{site.data.keyword.virtualagentshort}} per interagire con il bot da
 programma. Andare al portale
 **[{{site.data.keyword.IBM_notm}}
-developerWorks API Explorer](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window} per accedere alle API REST su {{site.data.keyword.IBM_notm}} {{site.data.keyword.Bluemix_notm}}.
+developerWorks API Explorer](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window} per accedere alle API REST su {{site.data.keyword.Bluemix_notm}}.
 
 1.  Per ottenere l'ID bot, effettuare una delle seguenti operazioni:
     - Per ottenere l'ID bot dall'interfaccia utente dello strumento di configurazione di
