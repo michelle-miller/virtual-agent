@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-11"
+lastupdated: "2017-11-13"
 
 ---
 
@@ -27,24 +27,24 @@ Tailoring the training data for a core capability is a good way to make it recog
 
 ## About this task
 
-You cannot access the workspace for a core capability to update its training data directly. To add to the training data for a core capability, you must add a custom capability that has the same intent name as the core capability to your own Conversation workspace. From there, you can add your own examples of typical user utterances. The service checks both versions of the capability, the one trained by IBM, and the one trained by you as it analyzes and classifies the input. Adding custom data increases the liklihood that the classifier will recognize and match the input from your customers to this capability correctly at runtime.
+You cannot access the workspace for a core capability to update its training data directly. To add to the training data for a core capability, you must add a custom capability that has the same intent name as the core capability to your own Conversation workspace. From there, you can add your own examples of typical user utterances. The service checks both versions of the capability, the one trained by IBM, and the one trained by you as it analyzes and classifies the input. Adding custom data increases the likelihood that the classifier will recognize and match the input from your customers to this capability correctly at run time.
 
-You cannot augment the training data of a core capability that is configured to use a built-in response type. At runtime, once the service identifies the intent of the user input, and maps the intent to the custom workspace, it must use the dialog that is associated with the custom workspace; it cannot switch back to the Core workspace where the built-in dialogs are defined.
+You cannot augment the training data of a core capability that is configured to use a built-in response type. At run time, after the service identifies the intent of the user input, and maps the intent to the custom workspace, it must use the dialog that is associated with the custom workspace; it cannot switch back to the Core workspace where the built-in dialogs are defined.
 
 ## Before you begin
 {: #choose-workspace}
 
 Decide where to add the training data.
 
-- If you have not created your own Conversation workspace to use with the agent, then perform these steps before you complete this procedure:
+- If you did not create your own Conversation workspace to use with the agent, then complete these steps before you complete this procedure:
 
-   1.  If you have not done so already, sign up for the {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} documentation.
+   1.  If you did not do so already, sign up for the {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} documentation.
    1.  Create a workspace to contain your training data.
 
     For information about workspaces, see the [{{site.data.keyword.conversationshort}} service Creating a workspace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/configure-workspace.html#configuring-a-conversation-workspace) {: new_window} documentation.
 
 - If you already have a workspace that contains custom capabilities, add the training data to it.
-- If you defined a custom dialog for this core capability that you want to continue to use, and the dialog is defined in a separate workspace from the one that contains your custom capabilities, then you must reorganize a bit. Move the custom dialog from its existing workspace to the workspace in which your custom capabilities are defined. Any custom dialogs for which you are not augmenting training data can remain in the workspace that is dedicated to custom dialogs.
+- If you defined a custom dialog for this core capability that you want to continue to use, and the dialog is defined in a separate workspace from the one with your custom capabilities, then you must reorganize a bit. Move the custom dialog from its existing workspace to the workspace in which your custom capabilities are defined. Any custom dialogs for which you are not augmenting training data can remain in the workspace that is dedicated to custom dialogs.
 
 ### Procedure
 
@@ -54,15 +54,15 @@ To augment the training data of a core capability:
 
 1.  From the **Intents** tab, click **Create new**, and then add an intent with the same name as the intent name for the core capability.
 
-    See [Intent codenames](intent_codenames.html) for a list of the intent names associated with each capability.
-    To add training data for the `Add insurance` core capability, for example, you would add an intent named `Service_Management-Add_Insurance`. The `#` is prepended to the intent name by the tool.
+    See [Intent codenames](intent_codenames.html) for a list of the intent names that are associated with each capability.
+    To add training data for the `Add insurance` core capability, for example, you would add an intent named `Service_Management-Add_Insurance`. The `#` is added as a prefix to the intent name by the tool.
 
 1.  In the **User example** field, add a phrase that mimics the type of utterances your customers typically use.
 
     For example, *Do you insure the iPhone 7?*
     Press **Enter** to finish adding the phrase.
 
-1.  Repeat the previous step until you have added as many utterances as you want, and then click **Done** to add the intent and its associated user examples to your workspace. 
+1.  Repeat the previous step to add more example utterances. Aim to add at least 20 example utterances. And the more valid examples you can add, the better.  Click **Done** to add the intent and its associated user examples to your workspace.
 
     For more information about intents, see [Defining intents ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/intents.html#defining-intents) {: new_window}.
 
