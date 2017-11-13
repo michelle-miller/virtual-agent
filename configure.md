@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-26"
+lastupdated: "2017-11-13"
 
 ---
 
@@ -29,6 +29,9 @@ To use a core capability, simply specify how you want the agent to behave when e
 
 By default, all core capabilities are enabled and have canned responses. You must first decide whether to disable any capabilities that your agent doesn't need. For capabilities that you want to keep, you must replace the canned responses with responses that reflect information about your business.
 
+Start small. Enable one or two capabilities, edit their response behavior, and test them thoroughly. After you see the small group of capabilities working as you want, enable another capability. Test it, and confirm that the previously-enabled capabilities continue to work well with it. And repeat this process to add as many capabilities to the agent as you want.
+{: tip}
+
 To configure a core capability, complete the following steps:
 
 1.  Open the **Capabilities** page to see a list of capabilities grouped by category that are supported by the current agent.
@@ -37,7 +40,9 @@ To configure a core capability, complete the following steps:
 
     Click the switch to turn a capability on or off. To disable all of the capabilities in a category, click the **More** menu ![Icon with three horizontal lines](images/kabob.png)  on the category tile, and then select **Turn All Off**.
 
-    Alternatively, for a capability that you have no intention of supporting, but suspect a customer might ask about, you can choose to keep the capability enabled and provide a text response for it that explains that you do not support it. For example, if you do not offer insurance, rather than disabling the **Add insurance** capability, you could enable it. For a response type, choose **Text**. In the associated **Message** field, add *We do not offer insurance for our products*.
+    Disabling a capability does not disable the classifier's ability to recognize the associated intent in user input. It only changes what the agent does next. When the intent is recognized in user input, instead of returning the configured response, it passes the user input to the *None of the above* capability. From there, the service checks whether you have provided a custom workspace that can satisfy the user's goal. For more details, see [How none of the above is used](docs/services/virtual-agent/impl_intents.html#none-of-the-above).
+
+    For a capability that you have no intention of supporting, not even from a custom workspace, but that you suspect a customer might ask about, you can choose to keep the capability enabled and provide a text response for it. The response can explain that you do not support it. For example, if you do not offer insurance, rather than disabling the **Add insurance** capability, you could enable it. For a response type, choose **Text**. In the associated **Message** field, add *We do not offer insurance for our products*.
 
 1.  To configure a capability, click the capability name.
 
