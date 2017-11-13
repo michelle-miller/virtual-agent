@@ -62,7 +62,7 @@ To augment the training data of a core capability:
     For example, *Do you insure the iPhone 7?*
     Press **Enter** to finish adding the phrase.
 
-1.  Repeat the previous step to add more example utterances. The more valid examples you add, the better. Aim to add at least 20 example utterances. Click **Done** to add the intent and its associated user examples to your workspace.
+1.  Repeat the previous step to add more example utterances. Aim to add at least 20 example utterances. And the more valid examples you can add, the better.  Click **Done** to add the intent and its associated user examples to your workspace.
 
     For more information about intents, see [Defining intents ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/intents.html#defining-intents) {: new_window}.
 
