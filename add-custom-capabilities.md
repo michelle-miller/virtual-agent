@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-11"
+lastupdated: "2017-12-01"
 
 ---
 
@@ -40,7 +40,7 @@ You can create only one workspace to define custom capabilities. Each intent tha
     - Avoid handling user input mismatches with recursive loops. Only create dialog turns that have a definitive end.
     - Do not create a custom intent with the same name as an intent that is used by a core capability. See [Intent names](intent_codenames.html) for a list of names to avoid.
 
-1.  Link the workspace to the agent. See [Linking workspaces](link_workspace.html)
+1.  Return to your agent in [{{site.data.keyword.virtualagentfull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://virtual-agent.watson.ibm.com){: new_window}, and link the workspace to the agent. See [Linking workspaces](link_workspace.html)
 1.  From the **Capabilities** page, expand the **Custom** section.
 1.  Click **Add Capabilities**.
 1.  Select the workspace that you linked to the agent in Step 2, and then click **Save**.
