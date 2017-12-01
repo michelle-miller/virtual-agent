@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-11-13"
+lastupdated: "2017-12-01"
 
 ---
 
@@ -67,19 +67,16 @@ To augment the training data of a core capability:
     For more information about intents, see [Defining intents ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/intents.html#defining-intents) {: new_window}.
 
 1.  Wait for the classifier training to finish.
-1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}, link the workspace that contains the training data to your agent.
+1.  Return to your agent in [{{site.data.keyword.virtualagentfull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://virtual-agent.watson.ibm.com){: new_window}.
+1.  Link the workspace that contains the training data to your agent. See [Linking workspaces](link_workspace.html) for details.
 
     If the workspace is already linked, then you can skip this step.
     {: tip}
 
-    See [Linking workspaces](link_workspace.html) for details.
-
-1.  To inform the agent about your augmented version of the core capability, add it as a custom capability.
+1.  To inform the agent about your augmented version of the core capability, add it as a custom capability. See [Adding your own capabilities](add-custom-capabilities.html) for the detailed steps to follow.
 
     If you added the training data to a workspace with custom capabilities that were already added to your agent, then you can skip this step.
     {: tip}
-
-    See [Adding your own capabilities](add-custom-capabilities.html) for the detailed steps to follow.
 
 ## What to do next
 
