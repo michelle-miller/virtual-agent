@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-09-08"
+lastupdated: "2017-12-13"
 
 ---
 
@@ -33,6 +33,12 @@ You can link workspaces to achieve the following goals:
 - Define a custom dialog for a core capability: The workspace must include a dialog with a node condition that matches the intent name for a core capability.
 
 You *can* use the same workspace to add both custom capabilities and custom dialogs for core capabilities. However, it is simpler to manage things if you create a single dedicated workspace to define the custom capabilities that you want to use and one or more separate workspaces to define the dialogs you want to use as responses for core capabilities. If you do choose to use the same workspace for both, then be sure to add any nodes that contain custom dialogs for specific core capabilities at the top of the dialog tree to prevent utterances from being incorrectly routed to custom capabilites.
+
+## Workspace access
+
+You can link in a workspace that is associated with any {{site.data.keyword.conversationshort}} instance to which you have access. It does not have to be an instance that you access with the same credentials as those you use to access your agent.
+
+If you have a premium plan, and want multiple people from your organization to be able to edit a linked workspace through the {{site.data.keyword.conversationshort}} service tooling, then you must ask the {{site.data.keyword.virtualagentshort}} Support team to grant the additional users access to it. To do so, enter a request through the [{{site.data.keyword.IBM_notm}} Cloud Service Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson.service-now.com/wcp){: new_window}.
 
 ### Procedure
 
