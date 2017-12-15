@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-12-13"
+lastupdated: "2017-12-14"
 
 ---
 
@@ -27,7 +27,7 @@ You can personalize the agent by performing the following actions:
 
 - [Adding your own capabilities](add-custom-capabilities.html)
 - [Adding custom dialogs for core capabilities](add-custom-dialog.html)
-- [Editing Build-in dialogs](edit-builtin-capabilities.html)
+- [Editing Built-in dialogs](edit-builtin-dialogs.html)
 - [Augmenting the training data of core capabilities](add-custom-training.html)
 
-You must link a workspace to the agent before you can configure the agent to use artifacts from it. See [Linking workspaces](link_workspace.html) for more information.
+You must link a {{site.data.keyword.conversationshort}} service workspace to the agent before you can configure the agent to use artifacts from it. See [Linking workspaces](link_workspace.html) for more information.
