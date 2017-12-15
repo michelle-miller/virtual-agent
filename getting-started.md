@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2017
-lastupdated: "2017-08-10"
+lastupdated: "2017-12-15"
 
 ---
 
@@ -40,26 +40,9 @@ Complete the following steps to register for your free trial of {{site.data.keyw
 
 You can now configure the virtual agent yourself or invite more people to help you with the configuration task. For information about how to configure the agent, see [Configuring core capabilities](configure.html).
 
-## Browser requirements
-{: #sys_reqs}
+## Browser support
 
-The following list specifies the minimum required browser software for {{site.data.keyword.virtualagentfull}}:
-
-- **Chrome**
-
-    Latest version for your operating system
-
-- **Firefox**
-
-    Latest version for your operating system and Extended Support Release (ESR) 38
-
-- **Microsoft Internet Explorer**
-
-    Version 11
-
-- **Safari**
-
-    Latest version for Mac
+{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} requires the same level of browser software as is required by {{site.data.keyword.Bluemix_notm}}. See the {{site.data.keyword.Bluemix_notm}} [Prerequisites ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/overview/prereqs.html#browsers){: new_window} topic for details.
 
 ## Building a team
 {: #invite_users}
