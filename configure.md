@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-11-13"
+  years: 2015, 2018
+lastupdated: "2018-01-12"
 
 ---
 
@@ -40,7 +40,7 @@ To configure a core capability, complete the following steps:
 
     Click the switch to turn a capability on or off. To disable all of the capabilities in a category, click the **More** menu ![Icon with three horizontal lines](images/kabob.png)  on the category tile, and then select **Turn All Off**.
 
-    Disabling a capability does not disable the classifier's ability to recognize the associated intent in user input. It only changes what the agent does next. When the intent is recognized in user input, instead of returning the configured response, it passes the user input to the *None of the above* capability. From there, the service checks whether you have provided a custom workspace that can satisfy the user's goal. For more details, see [How none of the above is used](docs/services/virtual-agent/impl_intents.html#none-of-the-above).
+    Disabling a capability does not disable the classifier's ability to recognize the associated intent in user input. It only changes what the agent does next. When the intent is recognized in user input, instead of returning the configured response, it passes the user input to the *None of the above* capability. From there, the service checks whether you have provided a custom workspace that can satisfy the user's goal. For more details, see [How none of the above is used](impl_intents.html#none-of-the-above).
 
     For a capability that you have no intention of supporting, not even from a custom workspace, but that you suspect a customer might ask about, you can choose to keep the capability enabled and provide a text response for it. The response can explain that you do not support it. For example, if you do not offer insurance, rather than disabling the **Add insurance** capability, you could enable it. For a response type, choose **Text**. In the associated **Message** field, add *We do not offer insurance for our products*.
 
