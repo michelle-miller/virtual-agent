@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-09-11"
+  years: 2015, 2018
+lastupdated: "2018-02-09"
 
 ---
 
@@ -92,6 +92,8 @@ The metrics analyze the data of conversations at a low-level, focusing on the ar
 
         Any other personally identifiable information that users provide during the conversation, such as phone numbers or postal codes, is replaced by variables that indicate the types of data that were provided, but not the data itself.
 
-        > **Note:** The term *interaction* represents a conversation that takes place between the user and the virtual agent. It starts when the user starts to chat with the virtual agent and ends when the chat window session ends (which occurs when the user is logged out, logs out, closes the chat window, or refreshes the chat window). An interaction often includes more than just an exchange of words; users can click buttons, view graphics such as maps, and perform other transactions. And, unlike a phone call to customer support, the interaction with the virtual agent chat session does not end as soon as the user stops engaging with it. The virtual agent doesn't have anywhere else to be; it hangs around in case the user wants to do or ask about something else. For example, if the user asks about something, then 20 minutes later asks about something else (and does so within the same chat window session), then both exchanges are treated as a single interaction with a duration of about 25 minutes.
+        **Note:** The term *interaction* represents a conversation that takes place between the user and the virtual agent. It starts when the user starts to chat with the virtual agent and ends when the chat window session ends (which occurs when the user is logged out, logs out, closes the chat window, or refreshes the chat window). An interaction often includes more than just an exchange of words; users can click buttons, view graphics such as maps, and perform other transactions. And, unlike a phone call to customer support, the interaction with the virtual agent chat session does not end as soon as the user stops engaging with it. The virtual agent doesn't have anywhere else to be; it hangs around in case the user wants to do or ask about something else. For example, if the user asks about something, then 20 minutes later asks about something else (and does so within the same chat window session), then both exchanges are treated as a single interaction with a duration of about 25 minutes.
 
 1.  If you discover meaningful data that you want to share with others, you can export it in CSV format.
+
+    **Note**: When you specify the time period for the metrics, you can pick the start and end dates, but not start and end times. The current time of day is used. Therefore, to get logs from one entire day to another, select the days before and after the days of interest. Doing so ensures that the logs will include interactions that occurred during all hours of the days of interest.
