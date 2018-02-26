@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-15"
+  years: 2015, 2018
+lastupdated: "2018-02-26"
 
 ---
 
@@ -20,19 +20,22 @@ lastupdated: "2017-12-15"
 # Getting started
 {: #getting-started}
 
-Complete the following steps to register for your free trial of {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}}.
+Complete the following steps to subscribe to {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} Standard Edition.
 {: shortdesc}
 
-1.  Open [{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} 30-day free trial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/account/us-en/signup/register.html?a=MzAyNjcwOWQtNWMwMy00&amp;ctx=C001&amp;cc=us&amp;lc=en&amp;trial=yes&amp;quantity=1&amp;catalogName=Master&amp;partNumber=WT_TRIAL&amp;siteID=ECOM&amp;cm_mc_uid=15805692529414733586057&amp;cm_mc_sid_50200000=1473966654){: new_window}.
-1.  Sign up.
+You will be asked to choose a billing payment method and provide payment details, so have that information ready.
+
+1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} page on [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/marketplace/cloud/cognitive-customer-engagement/){: new_window}, scroll down and click **Compare features and pricing**.
+1.  From the Standard Plan tile, click **Purchase now**.
+1.  Click **Continue to Checkout**.
+1.  Sign in.
 
     1.  Do one of the following things:
 
-        - If you have an {{site.data.keyword.IBM_notm}} ID, click **Already have an {{site.data.keyword.IBM_notm}}id?**, specify your user name and password, and then click **Sign up**.
-        - If you don't have an {{site.data.keyword.IBM_notm}} ID, provide the required information to register, and then click **Continue**.
+        - If you have an {{site.data.keyword.IBM_notm}} ID, specify your user name and password, and then click **Sign in**.
+        - If you don't have an {{site.data.keyword.IBM_notm}} ID, click **Create an IBMid**, and then provide the required information to register.
 
-    1.  If you just registered for an {{site.data.keyword.IBM_notm}} ID, or it has been a while since you last logged in, you must confirm your email address. An email with a confirmation code is sent to the email address that you provided. Copy the confirmation code in the email from ibmacct@us.ibm.com, paste it into the **Confirmation code** field, and click **Sign up**.
-    1.  Provide your company name and a phone number. Review the terms and conditions of use, and then click **Sign up**.
+1.  Provide the information required to complete the purchase.
 
     While your instance of the service is created, a {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} tile is added to the {{site.data.keyword.IBM_notm}} Marketplace *Products and services* page. When the service is fully configured, the **Launch** button is enabled and you can click it to access your instance.
 

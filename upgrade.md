@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-10"
+  years: 2015, 2018
+lastupdated: "2018-02-26"
 
 ---
 
@@ -29,11 +29,14 @@ You can convert an existing trial instance of the {{site.data.keyword.watson}} {
 
 The Standard subscription is available for a monthly or annual fee. The Premium subscription is available for an annual fee. With both plans, you can pay for what you expect to use by choosing the number of API calls that you want the fee to cover. One API call represents one complete exchange in which a user provides input and the virtual agent responds to it.
 
-1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} page on [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/marketplace/cloud/cognitive-customer-engagement/){: new_window}, click **View pricing and buy**.
+1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} page on [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/marketplace/cloud/cognitive-customer-engagement/){: new_window}, click **Compare features and pricing**.
 
     > **Note:** If you want to convert a trial instance to a Standard subscription instance, then you must log in with the {{site.data.keyword.IBM_notm}} ID of someone who is an administrator of the trial instance. You cannot convert an existing trial instance to a Premium plan instance.
 
-1.  On the tile for the plan you want, click **Purchase now**.
+1.  On the *Standard Edition* tile, click **Purchase now**.
+
+    **Note**: If you want to purchase the Premium plan, you must contact an IBM representative for assistance.
+
 1.  Customize your subscription, and then click **Continue to Checkout**.
 1.  If you have a trial subscription and are upgrading to a Standard plan, then you can retain any configuration work that was done in the trial instance by selecting **Convert trial**. Otherwise, click **Buy new subscription** to start fresh with a new instance.
 1.  Provide account, billing, and payment method information, and then submit your order.
