@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-09-27"
+  years: 2015, 2018
+lastupdated: "2018-02-16"
 
 ---
 
@@ -22,6 +22,11 @@ lastupdated: "2017-09-27"
 
 ## Changes
 {: shortdesc}
+
+### February 16 2018
+{: #February2018}
+
+- A free trial of {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} is no longer available.
 
 ### September 2017
 {: #September2017}
