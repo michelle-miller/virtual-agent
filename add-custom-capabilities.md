@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-01"
+  years: 2015, 2018
+lastupdated: "2018-02-27"
 
 ---
 
@@ -25,7 +25,7 @@ To expand on what the virtual agent can discuss with your customers, add your ow
 
 ## Before you begin
 
-When you use a workspace to provide a custom dialog for a core capability, you only need to provide a dialog in the workspace. The agent has already been trained to recognize utterances that map to the core capabilities, so you do not need to provide intents, entities, and training data. When you provide a workspace that defines your own capabilities, you must provide intents and entities in addition to the dialog. You also must provide a large number of sample utterances that the service can use to train the intents that you want to support. Use the documentation, demos, and tools that are provided with the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service to build a workspace with custom capabilities. See the [{{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/conversation/index.html#about){: new_window} for more information.
+When you use a workspace to provide a custom dialog for a core capability, you only need to provide a dialog in the workspace. The agent has already been trained to recognize utterances that map to the core capabilities, so you do not need to provide intents, entities, and training data. When you provide a workspace that defines your own capabilities, you must provide intents and entities in addition to the dialog. You also must provide a large number of sample utterances that the service can use to train the intents that you want to support. Use the documentation, demos, and tools that are provided with the {{site.data.keyword.conversationshort}} service to build a workspace with custom capabilities. See the [{{site.data.keyword.conversationshort}} documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/conversation/index.html#about){: new_window} for more information.
 
 ### About this task
 
@@ -91,7 +91,7 @@ To resolve validation conflicts, complete the following steps:
         1.  Click **Revalidate** ![Revalidate icon](images/revalidate.png).
 
     - **Disable the custom capability**
-        1.  Click the **Conversation service workspace** link to open the workspace that contains the custom capabilities within the {{site.data.keyword.conversationshort}} tool.
+        1.  Click the **{{site.data.keyword.conversationshort}} service workspace** link to open the workspace that contains the custom capabilities within the {{site.data.keyword.conversationshort}} tool.
 
         1.  Find the intent on the **Intents** page, expand it, and then click the **Delete intent** icon to delete it from the workspace. See [Deleting intents](https://console.bluemix.net/docs/services/conversation/intents.html#delete_intents).
         1.  **Optional**: Normally, when you delete an intent, you remove all mention of it from the corresponding dialog. However, if you built a complex dialog node for this custom capability that you want to continue to use, then do not remove it from the dialog right away. Instead, configure the overlapping core capability to use it as a custom dialog response. (See [Configuring core capabilities](configure.html).)
@@ -108,7 +108,7 @@ To resolve validation conflicts, complete the following steps:
          >Note: You cannot access the workspace for the core capability to update its training data; you can only edit the workspace for the custom capability to affect changes.
 
         Edit the workspace that contains the custom capability by following these steps.
-        1.  Click the **Conversation service workspace** link to open the workspace that contains your custom capabilities from the {{site.data.keyword.conversationshort}} tool.
+        1.  Click the **{{site.data.keyword.conversationshort}} service workspace** link to open the workspace that contains your custom capabilities from the {{site.data.keyword.conversationshort}} tool.
 
         1.  For each conflicting custom capability, review the intent sample utterances.
             - If there are example utterances that clearly overlap with the types of user utterances that the core capability is designed to address, then delete them. To do so, complete the following steps:

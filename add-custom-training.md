@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-01"
+  years: 2015, 2018
+lastupdated: "2018-02-27"
 
 ---
 
@@ -27,7 +27,7 @@ Tailoring the training data for a core capability is a good way to make it recog
 
 ## About this task
 
-You cannot access the workspace for a core capability to update its training data directly. To add to the training data for a core capability, you must add a custom capability that has the same intent name as the core capability to your own Conversation workspace. From there, you can add your own examples of typical user utterances. The service checks both versions of the capability, the one trained by IBM, and the one trained by you as it analyzes and classifies the input. Adding custom data increases the likelihood that the classifier will recognize and match the input from your customers to this capability correctly at run time.
+You cannot access the workspace for a core capability to update its training data directly. To add to the training data for a core capability, you must add a custom capability that has the same intent name as the core capability to your own {{site.data.keyword.conversationshort}} workspace. From there, you can add your own examples of typical user utterances. The service checks both versions of the capability, the one trained by IBM, and the one trained by you as it analyzes and classifies the input. Adding custom data increases the likelihood that the classifier will recognize and match the input from your customers to this capability correctly at run time.
 
 You cannot augment the training data of a core capability that is configured to use a built-in response type. At run time, after the service identifies the intent of the user input, and maps the intent to the custom workspace, it must use the dialog that is associated with the custom workspace; it cannot switch back to the Core workspace where the built-in dialogs are defined.
 
@@ -36,9 +36,9 @@ You cannot augment the training data of a core capability that is configured to 
 
 Decide where to add the training data.
 
-- If you did not create your own Conversation workspace to use with the agent, then complete these steps before you complete this procedure:
+- If you did not create your own {{site.data.keyword.conversationshort}} workspace to use with the agent, then complete these steps before you complete this procedure:
 
-   1.  If you did not do so already, sign up for the {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} documentation.
+   1.  If you did not do so already, sign up for the {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} documentation.
    1.  Create a workspace to contain your training data.
 
     For information about workspaces, see the [{{site.data.keyword.conversationshort}} service Creating a workspace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/configure-workspace.html#configuring-a-conversation-workspace) {: new_window} documentation.
@@ -50,7 +50,7 @@ Decide where to add the training data.
 
 To augment the training data of a core capability:
 
-1.  Log in to the instance of the {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service that contains the workspace that will contain your training data. See [Before you begin](add-custom-training.html#choose-workspace) for things to consider as you choose a workspace to use.
+1.  Log in to the instance of the {{site.data.keyword.conversationshort}} service that contains the workspace that will contain your training data. See [Before you begin](add-custom-training.html#choose-workspace) for things to consider as you choose a workspace to use.
 
 1.  From the **Intents** tab, click **Create new**, and then add an intent with the same name as the intent name for the core capability.
 
