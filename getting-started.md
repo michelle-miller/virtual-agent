@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-26"
+lastupdated: "2018-02-27"
 
 ---
 
@@ -20,7 +20,7 @@ lastupdated: "2018-02-26"
 # Getting started
 {: #getting-started}
 
-Complete the following steps to subscribe to {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} Standard Edition.
+Complete the following steps to get started by using the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} Standard Edition.
 {: shortdesc}
 
 You will be asked to choose a billing payment method and provide payment details, so have that information ready.
@@ -30,10 +30,10 @@ You will be asked to choose a billing payment method and provide payment details
 1.  Click **Continue to Checkout**.
 1.  Sign in.
 
-    1.  Do one of the following things:
+    Do one of the following things:
 
-        - If you have an {{site.data.keyword.IBM_notm}} ID, specify your user name and password, and then click **Sign in**.
-        - If you don't have an {{site.data.keyword.IBM_notm}} ID, click **Create an IBMid**, and then provide the required information to register.
+    - If you have an {{site.data.keyword.IBM_notm}} ID, specify your user name and password, and then click **Sign in**.
+    - If you don't have an {{site.data.keyword.IBM_notm}} ID, click **Create an IBMid**, and then provide the required information to register.
 
 1.  Provide the information required to complete the purchase.
 
