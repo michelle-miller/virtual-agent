@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-10"
+  years: 2015, 2018
+lastupdated: "2018-02-27"
 
 ---
 
@@ -39,7 +39,7 @@ Consider how you want to handle the following capabilities, at a minimum:
 
 - **Capabilities with the *Use your own conversation* response type**
 
-    For complex capabilities that require a custom dialog to handle the exchange of information with the user, you can write a dialog using the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. See [Adding custom dialogs for core capabilities](add-custom-dialog.html) for more details.
+    For complex capabilities that require a custom dialog to handle the exchange of information with the user, you can write a dialog using the {{{site.data.keyword.conversationfull}} service. See [Adding custom dialogs for core capabilities](add-custom-dialog.html) for more details.
 
 ## Implementing logic to support built-in conversation
 {: #backend_transaction}

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-10-13"
+  years: 2015, 2018
+lastupdated: "2018-02-27"
 
 ---
 
@@ -52,19 +52,16 @@ The following table summarizes the packs that are offered. Click the **details**
 
 *n/a means currently not available
 
-Scroll to the right to see details for the **Customer Service for Insurance** capability pack.
-{: tip}
-
 If the core capabilities do not address a common goal that your customers have, then you can add your own capabilities to supplement those provided in a pack. For example, if you own a bakery, your customers might often ask about the cupcake flavors that you offer. You can add a *Cupcake menu* capability to handle such questions. See [Adding your own capabilities](add-custom-capabilities.html) for more information.
 
-### How {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} differs from {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}
+### How {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} differs from {{site.data.keyword.conversationshort}}
 {: #how-they-differ}
 
-{{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} is the service at the heart of the chat bot functionality. It contains the machine learning classifiers that can understand natural language and, given a phrase or sentence, perceive its meaning and categorize it according to classes you have identified as being of interest to you. IBM provides tooling that you can use to build the training data that teaches the machine learning classifier. The tooling also enables you to build the dialog that your bot uses to converse with your customers.
+{{site.data.keyword.conversationfull}} is the service at the heart of the chat bot functionality. It contains the machine learning classifiers that can understand natural language and, given a phrase or sentence, perceive its meaning and categorize it according to classes you have identified as being of interest to you. IBM provides tooling that you can use to build the training data that teaches the machine learning classifier. The tooling also enables you to build the dialog that your bot uses to converse with your customers.
 
 The {{site.data.keyword.conversationshort}} tooling is intuitive and designed such that anyone, even those with no development or machine learning expertise, can use it to construct a powerful chat-driven application. However, it takes time to build the training data and construct a dialog. That's where {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} comes in.
 
-{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} is built on {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}}. But with {{site.data.keyword.virtualagentshort}}, you get the bot service itself, plus the bot is pre-trained - its training performed by experts and researchers in the machine learning and linguistics fields. You just choose which capabilities you want to enable. For example, enable the **Update email address** capability, and just like that, your bot can understand and react to requests related to email address changes.
+{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} is built on {{site.data.keyword.conversationshort}}. But with {{site.data.keyword.virtualagentshort}}, you get the bot service itself, plus the bot is pre-trained - its training performed by experts and researchers in the machine learning and linguistics fields. You just choose which capabilities you want to enable. For example, enable the **Update email address** capability, and just like that, your bot can understand and react to requests related to email address changes.
 
 The {{site.data.keyword.virtualagentshort}} configuration tool makes it easy to choose the capabilities to enable, and to customize how the bot behaves when a capability is triggered during a customer interaction.
 
@@ -81,7 +78,7 @@ The implementation includes the following major components:
 
 - **{{site.data.keyword.conversationshort}} service**
 
-    An instance of the {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. The {{site.data.keyword.conversationshort}} service provides the artifacts for capabilities: the intents, entities, and dialog flow, along with the underlying cognitive processing that power the chat bot's capabilities. You interact directly with the {{site.data.keyword.conversationshort}} service when you want to implement a custom dialog or custom capability only.
+    An instance of the {{site.data.keyword.conversationshort}} service. The {{site.data.keyword.conversationshort}} service provides the artifacts for capabilities: the intents, entities, and dialog flow, along with the underlying cognitive processing that power the chat bot's capabilities. You interact directly with the {{site.data.keyword.conversationshort}} service when you want to implement a custom dialog or custom capability only.
 
     For more information about intents and dialogs, refer to the [{{site.data.keyword.conversationshort}} service documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/index.html#about){: new_window}.
 

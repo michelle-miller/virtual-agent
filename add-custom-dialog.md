@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-01"
+  years: 2015, 2018
+lastupdated: "2018-02-27"
 
 ---
 
@@ -26,9 +26,9 @@ For any core capability, you can choose to use your own conversation to interact
 ## Building a custom dialog
 {: #custom_dialog}
 
-If a core capability that you enable requires handling by a custom dialog, you can use the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service to build the dialog and then link it to your virtual agent.
+If a core capability that you enable requires handling by a custom dialog, you can use the {{site.data.keyword.conversationshort}} service to build the dialog and then link it to your virtual agent.
 
-The {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service is a set of tools and APIs you can use to build applications that use natural language interfaces to automate interactions with customers. {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} uses the {{site.data.keyword.conversationshort}} service to define the trained capabilities and dialog flow that are used by the bot. If the provided dialog does not provide the flexibility you need, you can build your own dialog using the {{site.data.keyword.conversationshort}} service tools.
+The {{site.data.keyword.conversationshort}} service is a set of tools and APIs you can use to build applications that use natural language interfaces to automate interactions with customers. {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} uses the {{site.data.keyword.conversationshort}} service to define the trained capabilities and dialog flow that are used by the bot. If the provided dialog does not provide the flexibility you need, you can build your own dialog using the {{site.data.keyword.conversationshort}} service tools.
 
 For compatibility with the virtual agent, any dialog you build must conform to the design guidelines defined in the [dialog contract ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/virtual-agent-dialog/blob/master/dialog-contract.md){: new_window}. These guidelines specify how the dialog interacts with the virtual agent chat interface, including how to display prompts to users and where to store information provided by users so that it can be accessed by the chat window interface.
 
@@ -41,7 +41,7 @@ Instead of building a dialog from scratch, you can use one of the dialogs that w
 
 To add a custom dialog:
 
-1.  If you have not done so already, sign up for the {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} documentation.
+1.  If you have not done so already, sign up for the {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} documentation.
 1.  Create a workspace to contain your dialog or import a sample workspace in which dialogs are already defined (See [Using a sample dialog](add-custom-dialog.html#sample-dialogs)).
 
     For information about workspaces, see the [{{site.data.keyword.conversationshort}} service Creating a workspace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/configure-workspace.html#configuring-a-conversation-workspace){: new_window} documentation.

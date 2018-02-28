@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-10-12"
+  years: 2015, 2018
+lastupdated: "2018-02-27"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2017-10-12"
 This tutorial helps you understand how to augment the capabilities of your virtual agent by adding your own capabilities.
 {: shortdesc}
 
-In this tutorial, you will use the workspace that powers the simple {{site.data.keyword.conversationshort}} demo to add new capabilities to your agent. The workspace simulates the role of a co-pilot for someone driving a car. You can check out the demo [here ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://conversation-simple.mybluemix.net/){: new_window}. After importing the workspace to your {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service instance, you will link the workspace to your agent. You will then add the workspace intents as custom capabilities, and finally address any conflicts that arise between the core capabilities and the capabilities that you add.
+In this tutorial, you will use the workspace that powers the simple {{site.data.keyword.conversationshort}} demo to add new capabilities to your agent. The workspace simulates the role of a co-pilot for someone driving a car. You can check out the demo [here ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://conversation-simple.mybluemix.net/){: new_window}. After importing the workspace to your {{site.data.keyword.conversationshort}} service instance, you will link the workspace to your agent. You will then add the workspace intents as custom capabilities, and finally address any conflicts that arise between the core capabilities and the capabilities that you add.
 
 ## Learning objectives
 
@@ -37,7 +37,7 @@ This tutorial should take approximately 30 minutes to finish. If you explore oth
 
 ### Prerequisites
 
-You must have an {{site.data.keyword.Bluemix_notm}} account and be signed up to use the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service. See the [Getting started tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} for details.
+You must have an {{site.data.keyword.Bluemix_notm}} account and be signed up to use the {{site.data.keyword.conversationshort}} service. See the [Getting started tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} for details.
 
 ### Results
 
@@ -55,14 +55,14 @@ After completing this tutorial, in addition to answering typical user questions 
 
 [Step 5: Resolving conflicts between capabilities](tutorial.html#tutless5)
 
-## Step 1: Importing a workspace to Conversation
+## Step 1: Importing a workspace to {{site.data.keyword.conversationshort}}
 {: #tutless1}
 
-By performing this step, you will learn how to import a workspace to the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service.
+By performing this step, you will learn how to import a workspace to the {{site.data.keyword.conversationshort}} service.
 
 ### Before you begin
 
-You must have an {{site.data.keyword.Bluemix_notm}} account and be signed up for the {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service.
+You must have an {{site.data.keyword.Bluemix_notm}} account and be signed up for the {{site.data.keyword.conversationshort}} service.
 
 ### About this task
 
@@ -72,7 +72,7 @@ To simplify the process of creating a {{site.data.keyword.conversationshort}} wo
 
 1.  Download the [car_demo_workspace.json ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-developer-cloud.github.io/doc-tutorial-downloads/virtual-agent/car_demo_workspace.json){: new_window} file to your computer. (You can use the *Save as* functionality of your web browser to download it.)
 1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/dashboard/watson){: new_window} to {{site.data.keyword.Bluemix_notm}}.
-1.  Click your {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service instance to open it.
+1.  Click your {{site.data.keyword.conversationshort}} service instance to open it.
 1.  Click **Launch tool**.
 1.  To import a workspace from a JSON file, click the ![Arrow facing up above an inbox to indicate an import action](images/workspace_import.png) icon.
 1.  Click **Choose a file** to browse for the `car_demo_workspace.json` file that you downloaded earlier.

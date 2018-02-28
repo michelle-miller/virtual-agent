@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-13"
+  years: 2015, 2018
+lastupdated: "2018-02-27"
 
 ---
 
@@ -25,7 +25,7 @@ Before you can use a custom capability or a custom dialog with a core capability
 
 ## About workspaces
 
-A workspace is a {{site.data.keyword.watson}} {{site.data.keyword.conversationshort}} service container that holds intents, entities, and a dialog, which are artifacts that are used to define and train a conversation flow. Your agent can use artifacts from the workspace, including trained intents and a dialog, as it interacts with your customers to customize and extend the scope of the things it can discuss.
+A workspace is a {{site.data.keyword.conversationshort}} service container that holds intents, entities, and a dialog, which are artifacts that are used to define and train a conversation flow. Your agent can use artifacts from the workspace, including trained intents and a dialog, as it interacts with your customers to customize and extend the scope of the things it can discuss.
 
 You can link workspaces to achieve the following goals:
 
