@@ -23,4 +23,4 @@ lastupdated: "2018-03-19"
 {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} is no longer being offered.
 {: shortdesc}
 
-If you are looking for a service that helps you build cognitive virtual assistants, see the [{{site.data.keyword.conversationfull}} Getting started tutorial](https://console.bluemix.net/docs/services/conversation/getting-started.html).
+If you are looking for a service that helps you build cognitive virtual assistants, see the [{{site.data.keyword.conversationfull}} Getting started tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html).

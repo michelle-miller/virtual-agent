@@ -20,14 +20,14 @@ lastupdated: "2018-03-19"
 # About
 {: #about}
 
-{{site.data.keyword.virtualagentfull}} is a set of preconfigured cognitive components based on the {{site.data.keyword.conversationfull}} service. By configuring the virtual agent with your company's information, you can quickly implement an automated chat bot that converses with your customers to help them achieve their goals.
+{{site.data.keyword.virtualagentfull}} is a set of preconfigured cognitive components based on the {{site.data.keyword.conversationfull}} service.
 {: shortdesc}
 
 ## {{site.data.keyword.virtualagentfull}} is being removed from the catalog
 
-Consider using {{site.data.keyword.conversationfull}} instead. With {{site.data.keyword.conversationshort}}, you can quickly build and deploy chatbots and virtual agents across a variety of channels, including mobile devices and messaging platforms. Many of the features from {{site.data.keyword.virtualagentshort}}, such as pretrained industry and domain knowledge, are available from {{site.data.keyword.conversationshort}}. Plus, {{site.data.keyword.conversationshort}} offers many other valuable new features. See the [product overview](https://www.ibm.com/watson/services/conversation/) for more information.
+No new instances of the {{site.data.keyword.virtualagentfull}} service can be created as of March 19, 2018. Existing {{site.data.keyword.virtualagentshort}} users can continue to use the service unaffected. However, all current instances will stop being available on March 19, 2019.
 
-No new instances of the service can be created as of today. Existing {{site.data.keyword.virtualagentfull}} users can continue to use the service unaffected. However, all current instances will stop being available on March 19, 2019. If you want to migrate to {{site.data.keyword.conversationshort}}, you must do so before March 19, 2019.
+Consider using {{site.data.keyword.conversationfull}} (formerly IBM Watson Conversation) instead. With {{site.data.keyword.conversationshort}}, you can quickly build and deploy chatbots and virtual agents across a variety of channels, including mobile devices and messaging platforms. Many of the features from {{site.data.keyword.virtualagentshort}}, such as pretrained industry and domain knowledge, are available from {{site.data.keyword.conversationshort}}. Plus, {{site.data.keyword.conversationshort}} offers many other valuable new features. See the [product overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/services/conversation/) for more information. If you want to migrate to {{site.data.keyword.conversationshort}}, you must do so before March 19, 2019.
 
 Contact your IBM representative to learn how to migrate to {{site.data.keyword.conversationshort}}.
 {:tip}
