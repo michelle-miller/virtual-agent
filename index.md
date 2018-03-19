@@ -23,7 +23,7 @@ lastupdated: "2018-03-19"
 {{site.data.keyword.virtualagentfull}} is a set of preconfigured cognitive components based on the {{site.data.keyword.conversationfull}} service.
 {: shortdesc}
 
-## {{site.data.keyword.virtualagentfull}} is being removed from the catalog
+## This service is being removed from the catalog
 
 No new instances of the {{site.data.keyword.virtualagentfull}} service can be created as of June 19, 2018. Existing {{site.data.keyword.virtualagentshort}} users can continue to use the service unaffected. However, all current instances will stop being available on March 19, 2019.
 
@@ -43,6 +43,8 @@ Contact your IBM representative to learn how to migrate to {{site.data.keyword.c
 - A mechanism for augmenting the capabilities of the agent with custom capabilities that you define in a {{site.data.keyword.conversationshort}} workspace and link to the agent.
 - A chat widget you can embed in your web page, and an SDK you can use to develop a custom chat widget.
 - A set of APIs you can use to integrate your application with the virtual agent.
+
+## Overview video
 
 <iframe class="embed-responsive-item" id="youtubeplayer" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/lwg5yAuanPg?rel=0" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen> </iframe>
 
