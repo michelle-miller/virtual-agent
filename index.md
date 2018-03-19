@@ -25,7 +25,7 @@ lastupdated: "2018-03-19"
 
 ## {{site.data.keyword.virtualagentfull}} is being removed from the catalog
 
-No new instances of the {{site.data.keyword.virtualagentfull}} service can be created as of March 19, 2018. Existing {{site.data.keyword.virtualagentshort}} users can continue to use the service unaffected. However, all current instances will stop being available on March 19, 2019.
+No new instances of the {{site.data.keyword.virtualagentfull}} service can be created as of June 19, 2018. Existing {{site.data.keyword.virtualagentshort}} users can continue to use the service unaffected. However, all current instances will stop being available on March 19, 2019.
 
 Consider using {{site.data.keyword.conversationfull}} (formerly IBM Watson Conversation) instead. With {{site.data.keyword.conversationshort}}, you can quickly build and deploy chatbots and virtual agents across a variety of channels, including mobile devices and messaging platforms. Many of the features from {{site.data.keyword.virtualagentshort}}, such as pretrained industry and domain knowledge, are available from {{site.data.keyword.conversationshort}}. Plus, {{site.data.keyword.conversationshort}} offers many other valuable new features. See the [product overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/services/conversation/) for more information. If you want to migrate to {{site.data.keyword.conversationshort}}, you must do so before March 19, 2019.
 
