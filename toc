@@ -15,7 +15,6 @@ Virtual Agent
     configure.md
     publish.md
     dashboard.md
-    upgrade.md
     minimal_steps.md
     impl_intents.md
 
