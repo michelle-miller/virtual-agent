@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-03-19"
+lastupdated: "2018-03-21"
 
 ---
 
@@ -25,8 +25,7 @@ Complete the following steps to get started by using the {{site.data.keyword.IBM
 
 You will be asked to choose a billing payment method and provide payment details, so have that information ready.
 
-1.  From the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} page on [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/marketplace/cloud/cognitive-customer-engagement/){: new_window}, scroll down and click **Compare features and pricing**.
-1.  From the Standard Plan tile, click **Purchase now**.
+1.  Go to the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} page on [{{site.data.keyword.IBM_notm}} Marketplace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/marketplace/cloud/XConfigureProductView?catalogId=12301&langId=-1&storeId=18251&partNumber=DK-Watson-VA-Standard){: new_window}.
 1.  Click **Continue to Checkout**.
 1.  Sign in.
 
