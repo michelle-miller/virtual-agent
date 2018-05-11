@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-08"
+lastupdated: "2018-05-10"
 
 ---
 
@@ -35,7 +35,7 @@ IBM is committed to providing our clients and partners with innovative data priv
 
 Learn more about IBM's own GDPR readiness journey and our GDPR capabilities and offerings to support your compliance journey [here ![External link icon](../../icons/launch-glyph.svg "External link icon")](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/data-responsibility/gdpr/){: new_window}.
 
-## Deleting data in {{site.data.keyword.virtualagentshort}}
+## Deleting data in Watson Virtual Agent
 {: #gdpr-wva}
 
 Do not add personal data to the training data (entities and intents, including user examples) that you create.
