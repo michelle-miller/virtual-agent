@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-05-10"
 
 ---
 
@@ -22,6 +22,11 @@ lastupdated: "2018-02-27"
 
 ## Changes
 {: shortdesc}
+
+### 10 May 2018
+{: #10May2018}
+
+- **Information security**: The documentation includes some new details about data privacy. Read more in [Information security](information-security.html).
 
 ### February 2018
 {: #February2018}
