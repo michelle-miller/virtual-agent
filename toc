@@ -38,6 +38,7 @@ Virtual Agent
 
     {: .navgroup id="reference"}
     [API reference](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent)
+    information-security.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
