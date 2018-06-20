@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-05-10"
+lastupdated: "2018-06-20"
 
 ---
 
@@ -23,8 +23,13 @@ lastupdated: "2018-05-10"
 ## Changes
 {: shortdesc}
 
-### 10 May 2018
-{: #10May2018}
+### June 2018
+{: #June2018}
+
+- **Removed from catalog**: No new instances of the {{site.data.keyword.virtualagentshort}} service can be created as of June 19, 2018.
+
+### May 2018
+{: #May2018}
 
 - **Information security**: The documentation includes some new details about data privacy. Read more in [Information security](information-security.html).
 
