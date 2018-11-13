@@ -2,7 +2,7 @@
 
 copyright:
   years: 2015, 2018
-lastupdated: "2018-02-27"
+lastupdated: "2018-11-12"
 
 ---
 
@@ -53,19 +53,6 @@ The following table summarizes the packs that are offered. Click the **details**
 *n/a means currently not available
 
 If the core capabilities do not address a common goal that your customers have, then you can add your own capabilities to supplement those provided in a pack. For example, if you own a bakery, your customers might often ask about the cupcake flavors that you offer. You can add a *Cupcake menu* capability to handle such questions. See [Adding your own capabilities](add-custom-capabilities.html) for more information.
-
-### How {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} differs from {{site.data.keyword.conversationshort}}
-{: #how-they-differ}
-
-{{site.data.keyword.conversationfull}} is the service at the heart of the chat bot functionality. It contains the machine learning classifiers that can understand natural language and, given a phrase or sentence, perceive its meaning and categorize it according to classes you have identified as being of interest to you. IBM provides tooling that you can use to build the training data that teaches the machine learning classifier. The tooling also enables you to build the dialog that your bot uses to converse with your customers.
-
-The {{site.data.keyword.conversationshort}} tooling is intuitive and designed such that anyone, even those with no development or machine learning expertise, can use it to construct a powerful chat-driven application. However, it takes time to build the training data and construct a dialog. That's where {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} comes in.
-
-{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} is built on {{site.data.keyword.conversationshort}}. But with {{site.data.keyword.virtualagentshort}}, you get the bot service itself, plus the bot is pre-trained - its training performed by experts and researchers in the machine learning and linguistics fields. You just choose which capabilities you want to enable. For example, enable the **Update email address** capability, and just like that, your bot can understand and react to requests related to email address changes.
-
-The {{site.data.keyword.virtualagentshort}} configuration tool makes it easy to choose the capabilities to enable, and to customize how the bot behaves when a capability is triggered during a customer interaction.
-
-You always have the flexibility to add more and more customization to the bot because you can - at any time - link a {{site.data.keyword.conversationshort}} service workspace to your agent to immediately expand its abilities.
 
 ## Architectural overview
 {: #arch_overview}
