@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="virtual-agent" audience="service" href="/docs/services/virtual-agent/index.html"}
+{: .toc subcollection="virtual-agent" audience="service" href="/docs/services/virtual-agent/index.html" path="services/virtual-agent"}
 Virtual Agent
 
     {: .navgroup id="learn"}
