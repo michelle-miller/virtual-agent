@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -37,7 +37,7 @@ This tutorial should take approximately 30 minutes to finish. If you explore oth
 
 ### Prerequisites
 
-You must have an {{site.data.keyword.Bluemix_notm}} account and be signed up to use the {{site.data.keyword.conversationshort}} service. See the [Getting started tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} for details.
+You must have an {{site.data.keyword.Bluemix_notm}} account and be signed up to use the {{site.data.keyword.conversationshort}} service. See the [Getting started tutorial ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/getting-started.html){: new_window} for details.
 
 ### Results
 
@@ -45,15 +45,15 @@ After completing this tutorial, in addition to answering typical user questions 
 
 ### Steps in this tutorial
 
-[Step 1: Importing a workspace to {{site.data.keyword.conversationshort}}](tutorial.html#tutless1)
+[Step 1: Importing a workspace to {{site.data.keyword.conversationshort}}](#tutless1)
 
-[Step 2: Linking a workspace](tutorial.html#tutless2)
+[Step 2: Linking a workspace](#tutless2)
 
-[Step 3: Adding custom capabilities](tutorial.html#tutless3)
+[Step 3: Adding custom capabilities](#tutless3)
 
-[Step 4: Testing custom capabilities](tutorial.html#tutless4)
+[Step 4: Testing custom capabilities](#tutless4)
 
-[Step 5: Resolving conflicts between capabilities](tutorial.html#tutless5)
+[Step 5: Resolving conflicts between capabilities](#tutless5)
 
 ## Step 1: Importing a workspace to {{site.data.keyword.conversationshort}}
 {: #tutless1}
@@ -71,7 +71,7 @@ To simplify the process of creating a {{site.data.keyword.conversationshort}} wo
 ### Procedure
 
 1.  Download the [car_demo_workspace.json ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson-developer-cloud.github.io/doc-tutorial-downloads/virtual-agent/car_demo_workspace.json){: new_window} file to your computer. (You can use the *Save as* functionality of your web browser to download it.)
-1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.ng.bluemix.net/dashboard/watson){: new_window} to {{site.data.keyword.Bluemix_notm}}.
+1.  [Log in ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/catalog/services/watson-assistant){: new_window} to {{site.data.keyword.Bluemix_notm}}.
 1.  Click your {{site.data.keyword.conversationshort}} service instance to open it.
 1.  Click **Launch tool**.
 1.  To import a workspace from a JSON file, click the ![Arrow facing up above an inbox to indicate an import action](images/workspace_import.png) icon.

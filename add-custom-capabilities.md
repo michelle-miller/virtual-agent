@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -25,7 +25,7 @@ To expand on what the virtual agent can discuss with your customers, add your ow
 
 ## Before you begin
 
-When you use a workspace to provide a custom dialog for a core capability, you only need to provide a dialog in the workspace. The agent has already been trained to recognize utterances that map to the core capabilities, so you do not need to provide intents, entities, and training data. When you provide a workspace that defines your own capabilities, you must provide intents and entities in addition to the dialog. You also must provide a large number of sample utterances that the service can use to train the intents that you want to support. Use the documentation, demos, and tools that are provided with the {{site.data.keyword.conversationshort}} service to build a workspace with custom capabilities. See the [{{site.data.keyword.conversationshort}} documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/conversation/index.html#about){: new_window} for more information.
+When you use a workspace to provide a custom dialog for a core capability, you only need to provide a dialog in the workspace. The agent has already been trained to recognize utterances that map to the core capabilities, so you do not need to provide intents, entities, and training data. When you provide a workspace that defines your own capabilities, you must provide intents and entities in addition to the dialog. You also must provide a large number of sample utterances that the service can use to train the intents that you want to support. Use the documentation, demos, and tools that are provided with the {{site.data.keyword.conversationshort}} service to build a workspace with custom capabilities. See the [{{site.data.keyword.conversationshort}} documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/index.html){: new_window} for more information.
 
 ### About this task
 
@@ -33,14 +33,14 @@ You can create only one workspace to define custom capabilities. Each intent tha
 
 ### Procedure
 
-1.  From your {{site.data.keyword.conversationshort}} service instance, create a workspace that defines your custom capabilities. See the [{{site.data.keyword.conversationshort}} service documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/conversation/configure-workspace.html#configuring-a-conversation-workspace){: new_window}.
+1.  From your {{site.data.keyword.conversationshort}} service instance, create a dialog skill that defines your custom capabilities. See the [{{site.data.keyword.conversationshort}} service documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/skill-add.html){: new_window}.
 
     Follow these guidelines:
     - Add a branch for each capability that you want to support as a base node (which is referred to as an *alternative conversation* in the {{site.data.keyword.conversationshort}} tool user interface) in the dialog. For example, do not define a base node in your dialog that recognizes and responds to user greetings, and then add child nodes that match other custom capability intents beneath it.
     - Avoid handling user input mismatches with recursive loops. Only create dialog turns that have a definitive end.
-    - Do not create a custom intent with the same name as an intent that is used by a core capability. See [Intent names](intent_codenames.html) for a list of names to avoid.
+    - Do not create a custom intent with the same name as an intent that is used by a core capability. See [Intent names](/docs/services/virtual-agent/intent_codenames.html) for a list of names to avoid.
 
-1.  Return to your agent in [{{site.data.keyword.virtualagentfull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://virtual-agent.watson.ibm.com){: new_window}, and link the workspace to the agent. See [Linking workspaces](link_workspace.html)
+1.  Return to your agent in [{{site.data.keyword.virtualagentfull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://virtual-agent.watson.ibm.com){: new_window}, and link the workspace to the agent. See [Linking workspaces](/docs/services/virtual-agent/link_workspace.html)
 1.  From the **Capabilities** page, expand the **Custom** section.
 1.  Click **Add Capabilities**.
 1.  Select the workspace that you linked to the agent in Step 2, and then click **Save**.
@@ -93,8 +93,8 @@ To resolve validation conflicts, complete the following steps:
     - **Disable the custom capability**
         1.  Click the **{{site.data.keyword.conversationshort}} service workspace** link to open the workspace that contains the custom capabilities within the {{site.data.keyword.conversationshort}} tool.
 
-        1.  Find the intent on the **Intents** page, expand it, and then click the **Delete intent** icon to delete it from the workspace. See [Deleting intents](https://console.bluemix.net/docs/services/conversation/intents.html#delete_intents).
-        1.  **Optional**: Normally, when you delete an intent, you remove all mention of it from the corresponding dialog. However, if you built a complex dialog node for this custom capability that you want to continue to use, then do not remove it from the dialog right away. Instead, configure the overlapping core capability to use it as a custom dialog response. (See [Configuring core capabilities](configure.html).)
+        1.  Find the intent on the **Intents** page, expand it, and then click the **Delete intent** icon to delete it from the workspace. See [Deleting intents](/docs/services/assistant/intents.html#intents-delete).
+        1.  **Optional**: Normally, when you delete an intent, you remove all mention of it from the corresponding dialog. However, if you built a complex dialog node for this custom capability that you want to continue to use, then do not remove it from the dialog right away. Instead, configure the overlapping core capability to use it as a custom dialog response. (See [Configuring core capabilities](/docs/services/virtual-agent/configure.html).)
             1.  Update the trigger for the dialog node to use the core capability intent name as the condition.
             1.  You can do one of the following things:
               - If you are using one workspace for both custom capabilities and custom dialogs for core capabilities, then move the dialog node for this custom capability up in placement to be grouped with any other core capability dialog nodes that you are using. Custom dialogs for core capabilities are kept at the top of the tree to ensure that they can be found by the bot.

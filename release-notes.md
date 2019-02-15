@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-06-20"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -31,7 +31,7 @@ lastupdated: "2018-06-20"
 ### May 2018
 {: #May2018}
 
-- **Information security**: The documentation includes some new details about data privacy. Read more in [Information security](information-security.html).
+- **Information security**: The documentation includes some new details about data privacy. Read more in [Information security](/docs/services/virtual-agent/information-security.html).
 
 ### February 2018
 {: #February2018}
@@ -41,20 +41,20 @@ lastupdated: "2018-06-20"
 ### September 2017
 {: #September2017}
 
-- You can now augment the training data that is used to teach the service about a core capability. See [Augmenting the training data of core capabilities](add-custom-training.html) for more information.
-- Pass user ID and location information to the /dialogs API endpoint or to the provided chat widget when you initialize it to capture information that the service metrics can subsequently leverage. See [Analyzing user activity](dashboard.html) for more information.
+- You can now augment the training data that is used to teach the service about a core capability. See [Augmenting the training data of core capabilities](/docs/services/virtual-agent/add-custom-training.html) for more information.
+- Pass user ID and location information to the /dialogs API endpoint or to the provided chat widget when you initialize it to capture information that the service metrics can subsequently leverage. See [Analyzing user activity](/docs/services/virtual-agent/dashboard.html) for more information.
 - Provide a country parameter with the zipcode information that is requested by the built-in dialog for the **Find nearest store** capability to help the bot calculate locations outside the US and Canada.
 - Subscriptions are now listed by name, instead of subscription ID. If you have more than one subscriptions, the name that you specified for the subscription when you set it up in IBM Marketplace is displayed at the top of the menu. Any agents that were created under this subscription plan are listed below it. You can click the subscription name to select a different subscription instance and work with its agents. If you have only one subscription, then the subscription name is not displayed at all.
-- A new capability pack, **Customer Service for Insurance**, is available (currently in English only) that contains common customer service capabilities specific to the insurance industry. Also, the **Customer Service for Energy and Utilities** and **Customer Service for Retail Banking** capability packs are available in Brazilian Portuguese, French, German, Italian, and Spanish. See [Capability packs](how-it-works.html#capability-packs) for more details.
+- A new capability pack, **Customer Service for Insurance**, is available (currently in English only) that contains common customer service capabilities specific to the insurance industry. Also, the **Customer Service for Energy and Utilities** and **Customer Service for Retail Banking** capability packs are available in Brazilian Portuguese, French, German, Italian, and Spanish. See [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) for more details.
 
 ### July 2017
 {: #July2017}
 
-- You can now create multiple agents, including a clone of an existing agent, and manage them all from the same {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} interface. See [Creating an agent](agent-create.html) for more details.
+- You can now create multiple agents, including a clone of an existing agent, and manage them all from the same {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} interface. See [Creating an agent](/docs/services/virtual-agent/agent-create.html) for more details.
 - {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} now supports capabilities in the following languages in addition to English: Brazilian Portuguese, French, German, Italian, and Spanish.
     >**Note**: Some words in the user interface of non-English language packs remain in English currently. The team is actively working to translate them into the appropriate languages.
     >**Note**: As is typical with cloud-based applications, the functionality is continuously improved, but the product documentation is translated on a periodic basis. Between translation cycles, the English-language version might be more current than the translated versions of the product documentation.
-- When you configure an agent, you can choose from among a set of pre-trained capability packs that provide common customer service capabilities for key industries. See [Capability packs](how-it-works.html#capability-packs) for more information.
+- When you configure an agent, you can choose from among a set of pre-trained capability packs that provide common customer service capabilities for key industries. See [Capability packs](/docs/services/virtual-agent/how-it-works.html#capability-packs) for more information.
     >**Note:** Existing bot instances are provisioned with an English-language **Customer Service for Telco** capability pack when they are migrated to the new release. New bot instances are provisioned with an English-language **General Customer Service** capability pack.
 - The user interface was updated to make it easier to configure capabilities and manage your agents.
 - Expanded the number of regional data centers outside the US that linked {{site.data.keyword.conversationshort}} service workspaces can be hosted by.
@@ -62,15 +62,15 @@ lastupdated: "2018-06-20"
 ### June 2017
 {: #June2017}
 
-- When you add custom capabilities, Watson Virtual Agent checks for potential conflicts between the custom capabilities you added and the core capabilities that are enabled. It highlights these potential conflicts so you can address them before publishing the agent. See [Resolving validation conflicts](personalize.html#validate_custom_capabilities) for more details.
+- When you add custom capabilities, Watson Virtual Agent checks for potential conflicts between the custom capabilities you added and the core capabilities that are enabled. It highlights these potential conflicts so you can address them before publishing the agent. See [Resolving validation conflicts](/docs/services/virtual-agent/personalize.html#validate_custom_capabilities) for more details.
 
 ### April 2017
 {: #April2017}
 
-- You can now augment the subjects that the agent can discuss with your customers by adding your own capabilities. Just link the agent to an {{site.data.keyword.conversationshort}} service workspace with intents, entities, and dialogs that you define. To test it out, you can follow the steps in the [tutorial](tutorial.html).
+- You can now augment the subjects that the agent can discuss with your customers by adding your own capabilities. Just link the agent to an {{site.data.keyword.conversationshort}} service workspace with intents, entities, and dialogs that you define. To test it out, you can follow the steps in the [tutorial](/docs/services/virtual-agent/tutorial.html).
 - When referring to an agent's ability to recognize an intent and respond to it, the term <cite class="cite">capability</cite> is being used instead of <cite class="cite">intent</cite>. The new term better captures the scope of the agent's ability to both recognize the user's goal (intent) and respond to it appropriately.
 - It just got easier to associate the {{site.data.keyword.conversationshort}} workspaces that you want to use with your agent. New linking functionality was added that seamlessly connects to your {{site.data.keyword.conversationshort}} service instance and shows you the workspaces that you have access to, so you can pick the ones you want use.
-- Thanks to the new linked workspace experience, you are no longer required to provide the {{site.data.keyword.conversationshort}} service API version level of the workspaces that you want to use. In fact, version support will likely change as new features are added to the underlying {{site.data.keyword.conversationshort}} service that can benefit the virtual agent. We will keep you informed about any version changes that impact existing functionality. The currently supported {{site.data.keyword.conversationshort}} service API version is 2017-02-03. For more information about features in this version, see the [{{site.data.keyword.conversationshort}} release notes](/docs/services/conversation/release-notes.html#release-notes){: new_window}.
+- Thanks to the new linked workspace experience, you are no longer required to provide the {{site.data.keyword.conversationshort}} service API version level of the workspaces that you want to use. In fact, version support will likely change as new features are added to the underlying {{site.data.keyword.conversationshort}} service that can benefit the virtual agent. We will keep you informed about any version changes that impact existing functionality. The currently supported {{site.data.keyword.conversationshort}} service API version is 2017-02-03. For more information about features in this version, see the [{{site.data.keyword.conversationshort}} release notes](/docs/services/assistant/release-notes.html){: new_window}.
 - For existing customers, if you are using a custom conversation as the response type for certain capabilities and rely on the bot passing only the intent and not the user input to the {{site.data.keyword.conversationshort}} service workspace, then you can instruct the bot to continue to do so. Otherwise, the new default behavior is to pass the user input with the intent, so that your workspace can find and extract entities from the user input and make use of them. To choose to retain the old behavior, select the checkbox in the Settings page. In the previous release, you could choose to enable the new approach per intent by setting the **Allow my workspace to extract entities from the user input** field to `Yes`. The per-intent level setting was replaced by this global setting, which makes it easier to anticipate how each intent will behave.
 
     If you choose to revert to passing only the intent, then you must use the following syntax in the {{site.data.keyword.conversationshort}} service node that matches the intent:
@@ -121,7 +121,7 @@ lastupdated: "2018-06-20"
 
         - Bank information: Adds the user's bank information to their account.
 
-    For existing users, the new intents are switched off by default; you can turn on the ones you want to use. For a full list of the supported intents, see [Core capabilities](capabilities_list.html).
+    For existing users, the new intents are switched off by default; you can turn on the ones you want to use. For a full list of the supported intents, see [Core capabilities](/docs/services/virtual-agent/capabilities_list.html).
 
 - Fixed a bug which prevented a context parameter with a value that has a data type other than String from being passed to a custom conversation dialog. Also addressed an issue which prevented context from being passed at all to a custom dialog defined for the <cite class="cite">None of the above</cite> intent.
 
@@ -140,7 +140,7 @@ lastupdated: "2018-06-20"
 - To make it easier to configure intents, each response that is displayed in the Preview pane also shows the intent that was calculated by the virtual agent for the input. If you want to update the response for the intent, you can click the intent name to go straight to its configuration page.
 - You can now pass context variables to a custom dialog if you provide your own chat interface. The Bot API supports including context variables in the message body that is sent to the `/messages` endpoint. For intents that you configure with the **Use your own conversation** response type, you can program your own user interface application to add the context information to the message that is sent to the custom dialog for processing. For more information, see the following links:
 
-    - [{{site.data.keyword.conversationshort}} service Context variables documentation](/docs/services/conversation/dialog-build.html#context){: new_window}
+    - [{{site.data.keyword.conversationshort}} service Context variables documentation](/docs/services/assistant/dialog-runtime.html#context){: new_window}
     - [{{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} API ](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent#id7931){: new_window}
 
 ### December 2016

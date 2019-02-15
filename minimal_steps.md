@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-10"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -27,12 +27,12 @@ Understand the development steps to take to fully implement the agent.
 
 - Embed the virtual agent in an application or other channel
 
-  You can add the IBM-provided chat interface to your customer-facing website, extend the provided chat interface, or build your own chat interface. You can also make the agent available from within an existing support channel. See [Integrating the agent](integrate.html) for more details.
+  You can add the IBM-provided chat interface to your customer-facing website, extend the provided chat interface, or build your own chat interface. You can also make the agent available from within an existing support channel. See [Integrating the agent](/docs/services/virtual-agent/integrate.html) for more details.
 
 - Create application logic that supports information requests or business transactions that can occur during user conversations
 
-  Work with the administrators who configured the capabilities that your organization will support. They can help you understand the expected behavior of the virtual agent per capability. See [Implementing core capabilities](impl_intents.html) for more details.
+  Work with the administrators who configured the capabilities that your organization will support. They can help you understand the expected behavior of the virtual agent per capability. See [Implementing core capabilities](/docs/services/virtual-agent/impl_intents.html) for more details.
 
 **Optional**:
 
-- Provide a custom dialog for a core capability or augment the core capabilities with capabilities of your own. See [Personalizing the agent](personalize.html) for more details.
+- Provide a custom dialog for a core capability or augment the core capabilities with capabilities of your own. See [Personalizing the agent](/docs/services/virtual-agent/personalize.html) for more details.

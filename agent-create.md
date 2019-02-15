@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-10"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -23,9 +23,9 @@ lastupdated: "2017-08-10"
 When you subscribe to the service, you are provisioned a bot with an English-language **General Customer Service** capability pack enabled. You can create additional bots with other capability packs or that converse with customers in languages other than English.
 {: shortdesc}
 
-To switch to using an agent with a different capability pack as your primary agent, first create a new agent with the capability pack you want, then you can delete the agent that was provisioned for you initially. Be sure to make the switch before you spend too much time configuring the General Customer Service agent. See [Deleting an agent](agent-create.html#delete) for more information.
+To switch to using an agent with a different capability pack as your primary agent, first create a new agent with the capability pack you want, then you can delete the agent that was provisioned for you initially. Be sure to make the switch before you spend too much time configuring the General Customer Service agent. See [Deleting an agent](/docs/services/virtual-agent/agent-create.html#delete) for more information.
 
-If you spend time configuring an agent instance to get it just right, and want to deploy it for use but still be able to experiment with it or try out enhancement ideas, you can clone the agent to create a copy for testing purposes. See [Cloning an agent](agent-create.html#clone) for more details.
+If you spend time configuring an agent instance to get it just right, and want to deploy it for use but still be able to experiment with it or try out enhancement ideas, you can clone the agent to create a copy for testing purposes. See [Cloning an agent](/docs/services/virtual-agent/agent-create.html#clone) for more details.
 
 ## Agent limits
 

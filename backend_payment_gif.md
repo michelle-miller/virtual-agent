@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-10"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -29,4 +29,4 @@ The following graphic illustrates the conversation flow for one possible path th
 
 **Related tasks**:
 
-[Built-in dialogs](configure.html#make-a-payment)
+[Built-in dialogs](/docs/services/virtual-agent/configure.html#make-a-payment)

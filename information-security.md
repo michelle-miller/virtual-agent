@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-05-10"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -40,7 +40,7 @@ Learn more about IBM's own GDPR readiness journey and our GDPR capabilities and 
 
 Do not add personal data to the training data (entities and intents, including user examples) that you create.
 
-Data that is stored in any {{site.data.keyword.conversationshort}} workspaces which are linked to your virtual agents is managed separately. See the [{{site.data.keyword.conversationshort}} information security ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/conversation/information-security.html) topic for more information about how to manage data associated with a {{site.data.keyword.conversationshort}} workspace, including how to delete message data.
+Data that is stored in any {{site.data.keyword.conversationshort}} workspaces which are linked to your virtual agents is managed separately. See the [{{site.data.keyword.conversationshort}} information security ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/information-security.html) topic for more information about how to manage data associated with a {{site.data.keyword.conversationshort}} workspace, including how to delete message data.
 
 ### Deleting data
 If you need to remove a message data from a {{site.data.keyword.virtualagentshort}} instance, create a support ticket. Go to [IBM Cloud service support ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://watson.service-now.com/wcp), and then enter a ticket to request the data deletion. Provide as much relevant information as you can in the ticket.

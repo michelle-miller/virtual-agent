@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2018-02-27"
 To configure the bot, you must choose the capabilities that you want it to have.
 {: shortdesc}
 
-A capability is the ability of your virtual agent to recognize and satisfy a specific customer goal. See [Capabilities](how-it-works.html#capabilities) for more details.
+A capability is the ability of your virtual agent to recognize and satisfy a specific customer goal. See [Capabilities](/docs/services/virtual-agent/how-it-works.html#capabilities) for more details.
 
 To use a core capability, simply specify how you want the agent to behave when enacting the capability. For some capabilities, returning a predefined text response to a user inquiry might be sufficient. Others might require a complex conversation flow in order to gather information that is required to perform a transaction, in which case the agent collects and passes information to your application, which must implement the required business processes.
 
@@ -40,7 +40,7 @@ To configure a core capability, complete the following steps:
 
     Click the switch to turn a capability on or off. To disable all of the capabilities in a category, click the **More** menu ![Icon with three horizontal lines](images/kabob.png)  on the category tile, and then select **Turn All Off**.
 
-    Disabling a capability does not disable the classifier's ability to recognize the associated intent in user input. It only changes what the agent does next. When the intent is recognized in user input, instead of returning the configured response, it passes the user input to the *None of the above* capability. From there, the service checks whether you have provided a custom workspace that can satisfy the user's goal. For more details, see [How none of the above is used](impl_intents.html#none-of-the-above).
+    Disabling a capability does not disable the classifier's ability to recognize the associated intent in user input. It only changes what the agent does next. When the intent is recognized in user input, instead of returning the configured response, it passes the user input to the *None of the above* capability. From there, the service checks whether you have provided a custom workspace that can satisfy the user's goal. For more details, see [How none of the above is used](/docs/services/virtual-agent/impl_intents.html#none-of-the-above).
 
     For a capability that you have no intention of supporting, not even from a custom workspace, but that you suspect a customer might ask about, you can choose to keep the capability enabled and provide a text response for it. The response can explain that you do not support it. For example, if you do not offer insurance, rather than disabling the **Add insurance** capability, you could enable it. For a response type, choose **Text**. In the associated **Message** field, add *We do not offer insurance for our products*.
 
@@ -58,15 +58,15 @@ To configure a core capability, complete the following steps:
 
     - **Built-in**
 
-        A set of capabilities come with prebuilt dialogs that collect additional information or implement complex handling. A *dialog* provides the structure for a conversation with the user. See [Built-in dialogs](configure.html#builtin_dialog_ovw) to learn more about which capabilities support this response type, and how the conversation flows when implemented.
+        A set of capabilities come with prebuilt dialogs that collect additional information or implement complex handling. A *dialog* provides the structure for a conversation with the user. See [Built-in dialogs](/docs/services/virtual-agent/configure.html#builtin_dialog_ovw) to learn more about which capabilities support this response type, and how the conversation flows when implemented.
 
-        If you select the **Built-in** response type, you might also need to configure additional data that the dialog uses to present choices to the user (such as store locations or payment methods). In many cases, your application must listen for events that can be triggered by the dialog and implement actions in your systems of record. See [Implementing logic to support built-in conversation](impl_intents.html#backend_transaction) for more details.
+        If you select the **Built-in** response type, you might also need to configure additional data that the dialog uses to present choices to the user (such as store locations or payment methods). In many cases, your application must listen for events that can be triggered by the dialog and implement actions in your systems of record. See [Implementing logic to support built-in conversation](/docs/services/virtual-agent/impl_intents.html#backend_transaction) for more details.
 
         **Note**: You cannot provide augmented training data for core capabilities that you configure to use this response type.
 
     - **Use your own conversation**
 
-        If you need to implement complex customer interactions for a capability, you can build your own dialog that shapes the agent's conversation with the customer. This option requires additional steps that involve building a custom dialog with the {{site.data.keyword.conversationshort}} service and linking it to the agent. See [Building a custom dialog](add-custom-dialog.html) for more details.
+        If you need to implement complex customer interactions for a capability, you can build your own dialog that shapes the agent's conversation with the customer. This option requires additional steps that involve building a custom dialog with the {{site.data.keyword.conversationshort}} service and linking it to the agent. See [Building a custom dialog](/docs/services/virtual-agent/add-custom-dialog.html) for more details.
 
     - **Transfer to human agent**
 
@@ -83,7 +83,7 @@ To configure a core capability, complete the following steps:
 
 The following sections describe the core capabilities that the built-in conversation flows are trained to recognize and react to. These built-in dialogs are provided with all of the capability packs.
 
-You can customize or add to these dialogs. See [Editing built-in dialogs](edit-builtin-dialogs.html) for more information.
+You can customize or add to these dialogs. See [Editing built-in dialogs](/docs/services/virtual-agent/edit-builtin-dialogs.html) for more information.
 
 ### Find nearest store
 {: #builtin_dialog_ovw__findNearestStore}
@@ -97,7 +97,7 @@ The only additional step required by you is to add store location details for ev
 - Find nearest store
 - Store location
 
-If your users are located outside the US and Canada, then include a country parameter that specifies the country of origin of the current user. If provided, this information is passed with the zip code to the bot code, which calculates the user's exact location. The bot expects US and Canada postal code formats; by providing this additional country information, you can help the bot to calculate international locations properly. See [Adding the provided chat widget to your UI](integrate_add-chat.html) for more information.
+If your users are located outside the US and Canada, then include a country parameter that specifies the country of origin of the current user. If provided, this information is passed with the zip code to the bot code, which calculates the user's exact location. The bot expects US and Canada postal code formats; by providing this additional country information, you can help the bot to calculate international locations properly. See [Adding the provided chat widget to your UI](/docs/services/virtual-agent/integrate_add-chat.html) for more information.
 {: tip}
 
 ### Make a payment
@@ -106,9 +106,9 @@ The following diagram shows the nodes in the built-in conversation for the *Make
 
 ![Shows the nodes of the dialog.](images/makeAPayment.png)
 
-Click [here](backend_payment_gif.html#backend_payment_gif) to see how the user input and virtual agent responses flow through the system.
+Click [here](/docs/services/virtual-agent/backend_payment_gif.html#backend_payment_gif) to see how the user input and virtual agent responses flow through the system.
 
-First, specify the types of credit cards you accept as part of the *Make a payment* capability configuration. You can edit the capability from the Capabilities page. Then, see [Implementing logic to support built-in conversation](impl_intents.html#makeapayment) for information about additional steps you must take to fully support this capability.
+First, specify the types of credit cards you accept as part of the *Make a payment* capability configuration. You can edit the capability from the Capabilities page. Then, see [Implementing logic to support built-in conversation](/docs/services/virtual-agent/impl_intents.html#makeapayment) for information about additional steps you must take to fully support this capability.
 
 ### Store hours
 
@@ -123,7 +123,7 @@ If you want to provide store hours, then you must include the business hours inf
 
 ### Store location
 
-See the diagram above to see the nodes in the built-in conversation for the *Store location* capability. The same dialog flow is used for this capability and the [Find nearest store](configure.html#builtin_dialog_ovw__findNearestStore) capability.
+See the diagram above to see the nodes in the built-in conversation for the *Store location* capability. The same dialog flow is used for this capability and the [Find nearest store](/docs/services/virtual-agent/configure.html#builtin_dialog_ovw__findNearestStore) capability.
 
 The only additional step required by you is to add store location details for every store. You can add the store details from one of the following capabilities that you can access from the Capabilities page:
 
@@ -147,7 +147,7 @@ The following diagram shows the nodes in the built-in conversation for the *Upda
 
 ![Shows the nodes in the update address dialog.](images/updateAddress.png)
 
-See [Implementing logic to support built-in conversation](impl_intents.html#updateaddress) for information about additional steps you must take to fully support this capability.
+See [Implementing logic to support built-in conversation](/docs/services/virtual-agent/impl_intents.html#updateaddress) for information about additional steps you must take to fully support this capability.
 
 ### Update contact phone number
 
@@ -155,7 +155,7 @@ The following diagram shows the nodes in the built-in conversation for the *Upda
 
 ![Shows the nodes in the update contact phone number dialog.](images/updatePhoneNumber.png)
 
-See [Implementing logic to support built-in conversation](impl_intents.html#updatephone) for information about additional steps you must take to fully support this capability.
+See [Implementing logic to support built-in conversation](/docs/services/virtual-agent/impl_intents.html#updatephone) for information about additional steps you must take to fully support this capability.
 
 ### Update email
 
@@ -163,4 +163,4 @@ The following diagram shows the nodes in the built-in conversation for the *Upda
 
 ![Shows the nodes in the update email dialog.](images/updateEmail.png)
 
-See [Implementing logic to support built-in conversation](impl_intents.html#updateemail) for information about additional steps you must take to fully support this capability.
+See [Implementing logic to support built-in conversation](/docs/services/virtual-agent/impl_intents.html#updateemail) for information about additional steps you must take to fully support this capability.

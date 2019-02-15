@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -23,7 +23,7 @@ lastupdated: "2018-02-27"
 If you like the built-in dialogs that are provided with select capabilities, but want to reword a response, or add more dialog turns to it, you can do so.
 {: shortdesc}
 
-The {{site.data.keyword.conversationshort}} workspaces that contain the dialogs are published to GitHub. You can find the workspace that contains the dialog you want to edit, download it, make your changes, and then link your revised version of the workspace to your agent and treat it as a custom dialog. To see the conversation flows that are defined by the built-in dialogs, see [Built-in dialogs](configure.html#builtin_dialog_ovw).
+The {{site.data.keyword.conversationshort}} workspaces that contain the dialogs are published to GitHub. You can find the workspace that contains the dialog you want to edit, download it, make your changes, and then link your revised version of the workspace to your agent and treat it as a custom dialog. To see the conversation flows that are defined by the built-in dialogs, see [Built-in dialogs](/docs/services/virtual-agent/configure.html#builtin_dialog_ovw).
 
 ## Procedure
 
@@ -35,10 +35,10 @@ The {{site.data.keyword.conversationshort}} workspaces that contain the dialogs 
 1.  Log in to your {{site.data.keyword.conversationshort}} service instance.
 1.  From the Workspaces page, import the workspace JSON file.
 
-    For information about importing workspaces, see the [{{site.data.keyword.conversationshort}} service documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/conversation/configure-workspace.html#creating-workspaces){: new_window}.
+    For information about importing workspaces, see the [{{site.data.keyword.conversationshort}} service documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/skill-add.html){: new_window}.
 
 1.  Make edits or additions to the dialogs that you want to change. Remove any dialogs that you do not change.
 1.  Return to your agent in [{{site.data.keyword.virtualagentfull}}](https://virtual-agent.watson.ibm.com).
-1.  Link the revised workspace to the agent. See [Linking workspaces](link_workspace.html).
+1.  Link the revised workspace to the agent. See [Linking workspaces](/docs/services/virtual-agent/link_workspace.html).
 1.  From the **Capabilities** page, for each core capability that uses a built-in dialog that you edited, change the response type from **Built-in** to **Use your own conversation**.
 1.  Pick the workspace that contains the revised dialog you want to use from the list of linked workspaces, and then click **Save** to finish establishing the link.

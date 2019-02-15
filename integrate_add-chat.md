@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-09-08"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -31,7 +31,7 @@ This diagram illustrates how the conversation flows through the system when you 
 
     The provided chat widget is extensible. If it contains elements that you want to change, you can customize them. For example, to change a layout that is used by the provided chat widget, you can write a custom layout that overrides it. See the example here: [https://github.com/watson-virtual-agents/chat-widget/tree/1.2.12/examples/basic-custom-layout. ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://github.com/watson-virtual-agents/chat-widget/tree/1.2.12/examples/basic-custom-layout){: new_window} Keep in mind that the layout might be used by more than one intent.
 
-1.  For information about steps you must take to support chat widget transactions that can occur for capabilities that use the built-in conversation, see [Implementing logic to support built-in conversation](impl_intents.html#backend_transaction).
+1.  For information about steps you must take to support chat widget transactions that can occur for capabilities that use the built-in conversation, see [Implementing logic to support built-in conversation](/docs/services/virtual-agent/impl_intents.html#backend_transaction).
 
 1.  When you initialize the IBM-provided chat widget, you can include the following parameters to capture user information that is used by the service to capture metrics data about user chats and locations.
 
@@ -65,4 +65,4 @@ This diagram illustrates how the conversation flows through the system when you 
     </script>
     ```
 
-If the extent of customizations that you want to make is so pervasive that it is impossible to implement your changes by making updates to the provided chat widget, then you can create your own chat interface. See [Building a custom chat interface](integrate_custom-chat.html).
+If the extent of customizations that you want to make is so pervasive that it is impossible to implement your changes by making updates to the provided chat widget, then you can create your own chat interface. See [Building a custom chat interface](/docs/services/virtual-agent/integrate_custom-chat.html).

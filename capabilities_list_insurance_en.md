@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2017
+  years: 2015, 2019
 lastupdated: "2017-08-22"
 
 ---
@@ -384,4 +384,4 @@ lastupdated: "2017-08-22"
 
 
 
-[Back to top](capabilities_list_insurance_en.html#top)
+[Back to top](/docs/services/virtual-agent/capabilities_list_insurance_en.html#top)

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-09-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -20,11 +20,11 @@ lastupdated: "2017-09-27"
 # Intent names
 {: #intent_codenames}
 
-Go to [Adding custom dialogs for core capabilities](add-custom-dialog.html).
+Go to [Adding custom dialogs for core capabilities](/docs/services/virtual-agent/add-custom-dialog.html).
 {: shortdesc}
 
 The capabilities differ by pack.
 
 | General | Energy  | Banking | Telco |
 |---------|---------|---------|-------|
-| [details](intent_codenames_general.html) | [details](intent_codenames_energy.html) | [details](intent_codenames_banking.html)        | [details](intent_codenames_telco.html) | [details](intent_codenames_insurance.html) |
+| [details](/docs/services/virtual-agent/intent_codenames_general.html) | [details](/docs/services/virtual-agent/intent_codenames_energy.html) | [details](/docs/services/virtual-agent/intent_codenames_banking.html)        | [details](/docs/services/virtual-agent/intent_codenames_telco.html) | [details](/docs/services/virtual-agent/intent_codenames_insurance.html) |

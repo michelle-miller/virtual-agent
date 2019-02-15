@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-09-22"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -24,7 +24,7 @@ lastupdated: "2017-09-22"
 The following table lists the intent names for each supported capability. If you choose to provide your own {{site.data.keyword.conversationshort}} service dialog for a capability, you will need to know the appropriate intent name to specify in the dialog. You can look it up here.
 {: shortdesc}
 
-[Go back](intent_codenames.html)
+[Go back](/docs/services/virtual-agent/intent_codenames.html)
 
 | Capability                      | Associated intent name                                 |
 |---------------------------------|--------------------------------------------------------|
@@ -127,6 +127,6 @@ The following table lists the intent names for each supported capability. If you
 | Usage detail | #Billing-Usage_Detail |
 
 
-`*` Identifies capabilities for which built-in dialogs are provided. See [Built-in dialogs](configure.html#builtin_dialog_ovw) for more information.
+`*` Identifies capabilities for which built-in dialogs are provided. See [Built-in dialogs](/docs/services/virtual-agent/configure.html#builtin_dialog_ovw) for more information.
 
-[Back to top](intent_codenames_energy.html#top)
+[Back to top](/docs/services/virtual-agent/intent_codenames_energy.html#top)
