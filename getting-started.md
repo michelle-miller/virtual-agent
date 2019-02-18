@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-06-20"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -25,4 +25,4 @@ No new instances of the {{site.data.keyword.virtualagentfull}} service can be cr
 
 ## This service is being removed from the catalog
 
-Consider using {{site.data.keyword.conversationfull}} (formerly IBM Watson Conversation) instead. See the [product overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/watson/services/conversation){: new_window} for more information.
+Consider using {{site.data.keyword.conversationfull}} instead. See the [product overview ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://cloud.ibm.com/docs/services/assistant/index.html){: new_window} for more information.

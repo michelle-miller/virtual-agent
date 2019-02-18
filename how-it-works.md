@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-11-12"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -52,7 +52,7 @@ The following table summarizes the packs that are offered. Click the **details**
 
 *n/a means currently not available
 
-If the core capabilities do not address a common goal that your customers have, then you can add your own capabilities to supplement those provided in a pack. For example, if you own a bakery, your customers might often ask about the cupcake flavors that you offer. You can add a *Cupcake menu* capability to handle such questions. See [Adding your own capabilities](add-custom-capabilities.html) for more information.
+If the core capabilities do not address a common goal that your customers have, then you can add your own capabilities to supplement those provided in a pack. For example, if you own a bakery, your customers might often ask about the cupcake flavors that you offer. You can add a *Cupcake menu* capability to handle such questions. See [Adding your own capabilities](/docs/services/virtual-agent/add-custom-capabilities.html) for more information.
 
 ## Architectural overview
 {: #arch_overview}
@@ -67,7 +67,7 @@ The implementation includes the following major components:
 
     An instance of the {{site.data.keyword.conversationshort}} service. The {{site.data.keyword.conversationshort}} service provides the artifacts for capabilities: the intents, entities, and dialog flow, along with the underlying cognitive processing that power the chat bot's capabilities. You interact directly with the {{site.data.keyword.conversationshort}} service when you want to implement a custom dialog or custom capability only.
 
-    For more information about intents and dialogs, refer to the [{{site.data.keyword.conversationshort}} service documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/index.html#about){: new_window}.
+    For more information about intents and dialogs, refer to the [{{site.data.keyword.conversationshort}} service documentation ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/index.html){: new_window}.
 
 - **Bot**
 

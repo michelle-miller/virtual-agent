@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-09-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -357,4 +357,4 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
 
 
 
-[![Voltar ao início da página](images/up-arrow.png)](capabilities_list_general_pt-br.html#top)
+[![Voltar ao início da página](images/up-arrow.png)](/docs/services/virtual-agent/capabilities_list_general_pt-br.html#top)

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-10"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -27,7 +27,7 @@ To publish the agent to a test site, complete the following steps:
 
 1.  Determine where on the page you want the bot's chat window to be displayed. On the `<div>` HTML element that defines the target area, add an ID attribute if one is not defined. You will use the ID attribute to refer to the element later. For example, `<div id="ibm-chat-root"></div>`.
 
-1.  Follow the instructions in [Getting API keys](publish.html#api-keys) to retrieve the following keys:
+1.  Follow the instructions in [Getting API keys](/docs/services/virtual-agent/publish.html#api-keys) to retrieve the following keys:
     - Client ID
     - Client secret token
 
@@ -72,7 +72,7 @@ To publish the agent to a test site, complete the following steps:
 
    The chat widget is associated with and rendered to the HTML element that you designated in Step 1. You can hide or show and position that element. The widget extends to the full height and width of the element. The maximum width is 768 pixels, and the minimum hight is 300 pixels.
 
-When you are ready to put the agent to work helping your customers directly, you must perform some additional steps. See [Integrating the agent](integrate.html) for more details.
+When you are ready to put the agent to work helping your customers directly, you must perform some additional steps. See [Integrating the agent](/docs/services/virtual-agent/integrate.html) for more details.
 
 ## Getting API keys
 {: #api-keys}

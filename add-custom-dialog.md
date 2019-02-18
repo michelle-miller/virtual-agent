@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -41,10 +41,10 @@ Instead of building a dialog from scratch, you can use one of the dialogs that w
 
 To add a custom dialog:
 
-1.  If you have not done so already, sign up for the {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} documentation.
-1.  Create a workspace to contain your dialog or import a sample workspace in which dialogs are already defined (See [Using a sample dialog](add-custom-dialog.html#sample-dialogs)).
+1.  If you have not done so already, sign up for the {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/getting-started.html){: new_window} documentation.
+1.  Create a workspace to contain your dialog or import a sample workspace in which dialogs are already defined (See [Using a sample dialog](/docs/services/virtual-agent/add-custom-dialog.html#sample-dialogs)).
 
-    For information about workspaces, see the [{{site.data.keyword.conversationshort}} service Creating a workspace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/configure-workspace.html#configuring-a-conversation-workspace){: new_window} documentation.
+    For information about workspaces (now called skills), see the [{{site.data.keyword.conversationshort}} service Creating a skill ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/skill-add.html){: new_window} documentation.
 
 1.  Navigate directly to the **{{site.data.keyword.dialogshort}}** tab. (Do not create any intents or entities.)
 1.  Create a dialog node for each capability you want to customize. If you are using a sample dialog, find the node that conditions on the intent you want to edit.
@@ -69,7 +69,7 @@ To add a custom dialog:
 
     For example, `#Information-Contact_Us`
 
-    To discover the intent name that is associated with a capability, see [Intent names](intent_codenames.html).
+    To discover the intent name that is associated with a capability, see [Intent names](/docs/services/virtual-agent/intent_codenames.html).
 
     If you are using a sample workspace, edit the existing intent name to use the longer syntax, unless your agent is configured to pass intents only to the workspace.
 
@@ -83,7 +83,7 @@ To add a custom dialog:
 
 1.  Return to your agent in [{{site.data.keyword.virtualagentfull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://virtual-agent.watson.ibm.com){: new_window}, and link the workspaces with dialogs that you created to your agent.
 
-    See [Linking workspaces](link_workspace.html) for details.
+    See [Linking workspaces](/docs/services/virtual-agent/link_workspace.html) for details.
 
 1.  From the **Capabilities** page, change the response type of each capability for which you want to use a custom dialog to the **Use your own conversation** response type.
 1.  Pick the workspace that contains the dialog you want to use from the list of linked workspaces, and then click **Save** to finish establishing the link.

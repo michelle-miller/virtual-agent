@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -38,10 +38,10 @@ Decide where to add the training data.
 
 - If you did not create your own {{site.data.keyword.conversationshort}} workspace to use with the agent, then complete these steps before you complete this procedure:
 
-   1.  If you did not do so already, sign up for the {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/getting-started.html#gettingstarted){: new_window} documentation.
+   1.  If you did not do so already, sign up for the {{site.data.keyword.conversationshort}} service. For more information, see the [{{site.data.keyword.conversationshort}} service Getting Started ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/getting-started.html){: new_window} documentation.
    1.  Create a workspace to contain your training data.
 
-    For information about workspaces, see the [{{site.data.keyword.conversationshort}} service Creating a workspace ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/configure-workspace.html#configuring-a-conversation-workspace) {: new_window} documentation.
+    For information about workspaces (now called skills), see the [{{site.data.keyword.conversationshort}} service Creating a skill ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/skill-add.html) {: new_window} documentation.
 
 - If you already have a workspace that contains custom capabilities, add the training data to it.
 - If you defined a custom dialog for this core capability that you want to continue to use, and the dialog is defined in a separate workspace from the one with your custom capabilities, then you must reorganize a bit. Move the custom dialog from its existing workspace to the workspace in which your custom capabilities are defined. Any custom dialogs for which you are not augmenting training data can remain in the workspace that is dedicated to custom dialogs.
@@ -50,11 +50,11 @@ Decide where to add the training data.
 
 To augment the training data of a core capability:
 
-1.  Log in to the instance of the {{site.data.keyword.conversationshort}} service that contains the workspace that will contain your training data. See [Before you begin](add-custom-training.html#choose-workspace) for things to consider as you choose a workspace to use.
+1.  Log in to the instance of the {{site.data.keyword.conversationshort}} service that contains the workspace that will contain your training data. See [Before you begin](/docs/services/virtual-agent/add-custom-training.html#choose-workspace) for things to consider as you choose a workspace to use.
 
 1.  From the **Intents** tab, click **Create new**, and then add an intent with the same name as the intent name for the core capability.
 
-    See [Intent codenames](intent_codenames.html) for a list of the intent names that are associated with each capability.
+    See [Intent codenames](/docs/services/virtual-agent/intent_codenames.html) for a list of the intent names that are associated with each capability.
     To add training data for the `Add insurance` core capability, for example, you would add an intent named `Service_Management-Add_Insurance`. The `#` is added as a prefix to the intent name by the tool.
 
 1.  In the **User example** field, add a phrase that mimics the type of utterances your customers typically use.
@@ -64,16 +64,16 @@ To augment the training data of a core capability:
 
 1.  Repeat the previous step to add more example utterances. Aim to add at least 20 example utterances. And the more valid examples you can add, the better.  Click **Done** to add the intent and its associated user examples to your workspace.
 
-    For more information about intents, see [Defining intents ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://console.bluemix.net/docs/services/conversation/intents.html#defining-intents) {: new_window}.
+    For more information about intents, see [Creating intents ![External link icon](../../icons/launch-glyph.svg "External link icon")](/docs/services/assistant/intents.html) {: new_window}.
 
 1.  Wait for the classifier training to finish.
 1.  Return to your agent in [{{site.data.keyword.virtualagentfull}} ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://virtual-agent.watson.ibm.com){: new_window}.
-1.  Link the workspace that contains the training data to your agent. See [Linking workspaces](link_workspace.html) for details.
+1.  Link the workspace that contains the training data to your agent. See [Linking workspaces](/docs/services/virtual-agent/link_workspace.html) for details.
 
     If the workspace is already linked, then you can skip this step.
     {: tip}
 
-1.  To inform the agent about your augmented version of the core capability, add it as a custom capability. See [Adding your own capabilities](add-custom-capabilities.html) for the detailed steps to follow.
+1.  To inform the agent about your augmented version of the core capability, add it as a custom capability. See [Adding your own capabilities](/docs/services/virtual-agent/add-custom-capabilities.html) for the detailed steps to follow.
 
     If you added the training data to a workspace with custom capabilities that were already added to your agent, then you can skip this step.
     {: tip}
@@ -89,6 +89,6 @@ If you choose to use your own conversation as the response, then follow these gu
 
   For example: `#Service_Management-Add_Insurance OR $wva.intents.get(0).intent.equals('Service_Management-Add_Insurance')`
 
-For more information, see [Adding custom dialogs for core capabilities](add-custom-dialog.html).
+For more information, see [Adding custom dialogs for core capabilities](/docs/services/virtual-agent/add-custom-dialog.html).
 
 If you disable the core capability from the **Capabilities** page, then the IBM-defined capability and the custom capability of the same name are both disabled.

@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -51,9 +51,9 @@ If you have a premium plan, and want multiple people from your organization to b
 1.  Select one or more workspaces that you want to link to your agent.
 1.  Click **Link workspaces**.
 
-[Building a custom dialog](add-custom-dialog.html)
+[Building a custom dialog](/docs/services/virtual-agent/add-custom-dialog.html)
 
-[Adding your own capabilities](add-custom-capabilities.html)
+[Adding your own capabilities](/docs/services/virtual-agent/add-custom-capabilities.html)
 
 ## Unlinking workspaces
 {: #unlink_workspace}
@@ -74,4 +74,4 @@ When you unlink a workspace from a capability, the capability is automatically t
 1.  Click to open the workspace that you want to disassociate with the agent.
 1.  Click **Unlink this Workspace** ![trash can icon representing delete link relationship](images/trash.png).
 
-[Linking workspaces](link_workspace.html)
+[Linking workspaces](/docs/services/virtual-agent/link_workspace.html)

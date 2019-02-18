@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-09"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -78,8 +78,8 @@ The metrics analyze the data of conversations at a low-level, focusing on the ar
 
         **Note**: These metrics are only meaningful if your agent is set up to collect user ID and location information. For more information about how to capture that user information, see the appropriate topic for your publication method:
 
-        - [Adding the provided chat widget to your UI](integrate_add-chat.html)
-        - [Building a custom chat interface](integrate_custom-chat.html)
+        - [Adding the provided chat widget to your UI](/docs/services/virtual-agent/integrate_add-chat.html)
+        - [Building a custom chat interface](/docs/services/virtual-agent/integrate_custom-chat.html)
 
     - **Interactions**
 

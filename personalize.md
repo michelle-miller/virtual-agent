@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-12-14"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -25,9 +25,9 @@ Ensure that the virtual agent responds to the issues that matter to your custome
 
 You can personalize the agent by performing the following actions:
 
-- [Adding your own capabilities](add-custom-capabilities.html)
-- [Adding custom dialogs for core capabilities](add-custom-dialog.html)
-- [Editing Built-in dialogs](edit-builtin-dialogs.html)
-- [Augmenting the training data of core capabilities](add-custom-training.html)
+- [Adding your own capabilities](/docs/services/virtual-agent/add-custom-capabilities.html)
+- [Adding custom dialogs for core capabilities](/docs/services/virtual-agent/add-custom-dialog.html)
+- [Editing Built-in dialogs](/docs/services/virtual-agent/edit-builtin-dialogs.html)
+- [Augmenting the training data of core capabilities](/docs/services/virtual-agent/add-custom-training.html)
 
-You must link a {{site.data.keyword.conversationshort}} service workspace to the agent before you can configure the agent to use artifacts from it. See [Linking workspaces](link_workspace.html) for more information.
+You must link a {{site.data.keyword.conversationshort}} service workspace to the agent before you can configure the agent to use artifacts from it. See [Linking workspaces](/docs/services/virtual-agent/link_workspace.html) for more information.

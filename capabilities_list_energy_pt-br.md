@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2015, 2017
+  years: 2015, 2019
 lastupdated: "2017-09-22"
 
 ---
@@ -446,4 +446,4 @@ Go back to [Capability packs](/docs/services/virtual-agent/how-it-works.html#cap
     Perguntas sobre vendas, incluindo promoções e preços
 
 
-[![Voltar ao início da página](images/up-arrow.png)](capabilities_list_energy_pt-br.html#top)
+[![Voltar ao início da página](images/up-arrow.png)](/docs/services/virtual-agent/capabilities_list_energy_pt-br.html#top)

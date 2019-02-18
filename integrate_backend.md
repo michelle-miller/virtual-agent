@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-10"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -20,14 +20,14 @@ lastupdated: "2017-08-10"
 # Adding the agent to an existing support channel
 {: #integrate_backend}
 
-The {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} API is designed to support the easy transition of a conversation between the virtual agent and a human or other bot service within an existing support infrastructure. In fact, the LivePerson, Inc. team has partnered with {{site.data.keyword.IBM}} to implement just such an integration. For more details, see [LiveEngage integration](integrate_backend.html#liveperson) below.
+The {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} API is designed to support the easy transition of a conversation between the virtual agent and a human or other bot service within an existing support infrastructure. In fact, the LivePerson, Inc. team has partnered with {{site.data.keyword.IBM}} to implement just such an integration. For more details, see [LiveEngage integration](/docs/services/virtual-agent/integrate_backend.html#liveperson) below.
 {: shortdesc}
 
 To build a simple solution yourself, you can code your application such that any capabilities that are configured to be transferred to a human agent are passed to an existing channel that is monitored by support personnel. See [dW Answers ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/answers/questions/318623/where-can-i-find-documentation-examples-on-integra/){: new_window} for information about transferring a conversation to Slack, for example.
 
 To use the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} API to integrate the virtual agent into an existing support channel, complete these steps:
 
-1.  Retrieve the API keys that are necessary to make API calls. See [Getting API keys](api-keys.html) for details.
+1.  Retrieve the API keys that are necessary to make API calls. See [Getting API keys](/docs/services/virtual-agent/api-keys.html) for details.
 
 1.  Use the {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} REST APIs to interact with the bot programmatically. Go to the **[{{site.data.keyword.IBM_notm}} developerWorks API Explorer](https://developer.ibm.com/api/view/id-339:title-Watson_Virtual_Agent){: new_window}**  portal to access the REST APIs on {{site.data.keyword.Bluemix_notm}}.
 

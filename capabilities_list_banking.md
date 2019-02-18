@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2017
-lastupdated: "2017-08-10"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -22,7 +22,7 @@ lastupdated: "2017-08-10"
 {: #top}
 
 ## Details
-[Go back](how-it-works.html#capability-packs)
+[Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
 
 ### Account management
 
@@ -402,4 +402,4 @@ lastupdated: "2017-08-10"
 
     User wants a refund for a payment
 
-[Back to top](capabilities_list_banking.html#top)
+[Back to top](/docs/services/virtual-agent/capabilities_list_banking.html#top)

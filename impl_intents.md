@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2015, 2018
-lastupdated: "2018-02-27"
+  years: 2015, 2019
+lastupdated: "2019-02-15"
 
 ---
 
@@ -27,7 +27,7 @@ Consider how you want to handle the following capabilities, at a minimum:
 
 - ***None of the above***
 
-    The response that you define for this capability is returned to users whenever they enter input that the system cannot recognize and map to an enabled capability. As a result, it can be displayed to users a lot, especially if you do not turn on many capabilities. Think about how you want the virtual agent to respond. A text response, such as *I'm sorry. I don't understand what you are asking about.* is sufficient. If you want users to have the option of contacting a human agent, you can include the text, *Enter 'agent' to be transferred to a human agent.* This input triggers the `agent` event, which is explained below. See [How none of the above is used](impl_intents.html#none-of-the-above) for more information.
+    The response that you define for this capability is returned to users whenever they enter input that the system cannot recognize and map to an enabled capability. As a result, it can be displayed to users a lot, especially if you do not turn on many capabilities. Think about how you want the virtual agent to respond. A text response, such as *I'm sorry. I don't understand what you are asking about.* is sufficient. If you want users to have the option of contacting a human agent, you can include the text, *Enter 'agent' to be transferred to a human agent.* This input triggers the `agent` event, which is explained below. See [How none of the above is used](/docs/services/virtual-agent/impl_intents.html#none-of-the-above) for more information.
 
 - **The *Connect to agent* capability and all capabilities with the *Transfer to human agent* response type**
 
@@ -35,11 +35,11 @@ Consider how you want to handle the following capabilities, at a minimum:
 
 - **Capabilities with the *Built-in* response type**
 
-    If you keep the default settings for the core capabilities that are configured to use the built-in conversation response type, and these capabilities are enabled, then you must add some logic to support the information exchange and business transactions that are handled by the built-in conversations. See [Implementing logic to support built-in conversation](impl_intents.html#backend_transaction) for more details.
+    If you keep the default settings for the core capabilities that are configured to use the built-in conversation response type, and these capabilities are enabled, then you must add some logic to support the information exchange and business transactions that are handled by the built-in conversations. See [Implementing logic to support built-in conversation](/docs/services/virtual-agent/impl_intents.html#backend_transaction) for more details.
 
 - **Capabilities with the *Use your own conversation* response type**
 
-    For complex capabilities that require a custom dialog to handle the exchange of information with the user, you can write a dialog using the {{{site.data.keyword.conversationfull}} service. See [Adding custom dialogs for core capabilities](add-custom-dialog.html) for more details.
+    For complex capabilities that require a custom dialog to handle the exchange of information with the user, you can write a dialog using the {{{site.data.keyword.conversationfull}} service. See [Adding custom dialogs for core capabilities](/docs/services/virtual-agent/add-custom-dialog.html) for more details.
 
 ## Implementing logic to support built-in conversation
 {: #backend_transaction}
@@ -53,7 +53,7 @@ Some of the core capabilities that are configured to use the built-in conversati
 - If you implement the provided {{site.data.keyword.IBM_notm}} chat widget, it recognizes events that are triggered by certain user responses. However, there are additional steps you must take to listen for those events in your application so that you can complete the initiated transactions in your backend systems.
 - If you are not using the provided chat widget, then you must ensure that your custom user interface can recognize events that are triggered by the built-in conversation flows and handle them appropriately.
 
-Watch the [Make a payment dialog flow process](backend_payment_gif.html#backend_payment_gif) to see an example of how the private credit card variables are stored.
+Watch the [Make a payment dialog flow process](/docs/services/virtual-agent/backend_payment_gif.html#backend_payment_gif) to see an example of how the private credit card variables are stored.
 
 For example, with the **Update address** capability, a user can change the billing address on their account. You must write code that gets the new address from the virtual agent and updates the user's account in your system of record with the new information.
 
