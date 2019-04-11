@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 You can extend the types of user utterances that a core capability can understand and respond to by augmenting its training data.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 Tailoring the training data for a core capability is a good way to make it recognize phrases that your customers use most often. For example, your users might always ask about insurance as it applies to specific devices that you sell. You can help teach the service to recognize the pattern of such utterances. It can be taught that utterances with the pattern, *Do you insure `device-name`?* are about adding insurance, and not about the devices themselves, for example.
 

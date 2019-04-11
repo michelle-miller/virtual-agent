@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 No new instances of the {{site.data.keyword.virtualagentfull}} service can be created as of June 19, 2018.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 ## This service is being removed from the catalog
 

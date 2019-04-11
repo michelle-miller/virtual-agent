@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 Learn about how information is exchanged between the user and the virtual agent during the built-in conversation that is provided for the Make a payment intent.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 The following graphic illustrates the conversation flow for one possible path that the built-in conversation that is provided with the application for the Make a payment intent can take.
 

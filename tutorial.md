@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 This tutorial helps you understand how to augment the capabilities of your virtual agent by adding your own capabilities.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 In this tutorial, you will use the workspace that powers the simple {{site.data.keyword.conversationshort}} demo to add new capabilities to your agent. The workspace simulates the role of a co-pilot for someone driving a car. You can check out the demo [here ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://conversation-simple.mybluemix.net/){: new_window}. After importing the workspace to your {{site.data.keyword.conversationshort}} service instance, you will link the workspace to your agent. You will then add the workspace intents as custom capabilities, and finally address any conflicts that arise between the core capabilities and the capabilities that you add.
 

@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -20,8 +21,10 @@ lastupdated: "2019-02-15"
 # Adding the agent to an existing support channel
 {: #integrate_backend}
 
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
+
 The {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} API is designed to support the easy transition of a conversation between the virtual agent and a human or other bot service within an existing support infrastructure. In fact, the LivePerson, Inc. team has partnered with {{site.data.keyword.IBM}} to implement just such an integration. For more details, see [LiveEngage integration](/docs/services/virtual-agent/integrate_backend.html#liveperson) below.
-{: shortdesc}
 
 To build a simple solution yourself, you can code your application such that any capabilities that are configured to be transferred to a human agent are passed to an existing channel that is monitored by support personnel. See [dW Answers ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/answers/questions/318623/where-can-i-find-documentation-examples-on-integra/){: new_window} for information about transferring a conversation to Slack, for example.
 

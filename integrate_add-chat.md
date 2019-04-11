@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 The {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} comes with a chat widget that you can use as-is in your user interface.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 This diagram illustrates how the conversation flows through the system when you use the chat widget that is provided by {{site.data.keyword.IBM_notm}}.
 

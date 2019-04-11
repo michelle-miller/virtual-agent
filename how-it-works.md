@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -20,10 +21,12 @@ lastupdated: "2019-02-15"
 # How it works
 {: #how-it-works}
 
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
+
 {{site.data.keyword.IBM_notm}} {{site.data.keyword.watson}} {{site.data.keyword.virtualagentshort}} adds the power of cognitive conversation to the customer satisfaction equation. Make the {{site.data.keyword.virtualagentshort}} chat bot the first point of contact for user questions and requests. The bot can process natural language to  understand what customers are asking about, and can classify the customer need. Depending on the need, it can respond and complete simple business transactions, or route more complicated requests to a human with subject matter expertise.
 
 You choose which user goals you want the bot to handle by selecting the capabilities that you want the bot to have. Use the provided configuration tool to enable and customize capabilities.
-{: shortdesc}
 
 ## Capabilities
 {: #capabilities}

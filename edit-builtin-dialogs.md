@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 If you like the built-in dialogs that are provided with select capabilities, but want to reword a response, or add more dialog turns to it, you can do so.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 The {{site.data.keyword.conversationshort}} workspaces that contain the dialogs are published to GitHub. You can find the workspace that contains the dialog you want to edit, download it, make your changes, and then link your revised version of the workspace to your agent and treat it as a custom dialog. To see the conversation flows that are defined by the built-in dialogs, see [Built-in dialogs](/docs/services/virtual-agent/configure.html#builtin_dialog_ovw).
 

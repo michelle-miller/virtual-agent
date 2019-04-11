@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -23,6 +24,9 @@ lastupdated: "2019-02-15"
 
 The following table lists the intent names for each supported capability. If you choose to provide your own {{site.data.keyword.conversationshort}} service dialog for a capability, you will need to know the appropriate intent name to specify in the dialog. You can look it up here.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 [Go back](/docs/services/virtual-agent/intent_codenames.html)
 

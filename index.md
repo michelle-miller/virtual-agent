@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:deprecated: .deprecated}
@@ -23,6 +24,9 @@ lastupdated: "2019-02-15"
 
 {{site.data.keyword.virtualagentfull}} is a set of preconfigured cognitive components based on the {{site.data.keyword.conversationfull}} service.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 ## This service is being removed from the catalog
 

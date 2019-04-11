@@ -7,6 +7,7 @@ lastupdated: "2017-11-01"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2017-11-01"
 
 Get answers to questions that you have as you work with the application.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 - For technical programming questions, connect with the {{site.data.keyword.watson}} developer community and {{site.data.keyword.watson}} services experts. See the **Developer community** links from the Docs navigation.
 

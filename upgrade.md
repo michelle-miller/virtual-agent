@@ -7,6 +7,7 @@ lastupdated: "2018-02-26"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2018-02-26"
 
 Find out how to upgrade or change your subscription.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 You will be asked to choose a billing payment method and provide payment details, so have that information ready.
 

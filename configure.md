@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 To configure the bot, you must choose the capabilities that you want it to have.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 A capability is the ability of your virtual agent to recognize and satisfy a specific customer goal. See [Capabilities](/docs/services/virtual-agent/how-it-works.html#capabilities) for more details.
 

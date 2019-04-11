@@ -7,6 +7,7 @@ lastupdated: "2017-08-22"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,7 +23,10 @@ lastupdated: "2017-08-22"
 {: #top}
 
 [Go back](/docs/services/virtual-agent/how-it-works.html#capability-packs)
-{: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
+
 ## Details
 
 ### Account management

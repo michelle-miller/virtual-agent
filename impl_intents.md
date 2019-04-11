@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 Understand development tasks that must be completed to support the response types selected for certain capabilities.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 Consider how you want to handle the following capabilities, at a minimum:
 
@@ -226,6 +230,8 @@ For more information about built-in layouts, see [https://github.com/watson-virt
 
 Understand how the **None of the above** capability is used by the virtual agent.
 {: shortdesc}
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 Unlike all other core capabilities, the **None of the above** capability cannot be disabled. The reason it cannot be disabled is that it serves as a kind of catch-all for utterances that do not map to any of the configured capabilities. This functionality is useful because you can provide a standard response, such as *I cannot help you with that*, for requests from users for capabilities that your agent doesn't have yet. It also responds to nonsensical questions that customers sometimes ask for fun when they first start to interact with the agent, such as *What should I have for lunch?*
 

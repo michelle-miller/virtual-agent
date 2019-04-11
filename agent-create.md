@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 When you subscribe to the service, you are provisioned a bot with an English-language **General Customer Service** capability pack enabled. You can create additional bots with other capability packs or that converse with customers in languages other than English.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 To switch to using an agent with a different capability pack as your primary agent, first create a new agent with the capability pack you want, then you can delete the agent that was provisioned for you initially. Be sure to make the switch before you spend too much time configuring the General Customer Service agent. See [Deleting an agent](/docs/services/virtual-agent/agent-create.html#delete) for more information.
 

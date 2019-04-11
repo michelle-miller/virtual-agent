@@ -7,6 +7,7 @@ lastupdated: "2017-09-08"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2017-09-08"
 
 If the provided chat widget does not meet your needs, you can develop your own JavaScript chat interface to enable your users to interact with the virtual agent. This gives you complete control over the layout, appearance, and behavior of the chat interface.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 This diagram illustrates how the conversation flows through the system when you provide a custom chat interface.
 

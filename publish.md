@@ -7,6 +7,7 @@ lastupdated: "2019-02-15"
 ---
 
 {:shortdesc: .shortdesc}
+{:deprecated: .deprecated}
 {:new_window: target="_blank"}
 {:tip: .tip}
 {:pre: .pre}
@@ -22,6 +23,9 @@ lastupdated: "2019-02-15"
 
 In less than 10 minutes, you can publish the agent to a test site to share it with colleagues and assess together whether it meets the needs of your organization.
 {: shortdesc}
+
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 To publish the agent to a test site, complete the following steps:
 
@@ -83,6 +87,8 @@ To prove that you have permission to use the Watson Virtual Agent API services, 
 - Client secret token
 
 {: shortdesc}
+This service is deprecated: All instances of this service are deprecated. Existing instances cannot be used after 19 March 2019.
+{: deprecated}
 
 Follow these steps to retrieve the credentials.
 
